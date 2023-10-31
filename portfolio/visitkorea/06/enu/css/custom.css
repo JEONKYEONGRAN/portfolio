@@ -1,0 +1,57 @@
+﻿@charset "utf-8";
+
+body {margin: 0; padding: 0;}
+img {width: 100%;}
+.pc {display: block;}
+.mo {display: none;}
+.beautyplay {max-width: 1920px; margin: auto;}
+
+.headerWrap {position: relative;}
+.logoBox a {position: absolute;}
+.logoBox a.left {top: 50px; left: 50px;}
+.logoBox a.right {top: 50px; right: 50px;}
+.textBox {z-index: -1;}
+.textBox img {display: block;}
+
+.area1 {background-color: #ffe89a; text-align: center; padding: 50px 0 0;}
+
+.area2 {background-color: #fcdc6e;}
+.area2 .invite img {display: block;}
+.textFrame {width: 950px; margin: auto; text-align: center; padding-bottom: 50px;}
+.textFrame > img {margin: auto;}
+.guide {font-family: 'Poppins'; width: 595px; margin: auto; text-align: left; padding: 20px;}
+.guide span {display: block; font-size: 24px; position: relative;}
+.guide span::after {position: absolute; content: ''; top: 50%; left: -10px; transform: translateX(-50%); width: 5px; height: 5px; background-color: #000; border-radius: 50%;}
+.place {width: 950px; background-color: #f3cd4a; font-family: 'Poppins'; font-size: 22px; text-align: left; border-radius: 20px;}
+.place ul {list-style: none; padding: 20px 40px;}
+.place ul li strong {margin-right: 15px; font-weight: 900;}
+.place ul li a {color: #000; text-decoration: none;}
+
+.footer {font-family: 'Poppins'; background-color: #666; color: #fff; padding: 50px 0;}
+.notice {width: 950px; margin: auto;}
+.notice h6 {margin: 0; display: inline-block; font-size: 30px;}
+.notice img {width: auto; vertical-align: sub;}
+.notice li {font-size: 20px;}
+.notice li:last-child {color: #fcea6e}
+.copy_area {display: flex; justify-content: space-between; height: 70px; margin: 28px 0 0 0;}
+.copy_area input {width: 100%; border-radius: 15px; margin: 0 20px 0 0; color: #666; padding: 0 30px; font-size: 24px; border: none; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.copy_area button {height: 70px; line-height: 70px; width: 380px; background-color: #474747; border-radius: 15px; font-size: 28px; color: #fff; border: none; cursor: pointer;}
+
+@media screen and (max-width: 640px){
+    .pc {display: none;}
+    .mo {display: block;}
+
+    .textFrame {width: auto; padding: 20px;}
+    .textFrame > img {width: 100%;}
+    .guide {width: auto; padding: 20px;}
+    .guide span {font-size: 4.1vw;}
+    .guide span::after {top: 25%;}
+    .place {width: auto; font-size: 3.8vw;}
+
+    .notice {width: auto; padding: 0 20px;}
+    .notice h6 {font-size: 4.7vw;}
+    .notice ul {padding-left: 20px;}
+    .notice li {font-size: 3.8vw;}
+    .copy_area input {height: 60px; font-size: 3.4vw;}
+    .copy_area button {width: 40vw; font-size: 3.4vw; height: 60px; line-height: 60px;}
+}
