@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NotoSansCJKkr';
+    src: url('	https://vr.visitkorea.or.kr/assets/webfont.uni?fn=NotoSansCJKkr-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSansCJKkr';
+    src: url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=NotoSansCJKkr-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSansCJKkr';
+    src: url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=NotoSansCJKkr-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MicrosoftYahei';
+    src: url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Microsoft Yahei font.otf') format('opentype');
+    src: url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Microsoft Yahei.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MicrosoftYahei';
+    src: url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Microsoft YaHei Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
