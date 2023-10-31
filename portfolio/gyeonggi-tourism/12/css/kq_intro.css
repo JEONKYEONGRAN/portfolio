@@ -1,0 +1,560 @@
+@charset "utf-8";  
+
+/* @font-face {
+	font-family: 'NotoSansKR';
+	font-style: normal;
+	font-weight: 300;
+	src:url(font/NotoSansKR-Light.woff2) format('woff2'),
+	url(font/NotoSansKR-Light.woff) format('woff'),
+	url(font/NotoSansKR-Light.otf) format('opentype');
+}
+@font-face {
+	font-family: 'NotoSansKR';
+	font-style: normal;
+	font-weight: 400;
+	src:url(font/NotoSansKR-Regular.woff2) format('woff2'),
+	url(font/NotoSansKR-Regular.woff) format('woff'),
+	url(font/NotoSansKR-Regular.otf) format('opentype');
+}
+@font-face {
+	font-family: 'NotoSansKR';
+	font-style: normal;
+	font-weight: 700;
+	src:url(font/NotoSansKR-Medium.woff2) format('woff2'),
+	url(font/NotoSansKR-Medium.woff) format('woff'),
+	url(font/NotoSansKR-Medium.otf) format('opentype');
+}
+@font-face {
+	font-family: 'NotoSansKR';
+	font-style: normal;
+	font-weight: 800;
+	src:url(font/NotoSansKR-Bold.woff2) format('woff2'),
+	url(font/NotoSansKR-Bold.woff) format('woff'),
+	url(font/NotoSansKR-Bold.otf) format('opentype');
+} */
+
+@font-face {
+	font-family: 'NotoSansCJKkr';
+	font-style: normal;
+	font-weight: 400;
+	src:url(font/NotoSansCJKkr-Regular.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'NotoSansCJKkr';
+	font-style: normal;
+	font-weight: 700;
+	src:url(font/NotoSansCJKkr-Bold.otf) format('opentype');
+}
+
+
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body{
+    font-family: 'NotoSansCJKkr', "돋움", Dotum, AppleGothic, Sans-serif;
+}
+.kq_wrap .mo{
+    display: none;
+}
+.kq_wrap .header{
+    width: 100%;
+    background-color: #fff;
+}
+
+.kq_wrap .header .header_wrap{
+    padding: 15px 0;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.kq_wrap .header .header_wrap h1 a{
+    display: block;
+    margin-left: 76px;
+    width: 166px;
+    height: 34px;
+    background: url(../images/logo.png) no-repeat;
+    text-indent: -9999px;
+}
+.kq_wrap .header .header_wrap .sns{
+    position: absolute;
+    right: 77px;
+    top: 17px;
+}
+
+.kq_wrap .header .header_wrap .sns a{
+    display: inline-block;
+    text-indent: -9999px;
+}
+.kq_wrap .header .header_wrap .sns .sns_naver{
+    background: url(../images/sns_naver.png) no-repeat;
+    width: 26px;
+    height: 26px;
+    
+}
+.kq_wrap .header .header_wrap .sns .sns_insta{
+    margin-left: 4px;
+    background: url(../images/sns_insta.png) no-repeat;
+    width: 26px;
+    height: 26px;
+}
+
+.kq_wrap .main .main_wrap{
+    width: 100%;
+}
+/*쇼케이스*/
+.kq_wrap .main .main_wrap .visu{
+    height: 756px;
+    background-position: center;
+    background-repeat: no-repeat, repeat-x;
+   
+}
+
+
+.kq_wrap .main .main_wrap .content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.kq_wrap .main .main_wrap .content .banner {
+    margin-top: 80px;
+    overflow: hidden;
+    padding: 0 76px;
+}
+
+
+.kq_wrap .main .main_wrap .content .banner a{
+    display: block;
+    border-radius: 35px;
+    background-size: cover;
+    outline: none;
+    height: 300px;
+}
+.kq_wrap .main .main_wrap .content .banner .recommend{
+    width: 500px;
+    float: left;
+    margin-right: 45px;
+}
+
+.kq_wrap .main .main_wrap .content .banner .recommend h2{
+    background: url(https://qualkorea.com/images/recommend_tit.png) no-repeat;
+    width: 174px;
+    height: 35px;
+    margin : 0 auto 25px;
+}
+
+.kq_wrap .main .main_wrap .content .banner .recommend .recommend_list,
+.kq_wrap .main .main_wrap .content .banner .event .event_list{
+    position: relative;
+    height: 340px;
+}
+
+/* .kq_wrap .main .main_wrap .content .banner .swiper-slide{
+    width: 100%;
+} */
+
+.kq_wrap .page_wrap{
+    position:absolute;
+    width:100%;
+    left:0;
+    bottom:0;
+    z-index: 10;
+    text-align: center;
+    
+}
+
+/*좌우버튼*/
+.kq_wrap .main .main_wrap .content .banner .swiper-button-prev{
+    position:static; margin:0;
+    display: inline-block;
+    margin-right: 14px;
+    background: url(../images/btn_left.png) no-repeat;
+    width: 9px;
+    height: 14px;
+    text-indent: -99999px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+}
+.kq_wrap .main .main_wrap .content .banner .swiper-button-next{
+    position:static; margin:0;
+    display: inline-block;
+    margin-left: 14px;
+    margin-top: 5px;
+    background: url(../images/btn_right.png) no-repeat;
+    width: 9px;
+    height: 14px;
+    text-indent: -99999px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.kq_wrap .swiper-container .swiper-pagination{
+    display:inline-block;
+    position:static;
+    vertical-align: 5px;
+}
+
+.kq_wrap .main .main_wrap .content .banner .swiper-pagination-bullet{
+    margin: 0 4px;
+}
+
+.kq_wrap .main .main_wrap .content .banner .swiper-pagination-bullet{
+    outline: none;
+    cursor: pointer;
+    border: none;
+    text-indent: -99999px;
+    background-color: #e0e0e0;
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+}
+
+.kq_wrap .main .main_wrap .content .banner .swiper-pagination-bullet-active{
+    background-color: #00479c;
+    width: 10px;
+    height: 10px;
+}
+
+.kq_wrap .main .main_wrap .content .banner .event{
+    width: 500px;
+    float: left;
+    margin: 0 auto;
+}
+.kq_wrap .main .main_wrap .content .banner .event h2{
+    background: url(https://qualkorea.com/images/event_tit.png) no-repeat;
+    width: 194px;
+    height: 35px;
+    margin : 0 auto 25px;
+    
+}
+.kq_wrap .main .main_wrap .content .link_list{
+    text-align: center;
+    overflow: hidden;
+    margin: 80px 0;
+}
+
+.kq_wrap .main .main_wrap .content .link_list p{
+    color: #00479c;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.kq_wrap .main .main_wrap .content .link_list p br{
+    display: none;
+}
+.kq_wrap .main .main_wrap .content .link_list .link_ko{
+    display: inline-block;
+    background-color: #00479c;
+    padding: 25px 40px;
+    border-radius: 50px;
+    font-size: 27px;
+    color: #f7f7f7;
+    margin: 20px auto;
+}
+.kq_wrap .main .main_wrap .content .link_list .link_ko em::after{
+    content: "";
+    display: inline-block;
+    background: url(https://qualkorea.com/images/arrow_1.png);
+    width: 14px;
+    height: 20px;
+    margin-left: 12px;
+}
+
+.kq_wrap .main .main_wrap .content .link_list a em{
+    font-size: 27px;
+    font-weight: 700;
+    font-style: normal;
+    color: #f7f7f7;
+}
+
+.kq_wrap .main .main_wrap .content .link_list .lang_list{
+  display: inline-block;
+
+}
+.kq_wrap .main .main_wrap .content .link_list .lang_list li{
+    float: left;
+    margin-right: 15px;
+}
+.kq_wrap .main .main_wrap .content .link_list .lang_list li:last-child{
+    margin-right: 0;
+}
+
+.kq_wrap .main .main_wrap .content .link_list .lang_list a{
+    display: inline-block;
+    width: 152px;
+    height: 62px;
+    font-size: 24px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #242424;
+    background-color: #fff;
+    border-radius: 50px;
+    border:2px solid #242424;
+}
+
+.kq_wrap .main .main_wrap .content .link_list .lang_list a::after{
+    content: "";
+    margin-left: 7px;
+    display: inline-block;
+    background: url(https://qualkorea.com/images/arrow_2.png) no-repeat;
+    width: 13px;
+    height: 19px;
+}
+.kq_wrap .footer{
+    background-color: #e1e1e1;
+}
+.kq_wrap .footer .footer_wrap{
+    width: 995px;
+    margin: 0 auto;
+    padding: 30px 0;
+    
+}
+.kq_wrap .footer .footer_wrap ul{
+   overflow: hidden;
+}
+.kq_wrap .footer .footer_wrap ul li{
+    float: left;
+    
+}
+.kq_wrap .footer .footer_wrap ul li span, p{
+    color: #767676;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.kq_wrap .footer .footer_wrap ul li span:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #767676;
+    margin: 0 10px;
+    line-height: 15px;
+}
+.kq_wrap .footer .footer_wrap ul li:last-child span:after{
+    display: none;
+}
+
+/* 폐쇠안내팝업 시작 */
+body.on {overflow: hidden;}
+.modal_container {display: none;}
+.modal_container.on {display: block;}
+.modal_ba {background-color: #000000; width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; opacity: 50%; z-index: 999;}
+.modal_wrap {position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #daf5ff; z-index: 1000; width: 550px; height: 644px;}
+.cross {position: absolute; top: 25px; right: 25px; z-index: 1000; cursor: pointer;}
+.modal_content {text-align: center; position: relative;}
+.modal_content img:last-child {position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%);}
+/* 폐쇠안내팝업 끝 */
+
+@media screen and (max-width: 1023px) {
+.kq_wrap img{width:100%;}
+.kq_wrap .mo{display:block;}
+.kq_wrap .pc{display:none;}
+
+.kq_wrap .header .header_wrap{
+    width: 100%;
+}
+
+.kq_wrap .header .header_wrap h1 a{
+    background: url(https://qualkorea.com/images/mlogo.png) 0 0 / 100% 100% no-repeat;
+    width: 148px;
+    height: 29px;
+    background-size: cover;
+    margin-left: 15px;
+} 
+
+.kq_wrap .header .header_wrap .sns{
+    position: absolute;
+    right: 15px;
+    top: 18px;
+}
+
+.kq_wrap .header .header_wrap .sns .sns_naver{
+    background: url(https://qualkorea.com/images/msns_naver.png) 0 0 / 100% 100% no-repeat;
+    width: 23px;
+    height: 23px;
+    
+}
+.kq_wrap .header .header_wrap .sns .sns_insta{
+    margin-left: 4px;
+    background: url(https://qualkorea.com/images/msns_insta.png) 0 0 / 100% 100% no-repeat;
+    width: 23px;
+    height: 23px;
+}
+
+.kq_wrap .main .main_wrap {
+    width: auto;
+}
+.kq_wrap .main .main_wrap .visu{
+    width: auto;
+    background:none !important;
+    height:auto;
+}
+
+.kq_wrap .main .main_wrap .visu img{
+    display: block;
+    width: 100%;
+}
+.kq_wrap .main .main_wrap .content{
+    width: 100%;
+}
+
+
+
+.kq_wrap .main .main_wrap .content .banner .recommend h2{
+    background: url(https://qualkorea.com/images/recommend_mtit.png) 0 0 / 100% 100% no-repeat;
+    width: 106px;
+    height: 23px;
+    margin : 0 auto 10px;
+}
+
+.kq_wrap .main .main_wrap .content .banner .event h2{
+    background: url(https://qualkorea.com/images/event_tit.png) 0 0 / 100% 100% no-repeat;
+    width: 121px;
+    height: 23px;
+    margin : 0 auto 10px;
+}
+
+.kq_wrap .main .main_wrap .content .banner{padding:0; margin: 0 auto;}
+
+.kq_wrap .main .main_wrap .content .banner .swiper-slide a{
+    display: block;
+    height: 180px;
+    border-radius: 15px;
+}
+.kq_wrap .main .main_wrap .content .banner .recommend{margin: 25px 15px 0;width: auto; height: auto; float:none;}
+.kq_wrap .main .main_wrap .content .banner .event{margin: 50px 15px 0;width: auto; height: auto;float:none;}
+
+
+.kq_wrap .main .main_wrap .content .banner .recommend .recommend_list,
+.kq_wrap .main .main_wrap .content .banner .event .event_list{
+    position: relative;
+    height: 220px;
+}
+
+.kq_wrap .swiper-container .swiper-pagination{
+    display:inline-block;
+    position:static;
+    vertical-align: 3px;
+}
+
+.kq_wrap .main .main_wrap .content .banner .swiper-button-prev{
+    background: url(https://qualkorea.com/images/mbtn_left.png) 0 0 / 100% 100% no-repeat;
+    width: 12px;
+    height: 17px;
+}
+.kq_wrap .main .main_wrap .content .banner .swiper-button-next{
+    background: url(https://qualkorea.com/images/mbtn_right.png) 0 0 / 100% 100% no-repeat;
+    width: 12px;
+    height: 17px;
+}
+
+.kq_wrap .main .main_wrap .content .banner .swiper-pagination-bullet{
+    width: 12px;
+    height: 12px;
+}
+
+.kq_wrap .main .main_wrap .content .banner .swiper-pagination-bullet-active{
+    width: 12px;
+    height: 12px;
+}
+
+.kq_wrap .main .main_wrap .content .link_list{
+    margin: 50px 0 25px;
+}
+.kq_wrap .main .main_wrap .content .link_list p{
+    line-height: 24px;
+}
+.kq_wrap .main .main_wrap .content .link_list p br{
+    display: block;
+}
+
+.kq_wrap .main .main_wrap .content .link_list .link_ko{
+    padding: 14px 50px;
+    border-radius: 100px;
+    font-size: 18px;
+    display : block;
+    margin : 10px 15px;
+}
+.kq_wrap .main .main_wrap .content .link_list .link_ko em{
+    font-size: 18px;
+    display: block;
+}
+
+.kq_wrap .main .main_wrap .content .link_list .link_ko em::after{
+    background: url(https://qualkorea.com/images/marrow_1.png) 0 0 / 100% 100% no-repeat;
+    width: 9px;
+    height: 13px;
+    margin-left: 12px;
+}
+
+.kq_wrap .main .main_wrap .content .link_list .lang_list{
+    margin: 0 auto;
+    display: block;
+    padding:0 15px 0 5px
+  }
+.kq_wrap .main .main_wrap .content .link_list .lang_list li{
+      float: left;
+      width:50%;
+      margin: 0 0 10px;
+  }
+
+.kq_wrap .main .main_wrap .content .link_list .lang_list a{
+    box-sizing: border-box;
+    display:block;
+    width: auto;
+    margin:0 0 0 10px;
+    height: 51px;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.kq_wrap .main .main_wrap .content .link_list .lang_list a::after{
+    background: url(https://qualkorea.com/images/marrow_2.png) 0 0 / 100% 100% no-repeat;
+    width: 9px;
+    height: 13px;
+
+}
+
+.kq_wrap .footer .footer_wrap{
+    width: auto;
+    padding: 13px;
+}
+
+.kq_wrap .footer .footer_wrap ul li span, p{
+    color: #767676;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+}
+
+.kq_wrap .footer .footer_wrap ul li span:after{
+    content: "";
+    display: none;
+    width: 1px;
+    height: 10px;
+    background-color: #767676;
+    line-height: 15px;
+}
+
+.kq_wrap .footer .footer_wrap ul li:first-child span:after{
+    display: inline-block;
+}
+
+/* 폐쇠안내팝업 시작 */
+.modal_wrap {max-width: 290px; max-height: 392px;}
+.modal_content img:last-child {max-width: 103px; bottom: 15px;}
+/* 폐쇠안내팝업 끝 */
+}
