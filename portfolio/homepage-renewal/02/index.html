@@ -1,0 +1,652 @@
+<!DOCTYPE HTML>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="author" content="투어2000">
+    <meta name="keywords" content="투어2000,투어 2000, 행복여행, 해외여행, 패키지여행, 자유여행, 홈쇼핑, 실시간항공권, 국내여행, 해외호텔, 제주여행, 제주, 국내, 유럽, 동남아, 홍콩, 일본, 중국, 미주, 소셜여행">
+    <meta name="subject" content="투어2000">
+    <meta name="description" content="가심비 높은 국내/해외여행 실시간 예약, 항공권예매! 당신을 위한 여행생각, 투어2000">
+    <meta name="copyright" content="tour2000 Co., Ltd. ⓒ All Rights Reserved.">
+    <meta name="robots" content="all">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="Shortcut Icon" href="//www.tour2000.co.kr/images/favicon.ico" />
+    <link rel="canonical" href="http://www.tour2000.co.kr" />
+    <title>투어2000</title>
+
+    <script src="/plugins/js/jquery-git.min.js"></script>
+
+    <!-- 부트스트랩 -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- 폰트 어썸 -->
+    <link rel="stylesheet" href="/plugins/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="/plugins/fontawesome-free-5.15.3-web/js/all.js">
+
+    <link rel="stylesheet" type="text/css" href="/plugins/XEIcon-master/xeicon.min.css">
+
+    <!-- 쿠키 -->
+    <script src="/js/.jquery.cookie.js"></script>
+
+    <!-- 이미지 슬라이드 -->
+    <link rel="stylesheet" href="/plugins/splide-2.4.21/dist/css/splide-core.min.css">
+    <script src="/plugins/splide-2.4.21/dist/js/splide.min.js"></script>
+
+    <link rel="stylesheet" href="/portfolio/homepage-renewal/01/swiper/swiper-bundle.min.css">
+    <script src="/portfolio/homepage-renewal/01/swiper/swiper-bundle.min.js"></script>
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="pc_main.css">
+</head>
+
+<body>
+  
+  <div class="mainSection">
+
+		<!-- 검색 해외 -->
+		<section>
+			<div class="sectionBox mShort mb50">
+				<div class="title left t19">
+					<div class="formBoxs"><span>여행,</span> 어디로 가세요?</div>
+			</div>
+
+			<!-- 타임세일 -->
+			<div id="timesaleBox" class="timesale">
+				<a class="text" href="#none">
+					타임세일 진행중
+					<span id="seasonTimesale">122:54:11</span>
+					<i class="fas fa-chevron-right"></i>
+				</a>
+			</div>
+
+			<div class="formBoxs checkLoginRadioBoxs">
+				<div class="w33Boxs searchTypeBtn">
+					<div class="whiteBoxs w33s">
+						<input type="radio" value="직접 검색" name="checkLoginRadios" class="selection select" id="directly" checked="checked" />
+						<label class="ml10s directlys select" for="directly">직접 검색</label>
+					</div>
+					<div class="whiteBoxs w33s">
+						<input type="radio" value="카테고리 검색" name="checkLoginRadios" class="selection" id="categorys" />
+						<label class="ml10s" for="categorys">카테고리 검색</label>
+					</div>
+				</div>
+			</div>	
+
+			<div class="searchsTabmenuList tabs">
+				<div class="sectionBoxs searchsTabmenu on" style="display: none;">
+					<form id="frmSearchText" name="frmSearchText" method="get">
+						<input type="text" style="display:none;" disabled />
+						<div class="formBox tab-select-outer">
+							<select id="searchKeywordType" name="keywordType" class="whiteButton round w60 black selection">
+								<option value="kw" selected>검색어로 찾기</option>
+								<option value="gc">상품번호로 찾기</option>
+								<option value="ec">행사번호로 찾기</option>
+							</select>
+						</div>
+
+						<div class="nomBoxList">
+							<div id="tab01" class="tab-contents">
+								<div class="nomBox travel">
+									<div class="formBox">
+										<div class="whiteButton round w100">
+											<input type="text" id="searchKeyword" name="keyword" placeholder="검색어를 입력해 주세요." class="inputSearch" />
+											<div class="icon" onClick="goSearchText ();" style="cursor:pointer"><i class="fas fa-search"></i></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+	
+					<!-- 인기 검색어 -->
+					<div class="bestSearchBox">
+						<div class="title">인기 검색어</div>
+						<div class="bestList">
+							<div class="bestLists lefts">
+								<a href="#none">1. 유럽 사전예약 초특가</a>
+								<a href="#none">2. 실속만 따진 제주도 패키지</a>
+								<a href="#none">3. 가장 완벽한 터키 일주</a>
+								<a href="#none">4. 여유로운 프라하 여행</a>
+								<a href="#none">5. 봄 향기 가득 유채꽃</a>
+							</div>
+							<div class="bestLists rights">
+								<a href="#none">6. 눈 호강 스페인+포르투칼 여행</a>
+								<a href="#none">7. 크로아티아 완전일주하기</a>
+								<a href="#none">8. 크루즈 타고 을릉도 여행하기</a>
+								<a href="#none">9. 허니문 인기상품 BEST</a>
+								<a href="#none">10. 바라고 바라던 동남아</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- 이미지 배너 슬라이드 -->
+					<div id="imgLineBannerSlide" class="splide m50">
+						<div class="splide__track">
+							<ul class="splide__list">
+								<li class="splide__slide">
+									<div class="splide__slide__container">
+										<img src="https://via.placeholder.com/800x100">
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="splide__slide__container">
+										<img src="https://via.placeholder.com/800x100">
+									</div>
+								</li>
+								<li class="splide__slide">
+									<div class="splide__slide__container">
+										<img src="https://via.placeholder.com/800x100">
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+	
+				<div class="sectionBoxs searchsTabmenu"  style="display: none;">
+					<div class="formBox checkLoginRadioBox">
+						<!-- 나라 선택 -->
+						<section id="eventTabBox" >
+							<div class="sectionBox">
+								<div class="tabMenu mShort">
+									<div class="list sline"><a href="#" class="select">해외여행</a></div>
+									<div class="list last"><a href="#">국내여행</a></div>
+								</div>
+							</div>
+						</section>
+			
+						<!-- 상품 리스트 -->
+						<div class="qaBoxList">
+							<!-- 해외 -->
+							<div class="qaBoxTop on">
+								<div class="content mT30">
+									<div class="productList search">
+										<div id="search1" class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/01.jpg" />
+												<div class="back"></div>
+												<div class="keywordTitle">
+													<div class="keywords keywordContent">유럽</div>
+													<div class="keywords keywordTotal">총 1,371개의 여행</div>
+												</div>
+											</a>
+										</div>
+										<div id="search2" class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/01.jpg" />
+												<div class="back"></div>
+												<div class="keywordTitle">
+													<div class="keywords keywordContent">베트남</div>
+													<div class="keywords keywordTotal">총 693개의 여행</div>
+												</div>
+											</a>
+										</div>
+										<div id="search3" class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/01.jpg" />
+												<div class="back"></div>
+												<div class="keywordTitle">
+													<div class="keywords keywordContent">필리핀</div>
+													<div class="keywords keywordTotal">총 3,342개의 여행</div>
+												</div>
+											</a>
+										</div>
+										<div id="search4" class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/01.jpg" />
+												<div class="back"></div>
+												<div class="keywordTitle">
+													<div class="keywords keywordContent">항공권특가(+호텔)</div>
+													<div class="keywords keywordTotal">총 464개의 여행</div>
+												</div>
+											</a>
+										</div>
+									</div>
+
+									<div class="productListBoxs">
+										<div id="search1" class="productList searchLists" >
+											<div class="searchList lists">
+												<a href="#none">서유럽</a>
+												<a href="#none">동유럽/발칸</a>
+												<a href="#none">발칸 반도</a>
+												<a href="#none">스페인/포루투갈</a>
+												<a href="#none">지중해(튀르기예(터키)/그리스)</a>
+												<a href="#none">북유럽</a>
+												<a href="#none">발틱 3국</a>
+											</div>
+											<div class="searchList buttons">
+												<a href="#none">출발일 선택</a>
+											</div>
+										</div>
+										<div id="search2" class="productList searchLists" >
+											<div class="searchList lists">
+												<a href="#none">다낭/호이안</a>
+												<a href="#none">나트랑</a>
+												<a href="#none">골프(다낭)</a>
+												<a href="#none">하노이/하롱베이</a>
+											</div>
+											<div class="searchList buttons">
+												<a href="#none">출발일 선택</a>
+											</div>
+										</div>
+										<div id="search3" class="productList searchLists" >
+											<div class="searchList lists">
+												<a href="#none">마닐라</a>
+												<a href="#none">세부</a>
+												<a href="#none">보라카이</a>
+												<a href="#none">클락</a>
+												<a href="#none">골프</a>
+											</div>
+											<div class="searchList buttons">
+												<a href="#none">출발일 선택</a>
+											</div>
+										</div>
+										<div id="search4" class="productList searchLists" >
+											<div class="searchList lists">
+												<a href="#none">싱가포르</a>
+												<a href="#none">괌</a>
+												<a href="#none">다낭</a>
+												<a href="#none">보라카이</a>
+												<a href="#none">세부</a>
+												<a href="#none">방콕</a>
+												<a href="#none">호치민</a>
+											</div>
+											<div class="searchList buttons">
+												<a href="#none">출발일 선택</a>
+											</div>
+										</div>
+									</div>
+
+									<div class="productList search">
+										<div id="search5" class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/01.jpg" />
+												<div class="back"></div>
+												<div class="keywordTitle">
+													<div class="keywords keywordContent">태국</div>
+													<div class="keywords keywordTotal">총 764개의 여행</div>
+												</div>
+											</a>
+										</div>
+										<div id="search6" class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/01.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+													<div class="keywords keywordContent">골프</div>
+													<div class="keywords keywordTotal">총 436개의 여행</div>
+												</div>
+											</a>
+										</div>
+										<div id="search7" class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/01.jpg" />
+												<div class="back"></div>
+												<div class="keywordTitle">
+													<div class="keywords keywordContent">사이판</div>
+													<div class="keywords keywordTotal">총 9개의 여행</div>
+												</div>
+											</a>
+										</div>
+										<div id="search8" class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/01.jpg" />
+												<div class="back"></div>
+												<div class="keywordTitle">
+													<div class="keywords keywordContent">괌</div>
+													<div class="keywords keywordTotal">총 303개의 여행</div>
+												</div>
+											</a>
+										</div>
+									</div>
+
+									<div class="productList search">
+										<div id="search9" class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/01.jpg" />
+												<div class="back"></div>
+												<div class="keywordTitle">
+													<div class="keywords keywordContent">일본</div>
+													<div class="keywords keywordTotal">총 3,342개의 여행</div>
+												</div>
+											</a>
+										</div>
+										<div id="search10" class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/01.jpg" />
+												<div class="back"></div>
+												<div class="keywordTitle">
+													<div class="keywords keywordContent">중국</div>
+													<div class="keywords keywordTotal">총 3,342개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div id="search11" class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/01.jpg" />
+												<div class="back"></div>
+												<div class="keywordTitle">
+													<div class="keywords keywordContent">싱가포르</div>
+													<div class="keywords keywordTotal">총 65개의 여행</div>
+												</div>
+											</a>
+										</div>
+										<div id="search12" class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/01.jpg" />
+												<div class="back"></div>
+												<div class="keywordTitle">
+													<div class="keywords keywordContent">특수지역</div>
+													<div class="keywords keywordTotal">총 15개의 여행</div>
+												</div>
+											</a>
+										</div>
+									</div>
+									
+
+								</div>
+
+								
+							</div>
+							<!-- 국내 -->
+							<div class="qaBoxTop">
+								<div class="content mT30">
+									<div class="productList search">
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">제주 실속 페키지</div>
+														<div class="keywordTotal">1,997개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">제주 노팁/노옵션 패키지</div>
+														<div class="keywordTotal">430개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">제주 섬속의 섬 패키지</div>
+														<div class="keywordTotal">451개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">제주 프리미엄 패키지</div>
+														<div class="keywordTotal">24개의 여행</div>
+													</div>
+											</a>
+										</div>
+									</div>
+									<div class="productList search">
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">제주 자유 여행(제주시)</div>
+														<div class="keywordTotal">923개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">제주 자유 여행(서귀포)</div>
+														<div class="keywordTotal">393개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">제주 골프</div>
+														<div class="keywordTotal">8개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">색다른 제주 여행</div>
+														<div class="keywordTotal">200개의 여행</div>
+													</div>
+											</a>
+										</div>
+									</div>
+									<div class="productList search">
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">강원도</div>
+														<div class="keywordTotal">521개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">경상도</div>
+														<div class="keywordTotal">1,632개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">전라도</div>
+														<div class="keywordTotal">1,055개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">경기도/충청도</div>
+														<div class="keywordTotal">12개의 여행</div>
+													</div>
+											</a>
+										</div>
+									</div>
+									<div class="productList search">
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">울릉도</div>
+														<div class="keywordTotal">541개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">홍도/흑산도</div>
+														<div class="keywordTotal">567개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">백령도</div>
+														<div class="keywordTotal">72개의 여행</div>
+													</div>
+											</a>
+										</div>
+										<div class="product w100">
+											<a href="#none">
+												<img class="products" src="/portfolio/homepage-renewal/02/img/02.jpg" />
+												<div class="back"></div>
+													<div class="keywordTitle">
+														<div class="keywordContent">비행기로 떠나는 국내</div>
+														<div class="keywordTotal">220개의 여행</div>
+													</div>
+											</a>
+										</div>
+									</div>
+								</div>
+													
+								<div class="productListBoxs">
+									<div id="subCate${ depth1.WEB_GOOD_TYPE_CD }${ depth1.DEPTH1_CD }" class="productList searchList" style="display: none;">
+										<div class="searchList lists">
+											<a href="javascript:void(0);" data-wgtc="${ depth2.WEB_GOOD_TYPE_CD }"></a>
+										</div>
+										<div class="searchList buttons">
+											<a href="javascript:void(0);">출발일 선택</a>
+										</div>
+									</div>
+								</div>
+												
+							</div>
+						</div>
+							
+					</div>
+
+				</div>
+			</div>
+
+				
+			</div>
+			
+			<!-- 상단으로 -->
+			<a href="#" type="button" class="on-scroll-top"><span class="blind">위로</span></a>
+
+		</section>
+
+	</div>
+
+
+</body>
+
+</html>
+
+
+
+<!-- 스크립트 -->
+<script>
+
+	$(function () {
+		// 통합검색 입력창
+		$("#searchKeyword").on("keypress", function(e) {
+			if (e.which == 13) {
+				goSearchText ();
+			}
+		});
+	})
+
+	// 서브 카테고리 표시
+	function viewSubCate (wgtc, d1cd) {
+		$("div[id^='subCate']").hide ();
+		$("#subCate" + wgtc + d1cd).show();
+	}
+	
+	/* 상단으로 */
+	$( document ).ready( function() {
+		$( window ).scroll( function() {
+			if ( $( this ).scrollTop() > 200 ) {
+				$( '.on-scroll-top' ).fadeIn();
+			} 
+			else {
+				$( '.on-scroll-top' ).fadeOut();
+			}
+			} );
+		$( '.on-scroll-top' ).click( function() {
+			$( 'html, body' ).animate( { scrollTop : 0 }, 600 );
+			return false;
+		} );
+	});
+
+	
+	
+	$(function () {
+		$('.searchTypeBtn div').click(function(){
+			var num = $(this).index();
+			
+			$('.searchsTabmenu').removeClass('on');
+			$('.searchsTabmenu').eq(num).addClass('on');
+			$(".ml10s").removeClass("select");
+			$(".ml10s").eq(num).addClass("select");
+		});
+
+		$('.tabMenu.mShort div').click(function(){
+			var num = $(this).index();
+			
+			$('.qaBoxTop').removeClass('on');
+			$('.qaBoxTop').eq(num).addClass('on');
+			$(".list > a").removeClass("select");
+			$(".list > a").eq(num).addClass("select");
+		});
+
+		$('.list.sline > a').click(function(){
+			$('.qaBoxTop').removeClass('on');
+			$('.qaBoxTop').addClass('on');
+		})
+
+		$('#search1').click(function(){
+			$('#search1.productList.searchLists').removeClass('on');
+			$('#search1.productList.searchLists').siblings().removeClass('on');
+			$('#search1.productList.searchLists').addClass('on');
+		})
+		$('#search2').click(function(){
+			$('#search2.productList.searchLists').removeClass('on');
+			$('#search2.productList.searchLists').siblings().removeClass('on');
+			$('#search2.productList.searchLists').addClass('on');
+		})
+		$('#search3').click(function(){
+			$('#search3.productList.searchLists').removeClass('on');
+			$('#search3.productList.searchLists').siblings().removeClass('on');
+			$('#search3.productList.searchLists').addClass('on');
+		})
+		$('#search4').click(function(){
+			$('#search4.productList.searchLists').removeClass('on');
+			$('#search4.productList.searchLists').siblings().removeClass('on');
+			$('#search4.productList.searchLists').addClass('on');
+		})
+	})
+
+	var splide = new Splide( '#imgLineBannerSlide', {
+    perPage: 1,
+    rewind : true,
+		type   : 'loop',
+  } );
+
+  splide.mount();
+</script>

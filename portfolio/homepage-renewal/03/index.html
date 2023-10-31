@@ -1,0 +1,636 @@
+<!DOCTYPE HTML>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="author" content="투어2000">
+    <meta name="keywords" content="투어2000,투어 2000, 행복여행, 해외여행, 패키지여행, 자유여행, 홈쇼핑, 실시간항공권, 국내여행, 해외호텔, 제주여행, 제주, 국내, 유럽, 동남아, 홍콩, 일본, 중국, 미주, 소셜여행">
+    <meta name="subject" content="투어2000">
+    <meta name="description" content="가심비 높은 국내/해외여행 실시간 예약, 항공권예매! 당신을 위한 여행생각, 투어2000">
+    <meta name="copyright" content="tour2000 Co., Ltd. ⓒ All Rights Reserved.">
+    <meta name="robots" content="all">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="Shortcut Icon" href="//www.tour2000.co.kr/images/favicon.ico" />
+    <link rel="canonical" href="http://www.tour2000.co.kr" />
+    <title>투어2000</title>
+
+    <script src="/plugins/js/jquery-git.min.js"></script>
+
+    <!-- 부트스트랩 -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- 폰트 어썸 -->
+    <link rel="stylesheet" href="/plugins/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="/plugins/fontawesome-free-5.15.3-web/js/all.js">
+
+    <link rel="stylesheet" type="text/css" href="/plugins/XEIcon-master/xeicon.min.css">
+
+    <!-- 쿠키 -->
+    <script src="/js/.jquery.cookie.js"></script>
+
+    <!-- 이미지 슬라이드 -->
+    <link rel="stylesheet" href="/plugins/splide-2.4.21/dist/css/splide-core.min.css">
+    <script src="/plugins/splide-2.4.21/dist/js/splide.min.js"></script>
+
+    <link rel="stylesheet" href="/portfolio/homepage-renewal/01/swiper/swiper-bundle.min.css">
+    <script src="/portfolio/homepage-renewal/01/swiper/swiper-bundle.min.js"></script>
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="/portfolio/homepage-renewal/03/pc_main.css">
+</head>
+
+<body>
+
+  <!-- 여행상품 핵심정보 팝업 -->
+  <div id="tpInfoPop" class="terms_agreementBox bg_black"></div>
+
+  <div class="mainSection mt130">
+
+    <!-- 행사페이지 -->
+    <section class="mt30">
+      <div class="sectionBox mShort mb50 mb10">
+        <div class="numberBox">
+          <div class="title gray minismall2 num eventer">행사번호 220828-78</div>
+          <div class="list link" id="share_link">
+            <div class="title link eventer">링크복사</div>
+          </div>
+        </div>
+        
+        <div class="title left tour mb20 fz18">
+          <div class="mb5">[무조건출발/격리해제][터키일주 9일] 가성비최고+인솔자동행+출국시 PCR검사면제</div>
+          <span class="subTitle fz15">가장 아름다운 유럽시즌! 지금 당장 떠날 수 있는 확정 상품</span>
+          <div class="productBtn title numleft mt5">
+            <span class="productbtn blue">출발확정</span>
+            <span class="productbtn red">할인</span>
+            <span class="productbtn black">마감</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 메인 상품 -->
+      <div class="em p3 productListBox mb30">
+        <div class="productList w100">
+
+          <div class="product w100 pl30">
+            <div class="rp2 TextComment">
+              <div class="commentList mb20">
+                <span class="bold black block">여행일정</span> <span id="travelLong"> 6박 9일</span>
+              </div>
+              <div class="commentList mb20">
+                <span class="bold black block">교통편</span> <span id="productAirLine">카타르항공</span>
+              </div>
+              <div class="commentList mb20 mr20">
+                <span class="bold black block">출발/도착일</span>
+                <span id="startTravel">2022년 08월 28일(일) 20:00 QR859</span> 
+                <span id="endTravel">2022년 09월 03일(월) 12:10 QR858</span>
+              </div>
+              <div class="commentList mb20 disfl">
+                <span class="bold black block mr13">주요 여행지</span> <span class="mainJourney" id="mainJourney">인천-기내(1)-밀라노-베니스(1)-친퀘테레-몬테카티니(1)-피렌체-로마(2)-포지타노-아말피-나폴리(1)-티볼리-카스텔로
+                  마노-기내(1)-인천</span>
+              </div>
+              <div class="commentList mb20">
+                <span class="bold black block">예약현황</span> 
+                <div class="reserProduct disin">
+                  현재 <span id="reserNum">2명</span> 예약 / 
+                </div>
+                <div class="disin">마감까지 <span id="remainSeat">10명</span> 남음</div>
+              </div>
+              <div class="commentList mb20">
+                <span class="bold black block">상품가격</span> <div class="content dispin">
+                  <div class="price"><span id="salePrice">1,290,000원</span></div>
+                  <div><span id="fixedPrice">1,490,000원</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 미니 메뉴 -->
+      <div class="product">
+        <div id="mainEventProductSlide" class="splide m50">
+          <div class="splide__arrows">
+            <button class="splide__arrow splide__arrow--prev eventProduct"><i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="splide__arrow splide__arrow--next eventProduct"><i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide main eventProduct">
+                <img src="/portfolio/homepage-renewal/03/img/01.jpg" class="h256">
+              </li>
+              <li class="splide__slide main eventProduct">
+                <img src="/portfolio/homepage-renewal/03/img/02.jpg" class="h256">
+              </li>
+              <li class="splide__slide main eventProduct">
+                <img src="/portfolio/homepage-renewal/03/img/03.jpg" class="h256">
+              </li>
+              <li class="splide__slide main eventProduct">
+                <img src="/portfolio/homepage-renewal/03/img/04.jpg" class="h256">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="miniFiveMenu w18">
+        <a href="#none">
+          <div class="list" id="tpInfoPopBtn">여행 핵심정보</div>
+        </a>
+        <a href="#none">
+          <div class="list">상품문의</div>
+        </a>
+        <a href="#none">
+          <div class="list" id="heartProductPopupBtn">찜하기</div>
+        </a>
+        <a href="#none">
+          <div class="list">무이자 할부</div>
+        </a>
+        <a href="#none">
+          <div class="list">다른 출발일보기</div>
+        </a>
+      </div>
+
+      <!-- 쿠폰 -->
+      <div class="eventCoupon">
+        <div class="eventCouponBox">
+          <a href="#none">
+            <img src="//img.tour2000.co.kr/upload/Images/common/event_sub_01_01.png" alt="">
+            <div class="couponContent">이 상품은 할인쿠폰이 적용된 상품입니다.</div>
+            <img class="couponImg" src="//img.tour2000.co.kr/upload/Images/common/event_sub_01_02.png" alt="">
+          </a>
+        </div>
+      </div>
+
+      <!-- 리뷰 -->
+      <div class="starBox reviewBoxs">
+        <div class="reviewBox">
+          <div class="reviewTitle">
+            <div class="reviews">리뷰</div>
+            <span class="totals">총 <span class="bold">37개</span>의 리뷰</span>
+          </div>
+          <div class="ratingBoxs">
+            <div class="ratingBox">
+              <span class="ratingTitle">총 평점</span>
+              <div class="ratingStar yellowStar">
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star2.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star2.png"></span>	
+              </div>
+            </div>
+            <span class="rating">리뷰를 작성한 <span class="bold">83%</span>의 고객들이 이 상품에 만족하고 있습니다.</span>
+          </div>
+        </div>
+        <div class="reviewListBoxs" id='postSplit'>
+          <div class="reviewListBox">
+            <div class="reviewListTitle">
+              <div>정말 기억에 남는 여행이었어요!</div>
+              <div class="ratingStar yellowStar">
+                <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                <span><img src="/portfolio/homepage-renewal/03/img/s_star2.png"></span>	
+                <span><img src="/portfolio/homepage-renewal/03/img/s_star2.png"></span>	
+              </div>
+              <div>권*호</div>
+              <div>2022.03.01</div>
+              <div class="icons"><i class="fas fa-chevron-down"></i></div>
+            </div>
+            <div class="reviewList">
+              <p>
+                정말 기억에 남는 여행이었어요! 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜
+              </p>
+            </div>
+          </div>
+          <div class="reviewListBox">
+            <div class="reviewListTitle">
+              <div>정말 기억에 남는 여행이었어요! 진짜에요 진짜진짜</div>
+              <div class="ratingStar yellowStar">
+                <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star2.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star2.png"></span>	
+              </div>
+              <div>권*호</div>
+              <div>2022.03.01</div>
+              <div class="icons"><i class="fas fa-chevron-down"></i></div>
+            </div>
+            <div class="reviewList">
+              <p>
+                정말 기억에 남는 여행이었어요! 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜
+              </p>
+            </div>
+          </div>
+          <div class="reviewListBox">
+            <div class="reviewListTitle">
+              <div>정말 기억에 남는 여행이었어요! </div>
+              <div class="ratingStar yellowStar">
+                <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star2.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star2.png"></span>	
+              </div>
+              <div>권*호</div>
+              <div>2022.03.01</div>
+              <div class="icons"><i class="fas fa-chevron-down"></i></div>
+            </div>
+            <div class="reviewList">
+              <p>
+                정말 기억에 남는 여행이었어요! 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜
+              </p>
+            </div>
+          </div>
+          <div class="reviewListBox">
+            <div class="reviewListTitle">
+              <div>정말 기억에 남는 여행이었어요! 진짜에요 진짜진짜</div>
+              <div class="ratingStar yellowStar">
+                <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star2.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star2.png"></span>	
+              </div>
+              <div>권*호</div>
+              <div>2022.03.01</div>
+              <div class="icons"><i class="fas fa-chevron-down"></i></div>
+            </div>
+            <div class="reviewList">
+              <p>
+                정말 기억에 남는 여행이었어요! 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜
+              </p>
+            </div>
+          </div>
+          <div class="reviewListBox">
+            <div class="reviewListTitle">
+              <div>정말 기억에 남는 여행이었어요!</div>
+              <div class="ratingStar yellowStar">
+                <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star1.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star2.png"></span>	
+                  <span><img src="/portfolio/homepage-renewal/03/img/s_star2.png"></span>	
+              </div>
+              <div>권*호</div>
+              <div>2022.03.01</div>
+              <div class="icons"><i class="fas fa-chevron-down"></i></div>
+            </div>
+            <div class="reviewList">
+              <p>
+                정말 기억에 남는 여행이었어요! 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜 진짜에요 진짜진짜
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="paginationBox">
+          <ul class="w3-pagination">
+            <li><a href="#none">&laquo;</a></li>
+            <li><a href="#none">&#10094;</a></li>
+            <li class="click on"><a href="#none">1</a></li>
+            <li class="click"><a href="#none">2</a></li>
+            <li class="click"><a href="#none">3</a></li>
+            <li class="click"><a href="#none">4</a></li>
+            <li class="click"><a href="#none">5</a></li>
+            <li><a href="#none">&#10095;</a></li>
+            <li><a href="#none">&raquo;</a></li>
+          </ul>
+          <div class="buttonBox m35 mt12 reviews"><input type="button" value="리뷰 작성하기" id="reviewWriteButton"></div>
+        </div>
+
+      </div>
+
+      <!-- 이벤트 메뉴-->
+      <div class="eventPageMenu pr61">
+        <div class="list select"><a href="">상품특징</a></div>
+        <div class="list">일정표</div>
+        <div class="list">포함/불포함</div>
+        <div class="list">확인사항</div>
+        <div class="list">선택관광</div>
+        <div class="list">참고사항/약관</div>
+        <div class="list">해외안전정보</div>
+      </div>
+      
+      <div class="menuSlide">
+        <div class="productTimeLine w100">
+          <div class="productTimeLineInner w800">
+            <div class="title timeLine">22.09.03(토) 출발</div>
+            <div class="content timeLine">
+              <span id="travelLong">6박 9일</span>
+              <span id="productAirLine">카타르항공</span>
+              <div class="price">
+                <span id="salePrice">2,190,000원</span> 
+                <i class="far fa-question-circle" id="quEventPopupBtn"></i>
+              </div>
+            </div>
+            <div class="btnBox">
+              <div class="btn reserve">예약하기</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 메뉴1 : 상품 특징 -->
+        <div id="menuSlide0" class="produtInfoDetail" style="display: block;"></div>
+        
+        <!-- 메뉴2 : 일정표 -->
+        <div id="menuSlide1" class="produtInfoDetail m200"></div>
+        
+        <!-- 메뉴4 : 포함/불포함 -->
+        <div id="menuSlide2" class="produtInfoDetail m200"></div>
+        
+        <!-- 메뉴5 : 확인사항 -->
+        <div id="menuSlide3" class="produtInfoDetail m200"></div>
+        
+        <!-- 메뉴6 : 선택관광 -->
+        <div id="menuSlide4" class="produtInfoDetail m200"></div>
+        
+        <!-- 메뉴7 : 참고사항 -->
+        <div id="menuSlide5" class="produtInfoDetail m200"></div>
+        
+        <!-- 메뉴8 : 해외안전정보 -->
+        <div id="menuSlide6" class="produtInfoDetail m200"></div>
+      </div>
+
+      <!-- 상단으로 -->
+      <a href="#" type="button" class="on-scroll-top"><span class="blind"></span></a>
+
+    </section>
+  </div>
+  
+      
+  
+  <%-- 리뷰 작성하기 팝업 --%>
+  <div id="reviewFormPopup" class="terms_agreementBox bg_black">
+    <img src="${ web_server_url }/img/photo01_bg.png" class="bgImg" />
+    <div class="popup terms_agreement agreementPopup">
+      <div class="poptopBox">
+        <div class="title left"></div>
+        <div class="closebtn"><img src="${ web_server_url }/img/close.png" /></div>
+      </div>
+      <div class="content mr13">
+        <div class="pageInfoBox">
+          <div class="title">리뷰 작성하기</div>
+          <div class="infoDate mLong"></div>
+        </div>
+
+        <form id="frmGoodsReview" name="frmGoodsReview">
+        <input type="hidden" name="goods_cd" value="${ goods_cd }" />
+        <input type="hidden" name="goods_nm" value="${ ndn:reverseXSS ( defaultInfo.EV_NM) }" />
+        <div class="formBox">
+          <textarea name="reviewTitles" placeholder="제목을 입력해 주세요." class="commentForm star reviewTitles" data-null="not" title="리뷰제목"></textarea>
+        </div>
+        <div class="formBox">
+          <textarea name="reviewConts" placeholder="내용을 입력해 주세요." class="commentForm star" data-null="not" title="리뷰내용"></textarea>
+          <div class="title">별점
+            <div class="star-base type-write"></div>
+          </div>
+          <div class="buttonBox m"><a href="javascript:goReviewWriteProc();"><input type="button" value="작성완료"></a></div>
+          <div class="TextComment mT30">
+            <div class="commentList t12">※ 저작권 침해 및 명예훼손, 본 게시판의 성격에 부합하지 않는 게시물은 고지없이 이전/삭제 될 수 있으며, 관련법률에 의해 제재를 받으실 수 있습니다.
+            </div>
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+
+  
+  <%-- 가격내용(물음표) 팝업 --%>
+  <div id="quEventPopup" class="terms_agreementBox bg_black" style=" z-index:999; display:none;" >
+    <img src="${ web_server_url }/img/photo01_bg.png" class="bgImg" />
+    <div class="popup terms_agreement agreementPopup ages">
+      <div class="content10">
+        <div class="agesTitle">상품가격</div>
+        <div class="ageInfo on" id="ageInfo">
+          <div class="list ages">
+            <div class="age ages h81"><span>구분</span></div>
+            <div class="price ages h80"><span id="adultPrice" class="worth">상품가격</span></div>
+          </div>
+          <div class="list ages">
+            <div class="age ages"><span>성인</span>만 12세 이상</div>
+            <div class="price ages"><span id="adultPrice" class="costs"><fmt:formatNumber value="${ defaultInfo.ADULT_PRICE + defaultInfo.ADULT_FUEL_SURCHARGE - defaultInfo.WEB_DC_PRICE }" />원</span></div>
+            <div class="oil">유류할증료 <span id="adultOil"><fmt:formatNumber value="${ defaultInfo.ADULT_FUEL_SURCHARGE }" /></span>원 포함</div>
+          </div>
+          <div class="list ages">
+            <div class="age ages"><span>소아</span>만 12세 미만</div>
+            <div class="price ages"><span id="childPrice" class="costs"><fmt:formatNumber value="${ defaultInfo.CHILD_PRICE + defaultInfo.CHILD_FUEL_SURCHARGE }" />원</span></div>
+            <div class="oil">유류할증료 <span id="childOil"><fmt:formatNumber value="${ defaultInfo.CHILD_FUEL_SURCHARGE }" /></span>원 포함</div>
+          </div>
+          <div class="list ages">
+            <div class="age ages"><span>유아</span>만 2세 미만</div>
+            <c:choose>
+              <c:when test="${ defaultInfo.BABY_PRICE > 0 }">
+                <div class="price ages"><span id="childPrice"><fmt:formatNumber value="${ defaultInfo.BABY_PRICE + defaultInfo.BABY_FUEL_SURCHARGE }" /></span></div>
+                <div class="oil">유류할증료 <span id="childOil"><fmt:formatNumber value="${ defaultInfo.BABY_FUEL_SURCHARGE }" /></span>원 포함</div>
+              </c:when>
+              <c:otherwise>
+                <div class="price ages h80"><span id="childPrice" class="worth">별도문의</span></div>
+              </c:otherwise>
+            </c:choose>
+          </div>
+          <div class="text t12">※유류할증료/제세공과금은 발권일/환율에 따라 변경될 수 있습니다.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+</body>
+
+</html>
+
+
+
+<!-- 스크립트 -->
+<script>
+  /* 상단으로 */
+	$( document ).ready( function() {
+		$( window ).scroll( function() {
+			if ( $( this ).scrollTop() > 200 ) {
+				$( '.on-scroll-top' ).fadeIn();
+			} 
+			else {
+				$( '.on-scroll-top' ).fadeOut();
+			}
+			} );
+		$( '.on-scroll-top' ).click( function() {
+			$( 'html, body' ).animate( { scrollTop : 0 }, 600 );
+			return false;
+		} );
+	});
+
+  /* 메뉴바 상단고정 */
+  $(document).ready(function(){
+			var jbOffset = $( '.eventPageMenu' ).offset();
+					$( window ).scroll( function() {
+						if ( $( document ).scrollTop() > jbOffset.top ) {
+							$( '.eventPageMenu' ).addClass( 'eventPageMenufixed' );
+						}
+						else {
+							$( '.eventPageMenu' ).removeClass( 'eventPageMenufixed' );
+						}
+				});
+	});
+
+  /* 이미지 슬라이드 */
+  var splide = new Splide( '#mainEventProductSlide', {
+    perPage: 2,
+    rewind : true,
+		type   : 'loop',
+  } );
+
+  splide.mount();
+  
+  /* 탭메뉴 */
+	$('.eventPageMenu .list').click(function () {
+	  var num = $(this).index();
+	  var arrFuncName = ["fnGoodsFeature ()", "fnSchedule ()", "fnInExclude ()", "fnItemsConfirmed ()", "fnOptionTour ()", "fnReferenceInfo ()", "fnSafetyInfo ()"];
+	eval (arrFuncName [num]);
+	  $("#menuSlide" + num).show().siblings("div[id^='menuSlide']").hide();
+	  $(this).addClass("select").siblings("div").removeClass("select");
+	});
+
+  /* 상품 특징 */
+	function fnGoodsFeature (){
+		$.ajax({
+			method : "post",
+			url : "detailFeatureTemplate.do",
+			dataType : "html",
+			data: $("#frmParam").serialize() ,
+			success : function(data) {
+				$("#menuSlide0").html(data);
+			}
+		});
+	}
+
+    /* 일정표 */
+	function fnSchedule (){
+		$.ajax({
+			method : "post",
+			url : "detailScheduleTemplate.do",
+			dataType : "html",
+			data: $("#frmParam").serialize() ,
+			success : function(data) {
+				$("#menuSlide1").html(data);
+			}
+		});
+	}
+	
+  /* 포함/불포함 */
+	function fnInExclude () {
+		$.ajax({
+			method : "post",
+			url : "detailInExcludeTemplate.do",
+			dataType : "html",
+			data: $("#frmParam").serialize() ,
+			success : function(data) {
+				$("#menuSlide2").html(data);
+			}
+		});
+	}
+	
+  /* 확인사항 */
+	function fnItemsConfirmed () {
+		$.ajax({
+			method : "post",
+			url : "detailItemsConfirmedTemplate.do",
+			dataType : "html",
+			data: $("#frmParam").serialize() ,
+			success : function(data) {
+				$("#menuSlide3").html(data);
+			}
+		});
+	}
+	
+  /* 선택관광 */
+	function fnOptionTour () {
+		$.ajax({
+			method : "post",
+			url : "detailOptionTourTemplate.do",
+			dataType : "html",
+			data: $("#frmParam").serialize() ,
+			success : function(data) {
+				$("#menuSlide4").html(data);
+			}
+		});
+	}
+	
+  /* 참고사항 */
+	function fnReferenceInfo () {
+		$.ajax({
+			method : "post",
+			url : "detailReferenceTemplate.do",
+			dataType : "html",
+			data: $("#frmParam").serialize() ,
+			success : function(data) {
+				$("#menuSlide5").html(data);
+			}
+		});
+	}
+	function termControl(){
+		$('.term-standard').toggleClass('folded');
+	}
+	
+  /* 해외안전정보 */
+	function fnSafetyInfo () {
+		$.ajax({
+			method : "post",
+			url : "detailSafetyTemplate.do",
+			dataType : "html",
+			data: $("#frmParam").serialize() ,
+			success : function(data) {
+				$("#menuSlide6").html(data);
+			}
+		});
+	}
+
+</script>
+
+<script type="text/javascript">
+  /* 메뉴 로드 */
+  $(document).ready( function() {
+		$("#menuSlide0").load("/portfolio/homepage-renewal/03/inventory/01.html");
+    $("#menuSlide1").load("/portfolio/homepage-renewal/03/inventory/02.html");
+    $("#menuSlide2").load("/portfolio/homepage-renewal/03/inventory/03.html");
+    $("#menuSlide3").load("/portfolio/homepage-renewal/03/inventory/04.html");
+    $("#menuSlide4").load("/portfolio/homepage-renewal/03/inventory/05.html");
+    $("#menuSlide5").load("/portfolio/homepage-renewal/03/inventory/06.html");
+    $("#menuSlide6").load("/portfolio/homepage-renewal/03/inventory/07.html");
+		}
+	);
+
+  /* 쿠폰 */
+	$(function() {
+    $(".couponImg").on("click", function() {
+      $(this).attr("src", "/portfolio/homepage-renewal/03/img/event_sub_01_03.png");
+		});
+	});
+
+  $(function () {
+			//리뷰 리스트 토글
+			$('.reviewListBox').click(function () {
+					var num = $(this).index();
+					$('.reviewList').slideUp(300);
+					$('.reviewListTitle .icons i').attr('class', 'fas fa-chevron-down');
+
+					if ($(this).hasClass('on')) {
+							$(this).find(' > .reviewList').stop().slideUp(300);
+							$(this).find('.reviewListTitle .icons i').attr('class', 'fas fa-chevron-down');
+							$(this).removeClass('on');
+					}
+					else {
+							$(this).find(' > .reviewList').stop().slideDown(300);
+							$(this).find('.reviewListTitle .icons i').attr('class', 'fas fa-chevron-up');
+							$(this).addClass('on');
+					}
+			});
+	});
+</script>

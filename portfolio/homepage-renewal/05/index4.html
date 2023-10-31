@@ -1,0 +1,322 @@
+<!DOCTYPE HTML>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="author" content="투어2000">
+    <meta name="keywords" content="투어2000,투어 2000, 행복여행, 해외여행, 패키지여행, 자유여행, 홈쇼핑, 실시간항공권, 국내여행, 해외호텔, 제주여행, 제주, 국내, 유럽, 동남아, 홍콩, 일본, 중국, 미주, 소셜여행">
+    <meta name="subject" content="투어2000">
+    <meta name="description" content="가심비 높은 국내/해외여행 실시간 예약, 항공권예매! 당신을 위한 여행생각, 투어2000">
+    <meta name="copyright" content="tour2000 Co., Ltd. ⓒ All Rights Reserved.">
+    <meta name="robots" content="all">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="Shortcut Icon" href="//www.tour2000.co.kr/images/favicon.ico" />
+    <link rel="canonical" href="http://www.tour2000.co.kr" />
+    <title>투어2000</title>
+
+    <script src="/plugins/js/jquery-git.min.js"></script>
+
+    <!-- 부트스트랩 -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- 폰트 어썸 -->
+    <link rel="stylesheet" href="/plugins/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="/plugins/fontawesome-free-5.15.3-web/js/all.js">
+
+    <link rel="stylesheet" type="text/css" href="/plugins/XEIcon-master/xeicon.min.css">
+
+    <!-- 쿠키 -->
+    <script src="/js/.jquery.cookie.js"></script>
+
+    <!-- 이미지 슬라이드 -->
+    <link rel="stylesheet" href="/plugins/splide-2.4.21/dist/css/splide-core.min.css">
+    <script src="/plugins/splide-2.4.21/dist/js/splide.min.js"></script>
+
+    <link rel="stylesheet" href="/portfolio/homepage-renewal/01/swiper/swiper-bundle.min.css">
+    <script src="/portfolio/homepage-renewal/01/swiper/swiper-bundle.min.js"></script>
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="pc_main.css">
+</head>
+
+<body>
+
+  <div class="mainSection">
+
+    <!-- SNS 간편 로그인 -->
+    <section class="sectionTop">
+      <div class="sectionBox">
+        <div class="title">
+          <div class="text">SNS 간편 로그인 등록</div>
+        </div>
+        <div class="subTitle">
+          <div class="subText">고객님 환영합니다. <br> 
+          이미 가지고 계신 SNS 아이디로 쉽게 로그인 하세요.</div>
+        </div>
+      </div>
+
+      <!-- 약관동의 -->
+    <div class="stipulation">
+      <div class="sectionBox">
+        <div class="title">
+          <div class="miniText articles">약관동의</div>
+        </div>
+      </div>
+
+      <div class="formBox">
+        <div class="TextComment mar20" id="agreeNum">
+          <div class="commentList m20">
+            <input type="checkbox" id="agree-all" name="agree-all" /><label for="agree-all" class="fz16">약관 전체 동의</label>
+            <div class="consent">이용약관, 개인정보 수집 및 이용, 개인정보 제3자 제공, 마케팅 목적 수집 및 활용에 동의합니다.</div>
+          </div>
+
+            <!-- 이용약관-->
+            <div class="commentList padding short title1">
+              <div class="text short">
+                <input type="checkbox" id="agree-term1" name="agree-term1" data-null="not"  title="이용약관" /><label for="agree-term1">[필수] 이용약관</label>
+              </div>
+              <div class="icon text" id="ml_btn1"><i class="fa fa-thin fa-angle-down"></i></div>
+            </div>
+            <div class="commentList-content1 on"  id="join1" >
+            </div>
+            <!-- 개인정보 수집 및 이용 안내 -->
+            <div class="commentList padding short title2">
+              <div class="text short">
+                <input type="checkbox" id="agree-term2" name="agree-term2" data-null="not"  title="개인정보 수집 및 이용에 대한 안내" /><label for="agree-term2">[필수] 개인정보 수집 및 이용에 대한 안내</label>
+              </div>
+              <div class="icon text" id="reserPop3"><i class="fa fa-thin fa-angle-down"></i></div>
+            </div>
+            <div class="commentList-content2" id="join2" >
+            </div>
+            <!-- 개인정보 제3자 제공 동의 -->
+            <div class="commentList padding short title3">
+              <div class="text short">
+                <input type="checkbox" id="agree-term3" name="agree-term3" data-null="not"  title="개인정보의 제 3자 제공" /><label for="agree-term3">[필수] 개인정보의 제3자 제공</label>
+              </div>
+              <div class="icon text" id="reserPop4"><i class="fa fa-thin fa-angle-down"></i></div>
+            </div>
+            <div class="commentList-content3" id="join3" >
+            </div>
+            <!-- 광고성 정보수신 동의 -->
+            <div class="commentList padding short title4">
+              <div class="text short">
+                <input type="hidden" name="marketingAgreeYn" id="marketingAgreeYn" value="N" />
+                <input type="checkbox"  id="marketingAgreeYnTemp" name="marketingAgreeYnTemp" title="개인정보 수집 및 이용에 대한 안내" value="Y" ><label for="marketingAgreeYnTemp">[선택] 광고성 정보 수신동의 및 활용</label>
+              </div>
+              <div class="icon text" id="joinBtn4"><i class="fa fa-thin fa-angle-down"></i></div>
+            </div>
+            <div class="commentList-content4" id="join4">
+            </div>
+        </div>
+      </div>
+    </div>
+
+      <!--  폼 박스 -->
+      <div class="sectionBox">
+        <div class="title left">
+          <div class="miniText articles">정보입력</div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="formBox">
+          <div class="whiteBox two sns">
+            <span style="margin-right: 16px;">이름</span>
+            <input type="text" placeholder="이름을 입력해 주세요." id="sns_name" name="sns_name" value="홍길동" data-null="not" title="이름" readOnly style="font-weight: 700;"/>
+          </div>
+          <div class="whiteBox two sns" style="float: right;">
+            <span>휴대폰</span>
+            <input type="text" placeholder="휴대폰 번호를 입력해 주세요. (-제외)" id="sns_phone" name="sns_phone" data-null="not" title="휴대폰 번호" />
+          </div>
+          <div class="whiteBox two email">
+            <span style="margin-right: 3px;">이메일</span>
+            <input type="text" placeholder="이메일 아이디를 입력해 주세요. (선택사항)" id="sns_email_id" name="sns_email_id"/>
+            <span style="font-weight: normal;">@naver.com</span>
+            <div>※특가 및 이벤트 등의 소식을 받아 보실 수 있습니다.</div>
+          </div>
+        </div>
+        <div class="buttonBox m50 sns"><a href="/portfolio/homepage-renewal/05/index.html"><input type="button" value="간편 로그인 등록 완료"></a></div>
+      </div>
+      </form>
+
+      <!-- 상단으로 -->
+      <a href="#" type="button" class="on-scroll-top"><span class="blind"></span></a>
+
+    </section>
+
+  </div>
+
+
+</body>
+
+</html>
+
+
+
+<!-- 스크립트 -->
+<script type="text/javascript">
+  $(document).ready( function() {
+					$("#join1").load("/portfolio/homepage-renewal/05/stipulation/join1.html");
+          $("#join2").load("/portfolio/homepage-renewal/05/stipulation/join2.html");
+          $("#join3").load("/portfolio/homepage-renewal/05/stipulation/join3.html");
+          $("#join4").load("/portfolio/homepage-renewal/05/stipulation/join4.html");
+								}
+					);
+</script>
+
+<script>
+	/* 상단으로 */
+$( document ).ready( function() {
+		$( window ).scroll( function() {
+			if ( $( this ).scrollTop() > 200 ) {
+				$( '.on-scroll-top' ).fadeIn();
+			} 
+			else {
+				$( '.on-scroll-top' ).fadeOut();
+			}
+			} );
+		$( '.on-scroll-top' ).click( function() {
+			$( 'html, body' ).animate( { scrollTop : 0 }, 600 );
+			return false;
+		} );
+	});
+
+	function fnSubmit(){
+		if ($("#sns_id").val() == ""){
+			alert("세션이 만료되었습니다. 다시 처음부터 시도해주세요.");
+			location.href="/index.do";
+		}
+		
+		var $frm = $("#frnTerms");		
+		var validationChk = fnValidateCheckBox($frm);
+		
+		if(validationChk){
+			var $form = $("#frmSnsInfo");
+			var validationInput = fnValidateCheck ($form);
+
+			if (validationInput) {
+				if (!($("#sns_phone").val().length >= 10 && $("#sns_phone").val().length <= 11)){
+					alert ("휴대폰 번호를 올바르게 넣어주세요.");
+					$("#sns_phone").focus();
+					return;
+				}
+				
+				($("#agreeTerms4").prop ("checked")) ? $("#marketingAgreeYn").val ("Y") : $("#marketingAgreeYn").val ("N");
+
+				var fnBeforeSerialize = function(){
+				};
+		
+				var fnBeforeSubmit = function() {
+					$("#ajax_load_indicator").show();
+				};
+				var fnApplyCallback = function(objResponse, statusText, xhr, $from){
+		       	 if (statusText == "success"){
+			            if( objResponse["result"]){
+			            	alert('SNS 회원 등록이 완료 되었습니다.');
+			            	if ($("#goUrl").val() != "") {
+			            		location.href = $("#goUrl").val(); 	
+			            	} else {
+			            		location.href = '/index.do';
+			            	}
+			            }else{
+			            	alert("데이터 전송 중 오류가 발생하였습니다.");
+			            }
+			        }else{
+			        	alert("데이터 전송 중 오류(실패)가 발생하였습니다.");
+			        }
+		       };
+				
+			    var options = {
+			            url : "./proc_sns.json",
+			            type : "post" ,
+			            dataType : 'json',
+			            beforeSerialize: fnBeforeSerialize,
+			            beforeSubmit : fnBeforeSubmit, // ajaxSubmit 통신 전 처리 작업
+			            success : fnApplyCallback ,
+			            error: function(data, result, resultMsg) {
+			            	alert("데이터 전송 중 오류가 발생하였습니다.");
+			            }
+			        };
+			    $form.ajaxSubmit( options );
+			}
+		}
+	}
+
+	$(function(){
+		$("#terms_conts_1_btn, #terms_conts_2_btn, #terms_conts_3_btn, #terms_conts_4_btn").click (function () {
+			var $conts_id = $("#" + $(this).prop("id").replace ("_btn", "_popup"));
+			if ($conts_id.hasClass('on' == true)) {
+				$conts_id.removeClass('on');
+				$('.front-body').css('overflow', 'scroll');
+			} else {
+				$conts_id.addClass('on');
+				$('.front-body').css('overflow', 'hidden');
+			}
+		})
+		
+		var checkCnt = 0;
+		$("#agreeTerms1, #agreeTerms2, #agreeTerms3, #agreeTerms4").change (function () {
+			$(this).prop("checked") ? checkCnt++ : checkCnt--;
+			(checkCnt >= 4) ? $("#agreeTermsAll").prop("checked", true) : $("#agreeTermsAll").prop("checked", false);
+		});
+		
+		$("#agreeTermsAll").change (function () {
+			if ($(this).prop("checked")){
+				$("#agreeTerms1, #agreeTerms2, #agreeTerms3, #agreeTerms4").prop("checked", true);
+				checkCnt = 4;
+			} else {
+				$("#agreeTerms1, #agreeTerms2, #agreeTerms3, #agreeTerms4").prop("checked", false);
+				checkCnt = 0;
+			}
+		});
+	})
+
+	var onReady = function(){
+		$("#ajax_load_indicator").hide();
+	};
+	
+	$(document).ready(onReady);
+</script>
+<script>
+	$(function() {
+		$('.commentList.padding.short.title1').click(function(){
+			$('.commentList-content1').toggleClass('on');
+		})
+	})
+	$(function() {
+		$('.commentList.padding.short.title2').click(function(){
+			$('.commentList-content2').toggleClass('on');
+		})
+	})
+	$(function() {
+		$('.commentList.padding.short.title3').click(function(){
+			$('.commentList-content3').toggleClass('on');
+		})
+	})
+	$(function() {
+		$('.commentList.padding.short.title4').click(function(){
+			$('.commentList-content4').toggleClass('on');
+		})
+	})
+
+	var onReady = function(){
+		$("input[name='agree-all']").change(function(){
+			if( $( this ).is(':checked') == true ) {
+				$( ":checkbox[name^='agree-term']" ).each(function(){
+					$( this ).prop( "checked", true );
+				});
+				$("#marketingAgreeYnTemp").prop( "checked", true );
+			}else{
+				$( ":checkbox[name^='agree-term']" ).each(function(){
+					$( this ).prop( "checked", false );
+				});
+				$("#marketingAgreeYnTemp").prop( "checked", false );
+			}
+		});
+		
+	};
+
+	$(document).ready(onReady);
+</script>

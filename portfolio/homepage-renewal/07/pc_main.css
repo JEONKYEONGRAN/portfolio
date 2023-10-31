@@ -1,0 +1,801 @@
+head{
+    font-family: 'Nanum Gothic' !important;
+}
+body{
+    background: #fff;
+}
+.mainSection{
+    width: 800px;
+    margin: 168px auto;
+}
+a:link {
+    outline: none;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+button, html [type="button"] {
+    -webkit-appearance: none;
+  }
+
+  input {
+
+    -webkit-border-radius: 0;
+    border: none;
+ }
+ input:focus,textarea:focus {  }
+
+input[type=submit] {-webkit-appearance:none;}
+
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+a:active,a:hover{
+    text-decoration: none !important;
+}
+a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+input::placeholder{
+    color:#a1a1a1;
+    font-size: 14px;
+}
+
+input::placeholder.darks{
+    color:#fff;
+    font-size: 14px;
+}
+
+/* 타입이 number 일때, 우측 증감 화살표 안보이게하기 */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+a:hover,a:active{
+    text-decoration: none;
+    color:inherit;
+}
+html{
+    -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+
+    -moz-text-size-adjust: none; /*Firefox*/
+
+    -ms-text-size-adjust: none;  /*Ie*/
+
+    -o-text-size-adjust: none; /*old versions of Opera*/
+}
+/* nanum-gothic-regular - latin_korean */
+@font-face {
+    font-family:  'Nanum Gothic';
+    font: '-apple-system-body';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/css/nanum-gothic-v17-latin_korean/nanum-gothic-v17-latin_korean-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('/css/nanum-gothic-v17-latin_korean/nanum-gothic-v17-latin_korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('/css/nanum-gothic-v17-latin_korean/nanum-gothic-v17-latin_korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('/css/nanum-gothic-v17-latin_korean/nanum-gothic-v17-latin_korean-regular.woff') format('woff'), /* Modern Browsers */
+        url('/css/nanum-gothic-v17-latin_korean/nanum-gothic-v17-latin_korean-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('/css/nanum-gothic-v17-latin_korean/nanum-gothic-v17-latin_korean-regular.svg#NanumGothic') format('svg'); /* Legacy iOS */
+}
+
+body {
+    color: #000;
+    font-family: 'Nanum Gothic';
+    position: relative;
+    font-size:15px;
+    margin: auto !important;
+    text-decoration: none;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* IE9 이하를 위한 css */
+.placeholder {
+color: #767676;
+/* padding-left: 10px; */
+}
+
+/* IE10 이상을 위한 css */
+textarea::placeholder {
+color: #767676;
+opacity: 1; /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */
+font-size: 14.4px;
+}
+textarea::-webkit-input-placeholder {
+color: #767676;
+}
+/* IE */
+textarea:-ms-input-placeholder {
+color: #767676;
+}
+/* Firefox */
+textarea:-mos-input-placeholder {
+color: #767676;
+}
+
+.whiteButton.phBlack::placeholder{
+    color:#a1a1a1;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#timesaleBox .text{
+    font-weight: 700;
+    font-size:14px;
+}
+section .sectionBox .title.left{
+    text-align: left;
+    float: left;
+    width: 70%;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    font-size: 21px;
+    font-weight: 700;
+}
+section .sectionBox .tabMenu.mShort{
+    margin-top: 30px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    float: left;
+    width: 80%;
+}
+.sectionBox .tabMenu .list{
+    float: left;
+    position: relative;
+    margin-right: 15px;
+    padding-left:0px;
+    text-decoration: none;
+}
+.sectionBox .tabMenu .list.last{
+    float: left;
+    margin-left:15px;
+}
+.splide__pagination {
+    display: none;
+}
+/* 상품 리스트 */
+.commodityList {
+    font-weight: 700;
+    position: relative;
+}
+.arrowDown {
+    font-size: 15px;
+    border: 1px solid #dadada;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.arrowDown > i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#timesaleBox.commoditys {
+    margin: 10px 0px;
+    float: right
+    ;
+}
+.sectionBox .title .text.w75 {
+    float: left;
+    width: 75%;
+    text-align: left;
+    font-size: 21px;
+}
+.sectionBox .title .text.w73 {
+    float: left;
+    width: 73%;
+    text-align: left;
+    font-size: 21px;
+}
+.commodityBox {
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.specialPriceBox {
+    border-bottom: 1px solid #dadada;
+    padding-top: 20px;
+}
+.specialPrices {
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+.specialPrice {
+    border: 1px solid #dadada;
+    display: inline-block;
+    width: 49%;
+    height: 80px;
+}
+.specialPrice:first-child {
+    margin-right: 10px;
+}
+.specialPrice > div {
+    display: inline-block;
+}
+.specialPriceTitle {
+    padding: 17px 20px;
+    vertical-align: top;
+    width: 68%;
+}
+.specialPriceTitle.w100 {
+    width: 100%;
+}
+.specialPriceTitle > span {
+    font-weight: normal;
+    font-size: 14px;
+}
+.specialPriceTitle > div {
+    margin-top: 5px;
+}
+.specialPriceImg {
+    width: 32%;
+    height: 100%;
+    float: right;
+    border-radius: 30px 0px 0px 30px / 70px 0px 0px 70px;
+    overflow: hidden;
+}
+.specialPriceImg > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.leadsBox {
+    font-weight: normal;
+    width: 100%;
+    padding: 30px 0px 20px;
+}
+.leadsList {
+    display: inline-block;
+    width: 40%;
+}
+.leadsList:last-child {
+    text-align: right;
+    margin-left: 10px;
+    width: 58%;
+}
+.leadsTotal > span {
+    font-weight: 700;
+}
+.leads {
+    display: inline-block;
+    text-align: right;
+    color: #8b8b8b;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.leads.on {
+    color: #000;
+    font-weight: 700;
+}
+
+.itemBoxs {
+    margin-top: 30px;
+}
+.itemsList {
+    margin-bottom: 30px;
+    font-size: 0;
+}
+.items {
+    display: inline-block;
+    width: 49%;
+    position: relative;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+
+}
+.items:last-child {
+    margin-left: 10px;
+}
+.items > img {
+    width: 100%;
+}
+.hearts {
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 45px;
+}
+.hearts > img {
+    width: 100%;
+    cursor: pointer;
+}
+.itemsTitle {
+    padding: 20px;
+    text-decoration: none;
+}
+.itemsTitle > a {
+    text-decoration: none;
+}
+.charge {
+    color: #787878;
+    font-weight: normal;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.daily {
+    position: relative;
+}
+.daily::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    right: -12px;
+    width: 1px;
+    height: 77%;
+    background-color: #787878;
+}
+.flight {
+    margin-left: 20px;
+}
+.productTitle {
+    font-weight: normal;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+.productSubTitle {
+    color: #787878;
+    font-size: 13px;
+    font-weight: normal;
+    height: 35px;
+    margin: 10px 0px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.couponsBox {
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    text-align: center;
+    height: 33px;
+    margin-top: 10px;
+}
+.couponsBox.gray {
+    border: 1px solid #8b8b8b;
+}
+.couponsBox > img {
+    vertical-align: -webkit-baseline-middle;
+    margin-top: 10px;
+}
+.coupons {
+    display: inline-block;
+    vertical-align: bottom;
+    color: #ff0000;
+    font-size: 15px;
+}
+.coupons.gray {
+    color: #8b8b8b;
+    vertical-align: -webkit-baseline-middle;
+    margin-top: 10px;
+}
+.productDates {
+    margin: 20px 0px;
+}
+.productDates > div {
+    display: inline-block;
+}
+.productDates > div:first-child {
+    font-size: 18px;
+    width: 64%;
+    font-weight: 700;
+}
+.productDates > div:last-child {
+    text-align: right;
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.productBtnBox {
+    margin-top: 30px;
+}
+.productBtnBox > div {
+    display: inline-block;
+    width: 49%;
+}
+.productbtns {
+    border: 1px solid #000;
+    padding: 2px 10px;
+    font-weight: normal;
+    font-size: 13px;
+}
+.productbtns:first-child {
+    margin-right: 5px;
+}
+.productbtns.red {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+}
+.productbtns.blue {
+    color: #0048ff;
+    border: 1px solid #0048ff;
+}
+.productbtns.green {
+    color: #00921f;
+    border: 1px solid #00921f;
+}
+.numbers {
+    font-weight: normal;
+    color: #787878;
+    font-size: 13px;
+    text-align: right;
+}
+/* 출발확정 페이지 */
+section .sectionBox.pb20 {
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.timesale.departure {
+    float: right;
+    margin: 0 !important;
+}
+section .sectionBox .title.left.pb0 {
+    padding-bottom: 0;
+}
+
+#eventTabBox.starting {
+    margin: 0;
+}
+section .sectionBox .tabMenu.mShort.w100.mt10 {
+    width: 100%;
+    margin-top: 30px;
+}
+.sectionBox .tabMenu .list.circles {
+    margin-right: 0px;
+}
+.sectionBox .tabMenu .list.circles > a{
+    border: 1px solid #bcbcbc;
+    border-radius: 20px;
+    padding: 7px 25px;
+    color: #4a4a4a;
+}
+#eventTabBox .sectionBox .tabMenu .list.circles.sline:after {
+    content: '';
+    display: none;
+}
+.sectionBox .tabMenu .list.circles > a.on {
+    color: #fff;
+    background-color: #4a4a4a;
+    border: none;
+}
+.sectionBox .tabMenu .list.circles > a.select {
+    color: #fff;
+    background-color: #4a4a4a;
+    border: none;
+}
+.departureImgs {
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.splide__slide.departureImg > a span {
+    font-size: 14px;
+}
+.splide__slide img {
+    width: 100%;
+}
+.departureImgBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+    display: none;
+}
+.departureImgBack.on {
+    display: block;
+}
+.departureGray {
+    color: #8b8b8b;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.leadsBox.departures {
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 30px;
+}
+.splide__arrows > .splide__arrow {
+    top: 29%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.616);
+    color: #fff;
+    border: none;
+    padding: 5px 8px;
+}
+.splide__arrow.splide__arrow--next.eventProduct {
+    right: 0;
+}
+.splide__slide.departureImg > a {
+    text-decoration: none;
+}
+.sectionBox.beginning {
+    margin-bottom: 0;
+}
+
+section .on-scroll-top {
+    display: block;
+}
+section .on-scroll-top {
+    position: fixed;
+    bottom: 95px;
+    left: 45%;
+    display: none;
+    width: 52px;
+    height: 52px;
+    margin-left: 610px;
+    border: 1px solid #d1d1d1;
+    border-radius: 52px;
+    background: rgb(255, 255, 255);
+    z-index: 999;
+}
+section .on-scroll-top:after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background: url('/portfolio/homepage-renewal/07/img/ui_icons.png') no-repeat -170px
+ -200px;
+}
+
+/* 할인페이지 */
+.reductionBox {
+    font-size: 0;
+    padding: 20px 0px;
+    display: flex;
+}
+.reduction {
+    display: inline-block;
+    width: 45%;
+    font-size: 15px;
+}
+.reduction:first-child {
+    margin-right: 30px;
+}
+.reduction.right {
+    border: 1px solid #dadada;
+    padding: 20px;
+}
+.splide.timesale > .splide__arrows > .splide__arrow {
+    font-size: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.reductionBtn {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.reductionBtn > span {
+    padding: 5px 20px;
+}
+.reductionBtn > span.black {
+    background-color: #4a4a4a;
+    color: #fff;
+    margin-right: 31px;
+}
+.reductionBtn > span.red {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    padding: 5px 27px;
+}
+.reductionBtn > span.blue {
+    color: #0048ff;
+    border: 1px solid #0048ff;
+    padding: 5px 17px;
+}
+
+.reductionTitle {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 0px;
+    line-height: 1.4em;
+}
+.reductionSub {
+    font-size: 13px;
+    color: #767676;
+}
+
+.transportBox {
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.transport {
+    padding: 4px 0px;
+}
+.transport > span:first-child {
+    font-weight: 700;
+    margin-right: 10px;
+}
+.transport:last-child > span:first-child {
+    margin-right: 23px;
+}
+.transport:last-child > span:nth-child(2) {
+    font-size: 15px;
+    color: #ff0000;
+    font-weight: 700;
+    margin-right: 5px;
+}
+.transport:last-child > span:last-child {
+    font-size: 13px;
+    text-decoration: line-through;
+}
+.soldout {
+    font-size: 13px;
+}
+.soldout > b {
+    font-weight: 700;
+}
+.itineraryBtn {
+    margin-top: 15px;
+}
+.itinerary {
+    display: inline-block;
+    padding: 11px;
+    width: 41%;
+    text-align: center;
+    cursor: pointer;
+}
+.itinerary:first-child {
+    border: 1px solid #b7b7b7;
+    color: #4a4a4a;
+    margin-right: 10px;
+}
+.itinerary:last-child {
+    background-color: #4a4a4a;
+    color: #fff;
+}
+
+/* 카운트다운 */
+.flip-clock-wrapper ul li a div div.inn {
+    background-color: #fff;
+    color: #000;
+    border-radius: 0px;
+    font-size: 35px;
+}
+.flip-clock-wrapper ul {
+    border-radius: 0px;
+    width: 35px;
+    height: 46px;
+    font-size: 35px;
+}
+.flip-clock-wrapper ul li a div.down {
+    border-radius: 0px;
+}
+.flip-clock-wrapper ul li a div {
+    font-size: 35px;
+}
+.flip-clock-wrapper ul li a div.up:after {
+    top: 20px;
+}
+.flip-clock-wrapper ul li {
+    line-height: 49px;
+}
+.flip-clock-divider .flip-clock-label {
+    display: none;
+}
+.flip-clock-divider {
+    height: 74px;
+}
+.flip-clock-dot.top {
+    top: 15px;
+}
+.flip-clock-dot.bottom {
+    bottom: 31px;
+}
+.flip-clock-wrapper {
+    margin: 0; 
+}

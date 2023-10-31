@@ -1,0 +1,161 @@
+
+<script>
+$(function () {
+	//일정표 일차 토글
+	$('#travel_schedule section .content .listTitle').click(function () {
+	   if ($(this).hasClass('on')) {
+			$(this).siblings("div.list").stop().slideUp(300);
+			$(this).find('.icon i').prop ('class', 'fas fa-chevron-down');
+			$(this).removeClass('on');
+		} else {
+			$(this).siblings("div.list").stop().slideDown(300);
+			$(this).find('.icon i').prop ('class', 'fas fa-chevron-up');
+			$(this).addClass('on');
+		}
+	});
+	
+	//공항미팅 장소 팝업 표기
+	$('#airplaneMeetButton').click(function () {
+		if ($('#schedule_AirMeeting').hasClass('on' == true)) {
+			$('#schedule_AirMeeting').removeClass('on');
+			$('.front-body').css('overflow', 'auto');
+		} else {
+			$('#schedule_AirMeeting').addClass('on');
+			$('.front-body').css('overflow', 'hidden');
+		}
+	});
+})
+</script>
+
+	<div class="scheduleAgree certain">
+		<div class="title">여행일정 변경에 관한 사전 동의 안내</div>
+		<div class="content">여행 일정은 계약 체결 시 예상하지 못한 부득이한 사정 등이 발생하는 경우 여행자의 사전 동의를 거쳐 변경 될 수 있음을 양지하시기 바랍니다</div>
+	</div>
+
+	<div class="eventBanner">
+		<a href="#none">
+			<img src="https://img.tour2000.co.kr/Images/common/test_02.jpg" alt="">
+		</a>
+	</div>
+
+	<div id="travel_schedule">
+		<section class="dropdown2 travel_schedule">
+			<div class="content p20 button">
+				<div class="date listBox top">
+					<div class="listTitle area on">
+						<div class="name plan">
+							<span class="dateNum">1일차</span>
+							<span class="dateDetail">2022년 09월 03일 (토)</span>
+						</div>
+						<div class="icon"><i class="fas fa-chevron-up"></i></div>
+					</div>
+						
+						<!-- 일차별 일정 표시 -->
+					<div class="list info">
+						<div class="travelBox">
+							<div class="travel">
+								<div class="icon"><img src="/portfolio/homepage-renewal/03/img/icon17.png" /></div>
+									<span class="name">인천</span>
+									<span class="time">20:00</span>
+								</div>
+								<!-- 내용 표시 -->
+								<div class="travelInfo certain">
+									인천 국제공항 제1여객터미널 3층 N카운터 투어2000 앞 집결
+									<div class="certains">
+										<img src="//img.tour2000.co.kr/upload/Images/common/event_sub_01_04.png" />
+									</div>
+
+									<!-- 관광지, 선택관광, 숙소 있을 경우 -->
+									<div class="grayButton travel staysing">
+										<div class="tourists">
+											<div>숙소</div>
+										</div>
+										<div class="stayImg">
+											<img src="//img.tour2000.co.kr/upload/Images/common/tour_list_01_01.png" alt="">
+											<img src="//img.tour2000.co.kr/upload/Images/common/tour_list_01_02.png" alt="">
+										</div>
+										<div class="text staysBox">
+											터키의 수도 앙카라 주 북부의 도시로 오스만제국의 전성기를 엿볼수 있는 곳입니다. 현재 지역 내 3개의 우루쉬&카라
+											샤르&크르바스의 큰마을이 있으며 아기자기한 64개의 조그마한 터키전통가옥들이 즐비한 곳입니다.
+										</div>
+									</div>
+									<div class="grayButton travel staysing">
+										<div class="tourists">
+											<div>베이파자르[Beypazari]</div>
+										</div>
+										<div class="stayImg">
+											<img src="//img.tour2000.co.kr/upload/Images/common/tour_list_01_01.png" alt="">
+											<img src="//img.tour2000.co.kr/upload/Images/common/tour_list_01_02.png" alt="">
+										</div>
+										<div class="text staysBox">
+											터키의 수도 앙카라 주 북부의 도시로 오스만제국의 전성기를 엿볼수 있는 곳입니다. 현재 지역 내 3개의 우루쉬&카라
+											샤르&크르바스의 큰마을이 있으며 아기자기한 64개의 조그마한 터키전통가옥들이 즐비한 곳입니다.
+										</div>
+									</div>
+									<div class="grayButton travel staysing">
+										<div class="tourists">
+											<div>베이파자르[Beypazari]</div>
+											<div class="choose">
+												<span>선택관광</span>
+												<span>성인 1인 60유로</span>
+											</div>
+										</div>
+										<div class="stayImg">
+											<img src="//img.tour2000.co.kr/upload/Images/common/tour_list_01_01.png" alt="">
+											<img src="//img.tour2000.co.kr/upload/Images/common/tour_list_01_02.png" alt="">
+										</div>
+										<div class="text staysBox">
+											터키의 수도 앙카라 주 북부의 도시로 오스만제국의 전성기를 엿볼수 있는 곳입니다. 현재 지역 내 3개의 우루쉬&카라
+											샤르&크르바스의 큰마을이 있으며 아기자기한 64개의 조그마한 터키전통가옥들이 즐비한 곳입니다.
+										</div>
+									</div>
+									<div class="grayButton travel staysing">
+										<div class="tourists">
+											<div>골프정보</div>
+										</div>
+										<div class="stayImg">
+											<img src="//img.tour2000.co.kr/upload/Images/common/tour_list_01_01.png" alt="">
+											<img src="//img.tour2000.co.kr/upload/Images/common/tour_list_01_02.png" alt="">
+										</div>
+										<div class="text staysBox">
+											터키의 수도 앙카라 주 북부의 도시로 오스만제국의 전성기를 엿볼수 있는 곳입니다. 현재 지역 내 3개의 우루쉬&카라
+											샤르&크르바스의 큰마을이 있으며 아기자기한 64개의 조그마한 터키전통가옥들이 즐비한 곳입니다.
+										</div>
+									</div>
+								</div>
+						</div>
+						<!-- 숙박정보, 식사정보 구하기 -->
+						<div class="list info formBox stayBox">
+							<div class="reservation grayBox mt20 stays">
+								<div class="informed">숙박</div>
+								<div class="listBox stay">
+									<div class="mealBox">
+										<div test="${ sAirSleepYN eq 'Y'}">
+											본 일정은 <span class="bold staying" id="reserHotelList">기내 숙박</span> 입니다.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reservation grayBox mealBtn" id="mealBtn">
+								<div class="grayRoundBox nop intelligence">
+									<div class="text absolute disflex">
+										<div class="informed">식사</div>
+										<div class="listBox">
+											<div class="mealBox pt10">
+												<div class="mealList" style="text-align:center; padding-left:0px;">
+													<div class="box">조식 : <span id="meal1">기내식</span></div>
+													<div class="box">중식 : <span id="meal2">현지식</span></div>
+													<div class="box">석식 : <span id="meal3">호텔식</span></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+	</div>

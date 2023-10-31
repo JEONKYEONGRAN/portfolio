@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="author" content="투어2000">
+    <meta name="keywords" content="투어2000,투어 2000, 행복여행, 해외여행, 패키지여행, 자유여행, 홈쇼핑, 실시간항공권, 국내여행, 해외호텔, 제주여행, 제주, 국내, 유럽, 동남아, 홍콩, 일본, 중국, 미주, 소셜여행">
+    <meta name="subject" content="투어2000">
+    <meta name="description" content="가심비 높은 국내/해외여행 실시간 예약, 항공권예매! 당신을 위한 여행생각, 투어2000">
+    <meta name="copyright" content="tour2000 Co., Ltd. ⓒ All Rights Reserved.">
+    <meta name="robots" content="all">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="Shortcut Icon" href="//www.tour2000.co.kr/images/favicon.ico" />
+    <link rel="canonical" href="http://www.tour2000.co.kr" />
+    <title>투어2000</title>
+
+    <script src="/plugins/js/jquery-git.min.js"></script>
+
+    <!-- 부트스트랩 -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- 폰트 어썸 -->
+    <link rel="stylesheet" href="/plugins/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="/plugins/fontawesome-free-5.15.3-web/js/all.js">
+
+    <link rel="stylesheet" type="text/css" href="/plugins/XEIcon-master/xeicon.min.css">
+
+    <!-- 쿠키 -->
+    <script src="/js/.jquery.cookie.js"></script>
+
+    <!-- 이미지 슬라이드 -->
+    <link rel="stylesheet" href="/plugins/splide-2.4.21/dist/css/splide-core.min.css">
+    <script src="/plugins/splide-2.4.21/dist/js/splide.min.js"></script>
+
+    <link rel="stylesheet" href="/portfolio/homepage-renewal/01/swiper/swiper-bundle.min.css">
+    <script src="/portfolio/homepage-renewal/01/swiper/swiper-bundle.min.js"></script>
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="pc_main.css">
+</head>
+
+<body>
+
+  <div class="mainSection">
+		<!-- 회원가입 -->
+		<section class="sectionTop">
+
+			<div class="sectionBox mt30">
+				<div class="title">
+					<div class="text">투어2000 회원가입</div>
+				</div>
+				<div class="subText">
+					<div>고객님 환영합니다.</div>
+					<div>지금 회원가입 하신 후 다양한 서비스를 경험해 보세요.</div>
+				</div>
+			</div>
+
+			<!-- 약관동의 -->
+			<div class="stipulation">
+				<div class="sectionBox">
+					<div class="title">
+						<div class="miniText articles">약관동의</div>
+					</div>
+				</div>
+	
+				<div class="formBox">
+					<div class="TextComment mar20" id="agreeNum">
+						<div class="commentList m20">
+							<input type="checkbox" id="agree-all" name="agree-all" /><label for="agree-all" class="fz16">약관 전체 동의</label>
+							<div class="consent">이용약관, 개인정보 수집 및 이용, 개인정보 제3자 제공, 광고성 정보 수신동의 및 활용에 동의합니다.</div>
+						</div>
+
+							<!-- 이용약관-->
+							<div class="commentList padding short title1">
+								<div class="text short">
+									<input type="checkbox" id="agree-term" name="agree-term" data-null="not"  title="이용약관" /><label for="agree-term">[필수] 이용약관</label>
+								</div>
+								<div class="icon text" id="ml_btn1"><i class="fa fa-thin fa-angle-down arrow1 on"></i></div>
+							</div>
+							<div class="commentList-content1 on"  id="join1" >
+							</div>
+							<!-- 개인정보 수집 및 이용 안내 -->
+							<div class="commentList padding short title2">
+								<div class="text short">
+									<input type="checkbox" id="agree-term" name="agree-term" data-null="not"  title="개인정보 수집 및 이용에 대한 안내" /><label for="agree-term">[필수] 개인정보 수집 및 이용에 대한 안내</label>
+								</div>
+								<div class="icon text" id="reserPop3"><i class="fa fa-thin fa-angle-down arrow2"></i></div>
+							</div>
+							<div class="commentList-content2" id="join2" >
+							</div>
+							<!-- 개인정보 제3자 제공 동의 -->
+							<div class="commentList padding short title3">
+								<div class="text short">
+									<input type="checkbox" id="agree-term" name="agree-term" data-null="not"  title="개인정보의 제 3자 제공" /><label for="agree-term">[필수] 개인정보의 제3자 제공</label>
+								</div>
+								<div class="icon text" id="reserPop4"><i class="fa fa-thin fa-angle-down arrow3"></i></div>
+							</div>
+							<div class="commentList-content3" id="join3" >
+							</div>
+							<!-- 광고성 정보수신 동의 -->
+							<div class="commentList padding short title4">
+								<div class="text short">
+									<input type="hidden" name="marketingAgreeYn" id="marketingAgreeYn" value="N" />
+									<input type="checkbox"  id="marketingAgreeYnTemp" name="marketingAgreeYnTemp" title="개인정보 수집 및 이용에 대한 안내" value="Y" ><label for="marketingAgreeYnTemp">[선택] 광고성 정보 수신동의 및 활용</label>
+								</div>
+								<div class="icon text" id="joinBtn4"><i class="fa fa-thin fa-angle-down arrow4"></i></div>
+							</div>
+							<div class="commentList-content4" id="join4" style="width: 100%;">
+							</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 로그인 박스 -->
+			<div class="content">
+				<div class="sectionBox">
+					<div class="title">
+						<div class="miniText articles">본인인증</div>
+					</div>
+				</div>
+
+				<div class="formBox joining">
+		
+					<!-- 로그인 리스트 -->
+				  <div class="LoginList">
+						<!-- 일반회원가입 -->
+						<div class="catalog">
+							<div>
+								<img src="/portfolio/homepage-renewal/05/img/icon_12.png" alt="">
+								<div class="certification">휴대폰 본인인증을 진행해 주세요.</div>
+							</div>
+							<div class="buttonBox">
+								<a href="/portfolio/homepage-renewal/05/index2.html">
+									<input type="button" value="휴대폰 인증하기" id="loginButtons" />
+								</a>
+							</div>
+							<p>
+								본인 명의 휴대폰 번호로만 인증이 가능하며, 입력한 정보는 인증 이외의 용도로 이용,저장하지 않습니다. (만 14세 이상만 가입할 수 있습니다.)
+							</p>
+						</div>
+					</div>
+
+
+					<div class="snsLoginTitle">
+						<div>
+							<div class="snsLoginTextbold">이미 가지고 계신 SNS 계정이 있나요?</div>
+							<div class="snsLoginText">별도 회원가입 없이, 쉽게 로그인 해보세요!</div>
+						</div>
+						<div class="LoginList">
+							<!-- 간편로그인 -->
+							<div class="catalog">
+								<div class="buttonBox">
+									<a href="/portfolio/homepage-renewal/05/index4.html">
+										<div id="loginButtons" class="naver">
+											<img src="/portfolio/homepage-renewal/05/img/icon_14.png" /><div class="naverLogin">네이버 아이디로 로그인</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			
+			<!-- 상단으로 -->
+			<a href="#" type="button" class="on-scroll-top"><span class="blind"></span></a>
+
+		</section>
+	</div>
+
+
+</body>
+
+</html>
+
+
+
+<!-- 스크립트 -->
+<script>
+
+/* 상단으로 */
+$( document ).ready( function() {
+  $( window ).scroll( function() {
+    if ( $( this ).scrollTop() > 200 ) {
+      $( '.on-scroll-top' ).fadeIn();
+    } 
+    else {
+      $( '.on-scroll-top' ).fadeOut();
+    }
+    } );
+  $( '.on-scroll-top' ).click( function() {
+    $( 'html, body' ).animate( { scrollTop : 0 }, 600 );
+    return false;
+  } );
+});
+
+$(function() {
+  $('.commentList.padding.short.title1').click(function(){
+    $('.commentList-content1').toggleClass('on');
+    $('.fa.fa-thin.fa-angle-down.arrow1').toggleClass('on')
+
+  })
+})
+$(function() {
+  $('.commentList.padding.short.title2').click(function(){
+    $('.commentList-content2').toggleClass('on');
+    $('.fa.fa-thin.fa-angle-down.arrow2').toggleClass('on')
+  })
+})
+$(function() {
+  $('.commentList.padding.short.title3').click(function(){
+    $('.commentList-content3').toggleClass('on');
+    $('.fa.fa-thin.fa-angle-down.arrow3').toggleClass('on')
+  })
+})
+$(function() {
+  $('.commentList.padding.short.title4').click(function(){
+    $('.commentList-content4').toggleClass('on');
+    $('.fa.fa-thin.fa-angle-down.arrow4').toggleClass('on')
+  })
+})
+</script>
+
+<script>
+window.name ="Tour2000ParentWindow";
+var openWin;
+function fnPopupCheck(){
+  var frm = document.getElementById ("form_chk");
+  openWin = window.open('', 'popupChk', 'width=500, height=550, top=100, left=100, fullscreen=no, menubar=no, status=no, toolbar=no, titlebar=yes, location=no, scrollbar=no');
+  frm.action = "https://nice.checkplus.co.kr/CheckPlusSafeModel/checkplus.cb";
+  frm.target = "popupChk";
+  frm.submit();
+}
+
+var onReady = function(){
+  $("input[name='agree-all']").change(function(){
+    if( $( this ).is(':checked') == true ) {
+      $( ":checkbox[name^='agree-term']" ).each(function(){
+        $( this ).prop( "checked", true );
+      });
+      $("#marketingAgreeYnTemp").prop( "checked", true );
+    }else{
+      $( ":checkbox[name^='agree-term']" ).each(function(){
+        $( this ).prop( "checked", false );
+      });
+      $("#marketingAgreeYnTemp").prop( "checked", false );
+    }
+  });
+  
+  
+  $("#insertForm div.commentList.padding.short").click (function () {
+    var pos_idx = $(this).index();
+    if (pos_idx > 0) {
+      var $popup_box = $('.terms_agreementBox').eq(pos_idx - 1);
+      if ($popup_box.hasClass('on')) {
+        $popup_box.removeClass('on');
+        $('.front-body').css('overflow', 'scroll');
+      } else {
+        $popup_box.addClass('on');
+        $('.front-body').css('overflow', 'hidden');
+      }
+    }
+  });
+};
+
+$(document).ready(onReady);
+</script>
+
+<script type="text/javascript">
+  $(document).ready( function() {
+					$("#join1").load("/portfolio/homepage-renewal/05/stipulation/join1.html");
+          $("#join2").load("/portfolio/homepage-renewal/05/stipulation/join2.html");
+          $("#join3").load("/portfolio/homepage-renewal/05/stipulation/join3.html");
+          $("#join4").load("/portfolio/homepage-renewal/05/stipulation/join4.html");
+								}
+					);
+</script>
