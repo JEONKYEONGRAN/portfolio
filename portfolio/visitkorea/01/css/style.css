@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, div, span, ul, ol, li, dl, dt, dd, p, a, strong, table, tr, th, td, input, img, select, h1, h2, h3, h4, h5 { margin:0; padding:0; list-style:none; letter-spacing:0; word-wrap:break-word; border:none}
+body { width:100%; height:auto; background:#fff; color:#282828; font-size:18px;line-height:24px;letter-spacing:-1px;-webkit-text-size-adjust:none;}
+.vsb { visibility:visible !important}
+.uvsb { position:absolute; left:-1000%; top:0; width:1px; height:1px; font-size:0; line-height:0; overflow:hidden}
+a { text-decoration:none; color:#fff;}
+h2 {font-family: 'SUIT'; font-size:20px; text-align:center; line-height:40px; color:#fff; padding-bottom:4px; margin-bottom: 15px; border-bottom:1px solid rgb(255, 255, 255, .5)}
+h2:nth-child(4) {padding-top: 45px;}
+.pc {display: block;}
+.mo {display: none;}
+
+
+.introWrap {font-family:'NotoSansCJKkr'; width: 100%; margin: 0 auto; background:#f7f7f7; line-height:1.5em; position: relative; height: 100vh;}
+
+/* Top */
+.header {position: absolute; width: 100%; height: 85px; top: 0; left: 0; z-index: 2;}
+.header a {position:absolute;}
+.header a.vk {top:65px; left: 540px;}
+.header a.biKor {top:65px; left: 745px;}
+.header a.kto {top:55px; left: 959px;}
+.header a.vky {top:50px; right: 60px;}
+
+/* 이미지 롤링 */
+.swiper-slide img {width: 100%; height: 100vh; object-fit: cover;}
+
+/* 어권별 사이트 링크 */
+.introInr {position: relative;}
+.vkTit {position: absolute; top: 255px; right: 60px; z-index: 2;}
+.vkBox::-webkit-scrollbar {width: 10px;height: 6px;}
+.vkBox::-webkit-scrollbar-thumb {background: #000;}
+.vkBox::-webkit-scrollbar-track-piece {background: #00000000;}
+.conBox {position: absolute; bottom: 130px; left: 0; z-index: 2; width: 480px; background-color: #00000079; height: -webkit-fill-available; text-align: center; }
+.vkBox {max-height: calc(100vh - 230px); overflow: auto; padding: 50px 40px;}
+.vkBox li {padding: 15px 0;}
+.arrow {display: none;}
+.arrow > a {font-family: 'SUIT';}
+/* .arrow > a:hover {color: #ffd571;} */
+
+/* 푸터 */
+#footer {font-family: 'SUIT'; clear:both; color:#666; background:#222; font-size:14px; line-height:18px; padding: 35px 60px;     position: absolute; width: calc(100% - 120px); bottom: 0; z-index: 3; height: 60px;}
+#footer > div {display: inline-block;}
+#footer span {position: absolute; left: 213px; top: 25px;}
+.fotterBox {padding: 0 50px;}
+.fotterBox ul {display: flex; padding: 10px 0 5px;}
+.fotterBox ul li {padding: 0 17px; border-left: 1px solid #666;}
+.fotterBox ul li.fst {border-left: none; padding-left: 0px;}
+.fotterBox ul li a {color:#666;}
+.fotterBox ul li a strong {color: #d4d4d4; font-weight: 400;}
+.fotterBox address {font-style:normal;}
+
+/* 모바일 사이즈 */
+@media screen and (max-width: 1023px)  {
+	.pc {display: none;}
+	.mo {display: block;}
+
+	h2 {font-size: 18px; border-bottom: none; margin-bottom: 0; line-height: 1.5; font-weight: 500;}
+	h2:nth-child(4) {border-top: 1px solid #fff; padding-top: 30px; margin: 25px 20px 0;} 
+
+	/* Top */
+	.header a.vk {top:30px; left: 20px;}
+	.header a.biKor {top:30px; left: 105px;}
+	.header a.kto {top:30px; left: 200px;}
+	.header a.vky {top:22px; right: 20px;}
+
+	.header a img {background-size: cover;}
+	.header a.vk img {width: 80px; height: 12px;}
+	.header a.biKor img {width: 89px; height: 15px;}
+	.header a.kto img {width: 66px; height: 22px;}
+	.header a.vky img {width: 60px; height: 30px;}
+
+	/* 이미지 롤링 */
+	.swiper-slide img {height: 100vh; object-fit: cover;}
+	.vkTit {top: 88px; left: 20px;}
+	.vkTit img {width: 183px;}
+
+	/* 어권별 사이트 링크 */
+	.conBoxs {position: relative; background-color: #000000c9;}
+	.conBox {width: 100%; background-color: #000000b0; height: fit-content; bottom: 0px; position: absolute; margin: 0; padding-bottom: 5px;}
+	.vkBox {display: none; padding: 0 !important; max-height: calc(100vh - 110px);}
+	.vkBox.on {display: block;}
+	.vkBox ul {vertical-align: text-top; padding-top: 20px; padding-bottom: 35px; display: flex; flex-wrap: wrap;}
+	.vkBox li {padding: 4px 0; width: calc(100% / 2);}
+	.vkBox li a {font-size: 14px;}
+
+	.arrow {display: block; background-color: #000000b0; text-align: center; padding: 15px 0 20px; border-radius: 30px 30px 0px 0px; position: absolute; top: -80px; z-index: 1; width: 100%; color: #fff; height: 45px;}
+	.arrow img {display: none !important;}
+	.arrow img.on {display: block !important; position: absolute; top: 25px; right: 20px; width: 12px;}
+
+	/* 푸터 */
+	#footer {font-size: 12px; flex-wrap: wrap;  padding: 23px 20px; width: calc(100% - 40px); position: relative; height: fit-content;}
+	#footer span {width: 49%; left: 150px;}
+	.fotterBox {padding: 25px 0px 0;}
+	.fotterBox ul {flex-wrap: wrap; padding: 0;}
+	.fotterBox ul li {border-left: none;}
+	.fotterBox ul li:nth-child(2) {padding-right: 60px;}
+	.fotterBox ul li:nth-child(3) {padding-left: 0px;}
+}
