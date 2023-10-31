@@ -1,0 +1,240 @@
+@charset "utf-8";
+
+/*screenReader*/
+caption,.blind,.hidden,.ir{overflow:hidden;position:absolute;top:auto;left:-9999px;width:1px;height:1px;text-indent:-9999px;}
+body {margin: 0; padding: 0; letter-spacing: -0.5px;}
+
+.k-art {font-family: 'Poppins', 'NotoSansKR'; text-align:left; max-width: 1920px; margin: 0 auto; position: relative;}
+.inr {width: 1090px; margin:0 auto; position: relative;}
+.pc {display:block;}
+.mo {display:none;}
+ul {padding: 0; margin: 0;}
+
+/* headerBox */
+.headerBox {font-size: 0;}
+.headerBox > img {width: 100%;}
+.headerBox a {text-indent: -9999px; display: inline-block;}
+.logoBox a.logo_vk {background: url('../images/logo_vk.png') no-repeat; width: 165px; height: 26px; position: absolute; top: 50px; left: 50px;}
+.logoBox a.logo_vky {background: url('../images/logo_vky.png') no-repeat; width: 122px; height: 62px; position: absolute; top: 50px; right: 55px;}
+
+/* tabnav */
+.inrW {width: 1410px; margin: auto;}
+.tabnav {display: flex; list-style: none; height: 110px; align-items: flex-end;}
+.tabnav li {width: calc(100% / 5); text-align: center; position: relative; }
+.tabnav a::after {content: ''; position: absolute; top: 50%; right: -1px; width: 1px; height: 23px; background-color: #dadce0; transform: translateY(-50%); z-index: -1;}
+.tabnav a.on::after {display: none;}
+.tabnav li:last-child a:after {background: none;}
+.tabnav li a {color: #8b8a8a; text-decoration: none; font-size: 20px; line-height: 1.2; font-weight: 500; height: 100px; align-items: center; display: grid; position: relative;}
+.tabnav li a.on {border-radius: 20px 20px 0 0; color: #fff;font-weight: 800;}
+.tabnav li:first-child a.on {background-color: #5a508c;}
+.tabnav li:nth-child(2) a.on {background-color: #2e675b;}
+.tabnav li:nth-child(3) a.on {background-color: #33607e;}
+.tabnav li:nth-child(4) a.on {background-color: #a06238;}
+.tabnav li:last-child a.on {background-color: #a15c89;}
+
+/* tavcontent tab01 */
+#tab01 {background-color: #5a508c;}
+#tab01 .inr {text-align: center; padding-bottom: 60px;}
+#tab01 img {margin: auto;}
+#tab01 img.mb7 {margin-bottom: 7px;}
+.artcenterBox {display: flex;}
+.artcenterList {color: #fff; text-align: left; position: relative;}
+.artcenterList::after {content: 'Seoul'; position: absolute; top: 0; left: 0; background-color: #222; font-size: 20px; width: 90px; height: 40px; text-align: center; line-height: 40px;}
+.artcenterList:first-child {margin-right: 30px;}
+.artcenterList a {color: #fff; font-size: 28px; text-decoration: none;}
+.artcenterList a strong {font-weight: 700; display: block; position: relative;}
+.artcenterList a strong::after {content: ''; position: absolute; bottom: -7px; right: 0; background: url('../images/icon_arrow.png'); width: 30px; height: 13px; }
+.artcenterList p { border-top: 1px solid #fff; padding-top: 25px; font-size: 22px; margin-bottom: 0;}
+.mainStreet {background-color: #fff; padding: 50px 0 45px; margin-top: 50px;}
+.mainStreet.mt40 {margin-top: 40px; margin-bottom: 40px;}
+.mainStreet strong.mainStreetTit {font-size: 30px; font-weight: 800; color: #5a508c;}
+.mainStreet ul {display: flex; list-style: none; padding: 30px 50px 0;}
+.mainStreet ul li {font-size: 24px; text-align: left; margin-right: 30px;}
+.mainStreet ul li:last-child {margin-right: 0px;}
+.mainStreet ul li a {color: #000; text-decoration: none;}
+.mainStreet ul li a strong span {display: block; font-weight: 400;}
+#tab01 .inr.pt115 {padding-top: 115px; padding-bottom: 0;}
+.networkBox {background-color: #4c4184; padding: 115px 120px; text-align: left; position: relative;}
+.networkBox strong {font-size: 34px; color: #fff; display: block;}
+.networkBox strong span {color: #fffa83;}
+.networkBox a {position: relative; color: #fff; font-size: 20px; padding-right: 40px; text-decoration: none; border-bottom: 1px solid #fff;}
+.networkBox a::after {content: ''; position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: url(../images/icon_arrow.png); width: 30px; height: 13px;}
+.networkImg {position: absolute; top: -60px; right: 120px; font-size: 0;}
+
+/* tavcontent tab02 */
+#tab02 {background-color: #2e675b;}
+#tab02 .inr {text-align: center; padding-bottom: 60px;}
+#tab02 img {margin: auto;}
+#tab02 img.mb7 {margin-bottom: 7px;}
+.museumBox {display: flex; align-items: center;}
+.museumList {text-align: left; color: #fff; position: relative;}
+.museumList:first-child:after {content: 'Seoul'; position: absolute; top: 0; left: 0; background-color: #222; font-size: 20px; width: 90px; height: 40px; text-align: center; line-height: 40px;}
+.museumList:last-child {padding: 0px 30px;}
+.museumList img {display: block;}
+.museumList a {color: #fff; text-decoration: none; font-size: 28px; line-height: 1.3;}
+.museumList a.arrow strong {position: relative;}
+.museumList a.arrow strong::after {content: ''; position: absolute; top: 50%; right: 0; background: url('../images/icon_arrow.png'); width: 30px; height: 13px;}
+.museumList a strong span {font-weight: 400; display: block;}
+.museumList p {font-size: 22px; border-top: 1px solid #fff; line-height: 1.3; padding-top: 25px;}
+.mainStreet strong.mainStreetTit.tab02 {color: #2a5c4b;}
+.museumBox.pt50 {padding-top: 50px; border-top: 1px solid #1d4b42;}
+.museumBox.row {flex-direction: row-reverse;}
+.museumBox.row .museumList:first-child:after {content: 'Chungcheongbuk-do'; width: 250px;}
+.museumBox.row .museumList:last-child {padding-left: 0; width: 100%;}
+.museumBox:nth-child(7) .museumList:first-child:after {content: 'Gyeonggi-do'; width: 170px;}
+.museumBox:nth-child(9) .museumList:first-child:after {content: 'Seoul'; width: 90px;}
+
+/* tavcontent tab03 */
+#tab03 {background-color: #33607e;}
+#tab03 .inr {text-align: center; padding-bottom: 60px;}
+#tab03 img {margin: auto;}
+#tab03 img.mb7 {margin-bottom: 7px;}
+.mainStreet strong.mainStreetTit.tab03 {color: #33607e;}
+#tab03 .museumBox.row .museumList:first-child:after {content: 'Seoul'; width: 90px;}
+
+/* tavcontent tab04 */
+#tab04 {background: url('../images/area04_bg.jpg') no-repeat 50% 105%; background-color: #a06238;}
+#tab04 .inr {text-align: center; padding-bottom: 60px; font-size: 0;}
+#tab04 img {margin: auto;}
+.columnBox {text-align: left; font-size: 30px; font-weight: 700;}
+.columnBox a {color: #fff; text-decoration: none;}
+.columnBox a img {padding-bottom: 10px;}
+.columnBox a span {display: block; font-size: 24px; font-weight: 400;}
+.columnBox a strong {position: relative; padding-right: 55px; border-bottom: 2px solid #fff;}
+.columnBox a strong::after {content: ''; position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: url('../images/icon_arrow.png'); width: 30px; height: 13px;}
+.artFairs {list-style: none; display: flex; color: #fff; justify-content: space-between; margin-top: 40px;}
+.artFairs li {width: calc( (100% - 120px) / 3); position: relative; padding-bottom: 10px;}
+.artFairs li::after {content: ''; position: absolute; width: 1px; height: 100%; background-color: #7f4721; bottom: 0; right: -30px;}
+.artFairs li:last-child:after {display:none;}
+.artFairs li strong {font-size: 28px; line-height: 1.3; display: block;}
+.artFairs li p {font-size: 22px; margin: 25px 0; height: 168px; font-weight: 400;}
+.artFairs li a {font-size: 20px; position: relative; padding-right: 55px; border-bottom: 1px solid #fff; font-weight: 400;}
+.artFairs li a::after {content: ''; position: absolute; top: 50%; right: 0; transform: translateY(-50%); background: url('../images/icon_arrow.png'); width: 21px; height: 9px; background-size: cover;}
+.columnBox .p20 {padding: 20px 0;}
+
+/* tavcontent tab05 */
+#tab05 {background-color: #a15c89;}
+#tab05 .inr {text-align: center; padding: 60px 0;}
+.exhibitionsBox {background-color: #fff; text-align: left;}
+.exhibitionsList {border-bottom: 1px solid #a15c89; padding: 60px 60px 50px;}
+.exhibitions {display: flex; align-items: center;}
+.boxList:nth-child(2) {padding-left: 30px;}
+.boxList img {display: block;}
+.boxList strong {font-size: 32px; font-weight: 800;}
+.boxList ul {list-style: none; font-size: 22px; color: #8f8e8e; padding: 15px 0 30px;}
+.boxList ul li {position: relative; padding-left: 15px;}
+.boxList ul li::after {content: ''; position: absolute; width: 3px; height: 3px; background-color: #8f8e8e; border-radius: 50%; top: 17px; left: 0; transform: translateY(-80%);}
+.boxList a {color: #fff; font-weight: 700; font-size: 20px; text-decoration: none; background-color: #a15c89; border-radius: 23px; padding: 10px 65px 10px 20px; position: relative;}
+.boxList a::after {content: ''; position: absolute; top: 50%; right: 20px; transform: translateY(-50%); background: url('../images/icon_arrow.png'); width: 30px; height: 13px;}
+.exhibitionsList p {font-size: 22px; line-height: 1.3; margin: 30px 0 0;}
+.exhibitions.row {flex-direction: row-reverse;}
+.exhibitions.row .boxList:nth-child(2) {width: 100%; padding-left: 0;}
+
+/* helplineBox */
+.helplineBox {background-color: #fff; font-size: 0;}
+.inr.flex {display: flex; align-items: center;}
+.helplineBox p {font-size: 22px; font-weight: 500; align-items: center; display: flex;}
+
+/* footer */
+.footer {background-color: #4b4c5c; color: #7a7b8d; font-size: 22px;}
+
+@media screen and (max-width:1023px) {
+    .pc {display:none;}
+    .mo {display:block;}
+
+    .inr{width: auto; padding: 0 20px;}
+    img {width: 100%; display: block;}
+
+    /* headerBox */
+    .logoBox a.logo_vk, .logoBox a.logo_vky {display: none;}
+    .tab > .inr {padding: 0;}
+    .tabnav {flex-wrap: wrap;  line-height: 1; padding: 0; height: auto;}
+    .tabnav li {height: 60px;}
+    .tabnav li:nth-child(1) {width: 40%; border-bottom: 10px solid #f5f7f8;}
+    .tabnav li:nth-child(2) {width: 60%; border-bottom: 10px solid #f5f7f8;}
+    .tabnav li:nth-child(3), .tabnav li:nth-child(4), .tabnav li:nth-child(5) {width: 33.3%;}
+    .tabnav li a {font-size: 12px; height: 100%;}
+    .tabnav li a.on {border-radius: 0px;}
+    .tabnav li:nth-child(2) a::after, .tabnav li:nth-child(5) a::after {display: none;}
+
+    /* tabnav */
+    .inrW {width: auto;}
+
+    /* tavcontent tab01 */
+    #tab01 .inr {padding-bottom: 30px;}
+    .artcenterBox {flex-direction: column;}
+    .artcenterList:first-child {margin-right: 0px;}
+    .artcenterList::after {font-size: 13px; width: 55px; height: 25px; line-height:25px;}
+    .artcenterList a {font-size: 16px;}
+    .artcenterList p {font-size: 14px; padding-top: 15px; margin: 10px 0 30px;}
+    .mainStreet {padding: 20px 0; margin-top: 0;}
+    .mainStreet strong.mainStreetTit {font-size: 16px; display: block; line-height: 1.2;}
+    .mainStreet ul {padding: 15px 15px 0; flex-wrap: wrap;}
+    .mainStreet ul li {font-size: 13px;}
+    .mainStreet ul li:nth-child(1), .mainStreet ul li:nth-child(2) {width: 48%; margin-right: 0; margin-bottom: 15px;}
+    .mainStreet ul li:nth-child(1) {margin-right: 10px;}
+    .mainStreet ul li strong {display: block; line-height: 1.3;}
+    .artcenterList a strong::after {width: 15px; height: 7px; background-size: cover;}
+    .mainStreet img {padding-bottom: 10px;}
+    .artcenterList img {padding-bottom: 10px;}
+    #tab01 .inr.pt115 {padding: 100px 0 0 0;}
+    .networkBox {padding: 48vw 0 30px; text-align: center;}
+    .networkBox strong {font-size: 18px; line-height: 1.2;}
+    .networkBox a {font-size: 13px;}
+    .networkImg {top: -70px; right: 50%; transform: translateX(50%); width: 44%;}
+    .networkBox a::after {width: 15px; height: 7px; background-size: cover;}
+
+    /* tavcontent tab02 */
+    #tab02 .inr {padding-bottom: 30px;}
+    .museumBox {flex-direction: column;}
+    .museumBox.row {flex-direction: column;}
+    .museumList:last-child {padding: 10px 0 0; width: 100%;}
+    .museumList:first-child:after {font-size: 13px; width: 55px; height: 25px; line-height:25px;}
+    .museumList a {font-size: 16px;}
+    .museumList a strong {margin-top: 10px;}
+    .museumList p {font-size: 14px; margin: 15px 0 0; padding-top: 15px;}
+    .museumList a.arrow strong {display: block; width: 100%;}
+    .museumList a.arrow strong::after {width: 15px; height: 7px; background-size: cover;}
+    .mainStreet.mt40 {margin-top: 25px; margin-bottom: 30px;}
+    .museumBox.pt50 {padding-top: 30px;}
+    .museumBox.row .museumList:first-child:after {width: 157px;}
+    .museumBox:nth-child(7) .museumList:first-child:after {width: 105px;}
+    .museumBox:nth-child(9) .museumList:first-child:after {width: 55px;}
+
+    /* tavcontent tab03 */
+    #tab03 .inr {padding-bottom: 30px;}
+    #tab03 .museumBox.row .museumList:first-child:after {width: 55px;}
+
+    /* tavcontent tab04 */ 
+    #tab04 {background: url(../images/m_area04_bg.jpg) no-repeat 50% 83%; background-color: #a06238;}
+    .columnBox {font-size: 17px;}
+    .columnBox a strong {padding-right: 30px; border-bottom: 1px solid #fff;}
+    .columnBox a strong::after {width: 15px; height: 7px; background-size: cover; top: 80%;}
+    .columnBox a span {font-size: 14px; padding-bottom: 10px;}
+    .artFairs {flex-direction: column; margin-top: 17px;}
+    .artFairs li {width: 100%; padding: 20px 0;}
+    .artFairs li::after {width: 100%; height: 1px; bottom: 0px; right: 0;}
+    .artFairs li:first-child {padding-top: 0px;}
+    .artFairs li:last-child {padding-bottom: 0;}
+    .artFairs li strong {font-size: 16px;}
+    .artFairs li p {font-size: 14px; height: auto; margin: 15px 0;}
+    .artFairs li a {font-size: 13px; padding-right: 20px;}
+    .artFairs li a::after {width: 12px; height: 5px;}
+    .columnBox .p20 {padding: 10px 0;}
+    .columnBox.t50 a strong::after  {top: 50%;}
+
+   /* tavcontent tab05 */
+    #tab05 .inr {padding: 30px 10px;}
+    .exhibitions {align-items: flex-end;}
+    .exhibitions.start {align-items: flex-start;}
+    .boxList strong {font-size: 16px; padding-bottom: 10px;}
+    .boxList a {font-size: 12px; padding: 7px 37px 7px 12px;}
+    .boxList a::after {width: 15px; height: 7px; background-size: cover; right: 12px;}
+    .exhibitionsList {padding: 30px 15px;}
+    .exhibitionsList ul {font-size: 13px; list-style: none; color: #8f8e8e; padding: 20px 0;}
+    .exhibitionsList ul li {position: relative; padding-left: 10px;}
+    .exhibitionsList ul li::after {content: ''; position: absolute; width: 3px; height: 3px; background-color: #8f8e8e; border-radius: 50%; top: 11px; left: 0; transform: translateY(-80%);}
+    .exhibitions.row .boxList:last-child {padding-left: 0;}
+    .boxList:last-child {padding-left: 15px; display: flex; flex-direction: column; align-items: flex-start; width: -webkit-fill-available;}
+    .exhibitionsList p {font-size: 14px; margin: 0;}
+} 
