@@ -1,0 +1,384 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Vitro_core';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_core.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'twayair';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Binggrae-Two';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Beautiful Heart';
+  src: url('http://fonts.cdnfonts.com/css/beautiful-heart');
+}
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #545454;
+}
+.container {
+  font-family: 'GmarketSansMedium';
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  width: 100%;
+  font-size: 17px;
+}
+
+
+/* Section : Europe Main */
+.europeMain {
+  text-align: center;
+  position: relative;
+  margin-bottom: 0px;
+}
+.europeMain .europeImg > img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
+
+.europeTitle {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.europeTitle .titleMain {
+  font-family: 'Vitro_core';
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+.titleMain > img {
+  vertical-align: sub;
+}
+.titleMain span:first-child {
+  margin-right: -28px;
+}
+.titleMain span:last-child {
+  margin-left: -90px;
+}
+.europeTitle > span {
+  font-family: 'twayair';
+  font-size: 26px;
+}
+
+.mainContent {
+  background: linear-gradient( to top, #2c375e, #6d2959 );
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.mainContent-inner {
+  width: 1200px;
+  margin: auto;
+}
+.mainContent-inner .travel {
+  padding: 20px 0px 50px 0px;
+  font-size: 23px;
+  position: relative;
+}
+.mainContent-inner .travel:before {
+  content: '';
+  position: absolute;
+  top: 65px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+}
+.mainContent-inner .travel > b {
+  font-family: 'GmarketSansBold';
+}
+.mainContent-inner .guide {
+  display: inline-block;
+  width: 42%;
+  padding: 0px 0px 30px 0px;
+  text-align: left;
+}
+.mainContent-inner .guide > img {
+  float: left;
+  width: 12.5%;
+  margin-top: 10px;
+}
+.mainContent-inner .guideContent {
+  float: left;
+  width: 80%;
+  margin-left: 20px;
+}
+.guideContent > span {
+  font-size: 18px;
+}
+.mainContent-inner .guideContent > p {
+  font-family: 'GmarketSansLight';
+  margin: 8px 0px 0px 0px;
+  font-size: 16px;
+}
+.mainContent-inner .guideContent > p > span {
+  font-size: 12px;
+  display: block;
+  margin-top: 3px;
+}
+
+/* Section : west Europe */
+.westEurope {
+  background: url('/portfolio/special-exhibition/05/img/sub_01_01.png') no-repeat center center;
+  margin: 0;
+  height: 935px;
+  background-size: cover;
+}
+.westEuropeInner {
+  width: 1200px;
+  margin: auto;
+  color: #545454;
+  padding-top: 55px;
+}
+.westEurpTitle {
+  padding: 20px 0px;
+}
+.thumTitle {
+  padding-top: 25px;
+}
+p {
+  font-size: 18px;
+}
+h3 {
+  font-family: 'Binggrae-Two';
+  margin: 0px;
+  color: #014165;
+  font-size: 30px;
+}
+h3 > span {
+  font-family: 'Beautiful Heart';
+  color: #fff;
+  font-weight: normal;
+  margin-left: -15px;
+  font-size: 36px;
+  opacity: 50%;
+}
+h3 > span.gray {
+  color: #979797;
+}
+
+.thum .thumTitle > span {
+  color: #014165;
+  font-family: 'yg-jalnan';
+  vertical-align: super;
+  font-size: 20px;
+}
+.thumImg {
+  padding: 20px 0px 50px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.thumImg.gray {
+  border-bottom: 1px solid #979797;
+}
+.thumImg .thumImgList {
+  display: inline-block;
+  margin-right: 5px;
+}
+.thumImg .thumImgList > img {
+  display: block;
+  margin-bottom: 5px;
+}
+.thumImg .thumImgList > span {
+  font-size: 15px;
+}
+
+.commodity > h4 {
+  color: #014165;
+  font-family: 'yg-jalnan';
+  font-size: 22px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.commodityImg .commodityList {
+  display: inline-block;
+  padding: 0px 0px 30px 0px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.commodityImg .commodityList > a > img {
+  display: block;
+  margin-bottom: 10px;
+}
+.commodityImg .commodityList > a > img:hover {
+  animation: scale 0.9s infinite ease-in-out alternate;
+}
+.commodityImg .commodityList > a > span {
+  font-size: 17px;
+}
+.commodityImg .commodityList > a > div {
+  font-family: 'GmarketSansBold';
+  font-size: 19px;
+}
+.commodityImg .commodityList:hover {
+  text-decoration: underline;
+}
+
+/* Eastern Europe */
+.easternEurope {
+  background: url('/portfolio/special-exhibition/05/img/sub_02_01.png') no-repeat center center;
+  margin: 0;
+  height: 935px;
+  background-size: cover;
+}
+.easternEuropeInner {
+  width: 1200px;
+  margin: auto;
+  color: #fff;
+  padding-top: 55px;
+}
+.easternEuropeTitle {
+  padding: 20px 0px;
+}
+.easternEuropeTitle > h3 > span {
+  color: #fff;
+  margin-left: -25px !important;
+  font-size: 40px;
+}
+
+.easternEuropeInner > .thumImg {
+  border-bottom: 1px solid #8dafbf;
+}
+
+/* Section : Mediterranean Sea */
+.Mediterranean {
+  background: url('/portfolio/special-exhibition/05/img/sub_03_01.png') no-repeat center center;
+  margin: 0;
+  height: 937px;
+  background-size: cover;
+}
+.MediterraneanInner {
+  width: 1200px;
+  margin: auto;
+  padding-top: 80px;
+  color: #545454;
+}
+.MediterraneanTitle {
+  padding: 20px 0px;
+}
+.northEuropeTitle {
+  padding: 20px 0px;
+}
+.slick-prev, .slick-next {
+  background-color: rgba(0, 0, 0, 0.747);
+  color: #fff;
+  padding: 20px;
+  z-index: 999999;
+  top: 37%;
+}
+.slick-prev {
+  left: 0;
+}
+.slick-next {
+  right: 10px;
+}
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+  opacity: 1;
+}
+.slick-prev:before {
+  left: 10px;
+  content: '\e93b';
+  font-family: 'xeicon';
+  line-height: 0;
+  position: absolute;
+}
+.slick-prev:before, .slick-next:before {
+  opacity: 1;
+}
+.slick-next:before {
+  right: 7px;
+  content: '\e93e';
+  font-family: 'xeicon';
+  line-height: 0;
+  position: absolute;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.747);
+}
+
+/* Section : Spain Portugal */
+.Spain {
+  background: url('/portfolio/special-exhibition/05/img/sub_04_01.png') no-repeat center center;
+  margin: 0;
+  height: 935px;
+  background-size: cover;
+}
+.SpainInner {
+  width: 1200px;
+  margin: auto;
+  padding-top: 80px;
+  color: #fff;
+}
+.SpainTitle {
+  padding: 20px 0px;
+}
+.white {
+  color: #fff !important;
+}
+
+/* Section : North Europe */
+.northEurope {
+  background: url('/portfolio/special-exhibition/05/img/sub_05_01.png') no-repeat center center;
+  margin: 0;
+  height: 935px;
+  background-size: cover;
+}
+.northEuropeInner {
+  width: 1200px;
+  margin: auto;
+  padding-top: 64px;
+  color: #545454;
+}
+
+
+@keyframes scale{
+  from{
+    transform: translatey(0px);
+  }
+  to{
+    transform: scale( 1.1, 1.1 );
+  }
+}
