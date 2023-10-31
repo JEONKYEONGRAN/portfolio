@@ -1,0 +1,378 @@
+@charset "utf-8";
+
+/* font */
+@import url("./font.css");
+
+
+/*screenReader*/
+caption,.blind,.hidden,.ir{overflow:hidden;position:absolute;top:auto;left:-9999px;width:1px;height:1px;text-indent:-9999px;}
+body {margin: 0; padding: 0;}
+
+.sktTelecom {font-family: 'Poppins'; text-align:left; max-width: 1920px; margin: 0 auto; position: relative;}
+.inr{width: 1000px; margin:0 auto; position: relative;}
+.pc {display:block;}
+.mo {display:none;}
+
+/* 타이틀 */
+.headerBox > img {width: 100%;}
+.headerBox a {text-indent: -9999px; display: inline-block;}
+.logoBox a.logo_vk {background: url('../images/logo_vk.png') no-repeat; width: 165px; height: 26px; position: absolute; top: 75px; left: 70px;}
+.logoBox a.logo_sk {background: url('../images/logo_sk.png') no-repeat; width: 153px; height: 60px; position: absolute; top: 42px; left: 270px;}
+.lang {position: absolute; top: 65px; right: 70px; border: 2px solid #fff; border-radius: 8px; box-shadow: 0px 5px 5px #0000002a}
+.lang div {width: 114px; padding: 12px 18px;}
+.lang a {text-indent: 1px; color: #fff; text-decoration: none; font-size: 22px;}
+.lang a::after {content: ''; position: absolute; top: 23px; right: 16px; background: url('../images/icon_down.png') no-repeat; width: 15px; height: 8px;}
+.lang  a.on::after {transform: rotate( 180deg )}
+.langBox {display: none; padding: 0; margin: 0;}
+.langBox.on {display: block;}
+.langBox li {list-style: none; width: 114px; padding: 12px 18px;}
+.langBox li a:hover, .lang  a:hover {color: #fffaae}
+
+/* tab */
+.wellcome, .departure {background-color: #ffe5cc;}
+.tab {width: 1240px; margin: auto; position: relative; top: -70px;}
+.tabnav {padding: 0; margin: 0; font-size: 0;}
+.tabnav li {list-style: none; display: inline-block; width: 50%; font-size: 30px; background-color: #d4e2ff; text-align: center; 
+    border-radius: 20px 20px 0px 0px; height: 150px; position: relative;}
+.tabnav li.on {background-color: #548cff;}
+.tabnav li a {font-family: 'SBAggroM'; color: #a3b9e8; text-decoration: none; position: absolute; font-weight: 700; bottom: 30px; left: 50%; transform: translateX(-50%); padding-top: 60px; width: 100%; letter-spacing: 1px;}
+.tabnav li a::after {content:''; background: url('../images/icon_leaving.png') no-repeat; width: 46px; height: 44px; bottom: 45px; position: absolute; left: 50%; transform: translateX(-50%);}
+.tabnav li a.on {color: #fff;}
+.tabnav li a.on::after {background: url('../images/icon_arrival.png') no-repeat;}
+.tabnav li a.ons::after {background: url('../images/icon_arrival2.png') no-repeat;}
+.tabnav li.active {background-color: #3d6ac1;}
+.tabnav li a.active {color: #fff;}
+.tabnav li a.active::after {background: url('../images/icon_leaving2.png') no-repeat;}
+.tabcontent {background-color: #fff; text-align: center;}
+
+h2 {font-family: 'SBAggroM'; font-size: 40px; font-weight: 700; margin: 0 0 50px;}
+.couponBox {text-align: left; margin: auto; padding: 0; font-size: 25px; list-style: none; line-height: 1.5;}
+.couponBox li {position: relative; padding-left: 15px;}
+.couponBox li::after {content:''; position: absolute; width: 6px; height: 6px; background-color: #548cff; top: 16px; left: 0; border-radius: 50%;}
+.couponBox li strong {color: #548cff;}
+.couponBox li strong.black {color: black}
+.couponBox li span {text-decoration: underline;}
+.bubble {position: absolute; top: 385px; left: -50px;}
+
+.sktStores {text-align: left; margin: auto; padding: 50px 0px 60px;}
+.sktStores button {font-family: 'SBAggroM'; color: #000; font-size: 26px; text-decoration: underline;  text-underline-position: under; border: none; background: none; cursor: pointer;}
+
+.btn {font-family: 'SBAggroM'; position: relative; font-size: 28px; color: #fff; text-decoration: none; background-color: #548cff; border-radius: 15px; display: inline-block; padding: 20px 75px 20px 35px; font-weight: 700; box-shadow: 0px 5px #376ddb; margin-bottom: 60px; text-align: left; width: 415px; cursor: pointer; line-height: 1.2; letter-spacing: 1px;}
+.btn.h85 {height: 45px; display: flex; align-items: center; margin: 0 auto 60px;}
+.btn::after {content: ''; position: absolute; top: 51%; right: 30px; transform: translateY(-50%); background: url('../images/icon_arrow.png'); width: 15px; height: 26px;}
+.btn.skyblue {color: #7792c3; background-color: #dde9ff; box-shadow: 0px 5px #a8bee7; margin-bottom: 25px;}
+.btn.skyblue::after {background: url('../images/icon_arrow2.png');}
+
+h3 {font-family: 'SBAggroM'; font-size: 40px; font-weight: 700; padding: 60px 0 30px; margin: 0; border-top: 1px solid #bdd0f4;}
+.fontPop {font-size: 25px; text-align: left; line-height: 1.4;}
+.mb60 {padding-bottom: 60px;}
+
+.cautionBox {color: #af8359; line-height: 1.5;}
+.cautionTit {font-family: 'SBAggroM'; position: relative; font-size: 26px; font-weight: 700; padding-left: 45px; margin: 60px 0 25px;}
+.cautionTit::after {content: ''; position: absolute; background: url('../images/icon_caution.png'); width: 37px; height: 34px; top: 45%; left: 0; transform: translateY(-50%);}
+.cautionList li {position: relative; padding-left: 30px;}
+.cautionList li::after {content: '1.'; position: absolute; top: 0; left: 0;}
+.cautionList li:nth-child(2)::after {content: '2.';}
+.cautionList li:nth-child(3)::after {content: '3.';}
+.cautionList li:nth-child(4)::after {content: '4.';}
+.cautionList {list-style: none; margin: 0; padding: 0; font-size: 22px; margin-bottom: 35px;}
+.usimBox {border: 1px solid #af8359; padding: 55px 45px;}
+.usimBox strong {font-size: 24px;}
+.usimBox ul {list-style: none; padding: 0; font-size: 22px; margin-bottom: 0;}
+.usimBox li {position: relative; padding-left: 20px;}
+.usimBox li::after {content: '1.'; position: absolute; top: 0; left: 0;}
+.usimBox li:nth-child(2)::after {content: '2.';}
+.usimBox li:nth-child(3)::after {content: '3.';}
+.usimBox li:nth-child(4)::after {content: '4.';}
+.usimBox li:nth-child(5)::after {content: '5.';}
+
+.helplineBox {background-color: #fff; font-size: 0;}
+.inr.w1240 {width: 1240px; display: flex;}
+.helplineBox p {font-size: 22px;font-weight: 500; align-items: center; display: flex;}
+
+.footer img {width: 100%;}
+
+.couponBox.deepBlue {margin-bottom: 50px;}
+.couponBox.deepBlue li::after {background-color: #3d6ac1;}
+.couponBox.deepBlue li strong {color: #3d6ac1;}
+.btn.deepBlue {background-color: #3d6ac1; box-shadow: 0px 5px #254e9f;}
+
+/* Popup */
+#popup_mask {position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; display: none;  background-color:#000; opacity: 0.5;}
+#popupDiv {display: none; position: absolute; left: 50% !important; transform: translateX(-50%); background: #fff; width: 900px; border-radius: 15px; max-height: 85vh; overflow: auto; -webkit-overflow-scrolling: none; overscroll-behavior: none;}
+.pupTit {background-color: #ff9b38; padding: 0 30px; height: 70px; display: flex; align-items: center; position:sticky; top:0; left:0; right: 0;}
+#popCloseBtn {position: absolute; background: none; border: none; right: 25px; top: 25px; cursor: pointer;}
+#popCloseBtn::after {content: ''; position: absolute; background: url('../images/icon_close.png') no-repeat; width: 25px; height: 25px; top: 0; right: 0;}
+.pupContent {text-align: center; padding: 40px 80px;}
+.pupContent strong {font-family: 'SBAggroM';font-size: 26px; border-bottom: 1px solid #000;}
+.pupContent table {border-collapse: collapse; width: 100%; margin-top: 25px; border: 1px solid #bfd1f3;}
+.pupContent table th {color: #5470a4; font-size: 20px; border: 1px solid #bfd1f3; background-color: #e0ebff; padding: 15px 0;}
+.pupContent table td {padding: 15px 0; border-right: 1px solid #bfd1f3; border-bottom: 1px solid #bfd1f3;}
+.pupContent table td.bdl {border-left: 1px solid #bfd1f3;}
+.w130 {width: 130px;}
+
+/* 설문조사 */
+.surveyBox {font-family: 'Poppins'; background-color: #ffe5cc; padding: 115px 0; line-height: 1.2;}
+.survey {width: 900px; background-color: #fff; margin: auto; border-radius: 15px; overflow: hidden; }
+.surveyTit {font-family: 'SBAggroM';background-color: #ff9b38; text-align: center; padding: 35px 0;}
+.surveyTit div {font-weight: 700; font-size: 30px; color: #fff; line-height: 1.2;}
+.surveyTit div strong {color: #fffaae;}
+
+.surveyContent {width: 740px; margin: auto;}
+.questionTit {text-align: center; padding: 40px 0; border-bottom: 1px solid #e5e5e5;}
+.questionTit h4 {font-family: 'SBAggroM';text-align: center; text-decoration: underline; text-underline-position: under; text-decoration-thickness: from-font; font-size: 26px; padding: 0; margin: 0;}
+.questionTit p {font-family: 'Poppins'; font-size: 18px; margin-bottom: 0px;}
+.vital {color: #ff7f00; font-size: 16px; padding: 20px 0; text-align: right;}
+.star {position: relative;}
+.star::before {content: '*'; color: #ff7f00; position: absolute; top: 0; left: -15px;}
+.textBox {margin-bottom: 40px;}
+.textBox .textTit {font-size: 22px; font-weight: 700;}
+.questionText {border-bottom: 1px solid #dbdbdb;}
+.questionText input {width: 70%; color: #999999; font-size: 18px; height: 45px; margin-top: 20px; background-color: #f4f4f4; border: 1px solid #f4f4f4; outline: none; padding: 0 10px;}
+.questionText input:focus{border: 1px solid #ff9b38; outline: none;}
+.checkList {padding: 10px 0; position: relative;}
+.checkList:nth-child(2) {padding: 20px 0 10px;}
+.textBox.check label {font-size: 20px; margin-right: 10px;}
+.textBox.check input {height: auto; width: auto; font-size: 18px; margin: 0px;}
+.textBox.check input[type="text"] {display: none; padding: 10px; position: absolute; top: -1px;}
+.otherList1.on, .otherList2.on, .otherList3.on {display: inline-block !important;}
+.textBox.check input[type="checkbox"] {display: none;}
+.textBox.check input[type=checkbox] + label {display: inline-block; cursor: pointer; line-height: 22px; padding-left: 35px; background: url('../images/icon_check.png') left/22px no-repeat;}
+.textBox.check input[type=checkbox]:checked + label { background-image: url('../images/icon_check2.png'); }
+.textBox.check input[type="radio"] {display: none;}
+.textBox.check input[type=radio] + label {display: inline-block; cursor: pointer; line-height: 22px; padding-left: 35px; background: url('../images/icon_radio.png') left/22px no-repeat;}
+.textBox.check input[type=radio]:checked + label { background-image: url('../images/icon_radio2.png'); }
+.checkeds {display: none; border: 1px solid #dbdbdb; padding: 40px 30px 0; margin-bottom: 40px;}
+.checkeds.on {display: block;}
+.checkeds2 {display: none; border: 1px solid #dbdbdb; padding: 40px 30px 0; margin-bottom: 40px; font-size: 18px; line-height: 1.3;}
+.checkeds2.on {display: block;}
+.noticeBox {padding: 35px 0 50px; text-align: center; font-size: 18px;}
+.noticeBox p {margin-top: 0;}
+.noticeBox span {background-color: #fef2b6;}
+.noticeBtn {margin-top: 45px;}
+.noticeBtn a {font-family: 'SBAggroM';font-weight: 700; font-size: 25px; color: #fff; background-color: #ff9b38; padding: 15px 55px; text-decoration: none; border-radius: 10px;}
+
+ /* 달력 팝업 */
+ #popupDiv.calendarBox {width: 600px; max-height: 80vh; overflow-x: hidden; overflow-y: auto;}
+.pupTit.white {background-color: #fff; height: auto;}
+.pupTit.white #popCloseBtn::after {background: url('../images/icon_close2.png') no-repeat;}
+.pupContent.white {padding: 50px 75px 30px;}
+.pupContent.white strong {color: #ff7f00; border: none; line-height: 1.2;}
+.pupContent.white .contTit {border-bottom: 1px solid #d1d1d1; padding-bottom: 30px;}
+.pupContent.white table.calendar {font-family: 'Poppins'; margin-top: 0px; border: none;}
+.pupContent table.calendar th {border: none; background-color: transparent; color: #000; font-size: 18px;}
+.pupContent table.calendar td {position: relative; border: none; font-size: 18px; cursor: pointer; width: calc(100% / 7); height: 34px;}
+
+.pupContent table.calendar td::before {content: ''; width: 40px; height: 40px; position: absolute; border-radius: 50%; z-index: -1; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.pupContent table.calendar td.on::before {background-color: #ff9125;}
+
+.pupContent table.calendar td.gray {color: #999;}
+.pupContent table.calendar td.on {color: #fff;}
+.pupContent table.calendar td.on::after {content: ''; position: absolute; background-color: #f4f4f4; width: 50px; border-radius: 22px 0 0 22px; height: 40px; top: 50%; left: 60%; transform: translate(-50%, -50%); z-index: -2;} 
+.pupContent table.calendar td.active::after {content: ''; position: absolute; background-color: #f4f4f4; width: 50px; border-radius: 0 22px 22px 0; height: 40px; top: 50%; left: 19px; transform: translate(-50%, -50%); z-index: -2;} 
+
+.pupContent table.calendar td.term::before {background-color: #f4f4f4; border-radius: 0; width: 100%;}
+
+.day {font-family: 'Poppins'; font-weight: 700; font-size: 24px; margin: 40px 0; position: relative;}
+/* .day::after {content:''; position: absolute; background: url('../images/icon_arrow4.png'); width: 10px; height: 17px; top: 49%; right: 32%; transform: translate(-50%, -50%); cursor: pointer;}
+.day::before {content:''; position: absolute; background: url('../images/icon_arrow3.png'); width: 10px; height: 17px; top: 49%; left: 35%; transform: translate(-50%, -50%); cursor: pointer;} */
+.dayBtn {border: none; background-color: #ff9b38; color: #fff; font-size: 25px; font-weight: 700; border-radius: 10px; padding: 10px 55px; margin-top: 30px; cursor: pointer;}
+
+
+/* 쿠폰 다운로드 */
+.couponDownload {font-family: 'Poppins'; background-color: #ffe5cc; padding: 115px 0;}
+.downloadBox {background-color: #ff9b38; width: 900px; margin: auto; border-radius: 15px; position: relative;}
+.downloadBox::before {content: ''; position: absolute; background: url('../images/ribbon1.png'); width: 195px; height: 202px; top: -40px; left: -49px;}
+.downloadBox::after {content: ''; position: absolute; background: url('../images/ribbon2.png'); width: 219px; height: 159px; bottom: -45px; right: -39px;}
+.downloadTit {font-family: 'SBAggroM';text-align: center; font-weight: 700; font-size: 30px; color: #fffaae; padding: 35px 0 30px; position: relative;}
+.downloadTit::before {content: ''; position: absolute; top: 51%; left: 37%; transform: translate(-50%, -50%); background: url('../images/icon_star.png'); width: 27px; height: 27px;}
+.downloadTit::after {content: ''; position: absolute; top: 51%; right: 34%; transform: translate(-50%, -50%); background: url('../images/icon_star.png'); width: 27px; height: 27px;}
+.downloadText {width: 640px; margin: auto; background-color: #fff; border-radius: 20px; text-align: center;padding: 35px 50px;}
+.coupon1 {border-bottom: 1px dashed #ffb66d; padding-bottom: 35px; position: relative;}
+.coupon1::before {content: ''; position: absolute; width: 40px; height: 40px; background-color: #ff9b38; bottom: -20px; left: -70px; border-radius: 50%;}
+.coupon1::after {content: ''; position: absolute; width: 40px; height: 40px; background-color: #ff9b38; bottom: -20px; right: -70px; border-radius: 50%;}
+.coupon1 strong {font-size: 24px; font-weight: 500;}
+.coupon1 div {font-size: 26px; text-decoration: underline; text-underline-position: under; text-decoration-thickness: from-font; margin: 25px 0 0px; font-weight: 700;}
+.coupon1 p {margin: 0; font-size: 18px;}
+.coupon2 {padding: 30px 0; border-bottom: 1px dashed #ffb66d; position: relative;}
+.coupon2::before {content: ''; position: absolute; width: 40px; height: 40px; background-color: #ff9b38; bottom: -20px; left: -70px; border-radius: 50%;}
+.coupon2::after {content: ''; position: absolute; width: 40px; height: 40px; background-color: #ff9b38; bottom: -20px; right: -70px; border-radius: 50%;}
+.coupon2 img {display: block; margin: auto; margin-bottom: 30px;}
+.coupon2 img:nth-child(2) {display: none;}
+.coupon2 span {font-size: 26px; background: linear-gradient(to top, #fffaae 68%, transparent 0 );}
+.coupon2 .bayBox {margin: 25px 0 35px; font-size: 22px;}
+.coupon2 .bayBox div {display: inline-block; background-color: #ff9b38; color: #fff; padding: 10px 30px; border-radius: 23px;}
+.coupon2 p {margin: 0; padding-left: 30px; font-size: 22px; text-align: left; position: relative;}
+.coupon2 p::before {content: ''; position: absolute; background: url('../images/icon_check3.png'); width: 19px; height: 16px; top: 10px; left: 0;}
+.coupon2 p:last-child {margin-top: 40px;}
+.coupon3 {text-align: left; color: #666; margin: 35px 0 15px;}
+.adviceTit {padding-left: 30px; position: relative; font-size: 18px; margin-bottom: 15px; font-weight: 500;}
+.adviceTit::before {content: ''; position: absolute; background: url('../images/icon_caution2.png'); width: 22px; height: 20px; top: 50%; left: 0; transform: translateY(-50%);}
+.adviceText {margin: 0; list-style: none; font-size: 18px; padding: 0;}
+.adviceText li {margin-bottom: 5px; position: relative; padding-left: 15px;}
+.adviceText li::before {content: ''; position: absolute; width: 5px; height: 5px; border-radius: 50%; top: 12px; left: 0; background-color: #666;}
+.eusimBoxs {margin-top: 35px; padding: 30px; background-color: #f4f4f4;}
+.eusimBoxs strong {font-size: 20px;}
+.eusimBoxs ul {padding: 0; margin: 0; list-style: none; font-size: 18px; margin-top: 15px;}
+.eusimBoxs li {line-height: 1.3; padding-left: 15px; position: relative;}
+.eusimBoxs li::before {content: '1.'; position: absolute; top: 0.5px; left: 0;}
+.eusimBoxs li:nth-child(2):before {content: '2.';}
+.eusimBoxs li:nth-child(3):before {content: '3.';}
+.eusimBoxs li:nth-child(4):before {content: '4.';}
+.eusimBoxs li:nth-child(5):before {content: '5.';}
+.downloadBtn {width: 740px; margin: auto; padding: 30px 0 40px; text-align: center;}
+.btnBox {display: flex;}
+.btnBox a {font-family: 'SBAggroM';width: 360px; padding: 17px 25px; font-size: 20px; text-decoration: none; border-radius: 15px; text-align: left; font-weight: 700;}
+.btnBox a:first-child {color: #7792c3; background-color: #dde9ff; margin-right: 20px; position: relative; box-shadow: 0px 5px #a8bee7; align-items: center; display: flex;}
+.btnBox a:first-child::after {content: ''; position: absolute; top: 50%; right: 20px; transform: translateY(-50%); background: url('../images/icon_arrow5.png'); width: 11px; height: 19px;}
+.btnBox a:last-child {color: #ed8a26; background-color: #ffe5cc; position: relative; box-shadow: 0px 5px #f2bb86;}
+.btnBox a:last-child::after {content: ''; position: absolute; top: 50%; right: 20px; transform: translateY(-50%); background: url('../images/icon_arrow6.png'); width: 11px; height: 19px;}
+.downloadBtn div {font-size: 18px; color: #af6011; margin-top: 30px;}
+
+@media screen and (max-width:640px) {
+    .pc {display:none;}
+    .mo {display:block;}
+
+    .inr{width: auto; padding: 0 20px;}
+    img {width: 100%;}
+
+    .logoBox a.logo_vk {display: none;}
+    .logoBox a.logo_sk {display: none;}
+    .lang {top: 15px; right: 20px; border-radius: 7px; background-color: #ff9b38;}
+    .lang div, .langBox li {width: 75px; padding: 10px 15px;}
+    .lang a {font-size: 15px; }
+    .lang a::after {width: 8px; height: 4px; background-size: cover; top: 18px; right: 10px;}
+    
+    .tab {width: auto; padding: 0 20px; margin-bottom: -37px; top: -57px;}
+    .tabnav li {font-size: 14px; height: 90px;}
+    .tabnav li a {bottom: 12px;}
+    .tabnav li a.ons::after {height: 22px;}
+    .area1Tit {color: #548cff; font-size: 18px; background-color: #fff2b7; display: inline-block;}
+    h2 {font-size: 19px; margin: 0px 0 20px;}
+    .couponBox {font-size: 14px;}
+    .couponBox li {padding-left: 10px;}
+    .couponBox li::after {width: 5px; height: 5px; top: 9px;}
+    .sktStores {padding: 15px 0 25px;}
+    .sktStores button {font-size: 13px; text-align: left; line-height: 1.5;}
+    .btn {font-size: 13px; margin-bottom: 30px; padding: 12px 17px; width: 80%; line-height: 1.5; border-radius: 7px;}
+    .btn::after {right: 15px; width: 7px; height: 12px; background-size: cover !important;}
+    .btn.h85 {height: 30px; margin: 0 auto 25px;}
+    h3 {font-size: 20px; padding: 30px 0 5px; border-top: 2px solid #bcd0f4;}
+    .fontPop {font-size: 14px;}
+    .inr.w1240 {width: auto;}
+    .mb60 {padding-bottom: 30px;}
+
+    .cautionTit {margin: 30px 0px 10px; font-size: 13px; padding-left: 23px;}
+    .cautionTit::after {width: 19px; height: 17px; background-size: cover;}
+    .cautionList {font-size: 12px; margin-bottom: 0px;}
+    .cautionList li {position: relative; padding-left: 10px;}
+
+
+    .usimBox {padding: 25px 20px; margin-top: 20px;}
+    .usimBox strong {font-size: 13px;}
+    .usimBox ul {font-size: 12px;}
+    .usimBox li {position: relative; padding-left: 10px;}
+    
+
+    .helplineBox p {font-size: 11px;}
+
+    .tabnav li a.on::after {width: 20px; height: 20px; background-size: cover !important;}
+    .tabnav li a::after {width: 23px; height: 20px; background-size: cover !important;}
+
+    .couponBox.deepBlue {margin-bottom: 25px;}
+
+    /* Popup */
+    #popupDiv {width: 90%; max-height: 80vh;}
+    .pupTit {height: 40px;}
+    .pupTit > img {max-width: 70px;}
+    #popCloseBtn {top: 15px; right: 15px;}
+    #popCloseBtn::after {width: 15px; height: 15px; background-size: cover;}
+    .pupContent {padding: 15px;}
+    .pupContent strong {font-size: 15px;}
+    .pupContent table th {font-size: 10px;}
+    .pupContent table td {font-size: 10px; padding: 7px 0;}
+    .w130 {width: 22px;}
+
+    /* 설문조사 */
+    .surveyBox {padding: 30px 20px;}
+    .survey {width: 100%;}
+    .surveyTit {padding: 15px 0;}
+    .surveyTit > img {width: 40%;}
+    .surveyTit div strong {display: block;}
+    .surveyTit div {font-size: 18px;}
+    .surveyContent {width: 100%;}
+    .questionTit {padding: 25px 0px; margin: 0px 15px;}
+    .questionTit h4 {font-size: 15px;}
+    .questionTit p {font-size: 13px;}
+    .vital {padding: 15px; font-size: 11px;}
+    .questionText {margin: 0 15px;}
+    .textBox .textTit {padding-left: 15px; font-size: 13px;}
+    .star::before {left: 0;}
+    .questionText input {font-size: 12px; height: 30px; margin-top: 15px; padding: 0 10px; width: 92%;}
+    .textBox {margin-bottom: 25px; font-size: 13px;}
+    .textBox.check input[type=checkbox] + label {font-size: 12px; line-height: 15px; padding-left: 25px; background: url(../images/icon_check.png) left/15px no-repeat;}
+    .textBox.check input {font-size: 12px;}
+    .textBox.check label {font-size: 12px;}
+    .textBox.check input[type=radio] + label {line-height: 15px; padding-left: 25px; background: url(../images/icon_radio.png) left/15px no-repeat;}
+    .checkList {padding: 3px 0;}
+    .checkList:nth-child(2) {padding: 15px 0 3px;}
+    .textBox .textTit.pl0 {padding-left: 0px;}
+    .textBox.check input.otherList1.on, .textBox.check input.otherList2.on, .textBox.check input.otherList3.on {display: block !important; width: 93%; margin-top: 10px; position: relative;}
+    .noticeBox {font-size: 12px;}
+    .noticeBox {padding: 15px 15px 30px;}
+    .noticeBtn {margin-top: 20px;}
+    .noticeBtn a {font-size: 16px; padding: 10px 35px;}
+    .checkeds2 {padding: 20px 15px 0; margin-bottom: 20px;}
+
+    /* 달력 팝업 */
+    #popCloseBtn::after { background-size: cover !important;}
+    #popupDiv.calendarBox {width: 90%; max-height: 510px;}
+    .pupContent.white {padding: 37px 8px 15px;}
+    .day {font-size: 15px; margin: 20px 0 10px;}
+    .dayBtn {font-size: 16px; padding: 10px 35px; margin-top: 15px;}
+    .day::before {height: 15px; width: 8px; background-size: cover;}
+    .day::after {height: 15px; width: 8px; background-size: cover;}
+    .pupContent table.calendar td  {height: 8.5vw;}
+    .pupContent table.calendar th {font-size: 11px;}
+    .pupContent table.calendar td {font-size: 11px;}
+
+    /* 쿠폰 다운로드 */
+    .couponDownload {padding: 30px 20px;}
+    .downloadBox {width: auto; padding: 0 15px;}
+    .downloadText {width: auto; padding: 28px 15px 25px;}
+    .downloadBtn {width: auto; padding: 20px 0;}
+    .downloadTit {font-size: 18px; padding: 23px 0 18px;}
+    .downloadTit::before {width: 16px; height: 16px; left: 28%; background-size: cover; top: 52%;}
+    .downloadTit::after {width: 16px; height: 16px; right: 22%; background-size: cover; top: 52%;}
+    .downloadBox::before {width: 57px; height: 59px; top: -7px; left: -14px; background-size: cover;}
+    .downloadBox::after {width: 67px; height: 48px; top: 59px; right: -12px; background-size: cover;}
+    .coupon1 {padding-bottom: 30px;}
+    .coupon1 strong {font-size: 16px;}
+    .coupon1 div {font-size: 16px; margin: 20px 10px;}
+    .coupon1 p {font-size: 12px;}
+    .coupon2 img:first-child {display: none;}
+    .coupon2 img:nth-child(2) {display: block; width: 55%; margin-bottom: 15px;}
+    .coupon2 span {font-size: 14px;}
+    .coupon2 .bayBox div {font-size: 13px; padding: 6px 30px; line-height: 1.1;}
+    .coupon2 p {font-size: 13px;}
+    .coupon2 p::before {width: 13px; height: 11px; background-size: cover;}
+    .coupon2 .bayBox {margin: 12px 0 17px;}
+    .coupon2 p:last-child {margin-top: 20px;}
+    .adviceTit {font-size: 12px; padding-left: 20px; margin-bottom: 12px;}
+    .adviceText {font-size: 12px;}
+    .eusimBoxs strong {font-size: 12px;}
+    .eusimBoxs ul {font-size: 12px;}
+    .adviceTit::before {width: 14px; height: 13px; background-size: cover;}
+    .coupon3 {margin: 27px 0 0;}
+    .eusimBoxs {margin-top: 25px; padding: 20px 15px;}
+    .btnBox {flex-direction: column;}
+    .btnBox a {font-size: 12px; max-width: 200px; margin: auto; padding: 9px 17px; border-radius: 7px;}
+    .btnBox a:first-child {margin-right: auto; margin-bottom: 15px; height: 28px;}
+    .downloadBtn div:first-child {margin-top: 0;}
+    .downloadBtn div:last-child { font-size: 12px; margin-top: 15px;}
+    .btnBox a:first-child::after, .btnBox a:last-child::after {width: 6px; height: 10px; background-size: cover;}
+    .coupon1::before {width: 15px; height: 15px; left: -23px; bottom: -7px;}
+    .coupon1::after {width: 15px; height: 15px; right: -23px; bottom: -7px;}
+    .coupon2::before {width: 15px; height: 15px; left: -23px; bottom: -7px;}
+    .coupon2::after {width: 15px; height: 15px; right: -23px; bottom: -7px;}
+}
