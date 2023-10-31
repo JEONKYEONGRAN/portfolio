@@ -1,0 +1,76 @@
+body {font-family: 'Helvetica'; margin: 0; padding: 0;}
+
+
+#main_top {display: block;}
+#mobile_main_top {display: none;}
+.pc {display: block;}
+.mo {display: none;}
+.pointer {cursor: pointer;}
+
+#main_top {background-image: url(../images/main.jpg); background-position: top center; background-repeat: no-repeat; width: 100%; height: 715px;}
+.logo {position: absolute; top: 40px; left: 50px;}
+.container {color: #fff; width: 786px; margin: auto; text-align: center;}
+.main_font {font-family: 'Cafe24Danjunghae'; font-size: 78px; padding-top: 215px;}
+.main_sub_tit {font-size: 26px; padding-top: 70px; /* text-shadow: #000 3px 2px 1px; */}
+.main_sub_tit > div {    background-color: rgba(0, 0, 0, 0.301); width: 400px; margin: auto; text-align: center; border-radius: 20px; box-shadow: 2px 7px 15px 8px rgb(0 0 0 / 33%);}
+.main_sub_font {padding-top: 165px; font-size: 22px;}
+
+.travelBox {width: 950px; margin: auto; padding: 60px 0;}
+.tourBox img {padding-top: 20px;}
+.asiaBox {position: relative; padding: 20px 10px 0px;}
+.asiaBox.p30 {padding: 30px 10px 0px;}
+.asiaBox a {position: absolute; right: 0; color: #5f5f5f; font-size: 20px; z-index: 99;}
+h5 {position: relative; text-align: left; font-weight: bold; font-size: 24px; padding-left: 13px; padding-bottom: 5px; margin: 0;}
+h5::after {content: ''; position: absolute; top: 39%; left: 0; transform: translateY(-50%); width: 10px; height: 10px; background-color: #00a0e9; border-radius: 50%;}
+.tourList ul {list-style: none; padding: 0; margin-bottom: 0px;}
+.tourList ul li {padding: 10px 0; width: 49%; display: inline-block; vertical-align: top;}
+.tourList ul li strong {color: #2e2e2e; background-color: #cbcbcb; padding: 7px 20px; border-radius: 20px; width: 152px; display: inline-block; text-align: center;}
+.tourList ul li strong.vat {vertical-align: top;}
+.tourList ul li span {color: #3d3c3c; padding-left: 10px;}
+.tourList ul li span.w53 {width: 53%; display: inline-block;}
+
+.vkHome {background-color: #a385e7; height: 90px;}
+.vkHome .w900 {width: 900px; margin: auto; height: 100%; display: flex; align-items: center;}
+.vkHome .w900 a {color: #fff; border: 1px solid #fff; border-radius: 20px; padding: 5px 20px; text-decoration: none; margin-left: 30px;}
+
+.sns {height:260px; background-color: #666666;}
+.font_title_w {font-family: "Poppins", Gulim, Arial, sans-serif; color: #fff; font-weight: 400; font-size: 2.0em;}
+.font_title_w .tit {padding-top: 50px; text-decoration: underline; text-underline-offset: 0.5em; float: left;}
+.font_title_w .facebook {background-image: url(../images/face.png); background-position: top center; background-repeat: no-repeat; height: 60px; width: 60px; float: left; margin-left: 10px; margin-top: 50px;}
+.font_title_w .input {padding: 150px 0 0 0;}
+.font_title_w .input > div {display: inline-block;}
+.font_title_w .input .cinput {background-color: #fff; padding: 10px; border-radius: 15px; width: 67%;}
+.font_title_w .input .cinput input {width: 100%; border: #fff solid 0px; font-size: 0.8em; color: #666666; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.font_title_w .input .cbtn {font-family: 'Poppins', sans-serif; background-color: #474747; padding: 10px; text-align: center; border-radius: 15px; margin-left: 20px; position: relative; font-size: 27px; font-weight: bold; width: 25%;}
+.row:after {content: ""; display: table; clear: both;}
+
+.footer img {width: 100%;}
+.font_title_w.w900 {width: 900px; margin: auto;}
+
+#top {position: fixed; bottom: 0px; right: 20px; cursor: pointer;}
+
+@media screen and (max-width: 640px){
+    #main_top {display: none;}
+    #mobile_main_top {display: block;}
+    .pc {display: none;}
+    .mo {display: block;}
+    img {width: 100%;}
+
+    .vkHome img {display: block;}
+    h5 {font-size: 3.6vw;}
+    .asiaBox a {font-size: 3vw; right: 7vw;}
+
+    .travelBox {width: auto; padding: 30px 20px;}
+    .asiaBox {position: inherit;}
+    .tourList ul li {width: 100%;}
+    .tourList ul li span.w53 {width: 47%;}
+    .tourList ul li span {width: 47%; display: inline-block;}
+    .tourList ul li strong {width: 120px;}
+    .tourList ul li strong.Mvat {vertical-align: top;}
+
+    .vkHome {height: auto;}
+    .sns {height: auto;}
+
+    #top {position: fixed; bottom: 10px; right: 10px; width: 63px; height: 63px;}
+    #top img {width: 100%; height: 100%;}
+}
