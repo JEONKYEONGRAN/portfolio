@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../css/font/Montserrat-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquareRoundEB';
+    src: url('../css/font/NanumSquareRoundEB.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
