@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
+    <title>대한민국 구석구석</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://svn.uniess.co.kr/static/resources/css/swiper.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://svn.uniess.co.kr/static/resources/css/common.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://svn.uniess.co.kr/static/resources/css/content.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/cont.css" />
+    <script src="https://svn.uniess.co.kr/static/resources/js/jquery-1.11.2.min.js"></script>
+    <script src="https://svn.uniess.co.kr/static/resources/js/swiper.min.js"></script>
+    <script src="https://svn.uniess.co.kr/static/resources/js/rwdImageMaps.min.js"></script>
+    <script src="https://svn.uniess.co.kr/static/resources/js/common.js"></script>
+    <!--[if lt IE 9]>
+      <script src="../resources/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- skip -->
+    <div id="skipToContent">
+      <a href="#contents">본문 바로가기</a>
+      <a href="#btnMenu">메뉴 바로가기</a>
+    </div>
+    <!-- // skip -->
+    <!-- // 0604 수정 -->
+    <!-- header -->
+    <header class="main_gnb sub">
+      <div id="gnbMain">
+        <div class="top_menu">
+          <div class="inner">
+            <!-- 전체 메뉴 -->
+            <div class="all_menu">
+              <span class="back_btn"
+                ><button type="button">뒤로가기</button></span
+              >
+              <span class="menu_btn"
+                ><button type="button" id="btnMenu">메뉴</button></span
+              >
+              <div class="menu">
+                <ul>
+                  <li class="icon1"><a href="javascript:;">특집관</a></li>
+                  <li class="icon2">
+                    <a href="javascript:;">홈</a>
+                    <ul class="smenu">
+                      <li><a href="javascript:;">인기</a></li>
+                      <li><a href="javascript:;">코스</a></li>
+                      <li><a href="javascript:;">축제</a></li>
+                      <li><a href="javascript:;">이벤트</a></li>
+                    </ul>
+                  </li>
+                  <li class="icon3"><a href="javascript:;">지역</a></li>
+                  <li class="icon4"><a href="javascript:;">여행예보</a></li>
+                </ul>
+                <!-- 로그인 영역 -->
+                <div class="login">
+                  <button class="close">닫기</button>
+                  <span class="m_logo">대한민국 구석구석</span>
+                  <div class="in" style="display: none">
+                    <div class="profile">
+                      <div class="photo"></div>
+                    </div>
+                    <button type="button">
+                      <span><strong>로그인</strong> 하세요</span>
+                    </button>
+                  </div>
+                  <div class="out">
+                    <a href="javascript:;" class="profile">
+                      <div class="photo">
+                        <img
+                          src="../../../../resources/images/sub/img_ex12.jpg"
+                          alt="구석이 님의 프로필 사진"
+                        />
+                        <span class="ico"
+                          ><img
+                            src="../../../../resources/images/sub/ico_kakao.png"
+                            alt="카카오톡"
+                        /></span>
+                      </div>
+                      <span class="name"
+                        >♡♡ 대한민국 구석구석 여행을 사랑합니다.♡♡</span
+                      >
+                    </a>
+                    <button type="button"><span>로그아웃</span></button>
+                  </div>
+                </div>
+                <!-- //로그인 영역 -->
+              </div>
+            </div>
+            <!-- //전체 메뉴 -->
+            <!-- logo -->
+            <h1>
+              <img
+                src="../../../../resources/images/common/logo_summer.png"
+                alt="대한민국구석구석"
+              />
+              <!--
+						<img src="../../../../resources/images/common/logo_spring.png" alt="대한민국구석구석">                            
+						<img src="../../../../resources/images/common/logo_autumn.png" alt="대한민국구석구석">
+						<img src="../../../../resources/images/common/logo_winter.png" alt="대한민국구석구석">-->
+            </h1>
+            <!-- //logo -->
+            <!-- 검색 -->
+            <div class="search">
+              <span>
+                <input
+                  type="text"
+                  placeholder="오늘은 어디로 떠날까요?"
+                  title="검색"
+                />
+                <a href="javascript:;" class="btn_search">검색</a>
+              </span>
+              <div class="area_keyword" style="display: none">
+                <h2>어제의 인기 검색어</h2>
+                <ul>
+                  <li>
+                    <span class="num">1</span>
+                    <a href="javascript:">비대면 관광지</a>
+                  </li>
+                  <li>
+                    <span class="num">2</span>
+                    <a href="javascript:"
+                      >여름여행여름여행여름여행여름여행여름여행여름여행여름여행여름여행여름여행여름여행</a
+                    >
+                  </li>
+                  <li>
+                    <span class="num">3</span>
+                    <a href="javascript:"
+                      >여름여행여름여행여름여행여름여행여름여행여름여행여름여행여름여행여름여행여름여행</a
+                    >
+                  </li>
+                  <li>
+                    <span class="num">4</span>
+                    <a href="javascript:">비대면 관광지</a>
+                  </li>
+                  <li>
+                    <span class="num">5</span>
+                    <a href="javascript:">비대면 관광지</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <span class="num">6</span>
+                    <a href="javascript:">비대면 관광지</a>
+                  </li>
+                  <li>
+                    <span class="num">7</span>
+                    <a href="javascript:"
+                      >여름여행여름여행여름여행여름여행여름여행여름여행여름여행여름여행여름여행여름여행</a
+                    >
+                  </li>
+                  <li>
+                    <span class="num">8</span>
+                    <a href="javascript:"
+                      >여름여행여름여행여름여행여름여행여름여행여름여행여름여행여름여행여름여행여름여행</a
+                    >
+                  </li>
+                  <li>
+                    <span class="num">9</span>
+                    <a href="javascript:">비대면 관광지</a>
+                  </li>
+                  <li>
+                    <span class="num">10</span>
+                    <a href="javascript:">비대면 관광지</a>
+                  </li>
+                </ul>
+                <div class="close"><button type="button">닫기</button></div>
+              </div>
+              <div class="words_list" style="display: none">
+                <ul>
+                  <li>
+                    <a href="javascript:;"><strong>1박 2일</strong> 추천코스</a>
+                  </li>
+                  <li>
+                    <a href="javascript:;"><strong>1박 2일</strong> 코스여행</a>
+                  </li>
+                  <li>
+                    <a href="javascript:;"><strong>1박 2일</strong> 펜션</a>
+                  </li>
+                  <li>
+                    <a href="javascript:;"><strong>1박 2일</strong> 일정</a>
+                  </li>
+                </ul>
+                <div class="close"><button type="button">닫기</button></div>
+              </div>
+            </div>
+            <!-- //검색 -->
+            <a class="forecast_go" href="javascript:;">여행예보</a>
+            <a class="map_go" href="javascript:;">내 주변</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- //header -->
+
+    <style>
+      /* wide일때 필수 스타일 */      
+      #contents {width: 100%; padding: 0px;}      
+      .tit_cont.titleType1,      
+      .wrap_contView .box_modInfo, .db_cont_detail {width: 940px; margin: 0 auto;}      
+      .btm_team.team_marg {width: 940px; margin: 40px auto 10px auto;}      
+      
+      /* cont */       
+      .chuseok {max-width: 1920px; margin: auto;}
+      .chuseok .mo {display: none;}      
+      .chuseok .tab {display: none;}      
+      .chuseok img {width: 100%;}   
+      .area1 {background-color: #6ba074;}
+      .area2 {background-color: #a1d1ef;}
+      
+      
+      /* 모바일 */      
+      @media all and (max-width:720px) {        
+        /* wide일때 필수 스타일 */        
+        .tit_cont.titleType1, .wrap_contView .box_modInfo, .db_cont_detail {width: auto; margin: 0 15px;}        
+        .titleType1 h2 {padding: 24px 0 0;}        
+        .btm_team.team_marg {width: auto; margin: 20px 15px 0;}        
+        img {width: 100%;}        
+        
+        /* cont */        
+        .chuseok .mo {display: block;}        
+        .chuseok .pc {display: none;}        
+        .chuseok .tab {display: none;}        
+        
+        
+      }     
+
+       /* 텝 */     
+      @media all and (min-width: 721px) and (max-width: 1280px) {        
+        .chuseok .tab {display: block;}        
+        .chuseok .mo {display: none;}        
+        .chuseok .pc {display: none;}       
+        
+      }
+  </style>
+
+    <div id="contents">
+      <div class="tit_cont titleType1">
+        <!-- 0703 클래스 ico 태그 추가 -->
+        <div class="area_tag">
+          <span class="name3"><span class="ico">Now</span>추천</span>
+        </div>
+        <!-- // 0703 클래스 ico 태그 추가 -->
+        <h2>놀거리도 풍년이오!<br> 추석 황금연휴를 위한 테마여행</h2>
+        <div class="area_address">
+          <span class="address">제주 제주시</span
+          ><span>수정일 : 2019.05.28</span>
+        </div>
+        <div class="post_area">
+          <button type="button" class="btn_good on" onclick="setLike();">
+            <span class="ico">좋아요</span
+            ><span class="num" id="conLike">17</span>
+          </button>
+          <span class="num_view"
+            ><em class="tit">조회수</em
+            ><span class="num" id="conRead">8,870</span></span
+          >
+          <span class="rline">
+            <button type="button" class="btn_bookmark on">
+              <span class="ico">즐겨찾기</span>
+            </button>
+            <button type="button" class="btn_print">
+              <span class="ico">인쇄하기</span>
+            </button>
+            <button type="button" class="btn_sharing" onclick="openShare();">
+              <span class="ico">공유하기</span
+              ><span class="num" id="conShare">41</span>
+            </button>
+            <!-- <button type="button" class="btn_map"><span class="ico">여행지도</span></button> -->
+          </span>
+        </div>
+      </div>
+      <div class="wrap_contView">
+        <!-- 컨텐츠 부분 -->
+        <div class="chuseok">
+
+          <!-- 메인상단 -->
+          <img class="pc" src="./images/main.png" alt="놀거리도 풍년이오! 추석 황금연휴를 위한 여행지 추천 몸도 마음도 풍성해지는 테마별 추석 힐링 여행지를 소개합니다!">
+          <img class="tab" src="./images/t_main.png" alt="놀거리도 풍년이오! 추석 황금연휴를 위한 여행지 추천 몸도 마음도 풍성해지는 테마별 추석 힐링 여행지를 소개합니다!">
+          <img class="mo" src="./images/m_main.png" alt="놀거리도 풍년이오! 추석 황금연휴를 위한 여행지 추천 몸도 마음도 풍성해지는 테마별 추석 힐링 여행지를 소개합니다!">
+
+        <!-- 힐링여행지 -->
+        <img class="pc" src="./images/area1.png" alt="한적한 자연으로 떠나는 힐링 여행지" usemap="#imgMap1">
+        <map name="imgMap1" class="pc">
+            <area shape="" coords="545,204,951,666" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=9aa7f780-1032-43b1-aa9d-12c26b5df4a2&big_category=A01&mid_category=A0101&big_area=31" alt="시흥 갯고갤생태공원 경기 시흥시 갯골과 초지에서 누리는 휴식 #내만갯벌 #폐염전 #소금창고">
+            <area shape="" coords="957, 204,1373,666" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=d4c52f37-f351-4e94-9b2d-e3e3b29a9f3f&big_category=A02&mid_category=A0202&big_area=34" alt="연미산자연미술공원 충남 공주시 숲 속에서 즐기는 예술 탐방 #산책로 #조형물 #포토존">
+            <area shape="" coords="545,692,951,1159" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=8b2b5bff-3810-4d69-9a3a-0815b4271d64&big_category=A02&mid_category=A0202&big_area=36" alt="동의보감촌 경남 산청군 한방으로 느끼는 치유의 힘 #테마파크 #전시관 #한옥스테이">
+            <area shape="" coords="957,692,1373,1159" href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?cmsCntntsId=1078905" alt="불갑산 전남 영광군 석산이 만개한 붉은 꽃길 #꽃무릇 #희귀식물 #생태여행">
+        </map>
+
+        <img class="tab" src="./images/t_area1.png" alt="한적한 자연으로 떠나는 힐링 여행지" usemap="#imgMap6">
+        <map name="imgMap6" class="tab">
+            <area shape="" coords="188,200,593,668" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=9aa7f780-1032-43b1-aa9d-12c26b5df4a2&big_category=A01&mid_category=A0101&big_area=31" alt="시흥 갯고갤생태공원 경기 시흥시 갯골과 초지에서 누리는 휴식 #내만갯벌 #폐염전 #소금창고">
+            <area shape="" coords="610,200,1013,668" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=d4c52f37-f351-4e94-9b2d-e3e3b29a9f3f&big_category=A02&mid_category=A0202&big_area=34" alt="연미산자연미술공원 충남 공주시 숲 속에서 즐기는 예술 탐방 #산책로 #조형물 #포토존">
+            <area shape="" coords="188,688,593,1156" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=8b2b5bff-3810-4d69-9a3a-0815b4271d64&big_category=A02&mid_category=A0202&big_area=36" alt="동의보감촌 경남 산청군 한방으로 느끼는 치유의 힘 #테마파크 #전시관 #한옥스테이">
+            <area shape="" coords="610,688,1013,1156" href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?cmsCntntsId=1078905" alt="불갑산 전남 영광군 석산이 만개한 붉은 꽃길 #꽃무릇 #희귀식물 #생태여행">
+        </map>
+
+        <img class="mo" src="./images/m_area1.png" alt="한적한 자연으로 떠나는 힐링 여행지" usemap="#imgMap11">
+        <map name="imgMap11" class="mo">
+            <area shape="" coords="40,180,345,575" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=9aa7f780-1032-43b1-aa9d-12c26b5df4a2&big_category=A01&mid_category=A0101&big_area=31" alt="시흥 갯고갤생태공원 경기 시흥시 갯골과 초지에서 누리는 휴식 #내만갯벌 #폐염전 #소금창고">
+            <area shape="" coords="365,180,683,575" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=d4c52f37-f351-4e94-9b2d-e3e3b29a9f3f&big_category=A02&mid_category=A0202&big_area=34" alt="연미산자연미술공원 충남 공주시 숲 속에서 즐기는 예술 탐방 #산책로 #조형물 #포토존">
+            <area shape="" coords="40,594,345,986" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=8b2b5bff-3810-4d69-9a3a-0815b4271d64&big_category=A02&mid_category=A0202&big_area=36" alt="동의보감촌 경남 산청군 한방으로 느끼는 치유의 힘 #테마파크 #전시관 #한옥스테이">
+            <area shape="" coords="365,594,683,986" href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?cmsCntntsId=1078905" alt="불갑산 전남 영광군 석산이 만개한 붉은 꽃길 #꽃무릇 #희귀식물 #생태여행">
+        </map>
+
+        <!-- 가을꽃 여행지 -->
+        <img class="pc" src="./images/area2.png" alt="알록달록 화사한 가을꽃 여행지" usemap="#imgMap2">
+        <map name="imgMap2" class="pc">
+            <area shape="" coords="545,233,951,699" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=01b32883-1770-499e-9e0d-576736a55fbe&big_category=A02&mid_category=A0204&big_area=31" alt="양주 나리농 경기 양주시 국내 최대 천일홍 군락지 #천일홍 #댑싸리 #구절초">
+            <area shape="" coords="957,233,1373,699" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=6bceb71d-e8ea-475b-bcdd-9bfcd440d728&big_category=A01&mid_category=A0101&big_area=32" alt="고석정 꽃밭 강원 철원군 꽃과 빛이 함께 핀 꽃밭 #백일홍 #코스모스 #야간개장">
+            <area shape="" coords="545,719,951,1187" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=ae9ff34e-58ed-4961-868c-8d674cdb14bd&big_category=A01&mid_category=A0101&big_area=34" alt="청산수목원 충남 태안군 은빛 파도 넘실대는 정원 #팜파스 #야생화 #수생식물">
+            <area shape="" coords="957,719,1373,1187" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=d212deb8-a68d-4e33-86c3-45f2c51c8d3c&big_category=A02&mid_category=A0204&big_area=36" alt="감악산 풍력발전단지 경남 거창군 해발 900m 구름 위의 정원 #아스타꽃 #억새 #전망대 ">
+        </map>
+
+        <img class="tab" src="./images/t_area2.png" alt="알록달록 화사한 가을꽃 여행지" usemap="#imgMap7">
+        <map name="imgMap7" class="tab">
+            <area shape="" coords="188,231,593,693" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=01b32883-1770-499e-9e0d-576736a55fbe&big_category=A02&mid_category=A0204&big_area=31" alt="양주 나리농원 경기 양주시 국내 최대 천일홍 군락지 #천일홍 #댑싸리 #구절초">
+            <area shape="" coords="610,231,1013,693" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=6bceb71d-e8ea-475b-bcdd-9bfcd440d728&big_category=A01&mid_category=A0101&big_area=32" alt="고석정 꽃밭 강원 철원군 꽃과 빛이 함께 핀 꽃밭 #백일홍 #코스모스 #야간개장">
+            <area shape="" coords="188,721,593,1185" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=ae9ff34e-58ed-4961-868c-8d674cdb14bd&big_category=A01&mid_category=A0101&big_area=34" alt="청산수목원 충남 태안군 은빛 파도 넘실대는 정원 #팜파스 #야생화 #수생식물">
+            <area shape="" coords="610,721,1013,1185" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=d212deb8-a68d-4e33-86c3-45f2c51c8d3c&big_category=A02&mid_category=A0204&big_area=36" alt="감악산 풍력발전단지 경남 거창군 해발 900m 구름 위의 정원 #아스타꽃 #억새 #전망대 ">
+        </map>
+
+        <img class="mo" src="./images/m_area2.png" alt="알록달록 화사한 가을꽃 여행지" usemap="#imgMap12">
+        <map name="imgMap12" class="mo">
+            <area shape="" coords="40,215,345,604" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=01b32883-1770-499e-9e0d-576736a55fbe&big_category=A02&mid_category=A0204&big_area=31" alt="양주 나리농원 경기 양주시 국내 최대 천일홍 군락지 #천일홍 #댑싸리 #구절초">
+            <area shape="" coords="365,215,683,604" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=6bceb71d-e8ea-475b-bcdd-9bfcd440d728&big_category=A01&mid_category=A0101&big_area=32" alt="고석정 꽃밭 강원 철원군 꽃과 빛이 함께 핀 꽃밭 #백일홍 #코스모스 #야간개장">
+            <area shape="" coords="40,615,345,1014" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=ae9ff34e-58ed-4961-868c-8d674cdb14bd&big_category=A01&mid_category=A0101&big_area=34" alt="청산수목원 충남 태안군 은빛 파도 넘실대는 정원 #팜파스 #야생화 #수생식물">
+            <area shape="" coords="365,615,683,1014" href="https://korean.visitkorea.or.kr/detail/ms_detail.do?cotid=d212deb8-a68d-4e33-86c3-45f2c51c8d3c&big_category=A02&mid_category=A0204&big_area=36" alt="감악산 풍력발전단지 경남 거창군 해발 900m 구름 위의 정원 #아스타꽃 #억새 #전망대 ">
+        </map>
+
+        <!-- 귀향길 여행 코스 -->
+        <img class="pc" src="./images/area3.png" alt="추억 속으로 떠나는 귀향길 여행 코스" usemap="#imgMap3">
+        <map name="imgMap3" class="pc">
+            <area shape="" coords="545,287,951,833" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=761bbe2b-d3d2-458d-a366-1d78647e8482" alt="나만 알고 싶은 그 곳 전북 군산시 공감선유~무녀2구마을버스~비어포트~음미당">
+            <area shape="" coords="957,287,1373,833" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=1a091717-e793-4d0d-8a22-f1db3104b2a9" alt="피톤치드 가득한  여행 전남 구례군 화엄사~섬진강대나무길~쌍산재~천개의향나무숲  ">
+            <area shape="" coords="545,860,951,1407" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=3301d3ce-aa66-483d-8e78-66b4cac3a426&con_type=11300" alt="자연과 액티비티의 조화 경남 함안군 입곡군립공원~악양생태공원~아라힐링무빙보트~무진정">
+            <area shape="" coords="957,860,1373,1407" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=efa9f84e-55ac-43a9-b583-f6d39d7482b8&con_type=11300" alt="아이와 함께 추억 쌓기 인천광역시 인천로봇랜드~청라호수공원~아라뱃길~정서진중앙시장">
+        </map>
+
+        <img class="tab" src="./images/t_area3.png" alt="추억 속으로 떠나는 귀향길 여행 코스" usemap="#imgMap8">
+        <map name="imgMap8" class="tab">
+            <area shape="" coords="188,286,593,833" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=761bbe2b-d3d2-458d-a366-1d78647e8482" alt="나만 알고 싶은 그 곳 전북 군산시 공감선유~무녀2구마을버스~비어포트~음미당">
+            <area shape="" coords="610,286,1013,833" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=1a091717-e793-4d0d-8a22-f1db3104b2a9" alt="피톤치드 가득한 여행 전남 구례군 화엄사~섬진강대나무길~쌍산재~천개의향나무숲  ">
+            <area shape="" coords="188,860,593,1398" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=3301d3ce-aa66-483d-8e78-66b4cac3a426&con_type=11300" alt="자연과 액티비티의 조화 경남 함안군 입곡군립공원~악양생태공원~아라힐링무빙보트~무진정">
+            <area shape="" coords="610,860,1013,1398" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=efa9f84e-55ac-43a9-b583-f6d39d7482b8&con_type=11300" alt="아이와 함께 추억 쌓기 인천광역시 인천로봇랜드~청라호수공원~아라뱃길~정서진중앙시장">
+        </map>
+
+        <img class="mo" src="./images/m_area3.png" alt="추억 속으로 떠나는 귀향길 여행 코스" usemap="#imgMap13">
+        <map name="imgMap13" class="mo">
+            <area shape="" coords="40,227,345,698" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=761bbe2b-d3d2-458d-a366-1d78647e8482" alt="나만 알고 싶은 그 곳 전북 군산시 공감선유~무녀2구마을버스~비어포트~음미당">
+            <area shape="" coords="365,227,683,698" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=1a091717-e793-4d0d-8a22-f1db3104b2a9" alt="피톤치드 가득한 여행 전남 구례군 화엄사~섬진강대나무길~쌍산재~천개의향나무숲  ">
+            <area shape="" coords="40,710,345,1172" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=3301d3ce-aa66-483d-8e78-66b4cac3a426&con_type=11300" alt="자연과 액티비티의 조화 경남 함안군 입곡군립공원~악양생태공원~아라힐링무빙보트~무진정">
+            <area shape="" coords="365,710,683,1172" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=efa9f84e-55ac-43a9-b583-f6d39d7482b8&con_type=11300" alt="아이와 함께 추억 쌓기 인천광역시 인천로봇랜드~청라호수공원~아라뱃길~정서진중앙시장">
+        </map>
+
+        <!-- 알뜰 여행 코스 -->
+        <img class="pc" src="./images/area4.png" alt="디지털 관광주민증과 함께하는 알뜰 여행 코스" usemap="#imgMap4">
+        <map name="imgMap4" class="pc">
+            <area shape="" coords="545,226,951,749" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=3dcb2595-420f-40f7-9576-bd2c4fb98e47&con_type=11300" alt="청량한 바다 여행 부산 영도구 | 혜택 여행지 41개소 고구마역사기념관~태종대~신기여울~호텔아델라">
+            <area shape="" coords="957,226,1373,749" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=581dde6c-47aa-4d7e-b287-cfc31cc6b1e5&con_type=11300" alt="산바람 타고 힐링 여행 강원 정선군 | 혜택 여행지 20개소 화암동굴~아리힐스스카이워크~로미지안가든~나전역카페">
+            <area shape="" coords="545,772,951,1294" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=fcac42f7-953c-437d-8f41-fd265f0111cd&con_type=11300" alt="렛츠고령 체험 여행 경북 고령군 | 혜택 여행지 12개소 대가야생활촌~대가야캠프~개실마을~무무공방">
+            <area shape="" coords="957,772,1373,1294" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=06ba89d1-5d65-4bea-a6e1-96853954dc43&con_type=11300" alt="과거로 떠나는 시간 여행 전북 고창군 | 혜택 여행지 11개소 고창읍성~고인돌박물관~선운도원~운곡람사르습지">
+            <area shape="" coords="710,1819,1208,1915" href="https://korean.visitkorea.or.kr/digtCard/digt_card_intro.do" alt="디지털 관광주민증 발급하러 가기 >">
+        </map>
+
+        <img class="tab" src="./images/t_area4.png" alt="디지털 관광주민증과 함께하는 알뜰 여행 코스" usemap="#imgMap9">
+        <map name="imgMap9" class="tab">
+            <area shape="" coords="188,226,593,753" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=3dcb2595-420f-40f7-9576-bd2c4fb98e47&con_type=11300" alt="청량한 바다 여행 부산 영도구 | 혜택 여행지 41개소 고구마역사기념관~태종대~신기여울~호텔아델라">
+            <area shape="" coords="610,226,1013,753" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=581dde6c-47aa-4d7e-b287-cfc31cc6b1e5&con_type=11300" alt="산바람 타고 힐링 여행 강원 정선군 | 혜택 여행지 20개소 화암동굴~아리힐스스카이워크~로미지안가든~나전역카페">
+            <area shape="" coords="188,773,593,1299" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=fcac42f7-953c-437d-8f41-fd265f0111cd&con_type=11300" alt="렛츠고령 체험 여행 경북 고령군 | 혜택 여행지 12개소 대가야생활촌~대가야캠프~개실마을~무무공방">
+
+            
+            <area shape="" coords="610,773,1013,1299" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=06ba89d1-5d65-4bea-a6e1-96853954dc43&con_type=11300" alt="과거로 떠나는 시간 여행 전북 고창군 | 혜택 여행지 11개소 고창읍성~고인돌박물관~선운도원~운곡람사르습지">
+            <area shape="" coords="348,1821,853,1915" href="https://korean.visitkorea.or.kr/digtCard/digt_card_intro.do" alt="디지털 관광주민증 발급하러 가기 >">
+        </map>
+
+        <img class="mo" src="./images/m_area4.png" alt="디지털 관광주민증과 함께하는 알뜰 여행 코스" usemap="#imgMap14">
+        <map name="imgMap14" class="mo">
+            <area shape="" coords="40,195,345,666" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=3dcb2595-420f-40f7-9576-bd2c4fb98e47&con_type=11300" alt="청량한 바다 여행 부산 영도구 | 혜택 여행지 41개소 고구마역사기념관~태종대~신기여울~호텔아델라">
+            <area shape="" coords="365,195,683,666" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=581dde6c-47aa-4d7e-b287-cfc31cc6b1e5&con_type=11300" alt="산바람 타고 힐링 여행 강원 정선군 | 혜택 여행지 20개소 화암동굴~아리힐스스카이워크~로미지안가든~나전역카페">
+            <area shape="" coords="40,685,345,1160" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=fcac42f7-953c-437d-8f41-fd265f0111cd&con_type=11300" alt="렛츠고령 체험 여행 경북 고령군 | 혜택 여행지 12개소 대가야생활촌~대가야캠프~개실마을~무무공방">
+            <area shape="" coords="365,685,683,1160" href="https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=06ba89d1-5d65-4bea-a6e1-96853954dc43&con_type=11300" alt="과거로 떠나는 시간 여행 전북 고창군 | 혜택 여행지 11개소 고창읍성~고인돌박물관~선운도원~운곡람사르습지">
+            <area shape="" coords="85,1656,638,1757" href="https://korean.visitkorea.or.kr/digtCard/digt_card_intro.do" alt="디지털 관광주민증 발급하러 가기 >">
+        </map>
+
+        <!-- 가을 축제 -->
+        <img class="pc" src="./images/area5.png" alt="CHECK! 온 가족이 함께 즐기는 가을 축제" usemap="#imgMap5">
+        <map name="imgMap5" class="pc">
+            <area shape="" coords="545,290,951,844" href="https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=f196d25a-fb26-4a25-a6f4-1cd67b083665&big_category=A02&mid_category=A0208&big_area=38" alt="순천만국제정원박람회 전남 순천시 | 4.1.(토)~10.31.(화) 10년 만에 다시 열린 국제박람회">
+            <area shape="" coords="957,290,1373,844" href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?cmsCntntsId=2557798" alt="이월드 인생꽃 사진관 대구광역시 | 9.6.(수)~11.5.(일) 도심에서 즐기는 꽃 나들이">
+            <area shape="" coords="545,873,951,1430" href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=7740c52a-dca7-4d71-abd8-756181268b4c" alt="세계유산축전 수원화성 경기 수원시 | 9.23.(토)~10.14.(토) 생생하게 전하는 수원화성의 가치">
+            <area shape="" coords="957,873,1373,1430" href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=7bb92f39-bc94-44fc-94fb-13c974770bdf" alt="부여 문화유산 미디어아트 충남 부여군 | 9.15.(금)~10.9.(월) 미디어아트를 입은 문화유산">
+        </map>
+
+        <img class="tab" src="./images/t_area5.png" alt="CHECK! 온 가족이 함께 즐기는 가을 축제" usemap="#imgMap10">
+        <map name="imgMap10" class="tab">
+            <area shape="" coords="188,290,593,846" href="https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=f196d25a-fb26-4a25-a6f4-1cd67b083665&big_category=A02&mid_category=A0208&big_area=38" alt="순천만국제정원박람회 전남 순천시 | 4.1.(토)~10.31.(화) 10년 만에 다시 열린 국제박람회">
+            <area shape="" coords="610,290,1013,846" href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?cmsCntntsId=2557798" alt="이월드 인생꽃 사진관 대구광역시 | 9.6.(수)~11.5.(일) 도심에서 즐기는 꽃 나들이">
+            <area shape="" coords="188,872,593,1425" href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=7740c52a-dca7-4d71-abd8-756181268b4c" alt="세계유산축전 수원화성 경기 수원시 | 9.23.(토)~10.14.(토) 생생하게 전하는 수원화성의 가치">
+            <area shape="" coords="610,872,1013,1425" href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=7bb92f39-bc94-44fc-94fb-13c974770bdf" alt="부여 문화유산 미디어아트 충남 부여군 | 9.15.(금)~10.9.(월) 미디어아트를 입은 문화유산">
+        </map>
+
+        <img class="mo" src="./images/m_area5.png" alt="CHECK! 온 가족이 함께 즐기는 가을 축제" usemap="#imgMap15">
+        <map name="imgMap15" class="mo">
+            <area shape="" coords="40,242,345,719" href="https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=f196d25a-fb26-4a25-a6f4-1cd67b083665&big_category=A02&mid_category=A0208&big_area=38" alt="순천만국제정원박람회 전남 순천시 | 4.1.(토)~10.31.(화) 10년 만에 다시 열린 국제박람회">
+            <area shape="" coords="365,242,683,719" href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?cmsCntntsId=2557798" alt="이월드 인생꽃 사진관 대구광역시 | 9.6.(수)~11.5.(일) 도심에서 즐기는 꽃 나들이">
+            <area shape="" coords="40,732,345,1203" href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=7740c52a-dca7-4d71-abd8-756181268b4c" alt="세계유산축전 수원화성 경기 수원시 | 9.23.(토)~10.14.(토) 생생하게 전하는 수원화성의 가치">
+            <area shape="" coords="365,732,683,1203" href="https://korean.visitkorea.or.kr/kfes/detail/fstvlDetail.do?fstvlCntntsId=7bb92f39-bc94-44fc-94fb-13c974770bdf" alt="부여 문화유산 미디어아트 충남 부여군 | 9.15.(금)~10.9.(월) 미디어아트를 입은 문화유산">
+        </map>
+
+        </div>
+
+        <!-- //컨텐츠 부분 -->
+      </div>
+      <div class="wrap_contView">
+        <div class="box_modInfo">
+          <div class="postBtnWrap">
+            <!-- 1209 추가 -->
+            <div class="post_area">
+              <button type="button" class="btn_good" onclick="setLike();">
+                <span class="ico">좋아요</span
+                ><span class="num" id="conLike">1</span>
+              </button>
+              <button type="button" class="btn_sharing" onclick="openShare();">
+                <span class="ico">공유하기</span
+                ><span class="num" id="conShare">0</span>
+              </button>
+              <span class="num_view"
+                ><em class="tit">조회수</em
+                ><span class="num" id="conRead">290</span></span
+              >
+            </div>
+          </div>
+          <div class="pictureInfo">
+            <p class="txt_date">최종수정일 : 2018. 01. 18</p>
+          </div>
+        </div>
+      </div>
+      <div class="btm_team team_marg">
+        <div class="inr">
+          <div class="row">
+            <strong>콘텐츠 등록 및 수정 문의</strong>
+          </div>
+          <div class="row">
+            <ul>
+              <li><span>국내온라인홍보팀</span><span>033-738-3570</span></li>
+              <li>
+                <span>국민관광마케팅팀(여행가는달)</span
+                ><span>033-738-3570</span>
+              </li>
+              <li>
+                <span>지역콘텐츠팀(지역명사문화여행)</span
+                ><span>033-738-3570</span>
+              </li>
+              <li>
+                <span>지역콘텐츠팀(지역명사문화여행)</span
+                ><span>033-738-3570</span>
+              </li>
+              <li>
+                <span>지역콘텐츠팀(지역명사문화여행)</span
+                ><span>033-738-3570</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button type="button" class="btn_onoff"><span>열기</span></button>
+      </div>
+      <div class="db_cont_detail">
+        <div class="relation_info">
+          <strong class="stit">전남 담양군, <span>여행 이야기</span></strong>
+          <ul>
+            <li>
+              <a href="javascript:;">
+                <span
+                  class="img"
+                  style="
+                    background: url(../../../../resources/images/temp/img_destination01.jpg)
+                      50% 50% / cover no-repeat;
+                  "
+                  >전남담양군 달려라, 남도 한바퀴!</span
+                ><!-- 2010 대체텍스트 추가 -->
+                <div class="tit">
+                  <em
+                    >달려라, 남도 한바퀴! 가뿐하게 즐기는 당일치기 남도여행
+                    가뿐하게 즐기는 당일치기 남도여행</em
+                  >
+                  <span>전남 담양군</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <span
+                  class="img"
+                  style="
+                    background: url(../../../../resources/images/temp/img_destination01.jpg)
+                      50% 50% / cover no-repeat;
+                  "
+                ></span>
+                <div class="tit">
+                  <em
+                    >달려라, 남도 한바퀴! 가뿐하게 즐기는 당일치기 남도여행</em
+                  >
+                  <span>전남 담양군</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <span
+                  class="img"
+                  style="
+                    background: url(../../../../resources/images/temp/img_destination01.jpg)
+                      50% 50% / cover no-repeat;
+                  "
+                ></span>
+                <div class="tit">
+                  <em
+                    >달려라, 남도 한바퀴! 가뿐하게 즐기는 당일치기 남도여행</em
+                  >
+                  <span>전남 담양군</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="vicinity_festival">
+          <strong class="stit">전남 담양군, <span>인근 축제</span></strong>
+          <ul>
+            <li>
+              <a href="javascript:;">
+                <span
+                  class="img"
+                  style="
+                    background: url(../../../../resources/images/temp/img_destination01.jpg)
+                      50% 50% / cover no-repeat;
+                  "
+                  >전남 담양군 강진 청자축제 2020</span
+                ><!-- 2010 대체텍스트 추가 -->
+                <div class="tit">
+                  <em>강진 청자축제 2020</em>
+                  <span>전남 담양군</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <span
+                  class="img"
+                  style="
+                    background: url(../../../../resources/images/temp/img_destination01.jpg)
+                      50% 50% / cover no-repeat;
+                  "
+                ></span>
+                <div class="tit">
+                  <em
+                    >달려라, 남도 한바퀴! 가뿐하게 즐기는 당일치기 남도여행</em
+                  >
+                  <span>전남 담양군</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <span
+                  class="img"
+                  style="
+                    background: url(../../../../resources/images/temp/img_destination01.jpg)
+                      50% 50% / cover no-repeat;
+                  "
+                ></span>
+                <div class="tit">
+                  <em>강진 청자축제 2020</em>
+                  <span>전남 담양군</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="blind">여행톡</h3>
+      <div class="db_cont_detail">
+        <div class="replyWrap" id="replyGo">
+          <!-- login 추가시 로그인 후 form -->
+          <h3 class="tit_reply">여행톡<span>235</span></h3>
+          <p class="subscription_txt">
+            <strong>“담양 대나무 축제2...”</strong> 기사 속 여행지에 대한 여행
+            후기&기대 평을 댓글로 남기고 평가를 선택해주세요!
+          </p>
+          <div class="write">
+            <div class="form">
+              <label class="blind" for="replyForm1"
+                >로그인 후 소중한 댓글을 남겨주세요.</label
+              >
+              <span class="writeForm">
+                <textarea
+                  name=""
+                  rows=""
+                  id="replyForm1"
+                  placeholder="로그인 후 소중한 댓글을 남겨주세요."
+                  cols=""
+                ></textarea>
+              </span>
+              <div class="fileRegbtn_wrap">
+                <span class="up_down">
+                  <button type="button" class="up on">추천</button>
+                  <button type="button" class="down">비추천</button>
+                </span>
+                <span class="fileRegbtn">
+                  <input type="file" id="fileUp02" />
+                  <label for="fileUp02">파일찾기</label>
+                  <a href="#" class="btn_apply">등록</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="fileLayer">
+            <p>이미지 첨부는 최대 1개까지 가능합니다.</p>
+            <span class="img">
+              <img
+                src="../../../../resources/images/sub/img_reply_temp.jpg"
+                alt="여행 이미지"
+              />
+              <button type="button">삭제</button>
+            </span>
+          </div>
+          <div class="wrap_reply">
+            <div class="list_reply">
+              <ul>
+                <li>
+                  <!-- 0820 수정 -->
+                  <div class="profile">
+                    <!-- [D] 이미지 없을때 -->
+                    <div class="photo">프로필 사진</div>
+                    <!-- // [D] 이미지 없을때 -->
+                    <span class="ico"
+                      ><img
+                        src="../../../../resources/images/sub/ico_naver.png"
+                        alt="네이버"
+                    /></span>
+                  </div>
+                  <!-- // 0820 수정 -->
+                  <div class="txt_reply">
+                    <p>
+                      경기북부 어린이박물관 잼 있네요. 공룡, 물, 바람, 자연의 집
+                      등 주제도 여러가지네요.
+                    </p>
+                    <div class="date">
+                      <em class="name">abczxc</em>
+                      <span>2018-05-15</span>
+                    </div>
+                  </div>
+                  <span class="replyBtn active">
+                    <button type="button" class="btn1 on">
+                      <em class="blind">좋아요</em><span>2</span>
+                    </button>
+                    <button type="button" class="btn2">
+                      <em class="blind">댓글</em><span>238</span>
+                    </button> </span
+                  ><!-- replyBtn에 active 추가 시 답글 block-->
+                  <div class="replyBox">
+                    <ul>
+                      <li>
+                        <div class="mLine">
+                          <div class="replyForm">
+                            <!-- 1219 id, for 추가 -->
+                            <label class="blind" for="replyForm2"
+                              >로그인 후 소중한 댓글을 남겨주세요.</label
+                            >
+                            <textarea
+                              name=""
+                              rows=""
+                              id="replyForm2"
+                              placeholder="답글을 입력하세요."
+                              cols=""
+                            ></textarea>
+                            <!-- //1219 id, for 추가 -->
+                            <div class="btn">
+                              <span class="fileRegbtn">
+                                <input type="file" id="fileUp03" />
+                                <label for="fileUp03">파일찾기</label>
+                              </span>
+                              <a href="#" class="btn_apply">등록</a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="file">
+                        <div class="fileLayer">
+                          <p>이미지 첨부는 최대 1개까지 가능합니다.</p>
+                          <span class="img">
+                            <img
+                              src="../../../../resources/images/sub/img_reply_temp.jpg"
+                              alt="여행 이미지"
+                            />
+                            <button type="button">삭제</button>
+                          </span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <button type="button" title="열기" class="btn_view">
+                    더보기</button
+                  ><!-- 1224 title 값 변경 -->
+                </li>
+                <li>
+                  <!-- 0820 수정 -->
+                  <div class="profile">
+                    <div
+                      class="photo"
+                      style="
+                        background-image: url('../resources/images/sub/img_ex12.jpg');
+                      "
+                    >
+                      pom0306 님의 프로필 사진
+                    </div>
+                    <span class="ico"
+                      ><img
+                        src="../../../../resources/images/sub/ico_kakao.png"
+                        alt="카카오톡"
+                    /></span>
+                  </div>
+                  <!-- // 0820 수정 -->
+                  <div class="txt_reply">
+                    <p>
+                      경기북부 어린이박물관 잼 있네요. 공룡, 물, 바람, 자연의 집
+                      등 주제도 여러가지네요.
+                    </p>
+                    <div class="date">
+                      <em class="name">abczxc</em>
+                      <span>2018-05-15</span>
+                    </div>
+                  </div>
+                  <span class="replyBtn active">
+                    <button type="button" class="btn1"><span>2</span></button>
+                    <button type="button" class="btn2"><span>238</span></button>
+                  </span>
+                  <div class="replyBox">
+                    <ul>
+                      <li>
+                        <div class="mLine">
+                          <div class="profile">
+                            <div
+                              class="photo"
+                              style="
+                                background-image: url('../resources/images/sub/icon_reply_logo.png');
+                              "
+                            >
+                              대한민국 구석구석
+                            </div>
+                          </div>
+                          <div class="txt_reply">
+                            <p>
+                              안녕하세요. 대한민국 구석구석 운영진입니다.
+                              개미식당은 확인 후 말씀주신 사항과 같이 영업이
+                              중지되어 관련 DB정보 비 노출 처리 및 기사 수정
+                              진행하였습니다. 불편을 드려 죄송합니다.
+                              감사합니다.
+                            </p>
+                            <div class="date">
+                              <em class="name">대한민국구석구석</em>
+                              <span>2018-05-15</span>
+                            </div>
+                          </div>
+                          <span class="replyBtn">
+                            <button type="button" class="btn1">
+                              <span>2</span>
+                            </button>
+                          </span>
+                          <span class="btn_report"
+                            ><button type="button">신고하기</button></span
+                          >
+                        </div>
+                      </li>
+                      <li>
+                        <div class="mLine">
+                          <div class="profile">
+                            <!-- [D] 이미지 없을때 -->
+                            <div class="photo"></div>
+                            <!-- // [D] 이미지 없을때 -->
+                            <span class="ico"
+                              ><img
+                                src="../../../../resources/images/sub/ico_naver.png"
+                                alt="네이버"
+                            /></span>
+                          </div>
+                          <div class="txt_reply">
+                            <div class="imgArea">
+                              <img
+                                src="../resources/images/sub/img_reply_temp.jpg"
+                                alt="여행 이미지"
+                              />
+                            </div>
+                            <p>
+                              경기북부 어린이박물관 잼 있네요. 공룡, 물, 바람,
+                              자연의 집 등 주제도 여러가지네요.
+                            </p>
+                            <div class="date">
+                              <em class="name">abczxc</em>
+                              <span>2018-05-15</span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="mLine">
+                          <div class="profile">
+                            <!-- [D] 이미지 없을때 -->
+                            <div class="photo"></div>
+                            <!-- // [D] 이미지 없을때 -->
+                            <span class="ico"
+                              ><img
+                                src="../../../../resources/images/sub/ico_naver.png"
+                                alt="네이버"
+                            /></span>
+                          </div>
+                          <div class="txt_reply">
+                            <p>
+                              경기북부 어린이박물관 잼 있네요. 공룡, 물, 바람,
+                              자연의 집 등 주제도 여러가지네요.
+                            </p>
+                            <div class="date">
+                              <em class="name">abczxc</em>
+                              <span>2018-05-15</span>
+                            </div>
+                          </div>
+                          <button type="button" title="열기" class="btn_view">
+                            더보기
+                          </button>
+                          <div class="pop_subMenu">
+                            <ul>
+                              <li class="btn_del"><a href="#">삭제</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <span class="btn_report"
+                          ><button type="button">신고하기</button></span
+                        >
+                      </li>
+                      <li>
+                        <div class="mLine">
+                          <p class="dleTxt">삭제된 답글입니다.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="mLine">
+                          <p class="dleTxt">관리자에 의해 삭제된 답글입니다.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="mLine">
+                          <div class="replyForm">
+                            <!-- 1219 id, for 추가 -->
+                            <label for="replyForm3" class="blind"
+                              >로그인 후 소중한 댓글을 남겨주세요.</label
+                            >
+                            <textarea
+                              name=""
+                              id="replyForm3"
+                              rows=""
+                              placeholder="답글을 입력하세요."
+                              cols=""
+                            ></textarea>
+                            <!-- //1219 id, for 추가 -->
+                            <div class="btn">
+                              <span class="fileRegbtn">
+                                <input type="file" id="fileUp03" />
+                                <label for="fileUp03">파일찾기</label>
+                              </span>
+                              <a href="#" class="btn_apply">등록</a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="file">
+                        <div class="fileLayer">
+                          <p>이미지 첨부는 최대 1개까지 가능합니다.</p>
+                          <span class="img">
+                            <img
+                              src="../../../../resources/images/sub/img_reply_temp.jpg"
+                              alt="여행 이미지"
+                            />
+                            <button type="button">삭제</button>
+                          </span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <!-- 0820 수정 -->
+                  <div class="profile">
+                    <div
+                      class="photo"
+                      style="
+                        background-image: url('../resources/images/sub/img_ex12.jpg');
+                      "
+                    >
+                      pom0306 님의 프로필 사진
+                    </div>
+                    <span class="ico"
+                      ><img
+                        src="../../../../resources/images/sub/ico_facebook.png"
+                        alt="페이스북"
+                    /></span>
+                  </div>
+                  <!-- // 0820 수정 -->
+                  <div class="txt_reply">
+                    <div class="imgArea">
+                      <span class="img"
+                        ><img
+                          src="../../../../resources/images/sub/img_reply_temp.jpg"
+                          alt="여행 이미지"
+                      /></span>
+                      <span class="btn_report"
+                        ><button type="button">신고하기</button></span
+                      >
+                    </div>
+                    <p>
+                      경기북부 어린이박물관 잼 있네요. 공룡, 물, 바람, 자연의 집
+                      등 주제도 여러가지네요.
+                    </p>
+                    <div class="date">
+                      <em class="name">abczxc</em>
+                      <span>2018-05-15</span>
+                    </div>
+                  </div>
+                  <span class="replyBtn"
+                    ><button type="button">답글</button></span
+                  >
+                </li>
+                <li>
+                  <!-- 0820 수정 -->
+                  <div class="profile">
+                    <div
+                      class="photo"
+                      style="
+                        background-image: url('../resources/images/sub/img_ex12.jpg');
+                      "
+                    >
+                      pom0306 님의 프로필 사진
+                    </div>
+                    <span class="ico"
+                      ><img
+                        src="../../../../resources/images/sub/ico_twitter.png"
+                        alt="트위터"
+                    /></span>
+                  </div>
+                  <!-- // 0820 수정 -->
+                  <div class="txt_reply">
+                    <p>
+                      경기북부 어린이박물관 잼 있네요. 공룡, 물, 바람, 자연의 집
+                      등 주제도 여러가지네요.
+                    </p>
+                    <div class="date">
+                      <em class="name">abczxc</em>
+                      <span>2018-05-15</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <p class="dleTxt">관리자에 의해 삭제된 댓글입니다.</p>
+                </li>
+              </ul>
+              <div class="btn_center">
+                <a href="#" class="btn_more">댓글 더보기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- //댓글 -->
+
+        <!-- 댓글 없음 -->
+        <div class="replyWrap login">
+          <h3 class="tit_reply">여행톡<span>235</span></h3>
+          <div class="write">
+            <div class="form">
+              <label class="blind" for="replyForm4"
+                >로그인 후 소중한 댓글을 남겨주세요.</label
+              >
+              <span class="writeForm">
+                <textarea
+                  name=""
+                  id="replyForm4"
+                  rows=""
+                  placeholder="로그인 후 소중한 댓글을 남겨주세요."
+                  cols=""
+                ></textarea>
+              </span>
+              <div class="fileRegbtn_wrap">
+                <span class="up_down">
+                  <button type="button" class="up on">추천</button>
+                  <button type="button" class="down">비추천</button>
+                </span>
+                <span class="fileRegbtn">
+                  <input type="file" id="fileUp02" />
+                  <label for="fileUp02">파일찾기</label>
+                  <a href="#" class="btn_apply">등록</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="wrap_reply">
+            <p class="reply_none">등록된 댓글이 없습니다.</p>
+          </div>
+        </div>
+        <!-- // 댓글 없음 -->
+      </div>
+    </div>
+
+    <div id="footer">
+      <!-- 190328 개발에서 적용한 태그 추가 -->
+      <footer>
+        <!-- [D] 더보기 클릭시 클래스 active 추가시 활성화 --><!-- 1002 추가 -->
+        <!-- 공지사항-->
+        <div class="area_notice">
+          <!-- 1002 클래스 clfix 삭제 -->
+          <div>
+            <!-- 1122 수정 -->
+            <!-- <a href="#" class="btn_topMove">위로이동</a> -->
+            <div class="btn_topWrap">
+              <div class="inner">
+                <a href="#" class="btn_topMove2">위로이동</a>
+              </div>
+            </div>
+            <!-- // 1122 수정 -->
+            <!-- 0801 추가 -->
+            <!-- Swiper Slider -->
+            <!-- 1228 공지사항 수정 -->
+            <div class="notice_slider">
+              <div class="swiper-container">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">
+                    <a href="#"
+                      >[긴급] 고병원성 조류인플루엔자 (AI) 확산1[긴급] 고병원성
+                      조류인플루엔자 (AI) 확산1[긴급] 고병원성 조류인플루엔자
+                      (AI) 확산1[긴급] 고병원성 조류인플루엔자 (AI) 확산1[긴급]
+                      고병원성 조류인플루엔자 (AI) 확산1</a
+                    >
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">[긴급] 고병원성 조류인플루엔자 (AI) 확산2</a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">[긴급] 고병원성 조류인플루엔자 (AI) 확산3</a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">[긴급] 고병원성 조류인플루엔자 (AI) 확산4</a>
+                  </li>
+                  <li class="swiper-slide">
+                    <a href="#">[긴급] 고병원성 조류인플루엔자 (AI) 확산5</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="paging">
+                <button type="button" class="btn_autoPlay">재생</button>
+                <button type="button" class="btn_autoStop">멈춤</button>
+              </div>
+              <button type="button" class="swiper-button-prev">이전</button>
+              <button type="button" class="swiper-button-next">다음</button>
+              <!-- 1019 더보기버튼 추가 -->
+              <a href="#" class="ns_more_link"
+                ><span class="blind">더 보기</span></a
+              >
+              <!-- // 1019 더보기버튼 추가 -->
+            </div>
+            <!-- // Swiper Slider -->
+            <!-- // 0802 추가 -->
+          </div>
+        </div>
+        <!-- // 1228 공지사항 수정 -->
+        <!-- //공지사항 -->
+        <div class="box_footer">
+          <!-- 1002 클래스 clfix 삭제 -->
+          <!-- 1002 수정 -->
+          <!-- SNS -->
+          <div class="footer_sns_list">
+            <strong class="tit">대한민국 구석구석을 SNS에서 만나보세요! </strong
+            ><!-- 1002 추가 -->
+            <ul>
+              <!-- 1002 클래스 clfix 삭제 -->
+              <li>
+                <a href="#" title="새 창"
+                  ><!-- 1130 title 추가 -->
+                  <span class="ico ico_blog"></span>
+                  <em class="sns_name">블로그</em>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="새 창"
+                  ><!-- 1130 title 추가 -->
+                  <span class="ico ico_post"></span>
+                  <em class="sns_name">포스트</em>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="새 창"
+                  ><!-- 1130 title 추가 -->
+                  <span class="ico ico_facebook"></span>
+                  <em class="sns_name">페이스북</em>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="새 창"
+                  ><!-- 1130 title 추가 -->
+                  <span class="ico ico_twitter"></span>
+                  <em class="sns_name">트위터</em>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="새 창"
+                  ><!-- 1130 title 추가 -->
+                  <span class="ico ico_kakaostory"></span>
+                  <em class="sns_name">카카오<br />스토리</em>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="새 창"
+                  ><!-- 1130 title 추가 -->
+                  <span class="ico ico_brunch"></span>
+                  <em class="sns_name">브런치</em>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="새 창"
+                  ><!-- 1130 title 추가 -->
+                  <span class="ico ico_instagram"></span>
+                  <em class="sns_name">인스타<br />그램</em>
+                </a>
+              </li>
+              <!-- 1026 추가 -->
+              <li>
+                <a href="#" title="새 창"
+                  ><!-- 1130 title 추가 -->
+                  <span class="ico ico_odii"></span>
+                  <em class="sns_name">오디</em>
+                </a>
+              </li>
+              <!-- // 1026 추가 -->
+            </ul>
+          </div>
+          <!-- // SNS -->
+          <!-- // 1002 수정 -->
+          <!-- 1002 수정 -->
+          <div class="footer_data">
+            <!-- 1224 수정 -->
+            <div class="footer_banner">
+              <span class="btn_1330">
+                <a
+                  href="https://kto.visitkorea.or.kr/kor/customer.kto"
+                  target="_blank"
+                  ><img
+                    src="../../../../resources/images/common/logo_foot1330_01.png"
+                    alt="구석구석 똑똑"
+                /></a>
+                <a
+                  href="http://kto.visitkorea.or.kr/kor/customer/call/1330.kto"
+                  target="_blank"
+                  ><img
+                    src="../../../../resources/images/common/logo_foot1330_02.png"
+                    alt="관광통역안내전화 1330"
+                /></a>
+              </span>
+              <a href="#" class="link_partners" title="새 창"
+                ><img
+                  src="../../../../resources/images/common/link_partners.jpg"
+                  alt="대한민국 구석구석 partners"
+              /></a>
+            </div>
+            <!-- // 1224 수정 -->
+            <ul class="btm_menu">
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">이용약관</a></li>
+              <!-- 0703 추가 -->
+              <li><a href="#">위치기반서비스 이용약관</a></li>
+              <!-- 0717 추가 -->
+              <li><a href="#">저작권정책</a></li>
+              <li><a href="#">고객서비스현장</a></li>
+              <li><a href="#">전자우편무단수집거부</a></li>
+              <li><a href="#">Q&amp;A</a></li>
+              <li><a href="#">찾아오시는 길</a></li>
+            </ul>
+            <ul class="ft_address">
+              <li>
+                <span>우)26464</span><span>강원도 원주시 세계로 10</span
+                ><a href="tel:033-733-3000">TEL : 033-738-3000</a>
+              </li>
+              <!-- 0907 a 태그 tel 속성 추가 -->
+              <li>사업자등록번호 : 202-81-50707</li>
+              <li>통신판매업신고 : 제2009-서울중구-1234호</li>
+            </ul>
+          </div>
+          <!-- // 1002 수정 -->
+          <!-- pc -->
+          <div class="footer_pcLogo">
+            <!-- 1002 클래스 clfix 삭제 -->
+            <span class="btn_footLogo"
+              ><img
+                src="../../../../resources/images/common/logo_foot.png"
+                alt="한국관광공사" /></span
+            ><!-- 0830 a 태그를 span으로 수정 -->
+            <ul class="logo_list">
+              <li>
+                <a href="#"
+                  ><img
+                    src="../../../../resources/images/common/logo_foot_api.png"
+                    alt="TourAPI"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="../../../../resources/images/common/logo_foot_good.png"
+                    alt="굿콘텐츠서비스"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="../../../../resources/images/common/logo_foot_wa.png"
+                    alt="과학기술정보통신부 웹 접근성 품질인증 마크"
+                /></a>
+              </li>
+              <!-- 1224 alt 값 수정 -->
+              <li>
+                <a href="#"
+                  ><img
+                    src="../../../../resources/images/common/logo_foot_gg.png"
+                    alt="한국관광공사"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="../../../../resources/images/common/logo_foot_mg.png"
+                    alt="문화체육관광부"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <!-- // pc -->
+          <!-- mobile -->
+          <div class="footer_mLogo">
+            <!-- 1002 클래스 clfix 삭제 -->
+            <ul class="logo_list">
+              <!-- 1002 클래스 clfix 삭제 -->
+              <li>
+                <a href="#"
+                  ><img
+                    src="../../../../resources/images/common/logo_mfoot_api.png"
+                    alt="TourAPI"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="../../../../resources/images/common/logo_mfoot_good.png"
+                    alt="굿콘텐츠서비스"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="../../../../resources/images/common/logo_mfoot_wa.png"
+                    alt="과학기술정보통신부 웹 접근성 품질인증 마크"
+                /></a>
+              </li>
+              <!-- 1224 alt 값 수정 -->
+            </ul>
+            <ul class="logo_list2">
+              <!-- 1002 클래스 clfix 삭제 -->
+              <li>
+                <a href="#"
+                  ><img
+                    src="../../../../resources/images/common/logo_mfoot_gg.png"
+                    alt="한국관광공사"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="../../../../resources/images/common/logo_mfoot_mg.png"
+                    alt="문화체육관광부"
+                /></a>
+              </li>
+            </ul>
+            <div class="logo_btm">
+              <span class="btn_footLogo"
+                ><img
+                  src="../../../../resources/images/common/logo_foot.png"
+                  alt="한국관광공사" /></span
+              ><!-- 0830 a 태그를 span으로 수정 -->
+              <button type="button" class="btn_footClose">
+                <span class="btn_o">더보기</span
+                ><!-- 1002 수정 -->
+                <span class="btn_x">닫기</span
+                ><!-- 1002 수정 -->
+              </button>
+            </div>
+          </div>
+          <!-- // mobile -->
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      $('img[usemap]').rwdImageMaps(); 
+    </script>
+  </body>
+</html>
