@@ -1,0 +1,334 @@
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: 'yg-jalnan';
+}
+/* section : Jeju Main */
+.jejuMain {
+  background: url('/portfolio/special-exhibition/06/img/main_01.png') no-repeat center center;
+  height: 765px;
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+}
+
+/* section : Jeju video */
+.video {
+  background: url('/portfolio/special-exhibition/06/img/sub_01.png') no-repeat center center;
+  height: 693px;
+  width: 100%;
+  margin-top: -50px;
+  position: relative;
+}
+.keypoint {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1140px;
+}
+.keypointTitle {
+  color: #fe8900;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 25px 0px;
+}
+.tourist {
+  display: table-cell;
+}
+.tourist:first-child {
+  padding-right: 20px;
+}
+.tourist > span {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+}
+
+/* section : Jeju flight */
+.flight {
+  background: url('/portfolio/special-exhibition/06/img/sub_02_01.png') no-repeat center center;
+  height: 772px;
+  width: 100%;
+  font-family: 'GmarketSansMedium';
+  position: relative;
+}
+.air {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1140px;
+}
+.airTitle-inner {
+  overflow: hidden;
+}
+.airTitle {
+  float: left;
+}
+.airTitle > div {
+  font-family: 'yg-jalnan';
+  color: #3f4074;
+  font-size: 22px;
+}
+.airTitle > span {
+  color: #3d79ae;
+}
+.airTitle > b {
+  display: block;
+  font-family: 'GmarketSansLight';
+  font-size: 13px;
+}
+.airButton {
+  float: right;
+  margin-top: 13px;
+}
+.airButton > a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #3f4074;
+  padding: 15px 35px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.airContent {
+  overflow: hidden;
+  margin-top: 50px;;
+}
+.start {
+  float: left;
+  width: 46%;
+}
+.start:first-child {
+  border-right: 1px solid #c3c3c3;
+  padding-right: 45px;
+}
+.start:last-child {
+  padding-left: 45px;
+}
+.start > b {
+  color: #3d79ae;
+  font-size: 18px;
+}
+.start > div:nth-child(2) {
+  margin-top: 10px;
+}
+.start > div:nth-child(3) {
+  padding: 3px 0px;
+}
+.start > span {
+  font-size: 12px;
+}
+.start > img {
+  width: 100%;
+  margin-top: 20px;
+}
+/* section : Jeju flight */
+.place {
+  background: url('/portfolio/special-exhibition/06/img/sub_03_01.png') no-repeat center center;
+  height: 798px;
+  width: 100%;
+  font-family: 'GmarketSansMedium';
+  position: relative;
+  color: #fff;
+}
+.hotel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1140px;
+}
+.hotelTitle-inner {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.hotelTitle {
+  float: left;
+}
+.hotelTitle > div {
+  font-family: 'yg-jalnan';
+  font-size: 22px;
+}
+.hotelTitle > span {
+  font-family: 'GmarketSansLight';
+}
+.hotelButton {
+  float: right;
+  margin-top: 20px;
+}
+.hotelButton > a {
+  color: #4a6c8a;
+  background-color: #fff;
+  text-decoration: none;
+  padding: 15px 35px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.hotelContent {
+  overflow: hidden;
+}
+.hotelImg {
+  float: left;
+  width: 49%;
+}
+.hotelImg > img {
+  width: 100%;
+}
+.hotelImgs {
+  display: inline-flex;
+  width: 49%;
+}
+.hotelImgs > img {
+  width: 100%;
+}
+.hotelImgs:nth-child(2) > img, .hotelImgs:nth-child(4) > img {
+  margin-left: 10px;
+  margin-bottom: 12px;
+}
+.hotelData {
+  margin-top: 20px;
+}
+.hotelDataTitle {
+  font-family: 'yg-jalnan';
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.address {
+  margin-bottom: 10px;
+}
+.address > img {
+  width: 15px;
+}
+.address > span {
+  vertical-align: top;
+  font-family: 'GmarketSansLight';
+}
+.information {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 15px 30px;
+  display: flex;
+}
+.information > span {
+  font-family: 'GmarketSansLight';
+  width: 33.3%;
+  font-size: 15px;
+}
+.information > span:first-child {
+  width: 40%;
+}
+.information > span > b {
+  font-family: 'GmarketSansMedium';
+  margin-right: 5px;
+}
+
+/* section : Jeju package */
+.package {
+  background: url(/portfolio/special-exhibition/06/img/sub_04_01.png) no-repeat center center;
+  height: 1195px;
+  width: 100%;
+  font-family: 'GmarketSansMedium';
+  position: relative;
+  color: #3d79ae;
+}
+.package-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1140px;
+}
+.schedule {
+  margin-bottom: 75px;
+}
+.scheduleTitle-inner {
+  overflow: hidden;
+}
+.scheduleTitle {
+  float: left;
+}
+.scheduleTitle > div {
+  font-family: 'yg-jalnan';
+  font-size: 22px;
+}
+.scheduleButton {
+  float: right;
+  margin-top: 20px;
+}
+.scheduleButton > a {
+  background-color: #4f7ba3;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 35px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.certainTabmenu {
+  border-bottom: 1px solid #4f7ba3;
+}
+.certainTabmenu > li {
+  list-style: none;
+  display: table-cell;
+  border: 1px solid #4f7ba3;
+  background-color: #fff;
+  padding: 15px 50px;
+  cursor: pointer;
+  border-bottom: none;
+}
+.certainTabmenu > li.on {
+  background-color: #4f7ba3;
+  color: #fff;
+}
+.guide {
+  font-size: 13px;
+  letter-spacing: -1px;
+  margin-top: 10px;;
+}
+
+.date {
+  height: 802px;
+}
+.day {
+  display: none;
+}
+.day.on {
+  display: block;
+}
+.day > img {
+  width: 100%;
+  margin-top: 50px;
+}
+.day:nth-child(1) > img, .day:nth-child(4) > img  {
+  margin-top: 150px;
+}

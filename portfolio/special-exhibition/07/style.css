@@ -1,0 +1,252 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 공통 CSS */
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.container {
+  font-family: 'GmarketSansMedium';
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+.inner {
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 745px;
+}
+
+/* Section : couponMain */
+.couponMain {
+  background: url('/portfolio/special-exhibition/07/img/main_01.png') no-repeat center center;
+  height: 544px;
+  margin: 0;
+  background-size: cover;
+}
+
+/* Section : package */
+.package {
+  background: url('/portfolio/special-exhibition/07/img/sub_01_01.png') no-repeat center center;
+  height: 1164px;
+  margin: 0;
+  background-size: cover;
+  position: relative;
+}
+.headlines {
+  margin-bottom: 30px;
+}
+.mainHeadline {
+  margin-bottom: 10px;
+}
+.subHeadline > span {
+  display: block;
+}
+.subHeadline > span > b {
+  font-family: 'GmarketSansBold';
+  color: #4e7db8;
+}
+
+.coupon {
+  position: relative;
+}
+.plane {
+  position: absolute;
+  top: -23px;
+  left: -123px;
+}
+.downloadContent {
+  display: inline-flex;
+  margin-bottom: 20px;
+  position: relative;
+}
+.downloadContent > img {
+  height: 100%;
+}
+.shadows {
+  position: absolute;
+  bottom: 44px;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+.shadows > img {
+  width: 100%;
+}
+.couponGet {
+  border-radius: 0px 15px 15px 0px;
+}
+.couponGet > button::after {
+  content: '';
+  position: absolute;
+  bottom: -169px;
+  right: -134px;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.171);
+  border-radius: 50%;
+}
+.couponGet > button::before {
+  content: '';
+  position: absolute;
+  top: -135px;
+  left: -100px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.171);
+  border-radius: 50%;
+}
+.button1 {
+  background-color: #33619c;
+}
+.couponGet > button {
+  font-family: 'GmarketSansBold';
+  color: #fff;
+  display: inline-block;
+  height: 270px;
+  width: 240px;
+  font-size: 30px;
+  position: relative;
+  border-radius: 0px 15px 15px 0px;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.download > span {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  margin-left: 10px;
+  color: #565656;
+}
+
+.item {
+  margin-top: 50px;
+}
+.items {
+  display: inline-block;
+  width: 47%;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px #c7e0eac4;
+}
+.items:first-child {
+  margin-right: 20px;
+}
+.items > div > img {
+  width: 100%;
+}
+.itemsTitle {
+  padding: 10px 20px;
+  text-align: left;
+  color: #777777;
+  font-size: 15px;
+}
+.itemsName {
+  padding: 0px 20px;
+  text-align: left;
+  color: #3f3f3f;
+  height: 45px;
+}
+.reservation {
+  background-color: #4e7db8;
+  display: inline-block;
+  color: #fff;
+  padding: 7px 50px;
+  border-radius: 20px;
+  margin: 20px 0px;
+}
+
+/* section : free */
+.free {
+  background: url('/portfolio/special-exhibition/07/img/sub_02_01.png') no-repeat center center;
+  height: 1164px;
+  margin: 0;
+  background-size: cover;
+  position: relative;
+}
+.orange {
+  color: #ff9000 !important;
+}
+.orangeBa {
+  background-color: #ff9000;
+}
+.orangeButton {
+  background-color: #ff9000;
+}
+
+.items.shadow {
+  box-shadow: 10px 10px #dadcd7bd;
+}
+
+/* section : Ulleungdo */
+.ulleungdo {
+  background: url('/portfolio/special-exhibition/07/img/sub_03_01.png') no-repeat center center;
+  height: 1164px;
+  margin: 0;
+  background-size: cover;
+  position: relative;
+}
+.green {
+  color: #4eb8ad !important;
+}
+.greenBa {
+  background-color: #349d92;
+}
+.greenButton {
+  background-color: #4eb8ad;
+}
+.plane.ship {
+  top: -59px;
+  left: -46px;
+}
+
+/* section : guide */
+.guide {
+  background-color: #464646;
+  color: #fff;
+  position: relative;
+  height: 300px;
+  margin: 0px;
+}
+.guideContent {
+  text-align: left;
+}
+.guideTitle {
+  font-family: 'GmarketSansBold';
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.guideContent > span {
+  display: block;
+  font-size: 17px;
+  padding: 5px;
+}
