@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Beautiful Heart';
+  src: url('http://fonts.cdnfonts.com/css/beautiful-heart');
+}
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ghanachoco';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+a.commodityContent {
+  text-decoration: none;
+  color: #545454;
+  width: 100%;
+}
+.container {
+  font-family: 'GmarketSansMedium';
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 17px;
+}
+
+/* Section : southeastasia Main */
+.southeastasia {
+  position: relative;
+  margin: 0;
+}
+.southeastasiaImg {
+  position: relative;
+}
+
+.southeastasiaTitle {
+  position: absolute;
+  top: 41%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.southeastasiaList  > img {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.southeastasiaList  > img:last-child {
+  width: 55%;
+}
+.southeastasiaTitle > span {
+  font-size: 20px;
+  margin-top: 10px;
+  text-shadow: 1px 1px 0 #000;
+}
+.mainContent {
+  padding: 25px;
+}
+.guide > span {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  margin-right: 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+}
+
+/* Section : Thailand */
+.thailand {
+  background: url('/portfolio/special-exhibition/04/img/sub_01_01.png') no-repeat center center;
+  margin: 0;
+  height: auto;
+  background-size: cover;
+}
+.thailand-inner {
+  width: 1200px;
+  margin: auto;
+  padding: 100px 0px;
+}
+p {
+  font-family: 'GmarketSansLight';
+  margin: 0;
+  font-weight: 600;
+}
+.subIcon {
+  width: 38px;
+}
+.subTitle {
+  font-family: 'ghanachoco';
+  display: inline-block;
+  font-size: 32px;
+  vertical-align: super;
+}
+.strapline {
+  font-family: 'Beautiful Heart';
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 50px;
+  margin-left: -25px;
+  z-index: -1;
+}
+
+.commodity {
+  margin-top: 50px;
+}
+.commodityList {
+  display: inline-flex;
+  background-color: #fff;
+  border-radius: 25px;
+  margin-right: 18px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.185);
+  width: 32%;
+  overflow: hidden;
+  height: 355px;
+}
+.commodityList:last-child {
+  margin-right: 0;
+}
+.commodityList > a > img {
+  display: block;
+  width: 100%;
+}
+.commodityList > a > img:hover {
+  animation: scale 0.9s infinite ease-in-out alternate;
+}
+.commodityList > a > div {
+  padding: 20px;
+}
+.h47 {
+  padding-top: 10px;
+}
+.h50 {
+  height: 51px;
+}
+
+/* Section : Vietnam */
+.vietnam {
+  background: url('/portfolio/special-exhibition/04/img/sub_02_01.png') no-repeat center center;
+  margin: 0;
+  height: auto;
+  background-size: cover;
+}
+.vietnam-inner {
+  width: 1200px;
+  margin: auto;
+  padding: 100px 0px;
+  color: #616161;
+}
+.strapline.gray {
+  color: #6161615b;
+  margin-left: -50px;
+}
+.vietnam-inner > .commodity .commodityImg {
+  margin: 50px 0;
+}
+
+/* Section : Philippines */
+.philippines {
+  background: url('/portfolio/special-exhibition/04/img/sub_03_01.png') no-repeat center center;
+  margin: 0;
+  height: auto;
+  background-size: cover;
+}
+.philippines-inner {
+  width: 1200px;
+  margin: auto;
+  padding: 100px 0px;
+}
+.philippinesTitle .strapline {
+  margin-left: -50px;
+}
+
+/* Section : Laos */
+.laos {
+  background: url('/portfolio/special-exhibition/04/img/sub_04_01.png') no-repeat center center;
+  margin: 0;
+  height: auto;
+  background-size: cover;
+}
+.laos-inner {
+  width: 1200px;
+  margin: auto;
+  padding: 100px 0px;
+  color: #616161;
+}
+.laosTitle .strapline {
+  color: #6161615b;
+  margin-left: -40px;
+}
+
+/* Section : Singapore */
+.singapore {
+  background: url('/portfolio/special-exhibition/04/img/sub_05_01.png') no-repeat center center;
+  margin: 0;
+  height: auto;
+  background-size: cover;
+}
+.singapore-inner {
+  width: 1200px;
+  margin: auto;
+  padding: 100px 0px;
+}
+.singaporeTitle .strapline {
+  margin-left: -90px;
+}
+
+@keyframes scale{
+  from{
+    transform: translatey(0px);
+  }
+  to{
+    transform: scale( 1.1, 1.1 );
+  }
+}

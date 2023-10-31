@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Beautiful Heart';
+  src: url('http://fonts.cdnfonts.com/css/beautiful-heart');
+}
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ghanachoco';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* CSS */
+body {
+  margin: 0;
+}
+.container a {
+  text-decoration: none;
+  color: #545454;
+}
+.container {
+  min-width: 320px;
+  font-family: 'GmarketSansMedium';
+  margin: 0px;
+  color: #fff;
+  padding: 0px;
+  width: 100%;
+  letter-spacing: -1px;
+  font-size: 3.6vw;
+}
+
+
+/* Section : southeastasia Main */
+.southeastasiaMain {
+  position: relative;
+}
+.southeastasiaList {
+  text-align: center;
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+.southeastasiaList > img {
+  width: 80%;
+}
+.mainContent {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding: 30px 0;
+}
+.guide > div {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.guide > div:last-child {
+  margin-right: 0;
+}
+
+/* Section : Thailand */
+.thailand {
+  background: url('/portfolio/special-exhibition/04/mobile-img/sub_01_01.png') no-repeat center center;
+  background-size: cover;
+  margin: 0;
+  background-size: cover;
+}
+.thailand-inner {
+  padding: 50px 20px;
+}
+.subIcon {
+  width: 10% !important;
+}
+.subTitle {
+  font-family: 'ghanachoco';
+  display: inline-block;
+  font-size: 7vw;
+  margin-left: 5px;
+  vertical-align: super;
+}
+.strapline {
+  font-family: 'Beautiful Heart';
+  font-size: 10vw;
+  margin-left: -25px;
+  color:rgba(255, 255, 255, 0.5);
+  vertical-align: super;
+}
+p {
+  font-size: 4.4vw;
+}
+.commodity {
+  padding: 10px 0px;
+}
+.commodityList {
+  background-color: #fff;
+  border-radius: 25px;
+  margin: 35px 0px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.185);
+}
+.commodityList > a > img {
+  width: 100%;
+}
+.commodityList > a > div {
+  padding: 20px;
+  font-size: 4vw;
+}
+
+/* Section : Vietnam */
+.vietnam {
+  background: url('/portfolio/special-exhibition/04/mobile-img/sub_02_01.png') no-repeat center center;
+  background-size: cover;
+  margin: 0;
+  background-size: cover;
+}
+.vietnam-inner {
+  padding: 50px 20px;
+  color: #616161;
+}
+.strapline.gray {
+  color: #6161615b;
+}
+
+/* Section : Philippines */
+.philippines {
+  background: url('/portfolio/special-exhibition/04/mobile-img/sub_03_01.png') no-repeat center center;
+  background-size: cover;
+  margin: 0;
+  background-size: cover;
+}
+.philippines-inner {
+  padding: 50px 20px;
+}
+
+/* Section : Laos */
+.laos {
+  background: url('/portfolio/special-exhibition/04/mobile-img/sub_04_01.png') no-repeat center center;
+  background-size: cover;
+  margin: 0;
+  background-size: cover;
+}
+.laos-inner {
+  padding: 50px 20px;
+  color: #616161;
+}
+.strapline.gray {
+  color: #6161615b;
+}
+/* Section : Singapore */
+.singapore {
+  background: url('/portfolio/special-exhibition/04/mobile-img/sub_05_01.png') no-repeat center center;
+  background-size: cover;
+  margin: 0;
+  background-size: cover;
+}
+.singapore-inner {
+  padding: 50px 20px;
+}
