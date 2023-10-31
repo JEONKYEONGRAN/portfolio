@@ -1,0 +1,784 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ghanachoco';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+ }
+ 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+ }
+ 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+ }
+ 
+ .nanumbarungothic * {
+  font-family: 'NanumBarunGothic', sans-serif;
+ }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.container {
+  font-family: 'GmarketSansMedium';
+  overflow-y: hidden;
+  width: 100%;
+  padding: 0;
+}
+
+/* section : founding Main */
+.foundingMain {
+  background: url('/portfolio/special-exhibition/01/img/main_01.png') no-repeat center center;
+  height: 609px;
+  text-align: center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+}
+
+/* section : founding Gnb */
+.foundingGnb {
+  margin: 0px;
+}
+.gnbInner {
+  background-color: #2a8d9f;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+.gnbInner > a {
+  font-weight: 700;
+  padding: 0px 47px;
+  font-size: 18px;
+  border-right: 1px solid #fff;
+}
+.gnbInner > a:last-child {
+  border: #fff;
+}
+.gnbInner > a.on {
+  color: #fffdd2;
+}
+.gnbInner > a:hover {
+  color: #fff;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9990;
+}
+
+
+/* 공통 CSS */
+.Inner {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+}
+.Name {
+  font-family: 'ghanachoco';
+  background: linear-gradient(to right, #a4e9b7, #f0da73);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 30px;
+  margin-top: 30px;
+  display: inline-block;
+  position: relative;
+}
+.Name::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, #a4e9b7, #f0da73);
+}
+
+/* section : reduced price */
+.reducedPrice {
+  background: url('/portfolio/special-exhibition/01/img/sub_01_01.png') no-repeat top center;
+  height: 1510px;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+.reducedPrice.on {
+  margin-top: 67px;
+}
+.reducedInner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  text-align: left;
+}
+.reducedPriceTitle {
+  margin-bottom: 50px;
+}
+.reduced {
+  height: 482px;
+}
+.reduced:nth-child(2) {
+  margin-bottom: 100px;
+}
+.reducedImg {
+  float: left;
+  width: 33%;
+}
+.reducedImg.set1 > img {
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 15px 15px #f1c1b6;
+}
+.reducedImg.set2 > img {
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 15px 15px #eeb4ac;
+}
+
+.reducedContent {
+  float: left;
+  width: 55%;
+  padding-left: 70px;
+}
+.reducedTitle {
+  margin-bottom: 20px;
+}
+.reducedTitle > div {
+  font-family: 'GmarketSansBold';
+  color: #2a8d9f;
+  font-size: 21px;
+}
+
+.reducedPoint {
+  margin: 45px 0px;
+}
+.reducedPoint > div {
+  margin-bottom: 20px;
+}
+.key > div {
+  margin-bottom: 10px;
+  width: 115%;
+}
+.key > div > span {
+  margin-right: 15px;
+}
+.point {
+  background-color: #2a8d9f;
+  color: #fff;
+  font-weight: 500;
+  padding: 7px 20px;
+  border-radius: 20px;
+}
+
+.splide__track {
+  padding: 30px 0px 10px;
+}
+.splide__slide {
+  width: 130px !important;
+}
+.splide__slide > div {
+  display: inline-block;
+  border: 1px solid #2a8d9f;
+  padding: 30px 40px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.281);
+  position: relative;
+  overflow: hidden;
+}
+.splide__slide > div::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.37);
+  top: -91px;
+  left: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.splide__slide > div > a {
+  width: 100px;
+  color: #000;
+}
+.splide__slide > div > a > span {
+  display: block;
+}
+.splide__slide > div > a > span:first-child {
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: relative;
+}
+.splide__slide > div > a > span:first-child::before {
+  content: '';
+  position: absolute;
+  bottom: -9px;
+  left: 9px;
+  width: 25px;
+  height: 1px;
+  background-color: #000;
+}
+.reducedChoice > span {
+  font-size: 13px;
+  padding-left: 10px;
+}
+/* splide CSS */
+.splide {
+  padding: 0px 6px;
+}
+.splide__arrow--prev {
+  left: -7px;
+}
+.splide__arrow--next {
+  right: -4px;
+}
+.splide__arrow {
+  background: #2a8d9f;
+  color: #fff;
+  opacity: 1;
+  top: 45%;
+  position: absolute;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: none;
+  z-index: 1;
+}
+.splide__pagination {
+  display: none;
+}
+.splide__arrow--prev:before {
+  content: '\e93d';
+  font-family: 'XEICON';
+}
+.splide__arrow--next:before {
+  content: '\e940';
+  font-family: 'XEICON';
+}
+.splide__arrow svg {
+  display: none;
+}
+
+/* section : southeast Asia */
+.southeastAsia {
+  background: url('/portfolio/special-exhibition/01/img/sub_16_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 1045px;
+}
+.southeastAsiaTitle > img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.southeastAsiaTitle > span {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 7px 40px;
+}
+
+.southeastAsiaContent {
+  margin: 50px 0px;
+}
+.item:first-child {
+  margin-bottom: 20px;
+}
+.items {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+}
+.items:last-child {
+  margin-right: 0;
+}
+.items > img {
+  box-shadow: 10px 10px #1f6a77a2;
+  border-radius: 20px;
+}
+.items > span {
+  position: absolute;
+  bottom: 22px;
+  right: 0;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: #fff;
+  padding: 10px 10px 10px 20px;
+  border-radius: 20px 0px 0px 20px
+}
+
+.realTime {
+  margin-top: 120px;
+}
+.realTime > a {
+  font-family: 'GmarketSansBold';
+  background-color: #fffdd2;
+  color: #2a8d9f;
+  padding: 20px 40px;
+  border-radius: 40px;
+  font-size: 18px;
+  box-shadow: 10px 10px #1f6a77;
+}
+
+/* section : mediterranean */
+.mediterranean {
+  background: url('/portfolio/special-exhibition/01/img/sub_02_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 880px;
+}
+.mediterraneanTitle {
+  margin-bottom: 30px;
+}
+.mediterraneanTitle > img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.mediterraneanTitle > span {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 7px 40px;
+}
+.mediterraneanProduct {
+  margin-top: 20px;
+}
+.product {
+  width: 32.4%;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.product:first-child {
+  margin-left: 0;
+}
+.product > a {
+  color: #000;
+  text-align: left;
+}
+.product > a > img {
+  width: 100%;
+  height: 250px;
+}
+.productTitle {
+  padding: 10px 20px;
+}
+.productTitle > img {
+  display: inline-block;
+}
+.productTitle > span {
+  font-family: 'NanumBarunGothic';
+  vertical-align: top;
+  font-weight: 700;
+}
+.productName {
+  font-family: 'NanumBarunGothic';
+  padding: 0px 20px;
+  height: 42px;
+  font-weight: 700;
+}
+.product > a > span {
+  font-family: 'NanumBarunGothic';
+  float: right;
+  padding: 10px 20px;
+  color: #ce0000;
+  font-size: 20px;
+  font-weight: 700;
+}
+.product > a > span > b {
+  font-size: 24px;
+}
+
+/* section : westEurope */
+.westEurope {
+  background: url('/portfolio/special-exhibition/01/img/sub_03_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 680px;
+}
+.westEuropeProduct {
+  margin-top: 20px;
+}
+
+/* section : spainNorthEurope */
+.spainNorthEurope {
+  background: url('/portfolio/special-exhibition/01/img/sub_04_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 682px;
+}
+.spainNorthEuropeProduct {
+  margin-top: 20px;
+}
+
+/* section : easternEuropeBalkan */
+.easternEuropeBalkan {
+  background: url('/portfolio/special-exhibition/01/img/sub_05_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 682px;
+}
+.easternEuropeBalkanProduct {
+  margin-top: 20px;
+}
+
+/* section : saipan */
+.saipan {
+  background: url('/portfolio/special-exhibition/01/img/sub_06_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 682px;
+}
+.saipanProduct {
+  margin-top: 20px;
+}
+
+/* section : guam */
+.guam {
+  background: url('/portfolio/special-exhibition/01/img/sub_07_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 682px;
+}
+.guamProduct {
+  margin-top: 20px;
+}
+
+/* section : philippines */
+.philippines {
+  background: url('/portfolio/special-exhibition/01/img/sub_08_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 682px;
+}
+.philippinesProduct {
+  margin-top: 20px;
+}
+
+/* section : vietnam */
+.vietnam {
+  background: url('/portfolio/special-exhibition/01/img/sub_09_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 682px;
+}
+.vietnamProduct {
+  margin-top: 20px;
+}
+
+/* section : thailand */
+.thailand {
+  background: url('/portfolio/special-exhibition/01/img/sub_10_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 682px;
+}
+.thailandProduct {
+  margin-top: 20px;
+}
+/* slick CSS */
+.slick-prev, .slick-next {
+  background-color: rgba(0, 0, 0, 0.562);
+  padding: 20px;
+  top: 33%;
+  opacity: 1;
+}
+.slick-prev:before {
+  content: '\e93d';
+  font-family: 'XEICON';
+}
+.slick-next:before {
+    content: '\e940';
+    font-family: 'XEICON';
+}
+.slick-prev:before, .slick-next:before {
+  line-height: 0;
+  opacity: 1 !important;
+  position: absolute;
+  left: 11px;
+}
+.slick-prev {
+  left: 0;
+  z-index: 9999;
+}
+.slick-next {
+  right: 0;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.562);
+}
+.product.slick-slide.slick-active {
+  width: 393px !important;
+}
+
+
+/* section : domestic */
+.domestic {
+  background: url('/portfolio/special-exhibition/01/img/sub_11_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 821px;
+}
+.domesticInner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+}
+.product.jeju {
+  width: 40%;
+}
+.product.jeju {
+  margin-left: 20px;
+}
+
+.productBenefit {
+  padding: 20px;
+  height: 70px;
+  position: relative;
+}
+.productBenefit::after {
+  content: '선착순 20명';
+  position: absolute;
+  top: 0;
+  right: 50px;
+  background-color: #b56563;
+  color: #fffdd2;
+  width: 50px;
+  height: 65px;
+  padding: 10px 15px;
+  text-align: center;
+}
+.productBenefit::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background-color: transparent;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid #fff;
+  border-top: 40px solid transparent;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+}
+.productBenefit > div {
+  margin-bottom: 5px;
+}
+.productBenefit > span {
+  display: block;
+}
+.productName.bottom {
+  margin-bottom: 20px;
+}
+
+/* section : representative */
+.representative {
+  background: url('/portfolio/special-exhibition/01/img/sub_12_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 682px;
+}
+.representativeProduct {
+  margin-top: 20px;
+}
+
+/* section : honeymoon */
+.honeymoon {
+  background: url('/portfolio/special-exhibition/01/img/sub_13_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 837px;
+}
+.honeymoon > .Inner {
+  top: 55% ;
+}
+.honeymoonInner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+}
+.honeymoonContent > .Name {
+  font-size: 40px;
+}
+.honeymoonContent > .Name::before {
+  display: none;
+}
+.honeymoonSubtotal {
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.honeymoonSubtotal > span {
+  color: #f0da73;
+  text-decoration: underline;
+}
+.basket {
+  border: 5px solid #fff;
+  margin: 50px 0px;
+  border-radius: 20px;
+  position: relative;
+  color: #fff;
+  padding: 20px 0px;
+}
+.basketTitle {
+  background-color: #fff;
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 7px 25px;
+  font-weight: 700;
+  border-radius: 20px;
+  color: #000;
+  font-size: 18px;
+}
+.basketTitle > span {
+  color: #b56563;
+}
+.basket > span {
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 200;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.component {
+  display: inline-block;
+  width: 40%;
+  padding: 60px 20px;
+}
+.componentImg {
+  width: 380px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.componentImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+.component > span {
+  margin-top: 5px;
+}
+
+/* section : hawaii */
+.hawaii {
+  background: url('/portfolio/special-exhibition/01/img/sub_14_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 672px;
+}
+
+/* section : cancun */
+.cancun {
+  background: url('/portfolio/special-exhibition/01/img/sub_15_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 682px;
+}
+.cancunProduct {
+  margin-top: 20px;
+}

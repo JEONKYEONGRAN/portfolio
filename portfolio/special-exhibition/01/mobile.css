@@ -1,0 +1,706 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ghanachoco';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+ }
+ 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebBold.ttf') format('truetype')
+ }
+ 
+ @font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWebLight.ttf') format('truetype');
+ }
+ 
+ .nanumbarungothic * {
+  font-family: 'NanumBarunGothic', sans-serif;
+ }
+
+/* CSS */
+body {
+  margin: 0;
+}
+section {
+  margin: 0 !important;
+  padding: 0;
+}
+.container a {
+  text-decoration: none;
+  color: #fff;
+}
+.container {
+  min-width: 320px;
+  font-family: 'GmarketSansMedium';
+  margin: 0px;
+  color: #484848;
+  padding: 0px;
+  width: 100%;
+  letter-spacing: -1px;
+  font-size: 16px;
+}
+
+/* section : founding Main */
+.foundingMain > img {
+  width: 100%;
+  display: block;
+}
+
+/* section : founding Gnb */
+.gnbInner {
+  background-color: #2a8d9f;
+}
+.gnbInner > ul {
+  font-family: 'GmarketSansBold';
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+.gnbInner > ul:first-child {
+  border-bottom: 1px solid #fff;
+}
+.gnbInner > ul > li {
+  list-style: none;
+  display: inline-block;
+  font-size: 17px;
+  padding: 15px 0;
+  width: 32%;
+  border-right: 1px solid #fff;
+}
+.gnbInner > ul > li:last-child {
+  border: none;
+}
+.gnbInner > ul > li > a.on {
+  color: #fffdd2;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9990;
+}
+
+/* 공통 CSS */
+.Inner {
+  padding: 30px 0px 70px 20px;
+  overflow: hidden;
+}
+.Inner.t75 {
+  padding: 75px 0px 50px 20px;
+}
+.sub-slides {
+  padding: 0px;
+}
+.Name {
+  font-family: 'ghanachoco';
+  background: linear-gradient(to right, #a4e9b7, #f0da73);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+}
+.Name::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, #a4e9b7, #f0da73);
+}
+
+/* reduced price */
+.reducedPrice {
+  position: relative;
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_01_01.png') no-repeat top center;
+  width: 100%;
+  background-size: cover;
+}
+.reducedPrice.on {
+  margin-top: 115px !important;
+}
+.reducedPrice > img {
+  width: 100%;
+}
+.reducedInner {
+  padding: 0px 20px;
+}
+
+.reducedPriceTitle {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.reducedPriceTitle > img {
+  width: 100%;
+}
+.reduced {
+  padding-bottom: 40px;
+}
+.reducedInner > div:nth-child(2) {
+  border-bottom: 1px solid #f4b6ae;
+  margin-bottom: 40px;
+}
+.reducedImg > img {
+  width: 100%;
+}
+
+.reducedTitle {
+  margin: 20px 0px;
+}
+.reducedTitle > div {
+  font-family: 'GmarketSansBold';
+  color: #2a8d9f;
+  font-size: 20px;
+}
+
+.reducedPoint {
+  margin: 30px 0px;
+}
+.point {
+  background-color: #2a8d9f;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+.key {
+  margin: 20px 0px;
+}
+.key > div {
+  margin: 5px 0px;
+}
+.key > div > span {
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+.splide {
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+.splide__slide {
+  overflow: hidden;
+}
+.splide__slide > a > div {
+  padding: 20px;
+  border: 1px solid #2a8d9f;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.281);
+  margin-right: 5px;
+  position: relative;
+}
+.splide__slide > a > div::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.37);
+  top: -71px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.splide__slide > a > div > span {
+  color: #484848;
+}
+.splide__slide > a > div > div {
+  color: #484848;
+  font-weight: 700;
+  margin-bottom: 15px;
+  position: relative;
+}
+.splide__slide > a > div > div::after {
+  content: '';
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 17px;
+  height: 2px;
+  background-color: #484848;
+}
+.splide__pagination {
+  display: none;
+}
+.splide__arrows {
+  display: none;
+}
+.reducedChoice > span {
+  font-size: 14px;
+}
+
+/* section : southeast Asia */
+.southeastAsia {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_16_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  color: #fff;
+}
+.southeastAsiaInner {
+  padding: 20px;
+}
+.southeastAsiaTitle {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.southeastAsiaTitle > img {
+  width: 75%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.southeastAsiaTitle > span {
+  border: 1px solid #fff;
+  padding: 5px 15px;
+}
+
+.southeastAsiaContent {
+  padding: 20px 0px;
+}
+.item {
+  display: flex;
+  margin-bottom: 20px;
+}
+.items {
+  position: relative;
+  width: 50%;
+}
+.items:first-child {
+  margin-right: 20px;
+}
+.items > img {
+  width: 100%;
+  box-shadow: 10px 10px #1f6a77a2;
+  border-radius: 20px;
+}
+.items > span {
+  position: absolute;
+  bottom: 22px;
+  right: 0;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: #fff;
+  padding: 10px 10px 10px 20px;
+  border-radius: 20px 0px 0px 20px;
+}
+.realTime {
+  text-align: center;
+  padding: 30px 0px;
+}
+.realTime > a {
+  font-family: 'GmarketSansBold';
+  background-color: #fffdd2;
+  color: #2a8d9f;
+  padding: 20px;
+  border-radius: 40px;
+  font-size: 18px;
+  box-shadow: 10px 10px #1f6a77;
+}
+
+/* section : mediterranean */
+.mediterranean {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_02_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.mediterraneanTitle {
+  padding-right: 40px;
+  padding-left: 20px;
+}
+.mediterraneanTitle > img {
+  width: 100%;
+}
+.mediterraneanTitle > div {
+  display: inline-block;
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.mediterraneanContent {
+  overflow: hidden;
+}
+.product {
+  background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: left;
+}
+.product > a > img {
+  width: 100% !important;
+  height: 250px !important;
+}
+.productTitle {
+  color: #3c3c3c;
+  padding: 10px 20px;
+}
+.productTitle > img {
+  display: inline-block;
+  width: auto !important;
+}
+.productTitle > span {
+  vertical-align: text-bottom;
+}
+.productName {
+  color: #3c3c3c;
+  padding: 0px 20px;
+  height: 45px;
+}
+.product > a > span {
+  font-family: 'NanumBarunGothic';
+  color: #ce0000;
+  padding: 0px 20px 20px;
+  float: right;
+  font-weight: 700;
+  font-size: 18px;
+}
+.product > a > span > b {
+  font-size: 24px;
+}
+
+/* Slick Slider CSS */
+.slick-prev, .slick-next {
+  display: none !important;
+}
+.swiper-slide {
+  width: 330px !important;
+}
+.swiper-slide.subs {
+  width: 330px !important;
+}
+.swiper-slide.swiper-slide-active {
+  width: 330px !important;
+}
+.swiper-free-mode>.swiper-wrapper {
+  padding: 0;
+}
+
+/* section : westEurope */
+.westEurope {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_03_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.westEuropeProduct {
+  overflow: hidden;
+}
+
+/* section : spainNorthEurope */
+.spainNorthEurope {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_04_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.spainNorthEuropeContent {
+  overflow: hidden;
+}
+
+/* section : easternEuropeBalkan */
+.easternEuropeBalkan {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_05_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.spainNorthEuropeContent {
+  overflow: hidden;
+}
+
+/* section : saipan */
+.saipan {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_06_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.saipanContent {
+  overflow: hidden;
+}
+
+/* section : guam */
+.guam {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_07_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.guamProduct {
+  overflow: hidden;
+}
+
+/* section : philippines */
+.philippines {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_08_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.philippinesContent {
+  overflow: hidden;
+}
+
+/* section : vietnam */
+.vietnam {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_09_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.vietnamContent {
+  overflow: hidden;
+}
+
+/* section : thailand */
+.thailand {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_10_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.thailandContent {
+  overflow: hidden;
+}
+
+/* section : domestic */
+.domestic {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_11_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.domesticTitle {
+  padding-right: 40px;
+  padding-left: 20px;
+}
+.domesticTitle > img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.domesticTitle > span {
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  color: #fff;
+}
+.domesticContent {
+  padding: 30px 20px 30px 0px;
+}
+.product.jeju {
+  margin: 30px 0px;
+}
+.productBenefit {
+  padding: 20px;
+  height: 115px;
+  position: relative;
+  color:#484848;
+}
+.productBenefit::after {
+  content: '선착순 20명';
+  position: absolute;
+  top: 0;
+  right: 20px;
+  background-color: #b56563;
+  color: #fffdd2;
+  width: 80px;
+  height: 85px;
+  padding: 10px 15px;
+  text-align: center;
+}
+.productBenefit::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: 00px;
+  background-color: transparent;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  border-bottom: 40px solid #fff;
+  border-top: 40px solid transparent;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+}
+.productBenefit > div {
+  margin-bottom: 5px;
+}
+.productBenefit > span {
+  display: block;
+}
+.productName.bottom {
+  margin-bottom: 20px;
+}
+
+/* section : representative */
+.representative {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_12_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.representativeContent {
+  overflow: hidden;
+}
+
+/* section : honeymoon */
+.honeymoon {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_13_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+.honeymoon > .Inner {
+  top: 55% ;
+  padding-bottom: 0;
+}
+.honeymoonInner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.honeymoonSubtotal {
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+.honeymoonSubtotal > span {
+  color: #f0da73;
+  text-decoration: underline;
+}
+.basket {
+  border: 5px solid #fff;
+  margin: 50px 20px 0px 0px;
+  border-radius: 20px;
+  position: relative;
+  color: #fff;
+  padding: 20px 0px;
+}
+.basketTitle {
+  background-color: #fff;
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 7px 10px;
+  font-weight: 700;
+  border-radius: 20px;
+  color: #000;
+  width: 92%;
+}
+.basketTitle > span {
+  color: #b56563;
+}
+.basket > span {
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 200;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.component {
+  display: inline-block;
+  width: 48%;
+  padding: 60px 0px;
+}
+.componentImg {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.componentImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+.component > span {
+  margin-top: 5px;
+}
+
+/* section : hawaii */
+.hawaii {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_14_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.hawaii > .Inner {
+  padding: 55px 0px 50px 20px;
+}
+.hawaiiContent {
+  overflow: hidden;
+}
+
+/* section : cancun */
+.cancun {
+  background: url('https://img.tour2000.co.kr/link/images/20220401_travelFestival/mobile/sub_15_01.png') no-repeat top center;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+}
+.cancunContent {
+  overflow: hidden;
+}
