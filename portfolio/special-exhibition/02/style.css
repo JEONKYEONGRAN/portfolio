@@ -1,0 +1,851 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Binggrae-Two';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+  font-family: 'GmarketSansMedium';
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  width: 100%;
+  overflow-x: auto;
+  letter-spacing: -1px;
+  font-size: 17px;
+}
+section {
+  width: 1902px;
+}
+
+/* Section : SaipanMain */
+.SaipanMain {
+  position: relative;
+  margin-bottom: 0px;
+}
+.SaipanMain .SaipanImg img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
+.SaipanTitle {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 50px;
+}
+.SaipanTitle > img {
+  width: 90%;
+}
+.mainContent {
+  background-color: #032057ce;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  color: #fff;
+  text-align: center;
+}
+.mainContent-inner {
+  width: 1200px;
+  margin: auto;
+}
+.travel {
+  padding: 30px 30px 50px;
+  font-size: 25px;
+  position: relative;
+}
+.travel:before {
+  content: '';
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 130px;
+  height: 1px;
+  background-color: #fff;
+}
+.guide {
+  display: inline-block;
+  width: 30%;
+  padding: 15px;
+  font-size: 16px;
+}
+.guide > img {
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;;
+}
+.guide > span {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.guide > p {
+  font-family: 'GmarketSansLight';
+  
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.guide > p > a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Section : lodgment */
+.lodgment {
+  background: url(/portfolio/special-exhibition/02/img/sub_01_01.png) no-repeat center center;
+  height: 935px;
+  text-align: center;
+  margin: 0px;
+  width: 1902px;
+}
+.lodgment-inner {
+  width: 1200px;
+  margin: auto;
+  display: inline-block;
+  margin-top: 15px;
+}
+.lodgment-inner .abode {
+  text-align: left;
+  float: left;
+  width: 46%;
+  margin-top: 75px;
+  display: none;
+}
+.lodgment-inner .abode.on {
+  display: block;
+}
+.lodgment-inner .abode > h2 {
+  font-family: 'Binggrae-Two';
+  font-size: 30px;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+.lodgment-inner .abode > h2:after {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 5px;
+  height: 79%;
+  background-color: #fff;
+}
+.hotel-img {
+  margin: 20px 0px;
+}
+.lodgment-inner .abode h2 span {
+  display: block;
+  color: #c3d9de;
+  font-size: 26px;
+}
+.hotel-img img:first-child {
+  margin-right: 6px;
+}
+.hotel-guide h2 {
+  font-family: 'GmarketSansBold';
+  font-size: 30px;
+  margin: 0;
+}
+.hotel-guide > img {
+  margin-bottom: 20px;
+}
+.hotel-guide p {
+  padding-bottom: 30px;
+  font-size: 17px;
+}
+.hotel-guide a {
+  font-family: 'GmarketSansBold';
+  color: #579291;
+  background-color: #fff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 5px 5px 5px 5px #4c8290;
+  font-size: 20px;
+}
+.lodgment-inner .map {
+  float: right;
+  position: relative;
+  right: -40px;
+}
+.lodgment-inner .map .background {
+  position: relative;
+}
+.lodgment-inner .map .background > img {
+  margin-left: 50px;
+}
+.lodgment-inner .map .background > span {
+  font-family: 'Binggrae-Two';
+  position: absolute;
+  color: #d7d3be;
+  top: 52%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 30px;
+}
+.hotel-tabmenu .tabmenuIcon {
+  font-family: 'GmarketSansBold';
+  position: absolute;
+  top: 91px;
+  left: 58%;
+  list-style: none;
+  cursor: pointer;
+}
+.hotel-tabmenu .tabmenuIcon:nth-child(2) {
+  top: 193px;
+  left: 35%;
+}
+.hotel-tabmenu .tabmenuIcon:nth-child(3) {
+  top: 276px;
+  left: 80px;
+}
+.hotel-tabmenu .tabmenuIcon:nth-child(4) {
+  top: 543px;
+  left: 57px;
+}
+.hotel-tabmenu .tabmenuIcon:nth-child(5) {
+  top: 735px;
+  left: 60px;
+}
+.hotel-tabmenu .tabmenuIcon > div {
+  background: url('/portfolio/special-exhibition/02/img/icon_05.png') no-repeat center;
+  margin: auto;
+  height: 75px;
+}
+.hotel-tabmenu .tabmenuIcon > div.on {
+  background: url('/portfolio/special-exhibition/02/img/icon_04.png') no-repeat center;
+  animation: up-down 0.7s infinite ease-in-out alternate;
+
+}
+.hotel-tabmenu .tabmenuIcon span {
+  display: block;
+  font-size: 20px;
+  -webkit-text-stroke: 1px #478cb2;
+}
+
+/* Section : activity */
+.activity {
+  background: url('/portfolio/special-exhibition/02/img/sub_02_01.png') no-repeat center center;
+  height: 935px;
+  margin: 0px;
+}
+.activity-inner {
+  width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 70px 0px;
+}
+.activity-inner > div {
+  float: left;
+  width: 50%;
+}
+.attraction > h2 {
+  font-family: 'yg-jalnan';
+  color: #014165;
+  font-size: 29px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+.attraction > h2 span {
+  font-family: 'GmarketSansLight';
+  display: block;
+  font-size: 23px;
+}
+.exerciseTabmenu > li {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.exerciseTabmenu > li img {
+  display: block;
+}
+.exerciseTabmenu > li:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.349);
+  width: 100%;
+  height: 100%;
+}
+.exerciseTabmenu > li span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.exerciseTabmenu > li .back.on {
+  border: 5px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 92%;
+}
+
+
+.exerciseContent {
+  height: 395px;
+}
+.exerciseContent .exerciseList {
+  display: none;
+}
+.exerciseContent .exerciseList.on {
+  display: block;
+}
+.cycle, .diving, .golf {
+  color: #2e2923;
+  margin: 35px 0px 20px 0px;
+}
+.cycle > h4,.diving > h4, .golf > h4 {
+  font-family: 'GmarketSansBold';
+  font-size: 25px;
+  position: relative;
+  padding-left: 20px;
+}
+.cycle > h4:after, .diving > h4:after, .golf > h4:after {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 0;
+  width: 5px;
+  height: 77%;
+  background: #2e2923;
+}
+.cycle > h4 span, .diving > h4 span, .golf > h4 span {
+  font-family: 'GmarketSansMedium';
+  display: block;
+  font-size: 16px;
+}
+.cycleTabmenu, .divingTabmenu, .golfTabmenu {
+  margin: 15px 0px;
+}
+.cycleTabmenu > .cycleList, .divingTabmenu > .divingList, .golfTabmenu > .golfList {
+  list-style: none;
+  display: inline-block;
+  border: 3px solid #898578;
+  border-radius: 20px;
+  margin-right: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 8px;
+  width: 20%;
+  text-align: center;
+  margin: 10px 0px;
+  color: #8b877a;
+}
+.divingTabmenu > .divingList, .golfTabmenu > .golfList {
+  width: 26.5%;
+}
+.cycleTabmenu > .cycleList.on, .divingTabmenu > .divingList.on, .golfTabmenu > .golfList.on {
+  background-color: #2e2923;
+  color: #fff;
+  border: 1px solid #2e2923;
+}
+
+.maps .cycleLists > img {
+  display: none;
+}
+.maps .cycleLists > img.on {
+  display: block;
+}
+.maps .mapsTitle {
+  display: none;
+}
+.maps .mapsTitle.on {
+  display: block;
+}
+.mapsList.divingLists {
+  display: none;
+}
+.mapsList.divingLists.on {
+  display: block;
+}
+.divingImg {
+  overflow: hidden;
+  display: inline-flex;
+  margin-right: 4px;
+  margin-bottom: 8px;
+}
+.mapsList.divingLists .divingImg > img:hover,
+.mapsList.golfLists .divingImg > img:hover {
+  animation: scale 0.9s infinite ease-in-out alternate;
+}
+.mapsList.golfLists {
+  display: none;
+}
+.mapsList.golfLists.on {
+  display: block;
+}
+
+.cycle > span, .diving > span, .golf > span {
+  font-size: 14px;
+  color: #807b75;
+  padding: 10px 0px;
+}
+.cycleData, .divingData, .golfData {
+  margin-top: 30px;
+  color: #2e2923;
+  display: none;
+  font-size: 17px;
+}
+.dataList-inner {
+  height: 205px;
+}
+.cycleData.on, .divingData.on, .golfData.on {
+  display: block;
+}
+.cycleData .dataList, .divingData .dataList {
+  display: inline-block;
+  padding: 10px 0px;
+  width: 49%;
+}
+.divingData .dataList {
+  padding: 35px 0px;
+}
+.divingData .dataList > div {
+  display: inline-block;
+}
+.divingData .dataList .divingIcon {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.golfData > .dataLists {
+  height: 245px;
+  padding-top: 20px;
+}
+.cycleData .dataList:nth-child(2) {
+  margin-right: 0;
+}
+.golfData .golf-hotel .golf-hotelList {
+  float: left;
+  width: 50%;
+}
+.golfData .golf-hotel {
+  padding-right: 37px;
+  overflow: hidden;
+}
+.golfData .golf-hotel .golf-hotelList span {
+  font-family: 'GmarketSansLight';
+  color: #2e2923;
+  font-size: 18px;
+  font-weight: 600;
+}
+.golfData .dataLists > span {
+  color: #4c4c4c;
+  font-size: 17px;
+}
+.cycleData .dataLists {
+  padding: 10px 0px;
+  overflow: hidden;
+}
+.golfData .dataLists > div > div {
+  font-family: 'GmarketSansBold';
+  color: #4c4c4c;
+  font-size: 30px;
+}
+.golfData .dataLists > div > img {
+  margin-bottom: 15px;
+}
+.cycleData .dataList > img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.cycleData .dataList > div,
+.cycleData .dataLists > div {
+  font-family: 'GmarketSansBold';
+  padding: 0px 5px;
+  display: inline-block;
+}
+.cycleData .dataLists .dataListsInner {
+  float: left;
+  width: 25%;
+}
+.cycleData .dataLists .dataListsInner > div {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.dataList .intelligence {
+  font-family: 'GmarketSansMedium';
+  padding-left: 25px;
+  margin-left: 20px;
+}
+.dataList .intelligence:last-child {
+  padding-left: 0;
+}
+.dataLists .intelligence {
+  float: left;
+  width: 65%;
+  margin-top: 12px;
+  line-height: 1.7em;
+}
+.information {
+  background-color: #014165;
+  color: #fff;
+  display: block;
+  padding: 13px;
+  margin-right: 48px;
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #a9bcb6;
+  font-size: 20px;
+}
+.mapsList.cycleLists > div {
+  position: relative;
+  display: none;
+}
+.mapsList.cycleLists > div.on {
+  display: block;
+}
+.activity-inner .maps .mapsList.cycleLists img {
+  box-shadow: 5px 5px 5px 5px #ddd9be;
+  border-radius: 50px;
+}
+img.line {
+  box-shadow: 0px 0px 0px 0px transparent !important;
+  border-radius: 0px !important;
+  position: absolute !important;
+  top: 31px;
+  left: 11px;
+}
+
+/* Section : specialPrice */
+.specialPrice {
+  background: url('/portfolio/special-exhibition/02/img/sub_03_01.png') no-repeat center center;
+  height: 935px;
+  margin: 0px;
+}
+.specialPrice-inner {
+  width: 1200px;
+  margin: auto;
+  padding-top: 65px;
+}
+.specialPrice-inner > h3 {
+  font-family: 'GmarketSansBold';
+  font-size: 30px;
+}
+.specialPrice-inner > h3 span {
+  font-family: 'GmarketSansLight';
+  display: block;
+  color: #d0e0f1;
+  font-size: 23px;
+}
+.specialPrice-inner > span {
+  font-family: 'GmarketSansLight';
+  font-size: 16px;
+}
+.specialPrice-slide {
+  padding-top: 40px;
+}
+.resortSlide .resortList {
+  position: relative;
+}
+.resortSlide .resortList > a {}
+.resortSlide .resortList > a > img {
+  padding-right: 10px;
+}
+.resortSlide .resortList > a > span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  width: 85%;
+}
+.resortSlide .resortList > a > span:hover {
+  text-decoration: underline;
+}
+.slick-list.draggable {
+  padding: 0px 0px 0px 0px;
+}
+.slick-next {
+  right: 0;
+}
+.slick-prev {
+  left: 0;
+}
+.slick-prev, .slick-next {
+  background-color: rgba(0, 0, 0, 0.685);
+  padding: 18px;
+  z-index: 10;
+  display: none !important;
+}
+.slick-prev.on, .slick-next.on {
+  display: block !important;
+}
+
+/* Section : air */
+.air {
+  background: url('/portfolio/special-exhibition/02/img/sub_04_01.png') no-repeat center center;
+  height: 935px;
+  margin: 0px;
+}
+.air-inner {
+  width: 1200px;
+  margin: auto;
+  padding-top: 100px;
+}
+.air-inner h3 {
+  color: #014165;
+  font-family: 'yg-jalnan';
+  font-size: 30px;
+  margin: 0px 0px 10px 0px;
+}
+.air-inner h3 span {
+  display: block;
+  font-family: 'GmarketSansLight';
+  font-size: 24px;
+}
+.air-inner > span {
+  color: #014165;
+  font-family: 'GmarketSansLight';
+}
+.air-data {
+  text-align: center;
+  padding: 60px 0px;
+}
+.air-data .aerial {
+  width: 32.4%;
+  display: inline-block;
+  color: #343434;
+  margin-right: 10px;
+}
+.air-data .aerial.asiana,
+.air-data .aerial.tway {
+  vertical-align: top;
+}
+.air-data .aerial:last-child {
+  margin-right: 0px;
+}
+.air-data .aerial .asiana-title, 
+.air-data .aerial .jeju-title,
+.air-data .aerial .tway-title {
+  font-family: 'Binggrae-Two';
+  background-color: #4a4d4e;
+  border-radius: 20px 20px 0px 0px;
+  color: #fff;
+  font-weight: 700;
+  padding: 5px 0px;
+}
+.air-data .aerial .jeju-title {
+  background-color: #e14c0e;
+}
+.air-data .aerial .tway-title {
+  background-color: #c93030;
+}
+.air-data .aerial .asiana-title > img:first-child,
+.air-data .aerial .jeju-title > img:first-child,
+.air-data .aerial .tway-title > img:first-child {
+  width: 15%;
+  vertical-align: top;
+  margin: 3px 0px;
+}
+.air-data .aerial .airline {
+  display: inline-block;
+  width: 41%;
+  text-align: left;
+  font-size: 19px;
+  vertical-align: top;
+  margin-top: 5px;
+}
+.air-data .aerial .airline.jejus {
+  width: 50%;
+}
+.air-data .aerial .airline.tways {
+  width: 58%;
+}
+.air-data .aerial .asiana-title > img:last-child {
+  vertical-align: top;
+  margin-top: 5px;
+}
+.air-data .aerial .jeju-title > img:last-child {
+  vertical-align: top;
+  margin-top: 10px;
+}
+.air-data .aerial .tway-title > img:last-child {
+  vertical-align: top;
+  margin-top: 5px;
+}
+.air-data .aerial > div {
+  padding: 15px 10px;
+  font-size: 16px;
+}
+.air-data .aerial .start {
+  background-color: #fff;
+  font-size: 14px;
+}
+.air-data .aerial .number {
+  background-color: #ececec;
+  font-size: 18px;
+}
+.air-data .aerial .starting {
+  background-color: #fff;
+}
+.air-data .aerial .starting > div {
+  display: inline-block;
+  width: 49%;
+  position: relative;
+}
+.air-data .aerial .starting > div:first-child:before {
+  content: '';
+    position: absolute;
+    top: 5px;
+    right: -5px;
+    width: 1px;
+    height: 60%;
+    background-color: #343434;
+}
+.air-data .aerial .starting > div > span {
+  font-weight: 700;
+  margin-right: 15px;
+}
+.air-data .aerial .ba {
+  background-color: #4a4d4e;
+  border-radius: 0px 0px 20px 20px;
+  height: 30px;
+  padding: 0;
+}
+.air-data .aerial.jeju .ba {
+  background-color: #e14c0e;
+}
+.air-data .aerial.tway .ba {
+  background-color: #c93030;
+  position: relative;
+}
+
+.jeju-bottom {
+  position: relative;
+  padding: 8px !important;
+}
+.jeju-bottom .bottom-left > span,
+.jeju-bottom .bottom-right > span {
+  position: absolute;
+  background-color: #b83600;
+  width: 13px;
+  height: 13px;
+  top: -15px;
+  left: 45px;
+  border-radius: 50%;
+}
+.jeju-bottom .bottom-right > span {
+  left: 88%;
+}
+.jeju-bottom .bottom-left > span:last-child {
+  top: 21px;
+}
+.jeju-bottom .bottom-right > span:last-child {
+  top: 21px;
+}
+.jeju-bottom .bottom-left > div,
+.jeju-bottom .bottom-right > div {
+  background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  width: 7px;
+  height: 38px;
+  position: absolute;
+  top: -9px;
+  left: 48px;
+  border-radius: 10px;
+  z-index: 10;
+}
+.jeju-bottom .bottom-right > div {
+  left: 88.6%;
+}
+.bottom-content {
+  background-color: #e14c0e;
+  color: #fff;
+  padding: 20px 10px !important;
+  border-radius: 20px;
+}
+.bottom-content > span {
+  font-size: 15px;
+  font-weight: 600;
+}
+.bottom-content > div {
+  font-size: 15px;
+  font-weight: normal;
+}
+.bottom-content > div > span {
+  display: block;
+  text-align: left;
+  padding-left: 83px;
+}
+
+@keyframes scale{
+  from{
+    transform: translatey(0px);
+  }
+  to{
+    transform: scale( 1.1, 1.1 );
+  }
+}
+
+@keyframes up-down{
+  from{
+    transform: translatey(0px);
+  }
+  to{
+    transform: translatey(-20px);
+  }
+}
+
+.slick-next:before {
+  content: "\e93e";
+  font-family: xeicon;
+  position: absolute;
+  right: 5px;
+  top: 19px;
+}
+.slick-prev:before {
+  content: "\e93b";
+  font-family: xeicon;
+  position: absolute;
+  left: 7px;
+  top: 19px;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  background-color: rgba(0, 0, 0, 0.685);
+  color: #fff;
+}

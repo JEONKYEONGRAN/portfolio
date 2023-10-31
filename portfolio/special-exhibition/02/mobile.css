@@ -1,0 +1,798 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Binggrae-Two';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* CSS */
+.container a {
+  text-decoration: none;
+}
+.container {
+  min-width: 320px;
+  font-family: 'GmarketSansMedium';
+  margin: 0px;
+  color: #fff;
+  padding: 0px;
+  width: 100%;
+  letter-spacing: -1px;
+}
+/* Section : SaipanMain */
+.SaipanMain {
+  position: relative;
+  margin-bottom: 0px;
+}
+.SaipanMain .SaipanImg img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
+.SaipanTitle {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+}
+.SaipanTitle > img {
+  width: 55% !important;
+}
+.mainContent {
+  background-color: #032057ce;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  color: #fff;
+  text-align: center;
+}
+.mainContent-inner {
+  margin: auto;
+}
+.travel {
+  padding: 30px 30px 36px;
+  position: relative;
+  font-size: 20px;
+}
+.travel:before {
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 1px;
+  background-color: #fff;
+}
+.guide {
+  display: inline-block;
+  width: 32%;
+  padding: 15px 10px;
+  font-size: 14px;
+}
+.guide > img {
+  display: block;
+  margin: auto;
+  margin-bottom: 15px;
+  width: 50px !important ;
+}
+.guide > span {
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+.guide > p {
+  font-family: 'GmarketSansLight';
+  
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.guide > p > a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Section : lodgment */
+.lodgment {
+  background: url('https://img.tour2000.co.kr/link/images/20220111_saipan/mobile/sub_01_01.png') no-repeat center center;
+  text-align: center;
+  margin: 0px;
+  background-size : cover;
+}
+.lodgment .lodgment-inner {
+  text-align: left;
+  padding: 0 20px;
+}
+.lodgment .lodgment-inner > h2 {
+  font-family: 'Binggrae-Two';
+  margin: 0px;
+  padding: 50px 0px 0px 20px;;
+  position: relative;
+  font-size: 30px;
+}
+.lodgment .lodgment-inner > h2:after {
+  content: '';
+  position: absolute;
+  top: 57px;
+  left: 0;
+  width: 5px;
+  height: 42%;
+  background-color: #fff;
+}
+.lodgment .lodgment-inner > h2 > span {
+  display: block;
+  color: #c3d9de;
+  font-size: 25px;
+}
+.lodgment .lodgment-inner .hotel {
+  border-bottom: 1px solid #fff;
+  padding: 20px 0px;
+}
+.lodgment .lodgment-inner .hotel:last-child {
+  border: none;
+}
+.lodgment .lodgment-inner .hotel .hotel-img {
+  padding-top: 30px;
+}
+.lodgment .lodgment-inner .hotel .hotel-img > img {
+  display: inline-flex;
+  width: 47%;
+}
+.lodgment .lodgment-inner .hotel .hotel-img > img:first-child {
+  margin-right: 10px;
+}
+.lodgment .lodgment-inner .hotel .hotel-guide > h2 {
+  font-family: 'GmarketSansBold';
+  display: inline-block;
+  font-size: 23px;
+  margin: 10px 0px;
+}
+.lodgment .lodgment-inner .hotel .hotel-guide > img {
+  width: 50%;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.lodgment .lodgment-inner .hotel .hotel-guide > img.guideImg {
+  width: 128px;
+  margin-left: 5px;
+}
+.lodgment .lodgment-inner .hotel .hotel-guide > img.guideImgs {
+  width: 135px;
+}
+.lodgment .lodgment-inner .hotel .hotel-guide > p {
+  font-size: 16px;
+  line-height: 1.6em;
+  margin-top: 10px;
+}
+.lodgment .lodgment-inner .hotel .hotel-guide > a {
+  font-family: 'GmarketSansBold';
+  background-color: #fff;
+  color: #579291;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 30px 0px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+/* Section : activity */
+.activity {
+  background: url('https://img.tour2000.co.kr/link/images/20220111_saipan/mobile/sub_02_01.png') no-repeat center center;
+  background-size : cover;
+  margin: 0px;
+  padding: 30px 0px;
+}
+.activity .attraction {
+  padding: 0px 20px;
+}
+.activity .attraction > h2 {
+  font-family: 'yg-jalnan';
+  margin: 0px;
+  padding: 30px 0px;
+  color: #014165;
+  font-size: 25px;
+}
+.activity .attraction > h2 > span {
+  font-family: 'GmarketSansLight';
+  display: block;
+  font-size: 22px;
+}
+.exerciseTabmenu > li {
+  display: inline-block;
+  width: 32%;
+  position: relative;
+  cursor: pointer;
+}
+.exerciseTabmenu > li .back.on {
+  border: 5px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+}
+.activity .attraction .exercise .exerciseTabmenu > li > img {
+  width: 100%;
+}
+.activity .attraction .exercise .exerciseTabmenu > li > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+}
+
+.exerciseContent .exerciseList {
+  display: none;
+}
+.exerciseContent .exerciseList.on {
+  display: block;
+}
+.exerciseContent .exerciseList .cycle {
+  padding: 20px 0px;
+}
+.exerciseContent .exerciseList .diving,
+.exerciseContent .exerciseList .golf {
+  color: #2e2923;
+  padding-top: 20px;
+}
+.cycle > h4, .diving > h4, .golf > h4 {
+  font-family: 'GmarketSansBold';
+  font-size: 20px;
+  padding-left: 10px;
+  position: relative;
+  color: #2e2923;
+}
+.cycle > h4:after, .diving > h4:after, .golf > h4:after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 0;
+  width: 5px;
+  height: 75%;
+  background-color: #2e2923;
+}
+.diving > h4:after {
+  top: 5px;
+  height: 82%;
+}
+.golf > h4:after {
+  top: 3px;
+  height: 89%;
+}
+.cycle > h4 > span, .diving > h4 > span, .golf > h4 > span {
+  font-family: 'GmarketSansMedium';
+  display: block;
+  font-size: 16px;
+}
+.cycle .cycleTabmenu, .diving .divingTabmenu {
+  margin: 15px 0px;
+}
+.golf .golfTabmenu {
+  margin-top: 20px;
+}
+.cycle .cycleTabmenu .cycleList,
+.diving .divingTabmenu .divingList,
+.golf .golfTabmenu .golfList {
+  display: inline-block;
+  border: 3px solid #898578;
+  padding: 7px;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px 0px;
+  color: #8b877a;
+}
+.cycle .cycleTabmenu .cycleList {
+  width: 23.5%;
+}
+.diving .divingTabmenu .divingList,
+.golf .golfTabmenu .golfList  {
+  width: 32%;
+}
+.cycleList.on,
+.divingList.on,
+.golfList.on {
+  background-color: #2e2923;
+  color: #fff !important;
+  border: 1px solid #2e2923 !important;
+}
+.cycle > span,
+.diving > span,
+.golfList > span {
+  font-size: 14px;
+  color: #807b75;
+}
+
+
+.cycleData-inner .cycleData,
+.divingData-inner .divingData,
+.golfData-inner .golfData {
+  display: none;
+}
+.cycleData-inner .cycleData.on,
+.divingData-inner .divingData.on,
+.golfData-inner .golfData.on {
+  display: block;
+}
+.cycleData .dataList-inner,
+.divingData .dataList-inner,
+.golfData .dataList-inner {
+  margin-bottom: 60px;
+  height: 195px;
+}
+.divingData .dataList-inner {
+  height: 285px;
+}
+.golfData .dataList-inner {
+  height: 350px;
+}
+.dataList-inner .dataList {
+  display: inline-block;
+  width: 49%;
+}
+.dataList:nth-child(1) > img {
+  width: 25px !important;
+}
+.dataList:nth-child(2) > img,
+.divingIcons {
+  height: 21px;
+  width: auto !important;
+  margin-bottom: 6px;
+}
+.dataList > div {
+  font-family: 'GmarketSansBold';
+  color: #2e2923;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 3px;
+  margin-left: 4px;
+  font-size: 14px;
+}
+.dataList:nth-child(2) > div {
+  margin-top: 2px;
+}
+.dataList > div > span {
+  font-family: 'GmarketSansMedium';
+  margin-left: 5px;
+}
+.dataLists {
+  overflow: hidden;
+  margin-top: 10px;
+}
+.dataLists > span {
+  color: #2e2923;
+}
+.dataLists .dataListsInner > img {
+   width: 25px !important;
+   padding: 0px;
+}
+.dataLists .dataListsInner > div {
+  font-family: 'GmarketSansBold';
+  color: #2e2923;
+  display: inline-block;
+  font-weight: 700;
+  vertical-align: top;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.dataLists > .intelligence {
+  color: #2e2923;
+  width: 90%;
+  float: right;
+}
+.cycleData .pop, .cycleData .information {
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 30px 0px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.cycleData .pop {
+  background-color: #016165;
+  box-shadow: 5px 5px 5px 5px #a9bcb6;
+  cursor: pointer;
+}
+.cycleData .information {
+  background-color: #014165;
+  box-shadow: 5px 5px 5px 5px #a9bcb6;
+}
+.divingData .information,
+.golfData .information {
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 30px 0px;
+  border-radius: 10px;
+  background-color: #014165;
+  box-shadow: 5px 5px 5px 5px #a9bcb6;
+  font-size: 18px;
+}
+
+.slick-next, .slick-prev {
+  display: none !important;
+}
+.slick-initialized .divingImg.slick-slide {
+  width: 205px !important;
+}
+.divingImg {
+  padding-right: 15px;
+  margin: 20px 0px;
+
+}
+.golfTitle {
+  font-family: 'GmarketSansBold';
+  color: #4c4c4c;
+  font-size: 20px;
+  padding: 15px 0px;
+  display: inline-block;
+}
+.dataLists > div > img {
+  padding-left: 10px;
+  width: 50% !important;
+  vertical-align: middle;
+}
+.golfImg {
+  height: 160px;
+}
+.golfImg > img {
+  display: inline-block;
+  width: 48% !important;
+  margin-top: 35px;
+}
+.golfImg > img:first-child {
+  margin-right: 5px;
+}
+.golf-hotelList {
+  overflow: hidden;
+  border-bottom: 1px solid #aca992;
+  padding: 15px 0px;
+}
+.golf-hotelList:last-child {
+  border: none;
+}
+.golf-hotelList .hotelList:last-child {
+  width: 40%;
+  float: right;
+  margin-top: 18px;
+}
+.hotelList {
+  color: #4c4c4c;
+  float: left;
+  width: 58%;
+}
+.hotelList > span {
+  font-family: 'GmarketSansBold';
+  font-size: 18px;
+}
+.hotelList > p {
+  font-size: 15px;
+}
+
+/* Section : specialPrice */
+.specialPrice {
+  background: url('https://img.tour2000.co.kr/link/images/20220111_saipan/mobile/sub_03_01.png') no-repeat center center;
+  background-size: cover;
+  margin: 0px;
+}
+.specialPrice-inner {
+  padding: 20px;
+}
+.specialPrice-inner > h3 {
+  font-family: 'GmarketSansBold';
+  margin: 0px;
+  font-size: 28px;
+  padding: 20px 0px;
+}
+.specialPrice-inner > h3 > span {
+  font-family: 'GmarketSansMedium';
+  display: block;
+  color: #d0e0f1;
+  font-weight: 300;
+  font-size: 22px;
+}
+.specialPrice-inner > span {
+  font-family: 'GmarketSansLight';
+  font-size: 13px;
+}
+.resortSlide {
+  margin-bottom: 30px;
+}
+.resortSlide .resortList {
+  position: relative;
+  margin-top: 30px;
+}
+.resortSlide .resortList > img {
+  width: 100%;
+}
+.resortSlide .resortList > a {
+  font-size: 16px;
+}
+.resortSlide .resortList > a > img {
+  width: 100%;
+  height: 100%;
+}
+.resortSlide .resortList > a > span {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  padding: 0px 20px;
+}
+.resortSlide .resortList > a > span:hover {
+  text-decoration: underline;
+}
+
+/* Section : air */
+.air {
+  background: url('https://img.tour2000.co.kr/link/images/20220111_saipan/mobile/sub_04_01.png') no-repeat center center;
+  background-size: cover;
+  margin: 0px;
+  color: #343434;
+}
+.air-inner {
+  padding: 30px 20px;
+}
+.air-inner > h3 {
+  font-family: 'Binggrae-Two';
+  color: #014165;
+  margin: 0px;
+  padding: 20px 0px;
+  font-size: 25px;
+  font-weight: 900;
+}
+.air-inner > h3 > span {
+  font-family: 'GmarketSansLight';
+  display: block;
+  font-size: 20px;
+}
+.air-inner > span {
+  font-family: 'GmarketSansLight';
+  color: #014165;
+  font-size: 16px;
+}
+
+.aerial {
+  padding: 50px 0px;
+  text-align: center;
+  border-bottom: 1px solid #4a4d4e;
+}
+.aerial:last-child {
+  border: none;
+}
+.asiana-title, .jeju-title, .tway-title {
+  background-color: #4a4d4e;
+  border-radius: 20px 20px 0px 0px;
+  padding: 10px 0px;
+}
+.jeju-title {
+  background-color: #e14c0e;
+}
+.tway-title {
+  background-color: #c93030;
+}
+.asiana-title > img:first-child,
+.jeju-title > img:first-child,
+.tway-title > img:first-child {
+  width: 50px;
+  padding: 0px 10px;
+  vertical-align: middle;
+}
+.asiana-title .asianas,
+.jeju-title .jejus,
+.tway-title .tways {
+  display: inline-block;
+  color: #fff;
+  width: 35%;
+  font-size: 20px;
+  text-align-last: left;
+}
+.jeju-title .jejus {
+  width: 45%;
+}
+.tway-title .tways {
+  width: 50%;
+}
+.asiana-title > img:last-child,
+.jeju-title > img:last-child {
+  width: 140px;
+  vertical-align: bottom;
+  margin-bottom: 5px;
+}
+.jeju-title > img:last-child {
+  width: 100px;
+}
+.tway-title > img:last-child {
+  width: 65px;
+  vertical-align: middle;
+}
+.start {
+  background-color: #fff;
+  padding: 20px 0px;
+}
+.number {
+  background-color: #ececec;
+  padding: 20px 0px;
+  font-size: 20px;
+}
+.starting {
+  background-color: #fff;
+  padding: 10px 0px;
+}
+.starting > div {
+  display: inline-block;
+}
+.starting > div:first-child {
+  padding-right: 55px;
+  position: relative;
+}
+.starting > div:first-child::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  right: 20px;
+  width: 1px;
+  height: 61%;
+  background-color: #4a4d4e;
+}
+.starting > div > span {
+  color: #014165;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.ba {
+  background-color: #4a4d4e;
+  height: 25px;
+  border-radius: 0px 0px 20px 20px;
+}
+.jeju .ba {
+  background-color: #e14c0e;
+}
+.tway .ba {
+  background-color: #c93030;
+}
+
+.jeju-bottom {
+  position: relative;
+  padding: 8px !important;
+}
+.jeju-bottom .bottom-left > span,
+.jeju-bottom .bottom-right > span {
+  position: absolute;
+  background-color: #b83600;
+  width: 13px;
+  height: 13px;
+  top: -15px;
+  left: 45px;
+  border-radius: 50%;
+}
+.jeju-bottom .bottom-right > span {
+  left: 88%;
+}
+.jeju-bottom .bottom-left > span:last-child {
+  top: 21px;
+}
+.jeju-bottom .bottom-right > span:last-child {
+  top: 21px;
+}
+.jeju-bottom .bottom-left > div,
+.jeju-bottom .bottom-right > div {
+  background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+  width: 7px;
+  height: 38px;
+  position: absolute;
+  top: -9px;
+  left: 48px;
+  border-radius: 10px;
+  z-index: 10;
+}
+.jeju-bottom .bottom-right > div {
+  left: 88.6%;
+}
+.bottom-content {
+  background-color: #e14c0e;
+  color: #fff;
+  padding: 20px 10px !important;
+  border-radius: 20px;
+}
+.bottom-content > span {
+  font-size: 15px;
+  font-weight: 600;
+}
+.bottom-content > div {
+  font-size: 15px;
+  font-weight: normal;
+  display: inline-block;
+  text-align: left;
+  padding: 5px 0px;
+}
+.bottom-start {
+  width: 15%;
+  vertical-align: top;
+}
+.bottom-day {
+  width: 72%;
+}
+
+/* activity popup */
+.popupBox {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 9990;
+  display: none;
+}
+.popupBox.on {
+  display: block;
+}
+.popupBox > img {
+  width: 100%;
+  height: 100%;
+}
+.popupBox .popupBox-list {
+  width: 90%;
+  background: #fff;
+  height: 646px;
+  margin: 0 auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 24px;
+  text-align: left;
+  overflow: hidden;
+}
+.popupBox .popup-activity {
+  padding: 15px 20px;
+}
+.popupBox .popup-activity > .title {
+  color: #222;
+  display: inline-block;
+  width: 90%;
+}
+.popupBox .popup-activity .closebtn {
+  display: inline-block;
+  color: #222;
+  cursor: pointer;
+}
+.popupBox .popup-activity .closebtn > i {
+  font-size: 28px;
+  vertical-align: bottom;
+}
+.popupBox .popup-content > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
