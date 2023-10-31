@@ -1,0 +1,368 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 공통 CSS */
+body {
+  margin: 0;
+}
+section {
+  margin: 0 !important;
+  padding: 0;
+}
+.container a {
+  text-decoration: none;
+  color: #fff;
+}
+.summerVacation {
+  min-width: 320px;
+  font-family: 'GmarketSansMedium';
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  letter-spacing: -1px;
+  font-size: 4.5vw;
+  height: 100%;
+  color: #fff;
+}
+
+/* 메인 */
+.summerCoupon {
+  background: url('https://img.tour2000.co.kr/link/images/20220719_summerCoupon/mobile/main_01.png');
+  background-size: cover;
+}
+.summerCouponInner {
+  padding: 50px 20px;
+  text-align: center;
+}
+.summerTitle {
+  padding: 20px 0px;
+}
+.summerTitle > img {
+  width: 100%;
+}
+.summerTitle > div:nth-child(2) {
+  padding: 5px 0px;
+}
+.summerTitle > div:last-child {
+  font-family: 'GmarketSansLight';
+  font-size: 4vw;
+}
+.summerTitle > div > span:first-child {
+  margin-right: 20%;
+  position: relative;
+}
+.summerTitle > div > span:first-child::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -107%;
+  transform: translateY(-50%);
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+}
+.summerContent > img {
+  width: 100%;
+}
+.summerContent > div {
+  color: #adfcff;
+}
+
+.couponWhere {
+  background: url('https://img.tour2000.co.kr/link/images/20220719_summerCoupon/mobile/main_02.png');
+  background-size: cover;
+  position: relative;
+}
+.couponWhereInner {
+  padding: 20px;
+}
+.couponWhereImg {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 28%;
+}
+.couponWhereImg > img {
+  width: 100%;
+}
+.whereContent {
+  width: 75%;
+  margin-left: 25%;
+}
+.whereContent > div {
+  font-size: 4vw;
+}
+.whereContent > div:first-child {
+  font-size: 4.5vw;
+  margin-bottom: 5px;
+}
+.whereContent > div > span {
+  font-size: 4.8vw;
+  font-weight: 700;
+}
+
+/* 유럽 */
+.europe {
+  background: url('https://img.tour2000.co.kr/link/images/20220719_summerCoupon/mobile/sub_01_01.png');
+  background-size: cover;
+}
+.europeInner {
+  padding: 50px 20px;
+}
+.europeTitle {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.europeTitle > img {
+  width: 100%;
+}
+.merchandise {
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px dotted #5896d5;
+}
+.merchandise:last-child {
+  border: none;
+  margin-bottom: 0;
+}
+.merchandise > a {
+  text-decoration: none;
+  color: #fff;
+}
+.merchandiseImg {
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px #8598b6;
+}
+.merchandiseImg > img {
+  width: 100%;
+  display: block;
+}
+.merchandiseTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  font-size: 3.5vw;
+}
+.merchandiseTitle > div:first-child {
+  font-size: 4vw;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.merchandiseContent {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  border: 1px solid #fff;
+  width: 90%;
+  text-align: center;
+  padding: 8px 0px 4px;
+  background-color: rgba(0, 0, 0, 0.541);
+  font-size: 3.5vw;
+  font-weight: normal;
+}
+.couponGet {
+  position: relative;
+  margin: 10px 0px;
+  box-shadow: 5px 5px 5px #8092af;
+  cursor: pointer;
+}
+.couponGet > img {
+  width: 100%;
+  display: block;
+}
+.couponGet > div {
+  position: absolute;
+  top: 17%;
+  left: 22%;
+  font-size: 2.7vw;
+}
+.notice {
+  font-size: 2.7vw;
+  color: #252525;
+}
+
+/* 동남아 */
+.southeastAsia {
+  background: url('https://img.tour2000.co.kr/link/images/20220719_summerCoupon/mobile/sub_02_01.png');
+  background-size: cover;
+}
+.southeastInner {
+  padding: 50px 20px;
+}
+.southeastTitle {
+  padding-bottom: 20px;
+  width: 70%;
+  margin: auto;
+}
+.southeastTitle > img {
+  width: 100%;
+  display: block;
+}
+.merchandise.southeast {
+  border-bottom: 1px dotted #fff;
+}
+.merchandise.southeast:last-child {
+  border: none;
+}
+.southeastImg {
+  position: relative;
+  box-shadow: 5px 5px 5px #292f2b;
+  margin-bottom: 20px;
+}
+.southeastImg > img {
+  width: 100%;
+  display: block;
+}
+.merchandiseTitle.southeast {
+  top: 50%;
+}
+.merchandiseTitle.southeast.t62 {
+  top: 62%;
+}
+.couponGet.southeasts {
+  box-shadow: 5px 5px 5px #152723;
+}
+
+/* 국내 */
+.domestic {
+  background: url('https://img.tour2000.co.kr/link/images/20220719_summerCoupon/mobile/sub_03_01.png');
+  background-size: cover;
+}
+.domesticInner {
+  padding: 50px 20px;
+}
+.domesticTitle {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.domesticTitle > img {
+  display: block;
+  width: 100%;
+}
+.merchandises {
+  position: relative;
+  margin: 40px 0px;
+  border-bottom: 1px dotted #31988e;
+}
+.merchandises:last-child {
+  border: none;
+  margin-bottom: 0;
+}
+.domesticImg {
+  position: relative;
+  margin-bottom: 180px;
+}
+.domesticImg > img {
+  width: 100%;
+}
+.merchandisesTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+.merchandisesTitle > div:first-child {
+  font-weight: 700;
+  font-size: 4.5vw;
+}
+.merchandisesTitle > div:last-child {
+  font-size: 3.5vw;
+}
+.departureDay {
+  background-color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 145px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+.departureDay.b105 {
+  bottom: 105px;
+}
+.departureDay > div:first-child {
+  background-color: #41b6aa;
+  padding: 7px;
+  font-weight: 700;
+}
+.departurePickBox {
+  display: flex;
+}
+.departureDay > div:nth-child(2) {
+  border-bottom: 1px solid #8bddd7;
+}
+.departurePick {
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+}
+.departurePick:first-child {
+  border-right: 1px solid #8bddd7;
+}
+.departurePick > a {
+  text-decoration: none;
+  color: #252525;
+}
+.departurePick > a > span {
+  display: block;
+  font-size: 4vw;
+}
+.departurePick > a > span:first-child {
+  font-weight: 700;
+  font-size: 4.3vw;
+  position: relative;
+}
+.departurePick > a > span:first-child::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20%;
+  height: 1px;
+  background-color: #41b6aa;
+}
+.couponGet.domestics {
+  margin: 20px 0px 40px;
+}
+.couponGet.domestics.mb20 {
+  margin-bottom: 20px;
+}
+
+/* 주의사항 */
+.suggestion {
+  background-color: #484848;
+}
+.suggestionInner {
+  padding: 50px 20px;
+}
+.suggestionTitle {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.suggestionBox > span {
+  display: block;
+  font-size: 3.4vw;
+} 

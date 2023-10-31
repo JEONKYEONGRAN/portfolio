@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+/* CSS */
+.container a {
+  text-decoration: none;
+}
+.container {
+  min-width: 320px;
+  font-family: 'GmarketSansMedium';
+  margin: 0px;
+  color: #fff;
+  padding: 0px;
+  width: 100%;
+  letter-spacing: -1px;
+}
+
+/* Section : seat */
+.seat {
+  background: url('https://img.tour2000.co.kr/link/images/20220527_turkeyAir/mobile/sub_01_01.png') ;
+  position: relative;
+  margin: 0;
+  margin-top: -55px;
+  background-size: cover;
+}
+.Inner {
+  padding: 100px 0px 50px;
+}
+.turkey {
+  text-align: center;
+  padding: 20px 0px;
+}
+.turkeyTitle {
+  margin-bottom: 10px;
+}
+.turkeyTitle > img {
+  width: 35vw !important;
+}
+.turkeyTitle > span {
+  font-family: 'yg-jalnan';
+  font-size: 5vw;
+  vertical-align: top;
+}
+.turkey > div:last-child {
+  background-color: #3f0001af;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 20px;
+  font-size: 3vw;
+}
+.turkey > div:last-child > span {
+  color: #e2c076;
+}
+
+.businessClass {
+  padding: 20px 0px;
+}
+.businessTitle {
+  font-family: 'GmarketSansBold';
+  padding: 20px;
+  position: relative;
+}
+.businessTitle > div {
+  display: inline-block;
+  font-size: 5vw;
+  position: absolute;
+}
+.barImg {
+  display: block;
+  width: 30vw !important;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.textImg {
+  width: 32vw;
+  margin-left: 33%;
+}
+.businessInner > p {
+  padding: 20px;
+  font-size: 3.4vw;
+}
+.businessInner > span {
+  font-family: 'GmarketSansLight';
+  color: #feacad;
+  padding: 0px 20px;
+  font-size: 2.8vw;
+}
+.economy {
+  padding: 20px 0 !important;
+}
+.line {
+  width: 100%;
+  margin-top: 45px;
+}
+.economyClass {
+  padding: 20px;
+}
+.economyImg > img {
+  width: 47.5%;
+  box-shadow: 10px 10px #510d0d;
+  border-radius: 20px;;
+}
+.economyImg > img:first-child {
+  margin-right: 15px;
+}
+
+/* Section : product */
+.product {
+  background: url('https://img.tour2000.co.kr/link/images/20220527_turkeyAir/mobile/sub_02_01.png') ;
+  margin: 0;
+  background-size: cover;
+}
+.productInner {
+  padding: 50px 0px;
+}
+.productTitle {
+  text-align: center;
+  padding: 20px 0px;
+}
+.productTitle > img {
+  width: 75%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.productTitle > span {
+  background-color: #532c2e;
+  padding: 7px 20px;
+  border-radius: 20px;
+}
+
+.event {
+  background-color: #fff;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+.event > a {
+  color: #232b38;
+}
+.event > a > img {
+  width: 100%;
+}
+.eventTitle {
+  font-family: 'GmarketSansBold';
+  padding: 20px;
+}
+.eventTag {
+  padding: 0px 20px 7px;
+  color: #252525;
+}
+.eventTag > span {
+  margin-right: 10px;
+}
+.button {
+  background-color: #3e5165;
+  color: #fff !important;
+  display: block;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+}
