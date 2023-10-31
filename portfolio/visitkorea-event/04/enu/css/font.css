@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NotoSansCJKkr';
+    src: url('	https://vr.visitkorea.or.kr/assets/webfont.uni?fn=NotoSansCJKkr-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSansCJKkr';
+    src: url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=NotoSansCJKkr-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSansCJKkr';
+    src: url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=NotoSansCJKkr-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src:url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-Regular.eot') format('embedded-opentype'),
+    url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-Regular.woff2') format('woff2'),
+    url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-Regular.woff') format('woff'),
+    url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-Regular.ttf') format('truetype'),
+    url('	https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-Regular.svg') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src:url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src:url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-Bold.eot') format('embedded-opentype'),
+    url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-Bold.woff2') format('woff2'),
+    url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-Bold.woff') format('woff'),
+    url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-Bold.ttf') format('truetype'),
+    url('	https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-Bold.svg') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-ExtraBold.eot') format('embedded-opentype'),
+    url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-ExtraBold.woff2') format('woff2'),
+    url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-ExtraBold.woff') format('woff'),
+    url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-ExtraBold.ttf') format('truetype'),
+    url('https://vr.visitkorea.or.kr/assets/webfont.uni?fn=Poppins-ExtraBold.svg') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
