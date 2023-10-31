@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('../css/font/ArialCE.ttf') format('truetype');
+    src: url('../css/font/ArialCEBold.ttf') format('truetype');
+    src: url('../css/font/ArialCEBoldItalic.ttf') format('truetype');
+    src: url('../css/font/ArialCEItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'verdana';
+    src: url('../css/font/verdana.ttf') format('truetype');
+    src: url('../css/font/verdana-bold.ttf') format('truetype');
+    src: url('../css/font/verdana-bold-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

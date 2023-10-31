@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/*screenReader*/
+caption,.blind,.hidden,.ir{overflow:hidden;position:absolute;top:auto;left:-9999px;width:1px;height:1px;text-indent:-9999px;}
+body {margin: 0; padding: 0;}
+
+.spring {font-family: 'Arial'; text-align:left; letter-spacing:-1px; max-width: 1920px; margin: 0 auto; position: relative;}
+.spring .inr{width:590px; margin:0 auto; position: relative;}
+.pc {display:block; margin: auto;}
+.mo {display:none;}
+.spring p {font-size: 24px;}
+
+/* 타이틀 */
+.headerBox a {text-indent: -9999px; display: inline-block;}
+.logo a {background: url('https://svn.uniess.co.kr/static/etc/VK/springBlossom/enu/images/vk_logo.png') no-repeat; width: 219px; height: 35px; position: absolute; top: 20px; left: 20vw;}
+
+
+/*tab css*/
+.tabMenu {font-family: 'Arial';}
+.tabnavBox {background-color: #ffb6e0; padding: 20px 0; width: 947px; margin: auto;}
+ul.tabnav {list-style: none; margin: 0; padding: 0; font-size: 0; width: 560px; margin: auto;}
+.tabnav li {display: inline-block; width: 33.3%; font-size: 16px; text-align: center; position: relative;}
+.tabnav li::after {content: ''; position: absolute; top: 0; right: 0; width: 1px; height: 100%; background-color: #d2a1b7;}
+.tabnav li:last-child:after {display: none;} 
+.tabnav li a {color: #d2a1b7; font-size: 22px; text-decoration: none; font-weight: bold;}
+.tabnav li a.on {color: #000;}
+
+.flower {font-family: 'verdana'; background: url('https://svn.uniess.co.kr/static/etc/VK/springBlossom/enu/images/area03_01.jpg') no-repeat center center; height: 1874px;}
+.flower .tit {text-align: center; padding-top: 25px; padding-bottom: 10px;}
+.festivalBox {padding: 10px 0;}
+.festivalBox > div {display: inline-block;}
+.festival {width: 47.9%; background-color: #fff; border-radius: 20px; overflow: hidden; text-align: center;}
+.festival:first-child {margin-right: 20px;}
+.festivalImg {height: 190px;}
+.festivalImg > img {width: 100%; height: 100%;}
+.festivalText {padding: 10px;}
+.festivalText strong {font-size: 20px; margin-bottom: 7px; display: block; margin-top: 24.7px;}
+.festivalBox:last-child .festivalText strong {margin-top: 0px;}
+.festivalText span {font-size: 15px; background-color: #82db5e; color: #fff; padding: 1px 5px; border-radius: 5px;}
+.festivalText p {font-size: 15px; color: #8c8c8c; height: 55px; margin: 10px 0px;}
+.festivalText a {color: #bdbdbd; text-decoration: none; font-size: 14px;}
+
+.recommended {font-family: 'verdana'; background: url('https://svn.uniess.co.kr/static/etc/VK/springBlossom/enu/images/area04_01.jpg') no-repeat center center; height: 2408px;}
+.recommended .tit {text-align: center; padding-top: 25px; padding-bottom: 10px;}
+
+.bestSubTit {text-align: center; padding: 20px 0;}
+.bestList {padding: 10px 0;}
+.bestList > div {display: inline-block; width: 47.9%;border-radius: 20px; overflow: hidden; text-align: center;}
+.places:first-child {margin-right: 20px;}
+.places {background-color: #fff;}
+.places a {text-decoration: none; color: #000;}
+.places a > img {width: 100%; height: 195px;}
+.places p {font-size: 15px; margin-bottom: 25px; margin-top: 10px; font-weight: bold; height: 50px; display: flex; align-items: center; justify-content: center;}
+.posr {position: relative;}
+.credit {font-family: 'Arial'; position: absolute; bottom: 67px; right: 10px; color: #fff; font-size: 12px;}
+
+.helpline {border: 1px solid #efa67e; padding: 10px 15px; border-radius: 20px; background-color: #fff; margin-top: 20px;}
+.helpline > div {display: inline-block; font-size: 12px;}
+.helpline > div:last-child {width: 66%;}
+.travel {color: #ef874e; background-color: #fdf3ed; padding: 5px 10px; border-radius: 20px; margin-right: 10px; vertical-align: super;}
+
+@media screen and (max-width:640px) {
+    .pc {display:none;}
+    .mo {display:block;}
+    img {width: 100%;}
+    
+    .spring {max-width: 640px;}
+    .spring .inr {padding: 20px 30px; width: auto;}
+
+    .logo a {left: 20px;}
+    .headerBox img {width: 100%;}
+    .tabnavBox {width: 100%}
+    ul.tabnav {width: 100%;}
+
+    .tabnav li a {font-size: 3.9vw;}
+
+    .flower {height: auto;}
+    .bestSubTit > img {width: auto;}
+    .festival {width: 47.6%;}
+    .festivalText strong {font-size: 3vw; margin-top: 13.7px}
+    .festivalText span {font-size: 2.3vw;}
+    .festivalText p {font-size: 2.2vw; height: 37px;}
+    .festivalText a {font-size: 2vw;}
+
+    .bestList > div {width: 46.9%;}
+    .travel {vertical-align: bottom; font-size: 1.9vw !important; margin-right: 0px;}
+    .helpline > div:last-child {width: 67%; font-size: 1.9vw;}
+
+    .festival:first-child {margin-right: 10px;}
+    .festivalImg {height: 160px;}
+
+    .recommended {height: auto;}
+    .places:first-child {margin-right: 10px;}
+    .places p {font-size: 2.3vw; height: 38px;}
+    .places a > img {height: 165px;}
+}
