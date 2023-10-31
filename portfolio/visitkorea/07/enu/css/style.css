@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/*screenReader*/
+caption,.blind,.hidden,.ir{overflow:hidden;position:absolute;top:auto;left:-9999px;width:1px;height:1px;text-indent:-9999px;}
+body {margin: 0; padding: 0;}
+
+.busanTheme {font-family: 'Poppins'; text-align:left; letter-spacing:-1px; max-width: 1920px; margin: 0 auto; position: relative;}
+.inr{width: 1090px; margin:0 auto; position: relative;}
+.pc {display:block;}
+.mo {display:none;}
+
+/* 타이틀 */
+.headerBox > img {width: 100%;}
+
+.application {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area01_01.jpg') no-repeat; height: 1357px; width: 100%;}
+h3 {font-family: 'SUIT'; margin: 0; padding: 60px 0 20px; text-align: center; font-size: 42px; font-weight: bold;}
+.List {display: flex; padding-top: 20px;}
+.imgBox {background-color: #fff; width: 50%;}
+.imgBox:first-child {margin-right: 20px;}
+.imgBox img {height: 360px; width: 100%; display: block;}
+.textBox {padding: 30px 20px; text-align: right;}
+.textBox div {font-size: 26px; text-align: left; height: 76px; line-height: 1.2em;}
+.textBox a {font-size: 18px; color: #1caddf;}
+
+.attractions {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area02_01.jpg') no-repeat; height: 1232px; width: 100%;}
+.titTop {position: relative;}
+.titTop > img {position: absolute; top: 50%;left: 50%; transform: translate(-50%, -50%);}
+.titTop > h3 {position: relative;}
+.case {z-index: 1; margin-right: 20px; text-align: center;}
+.case:last-child {margin-right: 0px;}
+.imgCase {position: relative; width: 350px; height: 350px; border-radius: 50%; overflow: hidden;}
+.imgCase img {width: 100%; height: 100%;}
+.imgCase a {position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); background-color: #ea7eaf; color: #fff; width: 100%; padding: 10px; text-decoration: none; font-size: 18px;}
+.textCase p {font-size: 20px; margin: 10px;}
+.textCase strong {font-size: 24px;}
+.textCase strong span {font-family: 'NotoSansCJKkr'; font-size: 22px; display: block;}
+
+.luxury {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area03_01.jpg') no-repeat; height: 795px; width: 100%;}
+.contentBox {z-index: 1; position: relative;}
+.luxury .textBox a {color: #2fa593;}
+
+.market {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area04_01.jpg') no-repeat; height: 716px; width: 100%;}
+.marketBox {position: relative; display: flex;}
+.marketBox:first-child {margin-right: 20px;}
+.marketImg {width: 230px; height: 210px; overflow: hidden;}
+.marketImg::after, .marketImg::before {content: ''; position: absolute; width: 30px; height: 30px; background-color: #d0f5ff; z-index: 1; border-radius: 50%; left: 40%;}
+.marketImg::before {top: -15px;}
+.marketImg::after {bottom: -15px;}
+.marketImg img {width: 100%; height: 100%;}
+.marketText {width: 246px; background-color: #fff; padding: 20px 30px; position: relative;}
+.marketText strong {font-weight: bold; font-size: 26px; line-height: 1.2em;}
+.marketText strong span {font-family: 'NotoSansCJKkr'; display: block; font-weight: normal; font-size: 24px;}
+.marketText a {color: #1caddf; text-underline-position: under; position: absolute; bottom: 20px; right: 30px;}
+
+.exciting {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area05_01.jpg') no-repeat; height: 714px; width: 100%;}
+.exciting .marketImg::after, .exciting .marketImg::before {background-color: #ffdcec;}
+.exciting .marketText a {color: #ea7eaf;}
+
+.youtube {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area07_01.jpg') no-repeat; height: 1080px; width: 100%;}
+.contentBox {position: relative;}
+.videoArea {position: absolute; top: 30px; left: 30px; width: 94%; height: 65%;}
+.videoArea .video-cont {height: 100%;}
+.videoArea .video-cont iframe {width: 100%; height: 100%;}
+.textArea {font-size: 28px; padding: 20px; text-align: center;}
+.textArea a {color: #1caddf; font-size: 38px;}
+
+.expo {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area06_01.jpg') no-repeat; height: 492px; width: 100%;}
+.expoBox {display: flex;}
+.banner {margin-right: 17px;}
+.banner a {display: flex;}
+.banner h3 {text-align: left;}
+.helpline {position: absolute; bottom: 0; right: 0;}
+
+.footer img {width: 100%;}
+
+@media screen and (max-width:640px) {
+    .pc {display:none;}
+    .mo {display:block;}
+
+    .inr{width: auto; padding: 0 20px;}
+
+    .application {background: #d0f5ff; height: auto; padding-bottom: 50px;}
+    h3 {font-size: 6.6vw;}
+    .textBox {height: 24vw; position: relative; padding: 20px;}
+    .textBox div {font-size: 4.1vw; height: auto;}
+    .textBox a {font-size: 2.8vw; position: absolute; bottom: 20px; right: 20px;}
+    .imgBox img {height: 39.1vw;}
+
+    .attractions {background: #ffdcec; height: auto; padding-bottom: 50px;}
+    .titTop > img {width: 35%;}
+    .imgCase {width: 41.9vw; height: 41.9vw;}
+    .textCase p {font-size: 3.1vw;}
+    .textCase strong {font-size: 3.8vw;}
+    .textCase strong span {font-size: 3.4vw;}
+    .imgCase a {font-size: 2.8vw;}
+
+    .luxury {background: #b4f5eb; height: auto; padding-bottom: 50px;}
+
+    .market {background: #d0f5ff; height: auto; padding-bottom: 50px;}
+    .market h3 {font-size: 6.4vw;}
+    .market .List {flex-wrap: wrap;}
+    .marketBox {width: 100%;}
+    .marketBox:first-child {margin-right: 0px; margin-bottom: 20px;}
+    .marketImg {width: 100%; height: 35.9vw;}
+    .marketImg::after, .marketImg::before {display: none;}
+
+    .exciting {background: #ffdcec; height: auto; padding-bottom: 50px;}
+    .exciting .List {flex-wrap: wrap;}
+
+    .youtube {background: #d0f5ff; height: 128vw;}
+    .youtube h3 {padding: 30px 0 20px;}
+    .videoArea {top: 0; left: 10px; height: 46vw;}
+    .videoArea .textArea {font-size: 4.4vw; padding: 20px 10px;}
+    .textArea a {font-size: 5.9vw;}
+
+    .expo {background: #b4f5eb; height: auto; padding-bottom: 50px;}
+    .expoBox {display: block;}
+    .expoBox img {width: 100%;}
+    .banner {margin-right: 0px; margin-bottom: 20px;}
+    .banner h3 {text-align: center;}
+    .helpline {position: inherit;}
+}
