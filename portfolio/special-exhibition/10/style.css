@@ -1,0 +1,315 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'twayair';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'GmarketSansMedium';
+  margin: 0;
+  padding: 0;
+}
+.container {
+  font-family: 'GmarketSansMedium';
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 메인 */
+.relievedCare {
+  background: url('/portfolio/special-exhibition/10/img/main_01.png') no-repeat center center;
+  height: 701px;
+  background-size: cover;
+  position: relative;
+}
+.relievedCareInner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 1200px;
+}
+.careTitle {
+  font-family: 'twayair';
+  display: inline-block;
+  background-color: #1198bc;
+  color: #fff;
+  padding: 12px 35px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.relievedCareTitle > img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.relievedCareTitle > span {
+  color: #686868;
+  font-size: 18.5px;
+}
+.relievedCareImg {
+  position: relative;
+  height: 355px;
+}
+.relievedCareImg > img {
+  position: absolute;
+  top: 21%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+}
+.relievedCareImg > img:first-child {
+  animation: up-down1 2s infinite ease-in-out alternate;
+}
+.relievedCareImg > img:last-child {
+  animation: up-down 1.5s infinite ease-in-out alternate;
+  left: 37%;
+}
+
+/* question */
+.question {
+  background: url('/portfolio/special-exhibition/10/img/sub_01_01.png') no-repeat center center;
+  height: 912px;
+  background-size: cover;
+  position: relative;
+}
+.questionInner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 1200px;
+}
+.questionTitle {
+  color: #fff;
+}
+.questionTitle > div {
+  font-family: 'yg-jalnan';
+  font-weight: 700;
+  font-size: 40px;
+}
+.questionTitle > span {
+  font-size: 25px;
+}
+.questionContent > div {
+  color: #216e87;
+  background-color: #fff;
+  font-weight: 700;
+  border-radius: 50px;
+  margin: 40px 0px;
+  font-size: 20px;
+  box-shadow: 15px 15px #1d6681;
+  text-align: left;
+  height: 100px;
+  line-height: 100px;
+  padding-left: 190px;
+}
+.questionContent > div > span {
+  color: #ff6c00;
+}
+
+/* careService */
+.careService {
+  background: url('/portfolio/special-exhibition/10/img//sub_02_01.png') no-repeat center center;
+  height: 1003px;
+  background-size: cover;
+  position: relative;
+}
+.careServiceInner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+}
+.careServiceTitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.careServiceTitle > div {
+  color: #686868;
+  font-size: 23px;
+}
+.careServiceImg:first-child {
+  margin-bottom: 10px;
+}
+.serviceImg {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+.serviceImg:last-child {
+  margin: 0;
+}
+.serviceImg > img {
+  display: block;
+  width: 100%;
+}
+.serviceImg > div {
+  position: absolute;
+  bottom: 11%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #4c4c4c;
+  font-size: 19px;
+  width: 100%;
+  text-align: center;
+}
+
+/* suggestion */
+.suggestion {
+  background: url('/portfolio/special-exhibition/10/img/sub_03_01.png') no-repeat center center;
+  height: 632px;
+  background-size: cover;
+  position: relative;
+}
+.suggestionInner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  color: #fff;
+}
+.suggestionTitle > span {
+  font-weight: 700;
+  font-size: 24px;
+  vertical-align: top;
+  margin-left: 5px;
+}
+.suggestionInner > div {
+  font-size: 20px;
+  margin: 12px 0;
+}
+.suggestionTitle {
+  margin-bottom: 15px !important;
+}
+
+/* events */
+.events {
+  background: url('/portfolio/special-exhibition/10/img/sub_04_01.png') no-repeat center center;
+  height: 1321px;
+  background-size: cover;
+  position: relative;
+}
+.eventsInner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 1200px;
+  color: #fff;
+}
+.eventsTitle {
+  margin-bottom: 100px;
+}
+.titleBox > span {
+  font-family: 'yg-jalnan';
+  font-size: 33px;
+}
+.titleBox > img {
+  vertical-align: middle;
+  margin-left: 15px;
+}
+.eventsSub {
+  font-size: 23px;
+  margin-top: 10px;
+}
+.eventsSub > span {
+  text-decoration: underline;
+}
+
+.eventsBoxs {
+  margin-bottom: 50px;
+}
+.eventImg {
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+}
+.eventImg:last-child {
+  margin: 0;
+}
+.eventImg > img {
+  width: 100%;
+  display: block;
+}
+.eventImg > span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.719);
+  color: #fff;
+  padding: 7px 0px 1px;
+  font-size: 24px;
+}
+.eventsBtn {
+  position: relative;
+}
+.eventsBtn > a {
+  font-family: 'GmarketSansBold';
+  padding: 20px;
+  background-color: #fff;
+  color: #217787;
+  border-radius: 50px;
+  font-size: 26px;
+  box-shadow: 20px 20px #207084;
+  width: 515px;
+  position: relative;
+  display: inline-block;
+}
+.eventsBtn > img {
+  position: absolute;
+  bottom: -15px;
+  right: 32%;
+}
+
+@keyframes up-down{
+  from{
+    transform: translatey(0px);
+  }
+  to{
+    transform: translatey(-20px);
+  }
+}
+@keyframes up-down1{
+  from{
+    transform: translatey(0px);
+  }
+  to{
+    transform: translatey(-5px);
+  }
+}

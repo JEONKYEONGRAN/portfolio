@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'twayair';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 공통 CSS */
+body {
+  margin: 0;
+}
+.container a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  min-width: 320px;
+  font-family: 'GmarketSansMedium';
+  margin: 0px;
+  color: #fff;
+  padding: 0px;
+  width: 100%;
+  letter-spacing: -1px;
+  font-size: 4vw;
+}
+
+/* 메인 */
+.relievedCare {
+  background: url('https://img.tour2000.co.kr/link/images/20220727_relievedCare/mobile/main_01.png') no-repeat center center;
+  background-size: cover;
+}
+.relievedCareInner {
+  padding: 30px 20px;
+  text-align: center;
+}
+.careTitle {
+  font-family: 'twayair';
+  background-color: #1198bc;
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 20px;
+  margin: 20px 0px;
+  font-size: 3.5vw;
+}
+.relievedCareTitle > img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.relievedCareTitle > span {
+  color: #686868;
+  display: block;
+  font-size: 4.1vw;
+}
+.relievedCareImg {
+  margin-top: 30px;
+}
+.relievedCareImg > img {
+  width: 100%;
+}
+
+/* question */
+.question {
+  background: url('https://img.tour2000.co.kr/link/images/20220727_relievedCare/mobile/sub_01_01.png') no-repeat center center;
+  background-size: cover;
+}
+.questionInner {
+  padding: 30px 20px;
+  text-align: center;
+}
+.questionTitle > div {
+  font-family: 'yg-jalnan';
+  font-size: 5vw;
+}
+.questionContent > div {
+  color: #216e87;
+  background-color: #fff;
+  font-weight: 700;
+  border-radius: 50px;
+  margin: 30px 0px;
+  padding: 20px;
+  box-shadow: 15px 15px #1d6681;
+}
+.questionContent > div > span {
+  color: #ff6c00;
+}
+
+/* careService */
+.careService {
+  background: url('https://img.tour2000.co.kr/link/images/20220727_relievedCare/mobile/sub_02_01.png') no-repeat center center;
+  background-size: cover;
+}
+.careServiceInner {
+  padding: 30px 20px;
+  color: #686868;
+  text-align: center;
+}
+.careServiceTitle {
+  margin: 20px 0px;
+}
+.careServiceBox {
+  padding: 0px 20px;
+}
+.careServiceBox > img {
+  width: 100%;
+}
+.careServiceTitle > div:last-child {
+  font-size: 3.5vw;
+  padding-bottom: 20px;
+}
+
+.serviceImg {
+  display: inline-block;
+  width: 48%;
+  position: relative;
+  margin-bottom: 5px;
+}
+.serviceImg:first-child {
+  margin-right: 5px;
+}
+.serviceImg > img {
+  width: 100%;
+  display: block;
+}
+.serviceImg > div {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3.4vw;
+  width: 100%;
+}
+
+/* suggestion */
+.suggestion {
+  background: url('https://img.tour2000.co.kr/link/images/20220727_relievedCare/mobile/sub_03_01.png') no-repeat center center;
+  background-size: cover;
+}
+.suggestionInner {
+  padding: 30px 20px;
+}
+.suggestionTitle {
+  margin-bottom: 10px;
+}
+.suggestionTitle > img {
+  vertical-align: text-bottom;
+}
+.suggestionTitle > span {
+  font-weight: 700;
+  font-size: 4.4vw;
+  margin-left: 5px;
+}
+.suggestionInner > div {
+  line-height: 1.8em;
+  font-size: 3.6vw;
+}
+
+/* events */
+.events {
+  background: url('https://img.tour2000.co.kr/link/images/20220727_relievedCare/mobile/sub_04_01.png') no-repeat center center;
+  background-size: cover;
+}
+.eventsInner {
+  padding: 30px 20px;
+  text-align: center;
+}
+.eventsTitle {
+  padding: 20px 0px;
+}
+.eventsTitle > span {
+  font-family: 'yg-jalnan';
+  font-size: 4.8vw;
+}
+.eventsTitle > div {
+  font-size: 3.8vw;
+}
+.eventsSub {
+  margin: 10px 0px 2px;
+}
+.eventsSub > span {
+  text-decoration: underline;
+}
+.titleBox {
+  margin-bottom: 50px;
+}
+.titleBox > img {
+  vertical-align: sub;
+  margin-right: 5px;
+}
+.titleBox > span {}
+
+.eventsBoxs {
+  margin-bottom: 30px;
+}
+.eventImg {
+  display: inline-block;
+  width: 47%;
+  position: relative;
+  margin-right: 5px;
+}
+.eventImg > img {
+  width: 100%;
+  display: block;
+}
+.eventImg > span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.719);
+  padding: 5px 0px 1px;
+}
+.eventsBtn {
+  position: relative;
+  padding: 20px 0px;
+}
+.eventsBtn > a {
+  font-family: 'GmarketSansBold';
+  background-color: #fff;
+  color: #217787;
+  padding: 15px;
+  border-radius: 50px;
+  display: block;
+  font-size: 4.5vw;
+  box-shadow: 15px 15px #207084;
+}
+.eventsBtnImg {
+  position: absolute;
+  bottom: 0%;
+  right: 10%;
+  width: 13.1579vw;
+}
+.eventsBtnImg > img {
+  width: 100%;
+}
