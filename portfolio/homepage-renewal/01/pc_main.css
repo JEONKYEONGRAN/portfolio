@@ -1,0 +1,527 @@
+head{
+    font-family: 'Nanum Gothic' !important;
+}
+body{
+    background: #fff;
+}
+.grand-header {
+    position: relative;
+    width: 100%;
+    z-index: 9000;
+    height: 55px;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+button, html [type="button"] {
+    -webkit-appearance: none;
+  }
+
+  input {
+
+    -webkit-border-radius: 0;
+    border: none;
+ }
+ input:focus,textarea:focus {  }
+
+input[type=submit] {-webkit-appearance:none;}
+
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+a:active,a:hover{
+    text-decoration: none !important;
+}
+input::placeholder{
+    color:#a1a1a1;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+input::placeholder.darks{
+    color:#fff;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+body {
+    color: #000;
+    font-family: 'Nanum Gothic';
+    position: relative;
+    font-size:15px;
+    margin: auto !important;
+    text-decoration: none;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* IE9 이하를 위한 css */
+.placeholder {
+color: #767676;
+padding-left: 10px;
+}
+
+/* IE10 이상을 위한 css */
+textarea::placeholder {
+color: #767676;
+opacity: 1; /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */
+font-size: 14.4px;
+}
+textarea::-webkit-input-placeholder {
+color: #767676;
+}
+/* IE */
+textarea:-ms-input-placeholder {
+color: #767676;
+}
+/* Firefox */
+textarea:-mos-input-placeholder {
+color: #767676;
+}
+
+
+/* 메인페이지 CSS */
+section.Main {
+    width: 100%;
+    position: relative;
+}
+.splide-inner {
+    width: 800px;
+    margin: auto;
+}
+.splide__slide img {
+    width: 100%;
+    height: auto;
+}
+.slide-list {
+    position: relative;
+}
+.headline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    padding: 20px;
+}
+.slide-listBa {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main-headline {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;;
+}
+.splide__pagination {
+    display: none;
+}
+.splide .splide__track.main {
+    border-radius: 0px;
+}
+.splide .splide__track .splide__list .splide__slide.mains {
+    width: 100% !important;
+}
+.splide-left > div {
+    position: absolute;
+    width: 29%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+    z-index: 9;
+}
+.splide-right > div {
+    position: absolute;
+    width: 29%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+    z-index: 9;
+}
+
+.time {
+    text-align: center;
+    margin: 50px 0px;
+    position: relative;
+}
+.time-img {
+    position: relative
+}
+.timeSales {
+    position: absolute;
+    top: 34%;
+    left: 786px;
+    color: #fff;
+    letter-spacing: -1px;
+    font-size: 18px;
+}
+.seasonTimesaleBox {
+    position: absolute;
+    top: 77%;
+    left: 59.7%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    display: flex;
+}
+
+.sub-inner {
+    width: 800px;
+    margin: auto;
+    margin-bottom: 45px;
+}
+.sub-title {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px 0px;
+}
+
+.splide__slide.subs img {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;;
+}
+
+.splide__slide.subs {
+    width: auto !important;
+    height: auto !important;
+    padding-right: 10px;
+}
+.splide__slide.subs > a {
+    text-decoration: none;
+    color: inherit;
+}
+.splide__slide.subs > a:hover > span {
+    text-decoration: underline;
+}
+.splide__slide.subs .exhibitions {
+    background-color: rgba(0, 0, 0, 0.582);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.project {
+    display: inline-block;
+    margin-top: 30px;
+    position: relative;
+}
+.project:first-child {
+    margin-right: 4px;
+}
+.projectImgBa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.projectImgBa > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.projectList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: #fff;
+}
+.main-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.projectList .sub-headline {
+    margin-bottom: 20px;
+}
+.projectList > a {
+    background-color: #FFF;
+    color: #000;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.Main .splide__arrow {
+    display: block;
+    background-color: #000;
+    font-size: 25px;
+    opacity: 1;
+}
+.splide__arrow--next.splide__arrow:before {
+    content: '\e93e';
+    font-family: 'xeicon';
+    color: #fff;
+    line-height: 30px;
+    margin-left: 4px;
+}
+.splide__arrow--prev.splide__arrow:before {
+    content: '\e93b';
+    font-family: 'xeicon';
+    color: #fff;
+    line-height: 30px;
+}
+.splide__arrow svg {
+    display: none;
+}
+.Main .splide__arrow--next {
+    right: 27.5%;
+}
+.Main .splide__arrow--prev {
+    left: 27.5%;
+}
+.sub-inner .splide__arrow {
+    background-color: #000;
+    opacity: 1;
+    border-radius: 0px;
+    top: 34%;
+    position: absolute;
+    z-index: 11;
+}
+.sub-inner .splide__arrow--next {
+    right: 0px;
+}
+.sub-inner .splide__arrow--prev {
+    left: 0px;
+}
+.sub-inner:hover .splide__arrow {
+    display: block;
+}
+
+/* 카운트다운 CSS */
+.flip-clock-wrapper ul li a div div.inn {
+    background-color: #fff;
+    color: #000;
+    font-size: 45px;
+    border-radius: 0px;
+}
+.flip-clock-wrapper ul li a div.up:after {
+    background-color: #000;
+    top: 20px;
+}
+.flip-clock-dot.top {
+    margin: 0;
+    top: 14px;
+}
+.flip-clock-dot {
+    background-color: #fff;
+}
+.flip-clock-wrapper ul {
+    width: 35px;
+    height: 45px;
+    font-size: 35px;
+    line-height: 45px;
+    border-radius: 0px;
+}
+.flip-clock-wrapper ul li a div {
+    font-size: 35px;
+}
+.flip-clock-wrapper ul li {
+    line-height: 45px;
+}
+.flip-clock-divider .flip-clock-label {
+    display: none;
+}
+.flip-clock-dot.bottom {
+    bottom: 54px;
+}
+.flip-clock-wrapper ul li a div.down {
+    border-radius: 0px;
+}
+
+/* 메인배너 */
+#contentWrapper {
+    overflow: hidden;
+}
+.main_banner {
+    position:relative;
+}
+.main_banner li .img {
+    font-size:0;
+    position: relative;
+}
+.main_banner li .img > img {
+    width:100%;
+}
+.main_banner li .imgBa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.main_banner li .imgBa > img {
+    width: 100%;
+    height: 100%;
+}
+.main_banner li .txt {
+    position:absolute; 
+    bottom:20px; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    transition:all 0.3s;
+}
+.main_banner li .txt .txt_all {
+    position:absolute; 
+    bottom:0; 
+    left:0; 
+    width:100%; 
+    padding:0 40px; 
+    box-sizing:border-box; 
+    transition:all 0.5s; 
+    opacity:0;
+}
+.main_banner li .txt .main-headline {
+    font-size:20px; 
+    font-weight:bold; 
+    color:#fff; 
+    letter-spacing:0.5px;
+}
+.main_banner li .txt .sub-headline {
+    font-size:16px; 
+    color:#fff; 
+    letter-spacing:-0.3px; 
+}
+.main_banner li.swiper-slide-active .txt .txt_all {
+    opacity:1; 
+    bottom: 0px;
+}
+.main_banner .swiper-arrow {
+    width:80px; 
+    height:80px; 
+    top:50%; 
+    margin-top:-40px; 
+    opacity:1;
+}
+.main_banner .swiper-button-prev {
+    left: 27.7%; 
+}
+.main_banner .swiper-button-next {
+    right: 27.5%;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    content: '\e93e' !important;
+    font-family: 'xeicon' !important;
+    font-size: 25px;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: '\e93b' !important;
+    font-family: 'xeicon' !important;
+    font-size: 25px;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: #fff;
+    background-color: #000;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+}
+.swiper-pagination {
+    color: #fff;
+    right: 0;
+    bottom: 10px;
+    width: 40%;
+    text-align: right;
+    margin: auto;
+    letter-spacing: -1px
+}
