@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.cookie_wrap{height:165px;background:#fff;position:fixed;left:0;bottom:0;z-index:310000;width:100%;}
+.cookie_cont{width:90%;position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);}
+.cookie_tit{font-size:20px;font-weight: 900;color:#000;margin-bottom:14px;text-transform: uppercase;}
+.cookie_txt{font-size:15px;line-height:22px;color:#333; padding:0 380px 0 0;}  /*padding 수정*/
+.cookie_txt a{color:#26ae6a;text-decoration: underline;}
+.cookie_buttons{position:absolute;bottom:0;right:0;} /* top 추가 */
+.cookie_buttons a{display:inline-block;}
+.cookie_buttons .cbtn_ok{width:135px;height:35px;line-height:35px;background: #26ae6a;color:#fff;font-size: 14px;font-weight: 900;border-radius: 20px;margin-right:10px;text-align: center;} /* height , line-height 수정  */
+.cookie_buttons .cbtn_close{position:relative;top:14px;width:40px;height:40px;background:url('https://japanese.visitkorea.or.kr/jpn/img/comm/cookie_close.png')no-repeat;}
+.notipop_bg{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:300000;}
+
+
+@media screen and (max-width:720px){
+
+  .cookie_wrap{height: 80.08vw;}
+  .cookie_cont{width:85.83vw;}
+  .cookie_tit{font-size:5vw;margin-bottom:5.83vw;padding-right:27.77vw;}
+  .cookie_txt{font-size:3.88vw;line-height:5.83vw;margin-bottom:5.83vw; padding:0;}
+  .cookie_buttons{position:static;}
+  .cookie_buttons a{display:inline-block;}
+  .cookie_buttons .cbtn_ok{width:37.5vw;height:11.11vw;line-height:11.11vw;font-size: 3.88vw;border-radius:5.77vw;margin-right:0;}
+  .cookie_buttons .cbtn_close{width:11.11vw;height:11.11vw;background:url('https://japanese.visitkorea.or.kr/jpn/img/comm/cookie_close_m.png')no-repeat;background-size:100% auto;position:absolute;top:-20px;right:0;}
+  .notipop_wrap{width:88.88vw;padding:8.33vw;box-shadow:1.11vw 0 3.47vw rgba(0,0,0,0.5);}
+  .notipop_tit{font-size:5vw;margin-bottom:6.66vw;}
+  .notipop_cont{padding:8.33vw;margin-bottom:20px;}
+  .np_tit{font-size:5vw;margin-bottom:6.66vw;}
+  .np_txt01{font-size: 4.16vw;line-height: 6.94vw;margin-bottom:6.66vw;}
+  .np_num{display:none;}
+  .np_txt02{padding-top:6.94vw;font-size:3.88vw;line-height:5.55vw;}
+  .notipop_cookie label{padding-left:8.61vw;font-size:3.88vw;line-height:5.55vw;}
+  .notipop_cookie label:before{width:5.55vw;height:5.55vw;background-size:5.55vw; background-position:0 -5.8vw;}
+  .notipop_cookie input:checked + label:before{width:5.55vw;height:5.55vw;background-size:5.55vw;}
+  .notipop_close{width:5.13vw;height:5vw;background:url('https://japanese.visitkorea.or.kr/jpn/img/comm/close_pop_m.png')no-repeat;top:8.33vw;right:8.33vw;background-size:100% auto;}
+
+}

@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+/*screenReader*/
+caption,.blind,.hidden,.ir{overflow:hidden;position:absolute;top:auto;left:-9999px;width:1px;height:1px;text-indent:-9999px;}
+
+.james {font-family: 'MicrosoftJhengHeiUI'; text-align:left; letter-spacing:-1px; max-width: 1920px; margin: 0 auto;position: relative; }
+.james .inr{width:950px;margin:0 auto;position: relative;}
+.pc {display:block;}
+.mo {display:none;}
+.james p {font-size: 24px;}
+
+/* 타이틀 */
+.headerBox a {text-indent: -9999px; display: inline-block;}
+.logo a {background: url('../images/logo.png') no-repeat; width: 219px; height: 35px; position: absolute; top: 55px; left: 45px;}
+
+/* 콘텐츠 */
+.james p.p50 {padding: 50px 0;}
+.tabcontTit {font-size: 40px; color: #fc7247; font-weight: 700; display: inline-block; padding-top: 7px; padding-left: 5px;}
+
+.broadcastBox {padding-bottom: 50px;}
+.broadcast {padding: 20px 0px;}
+.broadcast > div {display: inline-block; width: 49%; vertical-align: top;}
+.broadcast:first-child .logoImg {margin-top:70px;}
+.logoImg {text-align: center; margin-top: 10px;}
+.broadcastList strong {font-weight: 700; font-size: 28px;}
+.broadcastList p {font-weight: 700; font-size: 25px; line-height: 1.4em;}
+.broadcastList p span {font-size: 22px; color: #696969; font-weight: normal;}
+.broadcastList a {background-color: #fc7247; color: #fff; width: 280px; display: block; text-align: center; padding: 7px; margin: 10px 0; font-size: 20px; border-radius: 10px;}
+
+.tabWrap {background-color: #fffbee; position: relative;}
+.tabWrap > img {position: absolute; top: -59px; right: 115px;}
+.tab {padding: 30px 0 50px;}
+.tabnav { padding: 30px 0;}
+.tabnav li {display: inline-block;}
+.tabnav li a {border: 2px solid #fc7247; display: inline-block; padding: 30px 29px; border-radius: 20px; margin-right: 16px; position: relative; color: #fc7247; text-align: center;}
+.tabnav li:last-child a {margin-right: 0px;}
+.tabnav li a.on {color: #fff; background-color: #fc7247;}
+.tabnav li:last-child {margin-right: 0px;}
+
+.tabnav li a span {font-size: 18px;}
+.tabnav li a span:first-child {text-align: center;}
+.tabnav li a strong {display: block; font-size: 28px;}
+
+.tabcontent {padding-bottom: 30px}
+.tabcontent div {padding: 30px 0 0px;}
+.tabcontent div h3 {color: #fc7247; text-align: center; text-decoration: underline; text-underline-position : under; font-size: 45px;}
+.video_cont {width: 920px; height: 520px; margin: auto;}
+.video_cont iframe {width: 100%; height: 100%; border-radius: 20px; }
+.subTit {margin-left: 15px;}
+.subTit h4 {color: #fc7247; font-size: 40px;}
+.font_cook {font-family: 'CookieRun'; font-size: 28px;}
+.font_cook strong {color: #f16567;}
+
+.placeBox {font-size: 0;}
+.placeList {display: inline-block; width: 31.2%; margin-right: 30px; vertical-align: top;}
+.placeList:last-child {margin-right: 0px;}
+.tabcontent div.img_wrap {position: relative; display: inline-block; width: 100%; height: 240px; border-radius: 20px; padding: 0; overflow: hidden;}
+.tabcontent div.img_wrap:last-child {margin: 0px;}
+.tabcontent .img_wrap em {position: absolute; right: 84px; bottom: 22px; font-size: 21px; color: #fff;}
+.tabcontent div.img_wrap > img {display: block; width: 100%; height: 100%;}
+.img_wrap button{position: absolute; z-index: 1000; right: 15px; bottom: 10px; text-indent: -9999px; width: 58px; height: 56px; background-image: url('../images/icon_love.png'); background-repeat: no-repeat; background-size: 100%; box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2); border-radius: 50%;}
+.img_wrap button.on{background-position: 0 -57px;}
+.placeList .txt_wrap strong {font-size: 28px;}
+.placeList .txt_wrap strong.fz27 {font-size: 27px;}
+.placeList .txt_wrap strong span {font-size: 24px;}
+.placeList .txt_wrap .korean {font-size: 22px;}
+.placeList .txt_wrap .korean.fz19 {font-size: 19px;}
+.placeList .txt_wrap .korean.pc {display: inline-block;}
+.placeList .txt_wrap .copy {font-size: 14px; text-align: right; color: #727272; margin: 10px 0px 0px;}
+.placeList .txt_wrap p {font-size: 23px; margin: 10px 0;}
+.placeList .txt_wrap .area1 {font-size: 22px; color: #807e7e; text-decoration: underline; text-underline-position : under; cursor: pointer;}
+
+.placeList.w50 {width: 48%; margin-right: 35px;}
+.placeList.w50:last-child {margin-right: 0px;}
+
+.mapWrap {background: #ffe6d8;}
+
+.facebookWrap {padding: 50px 0;}
+.logoImgs {text-align: center; margin-top: 20px;}
+.snsBoxs {text-align: center; padding: 50px 0 20px;}
+.snsBox {background-color: #6dadff; display: inline-block; width: 32%; margin-right: 15px; padding: 40px; color: #fff; border-radius: 30px; text-align: left; cursor: pointer; height: 227px; vertical-align: top;}
+.snsBox:nth-child(2) {background-color: #1877f2;}
+.snsBox:last-child {margin-right: 0px; background-color: #fc7247;}
+.snsBox > img {margin-right: 10px;}
+.snsBox span {font-size: 27px; font-weight: 700;}
+.snsBox:nth-child(2) div, .snsBox:nth-child(3) div {padding-top: 54px;}
+.snsBox div {font-size: 21px; padding-top: 25px; text-align: right;}
+
+.shareWrap{background-color: #666; padding: 60px 0; position: relative;}
+.shareWrap > img {position: absolute; top: -50px;  right: 215px;}
+.share_area{display: flex; align-items: center;}
+.sharetit{color: #fff; font-size: 35px; display: inline-block; margin: 0 10px 0 0;}
+.sharetit::after{content: ''; display: block; width: 100%; height: 2px; background-color: #fff; margin: 1px 0 0 0; }
+.linksns{display: inline-block; background-image: url(../images/sns_facebook.png); width: 60px; height: 60px; background-size: 100%; background-repeat: no-repeat; margin: 0 8px;}
+.linksns.line{ background-image: url(../images/sns_line.png); }
+.copy_area{display: flex; justify-content: space-between; height: 80px; margin: 28px 0 0 0;}
+.copy_area input{width: 100%; border-radius: 15px; margin: 0 20px 0 0; color: #666; padding: 0 30px; font-size: 24px; text-overflow: ellipsis;}
+.copy_area button{height: 80px; line-height: 80px; width: 380px; background-color: #474747; border-radius: 15px; font-size: 28px; color: #fff;}
+
+/* 푸터 */
+.footer{ padding: 30px 0 50px; }
+.footer-logo {display: inline-block;}
+.footer-logo img {vertical-align: middle;}
+.footer p{font-size: 22px; color:#999999; padding: 10px 0 0 35px; letter-spacing: -0.5px; display: inline-block; font-weight: 700;}
+
+@media screen and (max-width:950px) {
+    .pc {display:none;}
+    .mo {display:block;}
+
+    /* 타이틀 */
+    .headerBox > img {width: 100%;}
+    .logo a {width: 30vw; height: 5vw; background-size: contain; top: 35px; left: 23px;}
+
+    /* 콘텐츠 */
+    .james .inr {padding: 20px 30px; width: auto;}
+    .james p.p50 {text-align: center; font-size: 4vw; padding: 15px 0px 35px;}
+    .tab {padding: 10px 0px 0px;}
+    .tabcontTit {font-size: 7vw; padding-top: 2px;}
+    .broadcast > div {display: block; width: 82%; margin: 0px auto 20px; text-align: center;}
+    .broadcast:first-child .logoImg {margin-top: 20px; margin-bottom: 40px;}
+    .broadcast:last-child > div {text-align: center;}
+    .logoImg > img {width: 80%;}
+    .broadcastList strong {font-size: 4.5vw;}
+    .broadcastList p {font-size: 4vw;}
+    .broadcastList p span {font-size: 3.5vw;}
+    .broadcastList a {margin: 10px auto; width: 62vw;}
+    .w10 {width: 10vw;}
+
+    .tabWrap > img {width: 30vw; top: -30px; right: 10px;}
+    .tabnav { padding: 0 0 30px; overflow: hidden;}
+    .tabnav .swiper-slide {display: inline-block; width: auto;}
+    .tabnav .swiper-slide a {border: 2px solid #fc7247; display: inline-block; padding: 20px 19px; border-radius: 20px; margin-right: 15px; position: relative; text-align: center;}
+    .tabnav .swiper-slide:last-child {margin-right: 0px;}
+    .tabnav .swiper-slide a {color: #fc7247;}
+    .tabnav .swiper-slide a.on {color: #fff; background-color: #fc7247;}
+
+    .tabnav .swiper-slide a span {font-size: 3.3vw;}
+    .tabnav .swiper-slide a strong {display: block; font-size: 4vw;}
+
+    .tabcontent {padding-bottom: 0px;}
+    .tabcontent div {padding-top: 15px;}
+    .tabcontent div h3 {font-size: 7vw;}
+    .tabcontent .img_wrap em {bottom: 15px; right: 14vw; font-size: 4.5vw;}
+    .img_wrap button {width: 9.4vw; height: 8.93vw; right: 10px;}
+    .img_wrap button.on{background-position: 0px -9.3vw;}
+    .video_cont {width: auto; height: 60vw;}
+    .subTit {padding-top: 35px !important; margin-left: 0px;}
+    .subTit h4 {font-size: 6vw;}
+    .font_cook {font-size: 4vw;}
+    .placeList {position: relative; display: block; width: auto; margin-right: 0px; border-bottom: 1px solid #fff; padding-bottom: 15px !important;}
+    .placeList > div {display: inline-block;}
+    .tabcontent div.img_wrap {width: 40%; height: 30vw; vertical-align: top;}
+    .placeList .txt_wrap {width: 60%; padding: 0px 0px 0px 20px !important;}
+    .placeList .txt_wrap strong {font-size: 4.2vw !important;}
+    .placeList .txt_wrap strong span {font-size: 4vw;}
+    .placeList .txt_wrap strong span.fz3 {font-size: 3vw;}
+    .placeList .txt_wrap .korean {font-size: 4.1vw;}
+    .placeList .txt_wrap .korean.fz19 {font-size: 3.18vw;}
+    .placeList .txt_wrap .korean.fz4 {font-size: 4vw;}
+    .placeList .txt_wrap .korean.pc {display: none;}
+    .placeList .txt_wrap .korean.fz2 {font-size: 2.85vw;}
+    .placeBox .placeList .txt_wrap p.copy {position: absolute; padding: 0; font-size: 2vw; bottom: 9px; left: 20vw;}
+    #tab02 .placeBox:first-child .placeList:first-child .txt_wrap p.copy {bottom: 60px; left: 20vw;}
+    #tab02 .placeBox:last-child .placeList:first-child .txt_wrap p.copy {bottom: 60px; left: 11vw;}
+    #tab03 .placeBox:last-child .placeList:first-child .txt_wrap p.copy {bottom: 0px; left: 17vw;}
+    #tab03 .placeBox:last-child .placeList:last-child .txt_wrap p.copy {bottom: 15px; left: 15vw;}
+    #tab04 .placeBox:first-child .placeList:last-child .txt_wrap p.copy {bottom: 12px; left: 12vw;}
+    .placeList .txt_wrap p {font-size: 3.8vw;}
+    .placeList .txt_wrap .area1 {font-size: 3.4vw;}
+    .placeList.w50 {width: 100%; margin-right: 0px;}
+    .placeList.w50:last-child {border-bottom: none;}
+    #tab04 .placeBox:first-child .placeList:last-child {padding-bottom: 30px !important;}
+    .inr.p0 {padding: 0;}
+    .snsBox {padding: 40px; width: 80%; margin-bottom: 20px; height: auto; margin-right: 0;}
+    .snsBox:nth-child(2) div, .snsBox:nth-child(3) div {padding-top: 20px;}
+    .snsBox span {font-size: 5vw}
+    .snsBox div {font-size: 5vw;}
+    .shareWrap > img {width: 25vw; top: -30px; right: 53px;}
+    .facebookWrap {padding: 50px 0 0;}
+
+    .shareWrap{padding: 30px 0 20px;}
+    .sharetit{font-size: 5vw;}
+    .linksns{width: 30px; height: 30px; margin: 0 4px;}
+
+    .copy_area{height: 40px; margin: 18px 0 0 0;}
+    .copy_area input{border-radius: 8px; font-size: 2.8vw; padding: 0 10px; margin: 0 3px 0 0; width: calc(100% - 70px);}
+    .copy_area button{height: 40px; line-height: 1; font-size: 2.5vw; width: 68px; border-radius: 8px;}
+
+
+    .footer{height: auto; padding: 20px 0;}
+    .footer-logo{width: 75px;}
+    .footer p{font-size: 3vw; padding: 0 0 0 25px; font-weight: normal;}
+}

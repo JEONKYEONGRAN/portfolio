@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'MicrosoftJhengHeiUI';
+    src: url('../css/font/Microsoft\ JhengHei\ UI.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CookieRun';
+    src: url('../fonts/CookieRun\ Black.otf') format('woff'),
+    url('../fonts/CookieRun\ Bold.otf') format('woff'),
+    url('../fonts/CookieRun\ Regular.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
