@@ -128,7 +128,7 @@ section {
 
 /* Section : lodgment */
 .lodgment {
-  background: url(/portfolio/special-exhibition/02/img/sub_01_01.png) no-repeat center center;
+  background: url(./img/sub_01_01.png) no-repeat center center;
   height: 935px;
   text-align: center;
   margin: 0px;
@@ -246,12 +246,12 @@ section {
   left: 60px;
 }
 .hotel-tabmenu .tabmenuIcon > div {
-  background: url('/portfolio/special-exhibition/02/img/icon_05.png') no-repeat center;
+  background: url('./img/icon_05.png') no-repeat center;
   margin: auto;
   height: 75px;
 }
 .hotel-tabmenu .tabmenuIcon > div.on {
-  background: url('/portfolio/special-exhibition/02/img/icon_04.png') no-repeat center;
+  background: url('./img/icon_04.png') no-repeat center;
   animation: up-down 0.7s infinite ease-in-out alternate;
 
 }
@@ -263,7 +263,7 @@ section {
 
 /* Section : activity */
 .activity {
-  background: url('/portfolio/special-exhibition/02/img/sub_02_01.png') no-repeat center center;
+  background: url('./img/sub_02_01.png') no-repeat center center;
   height: 935px;
   margin: 0px;
 }
@@ -555,7 +555,7 @@ img.line {
 
 /* Section : specialPrice */
 .specialPrice {
-  background: url('/portfolio/special-exhibition/02/img/sub_03_01.png') no-repeat center center;
+  background: url('./img/sub_03_01.png') no-repeat center center;
   height: 935px;
   margin: 0px;
 }
@@ -619,7 +619,7 @@ img.line {
 
 /* Section : air */
 .air {
-  background: url('/portfolio/special-exhibition/02/img/sub_04_01.png') no-repeat center center;
+  background: url('./img/sub_04_01.png') no-repeat center center;
   height: 935px;
   margin: 0px;
 }
