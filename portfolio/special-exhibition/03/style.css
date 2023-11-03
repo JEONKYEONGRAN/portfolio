@@ -125,7 +125,7 @@ a {
 
 /* Section : lodgment */
 .lodgment {
-  background: url('/portfolio/special-exhibition/03/img//sub_01_01.png');
+  background: url('./img//sub_01_01.png');
   position: relative;
   height: 937px;
   margin: 0;
@@ -200,12 +200,12 @@ a {
   left: 20px;
 }
 .tabmenuIcon > div {
-  background: url('/portfolio/special-exhibition/03/img//icon_05.png') no-repeat center center;
+  background: url('./img//icon_05.png') no-repeat center center;
   margin: auto;
   height: 75px;
 }
 .tabmenuIcon > div.on {
-  background: url('/portfolio/special-exhibition/03/img//icon_04.png') no-repeat center center;
+  background: url('./img//icon_04.png') no-repeat center center;
   animation: up-down 0.7s infinite ease-in-out alternate;
 }
 
@@ -265,7 +265,7 @@ a {
 
 /* Section : Night */
 .night {
-  background: url('/portfolio/special-exhibition/03/img//sub_02_01.png');
+  background: url('./img//sub_02_01.png');
   position: relative;
   height: 937px;
   margin: 0;
@@ -344,7 +344,7 @@ a {
 
 /* Section : air */
 .air {
-  background: url('/portfolio/special-exhibition/03/img//sub_03_01.png');
+  background: url('./img//sub_03_01.png');
   position: relative;
   height: 937px;
   margin: 0;
