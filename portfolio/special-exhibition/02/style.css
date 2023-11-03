@@ -49,7 +49,7 @@ a {
   font-size: 17px;
 }
 section {
-  width: 1902px;
+  width: 100%;
 }
 
 /* Section : SaipanMain */
@@ -132,7 +132,7 @@ section {
   height: 935px;
   text-align: center;
   margin: 0px;
-  width: 1902px;
+  background-size: cover;
 }
 .lodgment-inner {
   width: 1200px;
@@ -266,6 +266,7 @@ section {
   background: url('./img/sub_02_01.png') no-repeat center center;
   height: 935px;
   margin: 0px;
+  background-size: cover;
 }
 .activity-inner {
   width: 1200px;
@@ -558,6 +559,7 @@ img.line {
   background: url('./img/sub_03_01.png') no-repeat center center;
   height: 935px;
   margin: 0px;
+  background-size: cover;
 }
 .specialPrice-inner {
   width: 1200px;
@@ -622,6 +624,7 @@ img.line {
   background: url('./img/sub_04_01.png') no-repeat center center;
   height: 935px;
   margin: 0px;
+  background-size: cover;
 }
 .air-inner {
   width: 1200px;
