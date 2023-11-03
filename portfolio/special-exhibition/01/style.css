@@ -67,7 +67,7 @@ a {
 
 /* section : founding Main */
 .foundingMain {
-  background: url('/portfolio/special-exhibition/01/img/main_01.png') no-repeat center center;
+  background: url('./img/main_01.png') no-repeat center center;
   height: 609px;
   text-align: center;
   margin: 0px;
@@ -138,7 +138,7 @@ a {
 
 /* section : reduced price */
 .reducedPrice {
-  background: url('/portfolio/special-exhibition/01/img/sub_01_01.png') no-repeat top center;
+  background: url('./img/sub_01_01.png') no-repeat top center;
   height: 1510px;
   margin: 0px;
   width: 100%;
@@ -306,7 +306,7 @@ a {
 
 /* section : southeast Asia */
 .southeastAsia {
-  background: url('/portfolio/special-exhibition/01/img/sub_16_01.png') no-repeat top center;
+  background: url('./img/sub_16_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -369,7 +369,7 @@ a {
 
 /* section : mediterranean */
 .mediterranean {
-  background: url('/portfolio/special-exhibition/01/img/sub_02_01.png') no-repeat top center;
+  background: url('./img/sub_02_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -443,7 +443,7 @@ a {
 
 /* section : westEurope */
 .westEurope {
-  background: url('/portfolio/special-exhibition/01/img/sub_03_01.png') no-repeat top center;
+  background: url('./img/sub_03_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -457,7 +457,7 @@ a {
 
 /* section : spainNorthEurope */
 .spainNorthEurope {
-  background: url('/portfolio/special-exhibition/01/img/sub_04_01.png') no-repeat top center;
+  background: url('./img/sub_04_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -471,7 +471,7 @@ a {
 
 /* section : easternEuropeBalkan */
 .easternEuropeBalkan {
-  background: url('/portfolio/special-exhibition/01/img/sub_05_01.png') no-repeat top center;
+  background: url('./img/sub_05_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -485,7 +485,7 @@ a {
 
 /* section : saipan */
 .saipan {
-  background: url('/portfolio/special-exhibition/01/img/sub_06_01.png') no-repeat top center;
+  background: url('./img/sub_06_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -499,7 +499,7 @@ a {
 
 /* section : guam */
 .guam {
-  background: url('/portfolio/special-exhibition/01/img/sub_07_01.png') no-repeat top center;
+  background: url('./img/sub_07_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -513,7 +513,7 @@ a {
 
 /* section : philippines */
 .philippines {
-  background: url('/portfolio/special-exhibition/01/img/sub_08_01.png') no-repeat top center;
+  background: url('./img/sub_08_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -527,7 +527,7 @@ a {
 
 /* section : vietnam */
 .vietnam {
-  background: url('/portfolio/special-exhibition/01/img/sub_09_01.png') no-repeat top center;
+  background: url('./img/sub_09_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -541,7 +541,7 @@ a {
 
 /* section : thailand */
 .thailand {
-  background: url('/portfolio/special-exhibition/01/img/sub_10_01.png') no-repeat top center;
+  background: url('./img/sub_10_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -591,7 +591,7 @@ a {
 
 /* section : domestic */
 .domestic {
-  background: url('/portfolio/special-exhibition/01/img/sub_11_01.png') no-repeat top center;
+  background: url('./img/sub_11_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -656,7 +656,7 @@ a {
 
 /* section : representative */
 .representative {
-  background: url('/portfolio/special-exhibition/01/img/sub_12_01.png') no-repeat top center;
+  background: url('./img/sub_12_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -670,7 +670,7 @@ a {
 
 /* section : honeymoon */
 .honeymoon {
-  background: url('/portfolio/special-exhibition/01/img/sub_13_01.png') no-repeat top center;
+  background: url('./img/sub_13_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -760,7 +760,7 @@ a {
 
 /* section : hawaii */
 .hawaii {
-  background: url('/portfolio/special-exhibition/01/img/sub_14_01.png') no-repeat top center;
+  background: url('./img/sub_14_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
@@ -771,7 +771,7 @@ a {
 
 /* section : cancun */
 .cancun {
-  background: url('/portfolio/special-exhibition/01/img/sub_15_01.png') no-repeat top center;
+  background: url('./img/sub_15_01.png') no-repeat top center;
   margin: 0px;
   width: 100%;
   background-size: cover;
