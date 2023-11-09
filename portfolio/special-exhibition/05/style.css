@@ -162,7 +162,7 @@ a {
 
 /* Section : west Europe */
 .westEurope {
-  background: url('/portfolio/special-exhibition/05/img/sub_01_01.png') no-repeat center center;
+  background: url('./img/sub_01_01.png') no-repeat center center;
   margin: 0;
   height: 935px;
   background-size: cover;
@@ -258,7 +258,7 @@ h3 > span.gray {
 
 /* Eastern Europe */
 .easternEurope {
-  background: url('/portfolio/special-exhibition/05/img/sub_02_01.png') no-repeat center center;
+  background: url('./img/sub_02_01.png') no-repeat center center;
   margin: 0;
   height: 935px;
   background-size: cover;
@@ -284,7 +284,7 @@ h3 > span.gray {
 
 /* Section : Mediterranean Sea */
 .Mediterranean {
-  background: url('/portfolio/special-exhibition/05/img/sub_03_01.png') no-repeat center center;
+  background: url('./img/sub_03_01.png') no-repeat center center;
   margin: 0;
   height: 937px;
   background-size: cover;
@@ -341,7 +341,7 @@ h3 > span.gray {
 
 /* Section : Spain Portugal */
 .Spain {
-  background: url('/portfolio/special-exhibition/05/img/sub_04_01.png') no-repeat center center;
+  background: url('./img/sub_04_01.png') no-repeat center center;
   margin: 0;
   height: 935px;
   background-size: cover;
@@ -361,7 +361,7 @@ h3 > span.gray {
 
 /* Section : North Europe */
 .northEurope {
-  background: url('/portfolio/special-exhibition/05/img/sub_05_01.png') no-repeat center center;
+  background: url('./img/sub_05_01.png') no-repeat center center;
   margin: 0;
   height: 935px;
   background-size: cover;
