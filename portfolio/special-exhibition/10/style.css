@@ -47,7 +47,7 @@ a {
 
 /* 메인 */
 .relievedCare {
-  background: url('/portfolio/special-exhibition/10/img/main_01.png') no-repeat center center;
+  background: url('./img/main_01.png') no-repeat center center;
   height: 701px;
   background-size: cover;
   position: relative;
@@ -98,7 +98,7 @@ a {
 
 /* question */
 .question {
-  background: url('/portfolio/special-exhibition/10/img/sub_01_01.png') no-repeat center center;
+  background: url('./img/sub_01_01.png') no-repeat center center;
   height: 912px;
   background-size: cover;
   position: relative;
@@ -141,7 +141,7 @@ a {
 
 /* careService */
 .careService {
-  background: url('/portfolio/special-exhibition/10/img//sub_02_01.png') no-repeat center center;
+  background: url('./img//sub_02_01.png') no-repeat center center;
   height: 1003px;
   background-size: cover;
   position: relative;
@@ -189,7 +189,7 @@ a {
 
 /* suggestion */
 .suggestion {
-  background: url('/portfolio/special-exhibition/10/img/sub_03_01.png') no-repeat center center;
+  background: url('./img/sub_03_01.png') no-repeat center center;
   height: 632px;
   background-size: cover;
   position: relative;
@@ -218,7 +218,7 @@ a {
 
 /* events */
 .events {
-  background: url('/portfolio/special-exhibition/10/img/sub_04_01.png') no-repeat center center;
+  background: url('./img/sub_04_01.png') no-repeat center center;
   height: 1321px;
   background-size: cover;
   position: relative;
