@@ -93,7 +93,7 @@ a.commodityContent {
 
 /* Section : Thailand */
 .thailand {
-  background: url('/portfolio/special-exhibition/04/img/sub_01_01.png') no-repeat center center;
+  background: url('./img/sub_01_01.png') no-repeat center center;
   margin: 0;
   height: auto;
   background-size: cover;
@@ -160,7 +160,7 @@ p {
 
 /* Section : Vietnam */
 .vietnam {
-  background: url('/portfolio/special-exhibition/04/img/sub_02_01.png') no-repeat center center;
+  background: url('./img/sub_02_01.png') no-repeat center center;
   margin: 0;
   height: auto;
   background-size: cover;
@@ -181,7 +181,7 @@ p {
 
 /* Section : Philippines */
 .philippines {
-  background: url('/portfolio/special-exhibition/04/img/sub_03_01.png') no-repeat center center;
+  background: url('./img/sub_03_01.png') no-repeat center center;
   margin: 0;
   height: auto;
   background-size: cover;
@@ -197,7 +197,7 @@ p {
 
 /* Section : Laos */
 .laos {
-  background: url('/portfolio/special-exhibition/04/img/sub_04_01.png') no-repeat center center;
+  background: url('./img/sub_04_01.png') no-repeat center center;
   margin: 0;
   height: auto;
   background-size: cover;
@@ -215,7 +215,7 @@ p {
 
 /* Section : Singapore */
 .singapore {
-  background: url('/portfolio/special-exhibition/04/img/sub_05_01.png') no-repeat center center;
+  background: url('./img/sub_05_01.png') no-repeat center center;
   margin: 0;
   height: auto;
   background-size: cover;
