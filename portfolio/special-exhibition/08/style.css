@@ -36,7 +36,7 @@ a {
 
 /* section : seat */
 .seat {
-  background: url('/portfolio/special-exhibition/08/img/sub_01_01.png');
+  background: url('./img/sub_01_01.png');
   height: 1749px;
   position: relative;
   margin: 0;
@@ -166,7 +166,7 @@ a {
 
 /* Section : product */
 .product {
-  background: url('/portfolio/special-exhibition/08/img/sub_02_01.png');
+  background: url('./img/sub_02_01.png');
   height: 1317px;
   position: relative;
   margin: 0;
