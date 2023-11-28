@@ -63,6 +63,12 @@ a {
   width: 100%;
   font-size: 17px;
 }
+.pc {
+  display: block;
+}
+.mo {
+  display: none;
+}
 
 
 /* Section : Europe Main */
@@ -235,8 +241,11 @@ h3 > span.gray {
 .commodityImg .commodityList {
   display: inline-block;
   padding: 0px 0px 30px 0px;
-  margin-right: 10px;
+  margin-right: 6px;
   overflow: hidden;
+}
+.commodityImg .commodityList.slider {
+  margin-right: 10px;
 }
 .commodityImg .commodityList > a > img {
   display: block;
@@ -380,5 +389,276 @@ h3 > span.gray {
   }
   to{
     transform: scale( 1.1, 1.1 );
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .pc {
+    display: none;
+  }
+  .mo {
+    display: block;
+  }
+  /* CSS */
+  .container a {
+    text-decoration: none;
+    color: #545454;
+  }
+  .container {
+    min-width: 320px;
+    font-family: 'GmarketSansMedium';
+    margin: 0px;
+    color: #fff;
+    padding: 0px;
+    width: 100%;
+    letter-spacing: -1px;
+  }
+
+  /* Section : Europe Main */
+  .europeMain {
+    position: relative;
+    text-align: center;
+    margin: 0;
+  }
+  .europeTitle {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+
+  .europeTitle-inner > img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .europeTitle > span {
+    font-family: 'twayair';
+    font-size: 18px;
+  }
+
+  .mainContent {
+    background: linear-gradient( to top, #2c375e, #6d2959 );
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+  }
+  .mainContent-inner {
+    width: 80%;
+    margin: auto;
+  }
+  .mainContent-inner .guide {
+    width: 100%;
+  }
+  .travel {
+    padding: 20px 0px;
+    font-size: 16px;
+    position: relative;
+  }
+  .travel:before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 1px;
+    background-color: #fff;
+  }
+  .travel > b {
+    font-family: 'GmarketSansBold';
+  }
+  .guide {
+    overflow: hidden;
+    padding: 20px 0px;
+    border-bottom: 1px solid #aa8eac;
+  }
+  .guide:last-child {
+    border: none;
+  }
+  .guide > img {
+    float: left;
+    width: 15% !important;
+    margin-top: 10px;
+  }
+  .guide .guideContent {
+    float: left;
+    width: 78%;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14.5px;
+  }
+  .guide .guideContent > span {
+    font-family: 'GmarketSansBold';
+    font-size: 16px;
+  }
+  .guide .guideContent > p {
+    font-family: 'GmarketSansLight';
+    margin: 0px;
+    font-size: 3.5vw;
+  }
+  .guide .guideContent > p > span {
+    display: block;
+    font-size: 13px;
+  }
+  .thumImg.gray {
+    border: none;
+  }
+
+  /* Section : west Europe */
+  .westEurope {
+    background: url('./mobile-img/sub_01_01.png') no-repeat center center;
+    background-size: cover;
+    margin: 0;
+    background-size: cover;
+    height: auto;
+  }
+  .westEuropeInner {
+    padding: 50px 20px;
+    color: #545454;
+    width: auto;
+  }
+  p {
+    font-size: 16px;
+  }
+  h3 {
+    font-family: 'Binggrae-Two';
+    margin: 0px;
+    color: #014165;
+    font-size: 25px;
+  }
+  .westEurpTitle > img, .easternEuropeTitle > img, .MediterraneanTitle > img, .SpainTitle > img, .northEuropeTitle > img {
+    width: 36%;
+    vertical-align: bottom;
+    margin-left: -9px;
+  }
+  .thum {
+    border-bottom: 1px solid #979797;
+    padding-bottom: 30px;
+  }
+  .thum .thumTitle {
+    padding-top: 40px;
+  }
+  .thum .thumTitle > img {
+    width: 20px;
+  }
+  .thum .thumTitle > span {
+    font-family: 'yg-jalnan';
+    color: #014165;
+    font-size: 18px;
+    vertical-align: super;
+  }
+  .thumImg .thumImgList {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .thumImg .thumImgList {
+    width: calc( (100% - 10px ) / 3 );
+    margin: 0;
+  }
+  .thumImg t .thumImgList:last-child {
+    margin-right: 0px;
+  }
+  .thumImg .thumImgList > img {
+    display: block;
+    width: 100%;
+    margin: 15px 0px;
+  }
+  .commodity {
+    padding: 20px 0px;
+  }
+  .commodity h4 {
+    font-family: 'yg-jalnan';
+    color: #014165;
+    font-size: 20px;
+    padding: 10px 0px;
+    margin: 0;
+  }
+  .commodityImg .commodityList {
+    padding: 15px 0px;
+    width: 100%;
+  }
+  .commodityImg .commodityList:hover {
+    text-decoration: underline;
+  }
+  .commodityImg .commodityList > a {
+    font-size: 20px;
+  }
+  .commodityImg .commodityList > a > img {
+    width: 100%;
+  }
+  .commodityImg .commodityList > a > span {
+    font-size: 4vw;
+  }
+  .commodityImg .commodityList > a > div {
+    font-family: 'GmarketSansBold';
+    font-size: 5vw;
+  }
+
+  /* Eastern Europe */
+
+  .easternEurope {
+    background: url('./mobile-img/sub_02_01.png') no-repeat center center;
+    background-size: cover;
+    margin: 0px;
+    height: auto;
+  }
+  .easternEuropeInner {
+    padding: 50px 20px;
+    color: #fff;
+    width: auto;
+  }
+  .white {
+    color :#fff !important;
+  }
+  .whiteop {
+    color :rgba(255, 255, 255, 0.5) !important;
+  }
+  .whiteBorder {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+
+  /* Mediterranean Sea */
+  .Mediterranean {
+    background: url('./mobile-img/sub_03_01.png') no-repeat center center;
+    background-size: cover;
+    margin: 0;
+    height: auto;
+  }
+  .MediterraneanInner {
+    padding: 50px 20px;
+    color: #545454;
+    width: auto;
+  }
+
+  /* Spain Portugal */
+  .Spain {
+    background: url('./mobile-img/sub_04_01.png') no-repeat center center;
+    background-size: cover;
+    margin: 0px;
+    height: auto;
+  }
+  .SpainInner {
+    padding: 50px 20px;
+    color: #fff;
+    width: auto;
+  }
+
+  /* North Europe */
+  .northEurope {
+    background: url('./mobile-img/sub_05_01.png') no-repeat center center;
+    background-size: cover;
+    margin: 0px;
+    height: auto;
+  }
+  .northEuropeInner {
+    padding: 50px 20px;
+    color: #545454;
+    width: auto;
   }
 }
