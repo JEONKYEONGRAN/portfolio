@@ -33,6 +33,12 @@ body {
 a {
   text-decoration: none;
 }
+.pc {
+  display: block;
+}
+.mo {
+  display: none;
+}
 
 /* section : seat */
 .seat {
@@ -254,4 +260,226 @@ a {
   text-align: center;
   padding: 7px;
   border-radius: 20px;
+}
+
+@media (max-width: 1024px) {
+  body {
+    margin: 0;
+  }
+  .pc {
+    display: none;
+  }
+  .mo {
+    display: block;
+  }
+  /* CSS */
+  .container a {
+    text-decoration: none;
+  }
+  .container {
+    min-width: 320px;
+    font-family: 'GmarketSansMedium';
+    margin: 0px;
+    color: #fff;
+    padding: 0px;
+    width: 100%;
+    letter-spacing: -1px;
+  }
+
+  /* Section : seat */
+  .seat {
+    background: url('./mobile_img/sub_01_01.png') ;
+    position: relative;
+    margin: 0;
+    margin-top: -55px;
+    background-size: cover;
+    height: auto;
+  }
+  .Inner {
+    padding: 50px 0px;
+    position: unset;
+    transform: translate(0, 0);
+    width: auto;
+  }
+  .Inner > div {
+    padding-bottom: 0;
+  }
+  .turkey {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  .turkeyTitle {
+    margin-bottom: 10px;
+  }
+  .turkeyTitle > img {
+    width: 35vw !important;
+  }
+  .turkeyTitle > span {
+    font-family: 'yg-jalnan';
+    font-size: 5vw;
+    vertical-align: top;
+  }
+  .turkey > div:last-child {
+    background-color: #3f0001af;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 3vw;
+  }
+  .turkey > div:last-child > span {
+    color: #e2c076;
+  }
+
+  .businessClass {
+    padding: 0px 0px 20px;
+    margin-bottom: 0;
+  }
+  .businessTitle {
+    font-family: 'GmarketSansBold';
+    padding: 0 20px 20px;
+    position: relative;
+    margin-top: 0;
+  }
+  .businessTitle > div {
+    font-size: 5vw;
+  }
+  .barImg {
+    display: block;
+    width: 30vw !important;
+    margin-bottom: 10px;
+  }
+  .textImg {
+    width: 32vw;
+    left: 33%;
+  }
+  .businessClassInner {
+    display: unset;
+  }
+  .businessInner {
+    width: 100%;
+  }
+  .businessInner > p {
+    padding: 20px;
+    font-size: 3.4vw;
+    margin: 0;
+  }
+  .businessInner > span {
+    font-family: 'GmarketSansLight';
+    color: #feacad;
+    padding: 0px 20px;
+    font-size: 2.8vw;
+  }
+  .businessVidoe {
+    width: 100%;
+  }
+  .businessVidoe > iframe {
+    position: unset;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .economy {
+    padding: 20px 0 !important;
+  }
+  .line {
+    width: 100%;
+    margin-top: 25px;
+  }
+  .economyClass {
+    padding: 0 20px;
+    position: unset;
+
+  }
+  .economyImg {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .economyImg > img {
+    width: calc( ( 100% - 15px ) / 2 );
+    box-shadow: 10px 10px #510d0d;
+    border-radius: 20px;
+    height: auto;
+  }
+
+  /* Section : product */
+  .product {
+    background: url('./mobile_img/sub_02_01.png') ;
+    margin: 0;
+    background-size: cover;
+    height: auto;
+  }
+  .productInner {
+    padding: 50px 0px;
+    position: unset;
+    transform: translate(0, 0);
+    width: auto;
+  }
+  .productTitle {
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 0;
+  }
+  .productTitle > img {
+    width: 75%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .productTitle > span {
+    background-color: #532c2e;
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 4vw;
+  }
+  .eventContent {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+  }
+  .event {
+    background-color: #fff;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .event > a {
+    color: #232b38;
+  }
+  .event > a > img {
+    width: 100%;
+  }
+  .p2 {
+    padding: 0;
+  }
+  .eventTitle {
+    font-family: 'GmarketSansBold';
+    font-size: 3.5vw;
+    height: 10vw;
+  }
+  .eventTag {
+    color: #252525;
+  }
+  .eventTagInner {
+    padding: 0;
+  }
+  .eventTag > span {
+    margin-right: 10px;
+    font-size: 3vw;
+  }
+  .button {
+    background-color: #3e5165;
+    color: #fff !important;
+    display: block;
+    margin: 20px 0 0;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 3vw;
+  }
 }
