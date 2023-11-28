@@ -37,6 +37,12 @@ a {
   text-decoration: none;
   color: #fff;
 }
+.pc {
+  display: block;
+}
+.mo {
+  display: none;
+}
 
 .container {
   font-family: 'GmarketSansMedium';
@@ -491,5 +497,409 @@ a {
   }
   to{
     transform: translatey(-20px);
+  }
+}
+
+@media (max-width: 1024px) {
+  /* 공통 CSS */
+  body {
+    margin: 0;
+  }
+  .pc {
+    display: none;
+  }
+  .mo {
+    display: block;
+  }
+  .container a {
+    text-decoration: none;
+  }
+  .container {
+    min-width: 320px;
+    font-family: 'GmarketSansMedium';
+    margin: 0px;
+    color: #fff;
+    padding: 0px;
+    width: 100%;
+    letter-spacing: -1px;
+  }
+
+  /* section : guamMain */
+  .guamMain {
+    position: relative;
+    margin-bottom: 0px;
+  }
+  .guamMain .guamImg img {
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+  }
+  .guamTitle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+    width: 60%;
+    text-align: center;
+  }
+  .guamTitle > img {
+    width: 55% !important;
+  }
+  .mainContent {
+    background-color: #012c55ce;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    color: #fff;
+    text-align: center;
+  }
+  .mainContent-inner {
+    margin: auto;
+    width: auto;
+  }
+  .travel {
+    padding: 30px 30px 36px;
+    position: relative;
+    font-size: 5vw;
+  }
+  .travel:before {
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 1px;
+    background-color: #fff;
+  }
+  .guide {
+    display: inline-block;
+    width: 26%;
+    padding: 15px 10px;
+  }
+  .guide > img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 50px !important ;
+  }
+  .guide > span {
+    margin-bottom: 5px;
+    font-size: 4vw;
+  }
+  .guide > p {
+    font-family: 'GmarketSansLight';
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 3.5vw;
+  }
+  .guide > p > a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  /* Section : lodgment */
+  .lodgment {
+    background: url('./mobile-img/sub_01_01.png');
+    background-size : cover;
+    height: auto;
+  }
+  .lodgment-inner {
+    padding:20px;
+    position: unset;
+    transform: translate(0, 0);
+    width: auto;
+    overflow: hidden;
+    display: block;
+  }
+  .lodgmentTitle > h2 {
+    font-family: 'Binggrae-Two';
+    margin: 0;
+    padding: 50px 0px 30px 20px;
+    position: relative;
+    font-size: 6vw;
+  }
+  .lodgmentTitle > h2::after {
+    content: '';
+    position: absolute;
+    top: 57px;
+    left: 0;
+    width: 5px;
+    height: 40%;
+    background-color: #fff;
+  }
+  .lodgmentTitle > h2 > span {
+    display: block;
+    color: #c1d9e0;
+    font-size: 5vw;
+  }
+
+  .abode {
+    padding: 50px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.336);
+    display: block;
+    width: 100%;
+    float: unset;
+  }
+  .abode:last-child {
+    border: none;
+  }
+  .abode:nth-child(2) {
+    padding-top: 0px;
+  }
+  .hotel-img > img {
+    width: 100%;
+  }
+  .hotel-guide > div {
+    display: inline-flex;
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .hotel-guide > p {
+    font-size: 3.8vw;
+    height: auto;
+  }
+  .hotelTitle {
+    width: 57%;
+  }
+  .hotelTitle > h2 {
+    font-family: 'GmarketSansBold';
+    font-size: 5.3vw;
+    margin: 0;
+  }
+  .hotelTitle > img {
+    width: 100%;
+  }
+  .hotelData {
+    width: 64%;
+    text-align: end;
+  }
+  .hotelData > div {
+    display: inline-block;
+  }
+  .hotelData > div:first-child {
+    margin-right: 15px;
+  }
+  .hotelData > div > img {
+    width: 22px;
+  }
+  .hotelData > div:last-child > img {
+    width: 36px;
+  }
+  .hotelData > div > span {
+    vertical-align: super;
+    font-size: 3vw;
+  }
+  .hotel-guide > a {
+    font-family: 'GmarketSansBold';
+    background-color: #fff;
+    color: #518098;
+    display: block;
+    text-align: center;
+    padding: 8px;
+    font-size: 4vw;
+    border-radius: 10px;
+    margin: 20px 0px 0px;
+    box-shadow: 7px 7px #396981b9;
+  }
+
+  /* Section : Night */
+  .night {
+    background: url('./mobile-img/sub_02_01.png');
+    background-size : cover;
+    height: auto;
+  }
+  .lodgment-inner > h3 {
+    font-size: 6vw;
+  }
+  .lodgment-inner > h3 > span {
+    display: block;
+    color: #dcd0f1;
+    font-size: 5vw;
+  }
+
+  .nightItems {
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+  .nightItem {
+    width: 80%;
+  }
+  .nightItem > img {
+    width: 100%;
+  }
+  .nightItem > div {
+    font-size: 4.5vw;
+    font-weight: 700;
+  }
+  .nightItem > span {
+    font-weight: 3vw;
+  }
+  .nightProducts {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nightProduct {
+    margin-right: 0;
+  }
+  .nightProduct > div {
+    position: relative;
+    border-radius: 20px;;
+    margin: 20px 0px;
+  }
+  .nightProduct > div::before {
+    content: '관련 상품';
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 7px 25px 7px 20px;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: #fff;
+    border-radius: 0px 50px 50px 0px;
+  }
+  .nightProduct > div > img {
+    width: 100%;
+  }
+  .nightProduct > div > div {
+    position: absolute;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.692);
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.384);
+    border-radius: 10px;
+    padding: 13px;
+  }
+
+  /* Section : air */
+  .air {
+    background: url('./mobile-img/sub_03_01.png');
+    background-size : cover;
+    height: auto;
+  }
+  .lodgment-inner > h2 {
+    font-family: 'yg-jalnan';
+    color: #014165;
+    font-size: 6.5vw;
+    margin: 20px 0px 10px;
+  }
+  .lodgment-inner > h2 > span {
+    font-family: 'GmarketSansLight';
+    display: block;
+    font-size: 5vw;
+  }
+  .lodgment-inner > span {
+    font-family: 'GmarketSansLight';
+    font-size: 3.6vw;
+    color: #014165;
+  }
+
+  .air-data {
+    padding: 10px 0px;
+  }
+  .aerial {
+    color: #343434;
+    text-align: center;
+    border-bottom: 1px solid #4a4d4e9d;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .aerial:last-child {
+    border: none;
+  }
+  .aerial.korean {
+    padding-top: 20px;
+  }
+  .aerial-title {
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .aerial-title.korean {
+    background-color: #0f2b71;
+  }
+  .aerial-title.airseoul {
+    background-color: #08b091;
+  }
+  .aerial-title.jeju {
+    background-color: #e14c0e;
+  }
+  .aerial-title.tway {
+    background-color: #c93030;
+  }
+  .aerial-title > img {
+    display: inline-block;
+    width: 17%;
+    margin-right: 10px;
+    vertical-align: bottom;
+  }
+  .aerial-title.tway > img {
+    margin-right: 10px;
+  }
+  .aerial-title > img.w100 {
+    width: 75%;
+    margin-right: 0;
+    vertical-align: initial;
+  }
+
+  .start {
+    background-color: #fff;
+    padding: 15px;
+    font-size: 4vw;
+  }
+  .starting {
+    background-color: #fff;
+    padding: 15px;
+    font-size: 4vw;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .starting > div {
+    display: inline-block;
+  }
+  .starting > div:first-child {
+    margin-right: 30px;
+    position: relative;
+  }
+  .starting > div:first-child::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: -19px;
+    width: 1px;
+    height: 70%;
+    background-color: #343434;
+  }
+  .starting > div > span {
+    font-family: 'GmarketSansBold';
+    color: #014165;
+    margin-right: 10px;
+  }
+  .number {
+    background-color: #ececec;
+    padding: 15px;
+    font-size: 4.2vw;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .ba {
+    padding: 15px;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .ba.korean {
+    background-color: #0f2b71;
+  }
+  .ba.airseoul {
+    background-color: #08b091;
+  }
+  .ba.jeju {
+    background-color: #e14c0e;
+  }
+  .ba.tway {
+    background-color: #c93030;
   }
 }
