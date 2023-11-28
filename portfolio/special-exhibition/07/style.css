@@ -250,3 +250,286 @@ a {
   font-size: 17px;
   padding: 5px;
 }
+
+@media (max-width: 1024px) {
+  /* 공통 CSS */
+  body {
+    margin: 0;
+  }
+  section {
+    margin: 0 !important;
+    padding: 0;
+  }
+  .container a {
+    text-decoration: none;
+    color: #000;
+  }
+  .items {
+    width: 100%;
+  }
+  .container {
+    min-width: 320px;
+    font-family: 'GmarketSansMedium';
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    letter-spacing: -1px;
+    font-size: 16px;
+    height: 100%;
+  }
+  .inner {
+    position: unset;
+    transform: translate(0, 0);
+    width: auto;
+    text-align: left;
+  }
+
+  /* section : couponMain */
+  .couponMain {
+    background: url('./mobile-img/main_01.png') no-repeat center center;
+    background-size: cover;
+  }
+  .couponMain > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  /* Section : package */
+  .package {
+    background: #E7FBF9 url('./mobile-img/sub_01_01.png') no-repeat;
+    margin: 0;
+    position: relative;
+    height: auto;
+    background-size: cover;
+    padding: 100px 0;
+  }
+  .package > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .subHeadline > span {
+    text-align: center;
+  }
+  .headlines {
+    margin-bottom: 0;
+  }
+  .mainHeadline {
+    text-align: center;
+  }
+  .headline {
+    padding: 20px 0px;
+  }
+  .mainHeadline > img {
+    width: 70%;
+  }
+  .subHeadline > span {
+    display: block;
+  }
+  .subHeadline > span > b {
+    color: #4e7db8;
+  }
+
+  .coupon {
+    padding: 30px 40px;
+  }
+  .download {
+    position: relative;
+  }
+  .downloadContent {
+    display: inline-flex;
+    position: relative;
+    width: 67%;
+  }
+  .downloadContent > img {
+    width: 100%;
+  }
+  .downloadContent > div > img {
+    width: 100%;
+    height: 100%;
+  }
+  .shadows {
+    z-index: -1;
+    position: relative;
+  }
+  .shadows > img {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+  .couponGet > button {
+    font-family: 'GmarketSansBold';
+    color: #fff;
+    display: inline-block;
+    height: 100%;
+    width: 27vw;
+    font-size: 5vw;
+    position: relative;
+    border-radius: 0px 15px 15px 0px;
+    overflow: hidden;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  .couponGet > button::before {
+    content: '';
+    position: absolute;
+    top:  -110px;
+    left: -80px;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.281);
+    border-radius: 50%;
+  }
+  .couponGet > button::after {
+    content: '';
+    position: absolute;
+    bottom: -109px;
+    right: -68px;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.281);
+    border-radius: 50%;
+  }
+  .button1 {
+    background-color: #33619c;
+  }
+  .plane {
+    position: absolute;
+    top: -8%;
+    left: -11%;
+    width: 30vw;
+  }
+  .plane > img {
+    width: 100%;
+  }
+  .download > span {
+    display: block;
+    font-size: 13px;
+    text-align: left;
+    color: #565656;
+  }
+
+  .item {
+    margin-top: 0;
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+  .items:first-child {
+    margin-bottom: 40px;
+  }
+  .items > div {
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .items > div:first-child {
+    margin-bottom: 30px;
+  }
+  .items > div > img {
+    width: 100%;
+  }
+  .itemsTitle {
+    padding: 10px 20px;
+    text-align: left;
+    color: #777777;
+  }
+  .itemsName {
+    padding: 0px 20px;
+    text-align: left;
+    height: 49px;
+  }
+  .reservation {
+    background-color: #4e7db8;
+    display: inline-block;
+    color: #fff;
+    padding: 7px 50px;
+    border-radius: 20px;
+    margin: 15px 0 0;
+  }
+
+  /* Section : free */
+  .free {
+    background: url('./mobile-img/sub_02_01.png') no-repeat;
+    margin: 0;
+    position: relative;
+    height: auto;
+    padding: 59px 0;
+    background-size: cover;
+  }
+  .free > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .orange {
+    color: #ff9000 !important;
+  }
+  .orangeBa {
+    background-color: #ff9000;
+  }
+  .orangeButton {
+    background-color: #ff9000;
+  }
+
+  /* Section : Ulleungdo */
+  .ulleungdo {
+    background: url('./mobile-img/sub_03_01.png') no-repeat;
+    margin: 0;
+    position: relative;
+    background-size: cover;
+    height: auto;
+    padding: 34px 0;
+  }
+  .ulleungdo > img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .green {
+    color: #4eb8ad !important;
+  }
+  .greenBa {
+    background-color: #349d92;
+  }
+  .greenButton {
+    background-color: #4eb8ad;
+  }
+  .plane.ship {
+    top: -17%;
+    left: -4%;
+    width: 23vw;
+  }
+
+  /* section : guide */
+  .guide {
+    background-color: #464646;
+    color: #fff;
+    position: relative;
+    height: auto;
+    padding: 30px;
+  }
+  .guide > .inner {
+    position: unset;
+    transform: translate(0, 0);
+    width: auto;
+  }
+  .guideContent {
+    text-align: left;
+  }
+  .guideTitle {
+    font-family: 'GmarketSansBold';
+    font-size: 3vw;
+    margin-bottom: 10px;
+  }
+  .guideContent > span {
+    display: block;
+    font-size: 2.5vw;
+    line-height: 1.2;
+    padding: 5px;
+  }
+}
