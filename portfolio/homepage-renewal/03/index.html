@@ -82,10 +82,12 @@
               <div class="commentList mb20">
                 <span class="bold black block">교통편</span> <span id="productAirLine">카타르항공</span>
               </div>
-              <div class="commentList mb20 mr20">
+              <div class="commentList mb20 disfle">
                 <span class="bold black block">출발/도착일</span>
-                <span id="startTravel">2022년 08월 28일(일) 20:00 QR859</span> 
-                <span id="endTravel">2022년 09월 03일(월) 12:10 QR858</span>
+                <div>
+                  <span id="startTravel">2022년 08월 28일(일) 20:00 QR859</span> 
+                  <span id="endTravel">2022년 09월 03일(월) 12:10 QR858</span>
+                </div>
               </div>
               <div class="commentList mb20 disfl">
                 <span class="bold black block mr13">주요 여행지</span> <span class="mainJourney" id="mainJourney">인천-기내(1)-밀라노-베니스(1)-친퀘테레-몬테카티니(1)-피렌체-로마(2)-포지타노-아말피-나폴리(1)-티볼리-카스텔로
@@ -306,7 +308,7 @@
       </div>
 
       <!-- 이벤트 메뉴-->
-      <div class="eventPageMenu pr61">
+      <div class="eventPageMenu pr61 pc">
         <div class="list select"><a href="">상품특징</a></div>
         <div class="list">일정표</div>
         <div class="list">포함/불포함</div>
@@ -315,10 +317,41 @@
         <div class="list">참고사항/약관</div>
         <div class="list">해외안전정보</div>
       </div>
+
+      <div id="menuBannerSlide" class="eventPageMenu splide m50 mo">
+        <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <div class="splide__slide__container list select">상품특징</div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container list">일정표</div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container list">리뷰</div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container list">포함/불포함</div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container list">확인사항</div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container list">선택관광</div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container list">참고사항/약관</div>
+              </li>
+              <li class="splide__slide">
+                <div class="splide__slide__container list">해외안전정보</div>
+              </li>
+            </ul>
+        </div>
+      </div>
       
       <div class="menuSlide">
         <div class="productTimeLine w100">
-          <div class="productTimeLineInner w800">
+          <div class="productTimeLineInner w800 pc">
             <div class="title timeLine">22.09.03(토) 출발</div>
             <div class="content timeLine">
               <span id="travelLong">6박 9일</span>
@@ -331,6 +364,16 @@
             <div class="btnBox">
               <div class="btn reserve">예약하기</div>
             </div>
+          </div>
+          <div class="event_footer mo">
+            <div class="iconBox">
+              <div class="icon" id="event_heart">
+                  <img src="./img/icon22.png" />
+              </div>
+          </div>
+          <div class="button">
+              <button>예약하기<span class="minismall">(마감까지 <span id="reser_count">7</span>명 남음)</span></button>
+          </div>
           </div>
         </div>
 
@@ -633,4 +676,39 @@
 					}
 			});
 	});
+
+  
+  new Splide('#menuBannerSlide', {
+    autoWidth: true,
+    focus: 'left',
+    rewind: true,
+  }).mount();
+</script>
+
+
+<script>
+
+  //행사 페이지 찜하기
+
+  $('#event_heart').click(function () {
+
+      if ($(this).hasClass('on')) {
+
+          $(this).find('img').attr('src', './img/icon08.png');
+
+          $(this).removeClass('on');
+
+      }
+
+      else {
+
+          $(this).find('img').attr('src', './img/icon22.png');
+
+          $(this).addClass('on');
+
+      }
+
+  });
+
+
 </script>

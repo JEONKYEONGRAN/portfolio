@@ -4,6 +4,12 @@ head{
 body{
     background: #fff;
 }
+.pc {
+    display: block;
+}
+.mo {
+    display: none;
+}
 .mainSection{
     width: 800px;
     margin: 168px auto;
@@ -1003,17 +1009,23 @@ section .sectionBox .title.left.tour.mb20 {
     width: 100% !important;
     padding: 0;
 }
+.TextComment .commentList.mb20.disfle {
+    display: flex;
+}
+.TextComment .commentList.mb20.disfle > div {
+    padding-left: 5px;
+}
 .TextComment .commentList.disfl > span {
     display: table-cell;
 }
 .TextComment .commentList.disfl > span > br {
     display: none;
 }
-.TextComment .commentList.mb20.mr20 > span:nth-child(2) {
+#startTravel {
     margin-right: 20px;
     position: relative;
 }
-.TextComment .commentList.mb20.mr20 > span:nth-child(2)::before {
+#startTravel::before {
     content: '';
     position: absolute;
     width: 1px;
@@ -1592,4 +1604,129 @@ table {
     color: #000;
     line-height: 2px;
     font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+    .pc {
+        display: none;
+    }
+    .mo {
+        display: block;
+    }
+    .mainSection {
+        width: auto;
+        padding: 0 20px;
+    }
+    #startTravel {
+        margin-right: 0;
+        display: block;
+        margin-bottom: 2px;
+    }
+    #startTravel::before {
+        display: none;
+    }
+    .splide .splide__track .splide__list .splide__slide.eventProduct {
+        height: auto;
+    }
+    .miniFiveMenu.w18 .list {
+        padding: 5px 10px;
+        font-size: 12px;
+        width: 26%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        justify-content: center;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+    .miniFiveMenu.w18 a:nth-child(3) .list {
+        margin-right: 0;
+    }
+    .miniFiveMenu.w18 a:nth-child(4) .list, .miniFiveMenu.w18 a:nth-child(5) .list {
+        width: 43%;
+    }
+    .miniFiveMenu.w18 a:nth-child(5) .list {
+        margin-right: 0;
+    }
+    .reviews {
+        width: 45%;
+    }
+    .ratingBox {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .ratingTitle {
+        padding-left: 0;
+    }
+    .buttonBox.m35.mt12.reviews {
+        top: 50px;
+    }
+    .splide__pagination {
+        display: none;
+    }
+    .splide__track {
+        padding: 20px 0;
+    }
+    .productTimeLineInner.w800 {
+        width: auto;
+    }
+    .productTimeLine.w100 .content {
+        width: auto;
+    }
+    .event_footer{
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        bottom: 0%;
+        background: #e9e9e9;
+        padding:10px 20px;
+        z-index: 999;
+    }
+    
+    .event_footer .icon{
+        width: 100%;
+        background: #fff;
+        padding:20px;
+        border-radius: 10px;
+        height: 100%;
+    }
+    .event_footer .iconBox{
+        float:left;
+    }
+    .event_footer .icon{
+        width: 30px;
+        height: 30px;
+        padding:10px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .event_footer .icon img{
+        width: 100%;
+        text-align: center;
+    }
+    .event_footer .button{
+        float:left;
+        width: 70%;
+        text-align: center;
+    }
+    .event_footer .icon_box{
+        width: 20%;
+        float:left;
+    }
+    .event_footer .button button{
+        background:#464646;
+        color:#fff;
+        text-align: center;
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        height: 40px;
+    
+    }
+    .event_footer .button button.end {
+        background: black;
+        color: white;
+        border: 1px solid black;
+    }
+    
 }
