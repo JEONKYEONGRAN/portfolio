@@ -102,7 +102,10 @@
 	
 					<!-- 인기 검색어 -->
 					<div class="bestSearchBox">
-						<div class="title">인기 검색어</div>
+						<div class="title">
+							<div class="titles">인기 검색어</div>
+							<div><i class="fa fa-chevron-down"></i></div>
+						</div>
 						<div class="bestList">
 							<div class="bestLists lefts">
 								<a href="#none">1. 유럽 사전예약 초특가</a>
@@ -127,17 +130,17 @@
 							<ul class="splide__list">
 								<li class="splide__slide">
 									<div class="splide__slide__container">
-										<img src="https://via.placeholder.com/800x100">
+										<img src="./img/banner_01.png">
 									</div>
 								</li>
 								<li class="splide__slide">
 									<div class="splide__slide__container">
-										<img src="https://via.placeholder.com/800x100">
+										<img src="./img/banner_02.jpg">
 									</div>
 								</li>
 								<li class="splide__slide">
 									<div class="splide__slide__container">
-										<img src="https://via.placeholder.com/800x100">
+										<img src="./img/banner_03.png">
 									</div>
 								</li>
 							</ul>
@@ -213,9 +216,9 @@
 												<a href="#none">동유럽/발칸</a>
 												<a href="#none">발칸 반도</a>
 												<a href="#none">스페인/포루투갈</a>
-												<a href="#none">지중해(튀르기예(터키)/그리스)</a>
 												<a href="#none">북유럽</a>
 												<a href="#none">발틱 3국</a>
+												<a href="#none">지중해(튀르기예(터키)/그리스)</a>
 											</div>
 											<div class="searchList buttons">
 												<a href="#none">출발일 선택</a>
@@ -649,4 +652,11 @@
   } );
 
   splide.mount();
+
+  $(function () {
+		$('.bestSearchBox .title div').click(function(){
+			$('.bestList .bestLists.rights').toggleClass('on');
+			$('.bestSearchBox .title .fa.fa-chevron-down').toggleClass('on');
+		})
+	})
 </script>

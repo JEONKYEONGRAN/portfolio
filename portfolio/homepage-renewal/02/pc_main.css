@@ -4,6 +4,12 @@ head{
 body{
     background: #fff;
 }
+.pc {
+    display: block;
+}
+.mo {
+    display: none;
+}
 .grand-header {
     position: relative;
     width: 100%;
@@ -553,7 +559,7 @@ section .sectionBox .whiteBoxs.w33s > input[type=radio] {
 }
 .bestSearchBox .bestLists.rights {
     padding-left: 50px;
-    width: 43%;
+    box-sizing: border-box;
 }
 .bestSearchBox .bestLists > a {
     display: block;
@@ -1337,4 +1343,73 @@ section .on-scroll-top:after {
     width: 100%;
     height: 75%;
     border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+    .pc {
+        display: none;
+    }
+    .mo {
+        display: block;
+    }
+    .mainSection {
+        width: auto;
+        padding: 0 20px;
+    }
+    section .sectionBox .formBoxs {
+        width: 100%;
+    }
+    .whiteButton.black.selection {
+        width: 36% !important;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .nomBoxList {
+        width: 64%;
+    }
+    .whiteButton.round.w100 {
+        box-sizing: border-box;
+        margin-right: 0;
+        height: 47px;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    .whiteButton.black {
+        background: url(/portfolio/homepage-renewal/02/img/icon31.png) no-repeat top 50% right 10px;
+        background-size: 8px;
+    }
+    .whiteButton .icon {
+        font-size: 12px;
+    }
+    .splide__slide img {
+        width: 100%;
+    }
+    .bestSearchBox .bestLists {
+        width: 100%;
+    }
+    .bestSearchBox .bestLists.lefts:before {
+        display: none;
+    }
+    .bestSearchBox .bestLists.rights {
+        padding-left: 0;
+        display: none;
+    }
+    .bestSearchBox .bestLists.rights.on {
+        display: block;
+    }
+    .title {
+        display: flex;
+    }
+    .titles {
+        padding-right: 5px;
+    }
+    .fa.fa-chevron-down.on {
+        rotate: 180deg;
+    }
+    .products {
+        height: 21vw;
+    }
+    .searchList.lists > a:nth-child(7) {
+        padding-left: 20px;
+    }
 }
