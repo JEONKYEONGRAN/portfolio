@@ -422,6 +422,7 @@ section .sectionBox .title{
     width: 48%;
     display: inline-block;
     border: 1px solid #000;
+    box-sizing: border-box;
 }
 .whiteBox.leave:first-child {
     margin-right: 5px;
@@ -491,9 +492,10 @@ section .sectionBox .miniText.articles:before {
 /* SNS간편로그인페이지 */
 .whiteBox.two.sns {
     border: none;
-    width: 49%;
+    width: 50%;
     display: inline-block;
     text-align: left;
+    box-sizing: border-box;
 }
 .whiteBox.two.email {
     border: none;
@@ -557,6 +559,9 @@ section .sectionBox .miniText.articles:before {
     float: left;
     width: 48%;
     position: relative;
+}
+.knowledge.pl20 {
+    padding-left: 20px;
 }
 .knowledge.joinLine::before {
     content: '';
@@ -657,4 +662,60 @@ section .sectionBox .miniText {
     margin-top: 40px;
     margin-bottom: 15px;
     font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+    .mainSection {
+        width: auto;
+        padding: 0 20px;
+    }
+    .fz16:before {
+        display: none;
+    }
+    .consent {
+        margin-top: 5px;
+    }
+    .knowledge {
+        width: 100%; 
+    }
+    .knowledge.joinLine::before {
+        display: none;
+    }
+    .knowledge.pl20 {
+        padding-left: 0;
+    }
+    .whiteBox input.joins.id {
+        width: 50% !important;
+    } 
+    .joinTitle {
+        width: 18%;
+    }
+    .whiteBox input[type=password].joins {
+        width: 60% !important;
+    }
+    #joinBox, .sectionTop.w600 {
+        width: auto;
+    }
+    .buttonBoxAll {
+        width: 100%;
+    }
+    .whiteBox.two.sns {
+        width: 100%;
+    }
+    .whiteBox.two.email > div {
+        padding-left: 0;
+    }
+    .whiteBox.two.sns input {
+        width: 70% !important;
+    }
+    .buttonBox.m50.sns input {
+        width: 50% !important;
+        float: unset;
+    }
+    .whiteBox input, .buttonBox input, .whiteBox .inputDiv {
+        padding: 15px 10px;
+    }
+    .whiteBox.two.email input {
+        width: 47.5% !important;
+    }
 }
