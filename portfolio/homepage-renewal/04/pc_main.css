@@ -290,6 +290,7 @@ a {
 }
 .specialPriceTitle.w100 {
     width: 100%;
+    box-sizing: border-box;
 }
 .specialPriceTitle > span {
     font-weight: normal;
@@ -578,4 +579,61 @@ a {
     margin: 5px;
     background: url(/portfolio/homepage-renewal/04/img/ui_icons.png) no-repeat -170px
  -200px;
+}
+
+@media (max-width: 1024px) {
+    .mainSection {
+        width: auto;
+        padding: 0 20px;
+    }
+    .sectionBox .title .text.w73 {
+        width: 40%;
+    }
+    .categorysBox {
+        width: 90%;
+        left: 20px;
+        top: 25%;
+    }
+    .categorys > a {
+        width: 38.4%;
+        font-size: 14px;
+    }
+    .categorys > a:first-child {
+        border-bottom: 1px solid #dadada;
+    }
+    .categorys > a:nth-child(2) {
+        border-right: none;
+        border-bottom: 1px solid #dadada;
+    }
+    .specialPrice {
+        width: 100%;
+    }
+    .specialPriceTitle {
+        width: 55%;
+    }
+    .specialPrice:first-child {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .leadsList:last-child {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .leads {
+        margin-left: 0;
+        margin-right: 8px;
+    }
+    .leads:last-child {
+        margin-right: 0;
+    }
+    .items {
+        width: 100%;
+    }
+    .items:last-child {
+        margin-left: 0;
+        margin-top: 30px;
+    }
 }
