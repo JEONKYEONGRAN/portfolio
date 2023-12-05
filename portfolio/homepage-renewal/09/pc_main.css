@@ -486,7 +486,6 @@ section .sectionBox .tabMenu.mShort{
 }
 .productDates > div:first-child {
     font-size: 18px;
-    width: 64%;
     font-weight: 700;
 }
 .productDates > div:last-child {
@@ -496,6 +495,7 @@ section .sectionBox .tabMenu.mShort{
     padding: 8px 25px;
     border-radius: 20px;
     font-size: 14px;
+    float: right;
 }
 
 .productBtnBox {
