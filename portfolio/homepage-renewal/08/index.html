@@ -336,10 +336,15 @@ $( document ).ready( function() {
 /* 이미지 슬라이드 */
 $(function () {
 	new Splide('#seasonProductSlide', {
-	      type: 'loop',
-	      perPage: 6.4,
-	      focus: 'left',
-				perMove: 1,
+	    type: 'loop',
+	    perPage: 6.4,
+	    focus: 'left',
+		perMove: 1,
+		breakpoints: {
+			1024: {
+				perPage: 3.4,
+			},
+		}
     }).mount();
 });
 
