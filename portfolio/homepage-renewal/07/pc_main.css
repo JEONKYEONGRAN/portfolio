@@ -799,3 +799,61 @@ section .on-scroll-top:after {
 .flip-clock-wrapper {
     margin: 0; 
 }
+
+@media (max-width: 1024px) {
+    .mainSection {
+        width: auto;
+        padding: 0 20px;
+    }
+    .reduction {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .reduction:first-child {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .reductionBox {
+        flex-direction: column;
+    }
+    .reduction.right {
+        padding: 20px 10px;
+    }
+    .reductionBtn {
+        font-size: 12px;
+    }
+    .reductionBtn > span.red {
+        padding: 5px 20px;
+    }
+    .reductionBtn > span.blue {
+        padding: 5px 15px;
+    }
+    .itinerary:first-child {
+        margin-right: 7px;
+    }
+    .leadsList:last-child {
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .leads {
+        margin-left: 0;
+        font-size: 13px;
+        margin-right: 8px;
+    }
+    .leads:last-child {
+        margin-right: 0;
+    }
+    .items {
+        width: 100%;
+    }
+    .items:last-child {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .productDates > div:first-child {
+        width: 59%;
+        box-sizing: border-box;
+    }
+}
