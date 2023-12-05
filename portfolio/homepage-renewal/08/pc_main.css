@@ -679,4 +679,10 @@ section .on-scroll-top:after {
         margin-left: 0;
         margin-top: 30px;
     }
+    .productDates > div:first-child {
+        width: auto;
+    }
+    .productDates > div:last-child {
+        float: right;
+    }
 }
