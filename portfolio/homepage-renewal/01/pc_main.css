@@ -4,6 +4,12 @@ head{
 body{
     background: #fff;
 }
+.pc {
+    display: block;
+}
+.mo {
+    display: none;
+}
 .grand-header {
     position: relative;
     width: 100%;
@@ -241,7 +247,7 @@ section.Main {
 .timeSales {
     position: absolute;
     top: 34%;
-    left: 786px;
+    left: 588px;
     color: #fff;
     letter-spacing: -1px;
     font-size: 18px;
@@ -249,10 +255,14 @@ section.Main {
 .seasonTimesaleBox {
     position: absolute;
     top: 77%;
-    left: 59.7%;
+    left: 62%;
     transform: translate(-50%, -50%);
     color: #fff;
     display: flex;
+}
+.xi-angle-right-thin.times {
+    font-size: 38px;
+    margin-top: 7px;
 }
 
 .sub-inner {

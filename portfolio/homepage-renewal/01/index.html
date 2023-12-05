@@ -23,18 +23,17 @@
     <script src="plugins/js/bootstrap.min.js"></script>
 
     <!-- 폰트 어썸 -->
-    <link rel="stylesheet" href="css/fontawesome-free-5.15.3-web/css/all.css">
-    <link rel="stylesheet" href="css/fontawesome-free-5.15.3-web/js/all.js">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
     <link rel="stylesheet" type="text/css" href="../../../plugins/XEIcon-master/xeicon.min.css">
 
     <!-- 카운트다운 -->
-    <link rel="stylesheet" href="plugins/flipclock/flipclock.css">
-    <script src="plugins/flipclock/flipclock.min.js"></script>
+    <link rel="stylesheet" href="../../../plugins/flipclock/flipclock.css">
+    <script src="../../../plugins/flipclock/flipclock.min.js"></script>
 
 
     <!-- 쿠키 -->
-    <script src="js/.jquery.cookie.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
 
     <!-- 이미지 슬라이드 -->
     <link rel="stylesheet" href="../../../plugins/splide/splide-core.min.css">
@@ -45,13 +44,14 @@
 
     <!-- 공통 css -->
     <link rel="stylesheet" href="./pc_main.css">
+    <link rel="stylesheet" href="./common.css">
 </head>
 
 <body>
   
 <!-- 메인페이지 -->
 
-<div class="container">
+<div class="container pc">
   
   	<!-- 이미지슬라이드 -->
     <section class="Main">
@@ -395,6 +395,455 @@
 
 </div>
 
+<div class="front-body mo">
+
+  <!-- 헤더 공통 -->
+  <header class="header" id="tour2000_topheader">
+		<div class="header_wrap">
+			<!-- 로고, 어둡게, 검색, 메뉴 -->
+			<div class="gnb_top">
+				<div class="swiper-container gnb swiper-container-horizontal">
+					<div class="swiper-wrapper gnb-wrap">
+						<div class="swiper-slide logo">
+							<a class="gnb-menu" href="${ mobile_server_url }">투어2000</a>
+						</div>
+						<div class="menuBox">
+							<div class="swiper-slide right point">
+								<a class="gnb-menu" href="/search/index.do">검색</a>
+							</div>
+							<div class="swiper-slide right point">
+								<a class="gnb-menu" href="/myPage/index.do">메뉴</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+			
+		</div>
+	</header>
+	
+	
+    <div class="page-wrap">
+
+		
+      <!-- 타임세일 -->
+				<section>
+					<div class="time">
+						<div class="time-img">
+							<img src="./mobile-img/time_01.png" alt="">
+						</div>
+						<a class="text" href="#none">
+							<div class="timeSales" >타임세일 진행중</div>
+							<div class="seasonTimesaleBox">
+								<!-- <div id="flipdown" class="flipdown flipdown__theme-light"></div> -->
+								<div class="clocks" style="margin:0;"></div>
+								<!-- <div id="flipcountdownbox1"></div> -->
+								<i class="xi-angle-right-thin times"></i>
+							</div>
+						</a>
+					</div>
+				</section>
+
+        <!-- 검색 -->
+        <section>
+          <div class="nomBox main" style="display:block">
+  					<div class="mainSearch">
+              <input type="text" id="resNm" name="resNm" placeholder="검색어를 입력해 주세요." title="검색어" data-null="not">
+              <div class="icon" onclick="" style="cursor:pointer"><i class="fas fa-search"></i></div>
+  					</div>
+  				</div>
+
+          <div class="option">
+            <div class="optionList">
+              <a class="options" href="#none">
+                <div class="optionsImg">
+                  <img src="./mobile-img/icon_01.png" alt="">
+                </div>
+                <div>해외여행</div>
+              </a>
+              <a class="options" href="#none">
+                <div class="optionsImg">
+                  <img src="./mobile-img/icon_02.png" alt="">
+                </div>
+                <div>국내여행</div>
+              </a>
+              <a class="options" href="#none">
+                <div class="optionsImg">
+                  <img src="./mobile-img/icon_03.png" alt="">
+                </div>
+                <div>할인</div>
+              </a>
+              <a class="options" href="#none">
+                <div class="optionsImg">
+                  <img src="./mobile-img/icon_04.png" alt="">
+                </div>
+                <div>출발확정</div>
+              </a>
+              <a class="options" href="#none">
+                <div class="optionsImg">
+                  <img src="./mobile-img/icon_05.png" alt="">
+                </div>
+                <div>기획전</div>
+              </a>
+            </div>
+            <div class="optionList">
+              <a class="options" href="#none">
+                <div class="optionsImg">
+                  <img src="./mobile-img/icon_06.png" alt="">
+                </div>
+                <div>시즌여행</div>
+              </a>
+              <a class="options" href="#none">
+                <div class="optionsImg">
+                  <img src="./mobile-img/icon_07.png" alt="">
+                </div>
+                <div>테마여행</div>
+              </a>
+              <a class="options" href="#none">
+                <div class="optionsImg">
+                  <img src="./mobile-img/icon_08.png" alt="">
+                </div>
+                <div>해외항공</div>
+              </a>
+              <a class="options" href="#none">
+                <div class="optionsImg">
+                  <img src="./mobile-img/icon_09.png" alt="">
+                </div>
+                <div>국내항공</div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 메인 이미지 슬라이드 -->
+        <section>
+          <div class="splide splides">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="project">
+                    <div class="projectImg">
+                      <img src="./mobile-img/main_01.png" alt="">
+                    </div>
+                    <div class="projectImgBa">
+                      <img src="./mobile-img/photo04_bg.png" alt="">
+                    </div>
+                    <div class="projectList">
+                      <div class="sub-headline">서브타이틀</div>
+                      <div class="main-title">메인타이틀메인타이틀메인타이틀</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="project">
+                    <div class="projectImg">
+                      <img src="./mobile-img/main_01.png" alt="">
+                    </div>
+                    <div class="projectImgBa">
+                      <img src="./mobile-img/photo04_bg.png" alt="">
+                    </div>
+                    <div class="projectList">
+                      <div class="sub-headline">서브타이틀서브타이틀</div>
+                      <div class="main-title">메인타이틀메인타이틀메인타이틀메인타이틀</div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="project">
+                    <div class="projectImg">
+                      <img src="./mobile-img/main_01.png" alt="">
+                    </div>
+                    <div class="projectImgBa">
+                      <img src="./mobile-img/photo04_bg.png" alt="">
+                    </div>
+                    <div class="projectList">
+                      <div class="sub-headline">서브타이틀서브타이틀서브타이틀</div>
+                      <div class="main-title">메인타이틀메인타이틀메인타이틀메인타이틀메인타이틀</div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 서브 이미지 슬라이드 01 -->
+        <section>
+					<div class="sub-inner">
+						<div class="sub-title">타이틀타이틀타이틀타이틀타이틀</div>
+						<div class="sub-slide">
+							<div class="splide splides subs">
+								<div class="splide__track">
+									<ul class="splide__list">
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+												<div class="exhibitions">기획전</div>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+                        <div class="exhibitions">기획전</div>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+        <!-- 서브 이미지 슬라이드 02 -->
+        <section>
+					<div class="sub-inner">
+						<div class="sub-title">타이틀타이틀타이틀타이틀타이틀</div>
+						<div class="sub-slide">
+							<div class="splide splides subs2">
+								<div class="splide__track">
+									<ul class="splide__list">
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+                        <div class="exhibitions">기획전</div>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+                        <div class="exhibitions">기획전</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+        <!-- 서브 이미지 슬라이드 03 -->
+        <section>
+					<div class="sub-inner">
+						<div class="sub-title">타이틀타이틀타이틀타이틀타이틀</div>
+						<div class="sub-slide">
+							<div class="splide splides subs3">
+								<div class="splide__track">
+									<ul class="splide__list">
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+                        <div class="exhibitions">기획전</div>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+                        <div class="exhibitions">기획전</div>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+        <!-- 서브 이미지 슬라이드 04 -->
+        <section>
+					<div class="sub-inner">
+						<div class="sub-title">타이틀타이틀타이틀타이틀타이틀</div>
+						<div class="sub-slide">
+							<div class="splide splides subs4">
+								<div class="splide__track">
+									<ul class="splide__list">
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+                        <div class="exhibitions">기획전</div>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+                        <div class="exhibitions">기획전</div>
+											</a>
+										</li>
+										<li class="splide__slide subs">
+											<a href="#none">
+												<img src="./mobile-img/sub_01.png" alt="">
+												<span>투어와 골프를 한번에</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+        <!-- 서브 05 -->
+        <section>
+          <div class="subInner">
+            <div class="exhibition">
+              <div class="exhibitionImg">
+                <img src="./mobile-img/sub_02.png" alt="">
+              </div>
+              <div class="exhibitionImgBa">
+                <img src="./mobile-img/photo04_bg.png" alt="">
+              </div>
+              <div class="exhibitionList">
+                <div class="main-title">메인타이틀메인타이틀메인타이틀</div>
+                <div class="sub-headline">서브타이틀서브타이틀서브타이틀</div>
+                <a href="#none">자세히 보기</a>
+              </div>
+            </div>
+            <div class="exhibition">
+              <div class="exhibitionImg">
+                <img src="./mobile-img/sub_02.png" alt="">
+              </div>
+              <div class="exhibitionImgBa">
+                <img src="./mobile-img/photo04_bg.png" alt="">
+              </div>
+              <div class="exhibitionList">
+                <div class="main-title">메인타이틀메인타이틀메인타이틀</div>
+                <div class="sub-headline">서브타이틀서브타이틀서브타이틀</div>
+                <a href="#none">자세히 보기</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 서브 06 -->
+        <section>
+          <div class="subInner">
+            <a href="#none"><img src="./mobile-img/sub_03.png" alt=""></a>
+          </div>
+        </section>
+
+    </div>
+
+
+    <!-- 푸터 : 공통영역 -->
+		<footer class="footer">
+			<div class="ft_box">
+				<div class="box">
+					<span class="title">상담시간</span>
+					<span class="cnt">평일 10:00 ~ 18:00(토/일요일, 공휴일 휴무)</span>
+				</div>
+				<div class="box">
+					<span class="title">대표번호/이메일</span>
+					<span class="cnt">02-2021-2000 / info@tour2000.co.kr</span>
+				</div>
+				<span class="box_tit">사업자 정보확인 <i class="fas fa-chevron-down"></i></span>
+				<div class="inner_box">
+					<span>대표자 양무승 | 사업자등록번호 : 202-81-63139</span>
+					<span>통신판매업신고 : 중구026249호</span>
+					<span>관광사업자등록 : 제2008-000602호(서울시 중구청)</span>
+					<span>영업보증보험 : 10억원</span>
+					<span>[04522] 서울특별시 중구 무교로 20(무교동, 어린이재단빌딩 3층) ㈜투어이천</span>
+					<span>개인정보 관리책임자 : 정진아</span>
+					<span>부득이한 사정에 의해 여행일정이 변경되는 경우 여행자의 동의를 받습니다.</span>
+					<span>Copyright ⓒ Tour2000 Ltd. All rights reserved.</span>
+				</div>
+				<ul class="botm-list">
+					<li><a href="/policy/terms_service.do">이용약관</a></li>
+					<li><a href="/policy/terms_privacy.do">개인정보취급방침</a></li>
+					<li><a href="/policy/terms_tour.do">여행약관</a></li>
+				</ul>
+			</div>
+      <div class="bottom_grand_box">
+        <div class="bottom_webbar">
+          <ul>
+            <li class="text"><a href="/goods/season/index.do">시즌</a></li>
+            <li class="text"><a href="/goods/theme/index.do">테마</a></li>
+            <li><a class="btn-total-trigger" href="/"><img src="/./mobile-img/home.png"></a></li>
+            <li class="text"><a href="/goods/promotion/index.do">할인</a></li>
+            <li class="text"><a href="/goods/departure/index.do">출발확정</a></li>
+          </ul>
+        </div>
+      </div>
+		</footer>
+		
+		
+
+  </div>
+
 
 </body>
 
@@ -422,7 +871,7 @@
 	var clock;
 	
 	$(document).ready(function() {
-		var date = new Date('2022-10-14 07:00:0 am');
+		var date = new Date('2023-12-14 07:00:0 am');
 
 		var clock = $('.clock').FlipClock(date, { 
 			clockFace: 'MinuteCounter', 
@@ -436,13 +885,24 @@
 	});
 </script>
 
-<script>
-  jQuery(function(){
-    jQuery('#flipcountdownbox1').flipcountdown({  
-      size:'md',
-    });
-  });
+<script type="text/javascript">
+	var clock;
+	
+	$(document).ready(function() {
+		var date = new Date('2023-12-14 07:00:0 am');
+
+		var clock = $('.clocks').FlipClock(date, { 
+			clockFace: 'MinuteCounter', 
+			autoStart: false,
+			countdown: true, 
+			showSeconds: true 
+		});
+    
+		clock.start();
+
+	});
 </script>
+
 
 <script>
   //메인배너
@@ -474,6 +934,11 @@
   var splide = new Splide( '.splide.subs', {
     perPage: 3,
     rewind : true,
+    breakpoints: {
+			1024: {
+				perPage: 1,
+			},
+		}
   } );
 
   splide.mount();
@@ -498,5 +963,37 @@
 
 
 
+<script>
+  /* 이미지 슬라이드 */
+  var splide = new Splide( '.splide.splides', {
+    type   : 'loop',
+  } );
 
+  splide.mount();
+
+
+  var splide = new Splide( '.splide.splides.subs', {
+    perPage: 1,
+    rewind : true,
+  } );
+  splide.mount();
+
+  var splide = new Splide( '.splide.splides.subs2', {
+    perPage: 1,
+    rewind : true,
+  } );
+  splide.mount();
+
+  var splide = new Splide( '.splide.splides.subs3', {
+    perPage: 1,
+    rewind : true,
+  } );
+  splide.mount();
+
+  var splide = new Splide( '.splide.splides.subs4', {
+    perPage: 1,
+    rewind : true,
+  } );
+  splide.mount();
+</script>
 
