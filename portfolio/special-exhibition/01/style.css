@@ -64,6 +64,12 @@ a {
   width: 100%;
   padding: 0;
 }
+.pc {
+  display: block;
+}
+.mo {
+  display: none;
+}
 
 /* section : founding Main */
 .foundingMain {
@@ -84,6 +90,7 @@ a {
   text-align: center;
   padding: 20px;
   width: 100%;
+  box-sizing: border-box;
 }
 .gnbInner > a {
   font-weight: 700;
@@ -781,4 +788,104 @@ a {
 }
 .cancunProduct {
   margin-top: 20px;
+}
+
+@media (max-width: 1024px) {
+  .pc {
+    display: none;
+  }
+  .mo {
+    display: block;
+  }
+  .reducedPrice {
+    height: auto;
+  }
+  .foundingMain {
+    background: url('./mobile-img/main_01.png') no-repeat center center;
+    height: 1146px;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+    background-size: cover;
+  }
+  .gnbInner {
+    background-color: #2a8d9f;
+  }
+  .gnbInner > ul {
+    font-family: 'GmarketSansBold';
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .gnbInner > ul:first-child {
+    border-bottom: 1px solid #fff;
+  }
+  .gnbInner > ul > li {
+    list-style: none;
+    display: inline-block;
+    font-size: 17px;
+    padding: 15px 0;
+    width: 32%;
+    border-right: 1px solid #fff;
+  }
+  .gnbInner > ul > li:last-child {
+    border: none;
+  }
+  .gnbInner > ul > li > a.on {
+    color: #fffdd2;
+  }
+  .reducedInner {
+    width: auto;
+    position: unset;
+    transform: translate(0, 0);
+    padding: 60px 20px;
+  }
+  .reducedImg {
+    float: unset;
+    width: 100%;
+  }
+  .reducedContent {
+    float: unset;
+    width: 100%;
+    padding-left: 0;
+  }
+  .reduced {
+    height: auto;
+  }
+  .reducedPriceTitle img {
+    width: 100%;
+  }
+
+  .southeastAsia {
+    height: auto;
+  }
+  .Inner {
+    width: auto;
+    position: unset;
+    transform: translate(0, 0);
+    padding: 60px 20px;
+  }
+  .item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .items {
+    width: 48%;
+    margin-right: 0;
+  }
+  .items > img {
+    width: 100%;
+  }
+  .southeastAsiaTitle > span {
+    font-size: 13px;
+  }
+  .key > div {
+    width: 100%;
+  }
+  .reducedPrice.on {
+    margin-top: 0;
+  }
 }
