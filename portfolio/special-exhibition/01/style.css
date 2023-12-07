@@ -905,5 +905,29 @@ a {
     padding: 5px 20px;
     color: #fff;
     margin-top: 15px;
-}
+  }
+  .splide.is-active .splide__list {
+    padding: 0 20px !important;
+  }
+  .product.slick-slide.slick-active {
+    width: auto;
+  }
+  .product.jeju {
+    width: 100%;
+    margin-left: 0;
+  }
+  .domestic {
+    height: auto;
+  }
+  .componentImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .swiper-slide.subs {
+    width: 330px !important;
+  }
+  .component {
+    width: 35%;
+  }
 }
