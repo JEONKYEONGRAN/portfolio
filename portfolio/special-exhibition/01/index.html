@@ -340,7 +340,10 @@
       <div class="Inner">
         <div class="mediterraneanTitle">
           <img src="./img/sub_02_02.png" alt="">
-          <span>유럽부터 동남아, 괌/사이판까지! 지금 가장 인기있는 상품만 엄선해서!</span>
+          <span class="pc">유럽부터 동남아, 괌/사이판까지! 지금 가장 인기있는 상품만 엄선해서!</span>
+          <div class="mo">
+            <span>유럽부터 동남아, 괌/사이판까지! <br>지금 가장 인기있는 상품만 엄선해서!</span>
+          </div>
         </div>
         <div class="mediterraneanContent">
           <div class="Name">지중해&두바이</div>
@@ -1342,6 +1345,7 @@
   </div>
 
 
+
   <script>
     /* 출발월선택 슬라이드 */
     var splide = new Splide( '.splide', {
@@ -1443,6 +1447,19 @@
       slidesToScroll: 1
     });
 
+    /* 상품 슬라이드 */
+    $(document).ready (function () {
+					var swiper = new Swiper(".sub-slides .swiper-container", {
+						slidesPerView: 'auto',
+						observer : true,
+						observeParents: true,
+						spaceBetween: 20,
+						freeMode: true,
+						loop : true,
+						speed : 1000,
+					});					
+				});
+
     /* gnb고정 */
     $(document).ready(function(){
 			var jbOffset = $( '.gnbInner' ).offset();
@@ -1458,6 +1475,14 @@
           });
     });
 
+     $(function() {
+      $('.gnbInner > ul > li > a').click(function(){
+        $(this).siblings().removeClass('on');
+        $('.gnbInner > ul > li > a').removeClass('on');
+        $(this).addClass('on');
+      })
+    })
+
     $(function() {
       $('.gnbInner > a').click(function(){
         $(this).addClass('on');
@@ -1472,6 +1497,8 @@
         $("html,body").animate({
           scrollTop : $(targetHast).offset().top - 67},200)
     });
+
+
 
   </script>
 

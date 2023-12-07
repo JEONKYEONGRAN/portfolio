@@ -802,7 +802,7 @@ a {
   }
   .foundingMain {
     background: url('./mobile-img/main_01.png') no-repeat center center;
-    height: 1146px;
+    height: 124vw;
     text-align: center;
     margin: 0px;
     width: 100%;
@@ -810,6 +810,7 @@ a {
   }
   .gnbInner {
     background-color: #2a8d9f;
+    padding: 0;
   }
   .gnbInner > ul {
     font-family: 'GmarketSansBold';
@@ -888,4 +889,21 @@ a {
   .reducedPrice.on {
     margin-top: 0;
   }
+  .realTime > a {
+    font-size: 14px;
+  }
+  .mediterraneanTitle > img {
+    width: 100%;
+  }
+  .mediterraneanTitle > span {
+    font-size: 10px;
+    padding: 7px 10px;
+  }
+  .mediterraneanTitle > div {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    margin-top: 15px;
+}
 }
