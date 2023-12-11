@@ -826,7 +826,7 @@ a {
   .gnbInner > ul > li {
     list-style: none;
     display: inline-block;
-    font-size: 17px;
+    font-size: 15px;
     padding: 15px 0;
     width: 32%;
     border-right: 1px solid #fff;
@@ -882,6 +882,7 @@ a {
   }
   .southeastAsiaTitle > span {
     font-size: 13px;
+    padding: 7px 20px;
   }
   .key > div {
     width: 100%;
@@ -906,11 +907,8 @@ a {
     color: #fff;
     margin-top: 15px;
   }
-  .splide.is-active .splide__list {
-    padding: 0 20px !important;
-  }
   .product.slick-slide.slick-active {
-    width: auto;
+    width: 200px !important;
   }
   .product.jeju {
     width: 100%;
@@ -925,9 +923,33 @@ a {
     border-radius: 50%;
   }
   .swiper-slide.subs {
-    width: 330px !important;
+    width: 300px !important;
   }
   .component {
     width: 35%;
+  }
+  .reducedImg.set1 > img, .reducedImg.set2 > img {
+    box-shadow: none;
+  }
+  .splide__list {
+    padding: unset !important;
+  }
+  .splide.is-active .splide__list.monthChoice, .splide.is-active .splide__list.monthChoices {
+    transform: translateX(0px) !important;
+  }
+  .southeastAsiaTitle > img {
+    width: 100%;
+  }
+  .mediterranean, .westEurope, .spainNorthEurope, .easternEuropeBalkan, .saipan, .guam, .philippines, .vietnam, .thailand, .representative, .hawaii, .cancun {
+    height: auto;
+  }
+  .swiper-free-mode>.swiper-wrapper {
+    padding-left: 0;
+  }
+  .slick-track {
+    width: 100% !important;
+  }
+  .product {
+    margin-left: 0;
   }
 }
