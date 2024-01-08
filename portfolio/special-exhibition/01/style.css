@@ -399,6 +399,7 @@ a {
 }
 .mediterraneanProduct {
   margin-top: 20px;
+  overflow: hidden;
 }
 .product {
   width: 32.4%;
@@ -460,6 +461,7 @@ a {
 }
 .westEuropeProduct {
   margin-top: 20px;
+  overflow: hidden;
 }
 
 /* section : spainNorthEurope */
@@ -488,6 +490,7 @@ a {
 }
 .easternEuropeBalkanProduct {
   margin-top: 20px;
+  overflow: hidden;
 }
 
 /* section : saipan */
