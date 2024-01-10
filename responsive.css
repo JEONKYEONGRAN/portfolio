@@ -1,6 +1,12 @@
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   body {
     width: 100%;
+  }
+  .pc {
+    display: none !important;
+  }
+  .mo {
+    display: block !important;
   }
 
   /* ######### Header ######### */
@@ -14,18 +20,6 @@
   }
   .gnb li a {
     font-size: 30px;
-  }
-  /* ######### Section : Welcome ######### */
-  .welcome-content {
-    top: 60%;
-  }
-  .welcome-content h1,
-  .welcome-content h1 span {
-    font-size: 20px;
-  }
-  .welcome-content b,
-  .welcome-content span {
-    display: none;
   }
 
   /* ######### Section : About ######### */
@@ -125,53 +119,6 @@
     margin-bottom: 10px;
   }
 
-  /* ######### Section : Skills ######### */
-  .skills {
-    margin: 0;
-    height: 1520px;
-  }
-  .skills-inner {
-    width: 100%;
-    padding: 0;
-    right: 0;
-  }
-  .skills-inner h4 {
-    margin: 50px 10px;
-    font-size: 30px;
-  }
-  .skills-content-inner {
-    flex-direction: column;
-  }
-  .skills-content {
-    width: 100%;
-  }
-  .skills-content p {
-    font-size: 12px;
-  }
-
-  /* ######### Section : Basic ######### */
-  .basic-inner {
-    width: 100%;
-    flex-direction: column;
-    padding: 30px;
-  }
-  .basic-principle span {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  .basic-principle em {
-    display: block;
-    line-height: 20px;
-  }
-  .basic-principle b {
-    top: 8px;
-    right: 0;
-  }
-  .basic-content p {
-    padding: 20px 0;
-    font-size: 13px;
-  }
-
   /* ######### Section : Mobile ######### */
   .mobile {
     height: 695px;
@@ -222,49 +169,6 @@
   .mobile-btn {
     padding-bottom: 0;
     margin: 30px 0 0;
-  }
-
-  /* ######### Section : Website ######### */
-  .website {
-    flex-direction: column;
-  }
-  .website-inner {
-    width: 100%;
-    padding: 0;
-  }
-  
-  .presentation01,
-  .presentation03 {
-    display: none;
-  }
-  .presentation02 {
-    margin: 0;
-  }
-  .presentation02 img {
-    padding: 50px;
-  }
-  .presentation02 ul {
-    font-size: 13px;
-  }
-  .view-btn {
-    padding: 10px;
-  }
-  .website-btn {
-    width: 100%;
-    padding: 10px;
-    bottom: 0;
-  }
-  .website-btn label {
-    margin-right: 40px;
-    font-size: 15px;
-  }
-
-  .website-tab input[id=website01]:checked ~ .website-btn label[for=website01]:after,
-  .website-tab input[id=website02]:checked ~ .website-btn label[for=website02]:after,
-  .website-tab input[id=website03]:checked ~ .website-btn label[for=website03]:after,
-  .website-tab input[id=website04]:checked ~ .website-btn label[for=website04]:after,
-  .website-tab input[id=website05]:checked ~ .website-btn label[for=website05]:after {
-    bottom: 7px;
   }
 
   /* ######### Section : Practical ######### */
@@ -362,8 +266,10 @@
   }
 
   /* Section : Mobile-Welcome */
-  .mobile-welcome-inner {
-    flex-direction: column;
+  .mobile-welcome {
+    padding-top: 110px;
+    padding-left: 11px;
+    flex-direction: row;
   }
   .mobile-content {
     margin-top: 0;
@@ -380,86 +286,6 @@
   }
   .guide {
     padding: 10px;
-  }
-  /* Section : Project */
-  .project {
-    padding: 0;
-  }
-  .project-inner {
-    width: 100%;
-    flex-direction: column;
-    margin: 0;
-    padding: 10px;
-  }
-  .project-photo img {
-    width: 100%;
-    display: block;
-  }
-  .project-intro {
-    padding: 10px;
-  }
-  .project-intro h3 {
-    font-size: 20px;
-    padding: 20px 0;
-  }
-  .project-intro p {
-    font-size: 13px;
-  }
-  /* Section : Main-Page */
-  .main-page h2 {
-    padding: 20px 0;
-    font-size: 30px;
-  }
-  .main-page-inner {
-    width: 100%;
-    flex-direction: column;
-    padding: 0;
-  }
-  .main-photo {
-    margin-right: 0;
-    padding: 10px;
-  }
-  .main-photo img {
-    width: 100%;
-  }
-  .main-explanation-inner h3 {
-    padding: 10px;
-  }
-  .main-explanation {
-    flex-direction: column;
-    padding: 0 10px;
-    margin: 10px 0;
-  }
-  /* Section : Sub-Page01 */
-  .sub-page01 {
-    padding: 0;
-  }
-  .sub-page-inner {
-    width: 100%;
-    flex-direction: column;
-    padding: 0;
-  }
-  .sub-photo {
-    padding-top: 30px;
-  }
-  .sub-explanation-inner {
-    padding: 10px;
-  }
-  .sub-explanation-inner h3 {
-    padding: 10px;
-  }
-  .sub-explanation {
-    flex-direction: column;
-    padding: 0;
-  }
-  /* Section : Sub-Page02 */
-  .sub-page02 {
-    padding: 0;
-  }
-  .sub-page-inner02 {
-    width: 100%;
-    flex-direction: column;
-    padding: 0;
   }
   .uk-child-width-1-6\@m>* {
     width: calc(100% * 1 / 1);
