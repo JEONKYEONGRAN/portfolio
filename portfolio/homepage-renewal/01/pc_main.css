@@ -242,12 +242,14 @@ section.Main {
     position: relative;
 }
 .time-img {
-    position: relative
+    position: relative;
+    width: fit-content;
+    margin: auto;
 }
 .timeSales {
     position: absolute;
     top: 34%;
-    left: 588px;
+    left: 41.5%;
     color: #fff;
     letter-spacing: -1px;
     font-size: 18px;
@@ -255,7 +257,7 @@ section.Main {
 .seasonTimesaleBox {
     position: absolute;
     top: 77%;
-    left: 62%;
+    left: 60%;
     transform: translate(-50%, -50%);
     color: #fff;
     display: flex;
