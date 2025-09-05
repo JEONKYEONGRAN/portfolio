@@ -20,7 +20,7 @@ img {width: 100%;display: block;}
 .main_logo a:last-child img {top: 50px; right: 55px;}
 
 /* 면세 */
-.taxExemption {background: #8fd896 url('https://svn.uniess.co.kr/static/etc/VK/shopping_theme/enu/images/area01_1.png') 50% 0 no-repeat;}
+.taxExemption {background: #8fd896 url('../images/area01_1.png') 50% 0 no-repeat;}
 .taxExemption .inr {padding: 80px 0 70px;}
 .taxBox {height: 340px; width: 100%; background-color: #fff; overflow: hidden; border-radius: 25px; margin-bottom: 35px;}
 .taxBox:last-child {margin-bottom: 0;}
@@ -32,21 +32,21 @@ img {width: 100%;display: block;}
 .taxText p {font-size: 22px; line-height: 26px; margin: 0;}
 .taxText strong {display: block; font-size: 34px; margin: 15px 0 45px;}
 .taxText a {font-size: 20px; color: #ec80a6; border: 2px solid #ec80a6; text-decoration: none; padding: 15px 65px 15px 15px; border-radius: 10px; box-shadow: 5px 5px 0px; font-weight: 500; position: relative; fonteight: 700;}
-.taxText a::after {content:''; background: url('https://svn.uniess.co.kr/static/etc/VK/shopping_theme/enu/images/arrow.png'); width: 28px; height: 14px; position: absolute; top: 50%; right: 18px; transform: translateY(-50%);}
+.taxText a::after {content:''; background: url('../images/arrow.png'); width: 28px; height: 14px; position: absolute; top: 50%; right: 18px; transform: translateY(-50%);}
 
 /* 쇼핑 */
-.shopping {background: #f9b5cc url('https://svn.uniess.co.kr/static/etc/VK/shopping_theme/enu/images/area02_1.png') 50% 0 no-repeat;}
+.shopping {background: #f9b5cc url('../images/area02_1.png') 50% 0 no-repeat;}
 .shopping ul {padding: 0; display: flex; margin: 0;}
 .shopping li {list-style: none; vertical-align: top; margin-right: 20px;}
 .shopping li:last-child {margin-right: 0px;}
 .shoppingImg {background-color: #fff; border-radius: 128px 128px 0px 0px; overflow: hidden; border: 3px solid #fff;}
 .shoppingImg img {height: 335px; object-fit: cover;}
 .shoppingImg a {font-size: 20px; color: #ec80a6; text-decoration: none; padding: 15px 20px; display: block; font-weight: 500; position: relative; font-weight: 700;}
-.shoppingImg a::after {content:''; background: url('https://svn.uniess.co.kr/static/etc/VK/shopping_theme/enu/images/arrow.png'); width: 28px; height: 14px; position: absolute; top: 50%; right: 23px; transform: translateY(-50%);}
+.shoppingImg a::after {content:''; background: url('../images/arrow.png'); width: 28px; height: 14px; position: absolute; top: 50%; right: 23px; transform: translateY(-50%);}
 .shopping li p {font-size: 26px; line-height: 30px; margin: 24px 0px 65px; text-align: center;}
 
 /* 아이템 */
-.item {background: #fcccdc url('https://svn.uniess.co.kr/static/etc/VK/shopping_theme/enu/images/area03_1.png') 50% 0 no-repeat;}
+.item {background: #fcccdc url('../images/area03_1.png') 50% 0 no-repeat;}
 .item .inr {padding-bottom: 70px;}
 .item ul {display: flex; padding: 0; margin: 0;}
 .item li {list-style: none; background-color: #fff; border-radius: 25px; overflow: hidden; position: relative; }
@@ -57,7 +57,7 @@ img {width: 100%;display: block;}
 .arrow {position: absolute; bottom: 30px; right: 30px; color: #ec80a6; width: auto;}
 
 /* 더현대 */
-.hyundai {background: #eaffe4 url('https://svn.uniess.co.kr/static/etc/VK/shopping_theme/enu/images/area04_1.png') 50% 0 no-repeat;}
+.hyundai {background: #eaffe4 url('../images/area04_1.png') 50% 0 no-repeat;}
 .hyundai .inr {padding-bottom: 70px;}
 .hyundaiBox {background-color: #fff; overflow: hidden; border-radius: 25px; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.158);}
 .hyundaiImg {height: 280px; overflow: hidden; position: relative; border: 3px solid #fff; border-radius: 25px 25px 0px 0px;}
@@ -65,12 +65,12 @@ img {width: 100%;display: block;}
 .hyundaiImg div {color: #fff; position: absolute; bottom: 0; font-size: 45px; font-weight: 500; padding: 30px 40px;}
 .hyundaiText {padding: 35px 35px 30px 45px; font-weight: 500; position: relative;}
 .hyundaiText a {text-decoration: none; color: #000;}
-.hyundaiText a::after {content:''; background: url('https://svn.uniess.co.kr/static/etc/VK/shopping_theme/enu/images/arrow_black.png'); width: 30px; height: 16px; position: absolute; top: 50%; right: 35px; transform: translateY(-50%);}
+.hyundaiText a::after {content:''; background: url('../images/arrow_black.png'); width: 30px; height: 16px; position: absolute; top: 50%; right: 35px; transform: translateY(-50%);}
 .YesevaOne {font-family: 'YesevaOne'; font-size: 58px; margin-right: 20px; font-weight: normal;}
 .verdana {font-family: 'Verdana'; font-size: 42px; font-weight: bolder;}
 
 /* 듀티프리페스타 */
-.dutyfree {background: #8ad291 url('https://svn.uniess.co.kr/static/etc/VK/shopping_theme/enu/images/area06_1.png') 50% 0 no-repeat;}
+.dutyfree {background: #8ad291 url('../images/area06_1.png') 50% 0 no-repeat;}
 .dutyfree .inr {padding-bottom: 70px;}
 .dutyfree ul {display: flex; padding: 0; margin: 0;}
 .dutyfree li {list-style: none;}
@@ -80,7 +80,7 @@ img {width: 100%;display: block;}
 .dutyfreeText p {font-size: 26px; margin: 80px 0px 15px; line-height: 38px; }
 .dutyfreeText strong {font-size: 26px; display: block; text-decoration: underline; padding-bottom: 50px; line-height: 38px;}
 .dutyfreeText a {font-size: 20px; text-decoration: none; color: #000; font-weight: 500; border: 2px solid #000; padding: 15px 75px 15px 20px; border-radius: 10px; box-shadow: 5px 5px 0px; background-color: #8ad291; position: relative;}
-.dutyfreeText a::after {content:''; background: url('https://svn.uniess.co.kr/static/etc/VK/shopping_theme/enu/images/arrow_black.png'); width: 30px; height: 16px; position: absolute; top: 50%; right: 18px; transform: translateY(-50%);}
+.dutyfreeText a::after {content:''; background: url('../images/arrow_black.png'); width: 30px; height: 16px; position: absolute; top: 50%; right: 18px; transform: translateY(-50%);}
 /* 안내전화 */
 .informationCall ul {display: flex; padding: 0; margin: 0;}
 .informationCall li {list-style: none;}
@@ -150,4 +150,5 @@ img {width: 100%;display: block;}
     /* 안내전화 */
     .informationCall ul {padding: 0 20px;}
     .informationCallText p {font-size: 12px;}
+
 }
