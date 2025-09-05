@@ -12,7 +12,7 @@ body {margin: 0; padding: 0;}
 /* 타이틀 */
 .headerBox > img {width: 100%;}
 
-.application {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area01_01.jpg') no-repeat; height: 1357px; width: 100%;}
+.application {background: url('../images/area01_01.jpg') no-repeat; height: 1357px; width: 100%;}
 h3 {font-family: 'SUIT'; margin: 0; padding: 60px 0 20px; text-align: center; font-size: 42px; font-weight: bold;}
 .List {display: flex; padding-top: 20px;}
 .imgBox {background-color: #fff; width: 50%;}
@@ -22,7 +22,7 @@ h3 {font-family: 'SUIT'; margin: 0; padding: 60px 0 20px; text-align: center; fo
 .textBox div {font-size: 26px; text-align: left; height: 76px; line-height: 1.2em;}
 .textBox a {font-size: 18px; color: #1caddf;}
 
-.attractions {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area02_01.jpg') no-repeat; height: 1232px; width: 100%;}
+.attractions {background: url('../images/area02_01.jpg') no-repeat; height: 1232px; width: 100%;}
 .titTop {position: relative;}
 .titTop > img {position: absolute; top: 50%;left: 50%; transform: translate(-50%, -50%);}
 .titTop > h3 {position: relative;}
@@ -35,11 +35,11 @@ h3 {font-family: 'SUIT'; margin: 0; padding: 60px 0 20px; text-align: center; fo
 .textCase strong {font-size: 24px;}
 .textCase strong span {font-family: 'NotoSansCJKkr'; font-size: 22px; display: block;}
 
-.luxury {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area03_01.jpg') no-repeat; height: 795px; width: 100%;}
+.luxury {background: url('../images/area03_01.jpg') no-repeat; height: 795px; width: 100%;}
 .contentBox {z-index: 1; position: relative;}
 .luxury .textBox a {color: #2fa593;}
 
-.market {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area04_01.jpg') no-repeat; height: 716px; width: 100%;}
+.market {background: url('../images/area04_01.jpg') no-repeat; height: 716px; width: 100%;}
 .marketBox {position: relative; display: flex;}
 .marketBox:first-child {margin-right: 20px;}
 .marketImg {width: 230px; height: 210px; overflow: hidden;}
@@ -52,11 +52,11 @@ h3 {font-family: 'SUIT'; margin: 0; padding: 60px 0 20px; text-align: center; fo
 .marketText strong span {font-family: 'NotoSansCJKkr'; display: block; font-weight: normal; font-size: 24px;}
 .marketText a {color: #1caddf; text-underline-position: under; position: absolute; bottom: 20px; right: 30px;}
 
-.exciting {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area05_01.jpg') no-repeat; height: 714px; width: 100%;}
+.exciting {background: url('../images/area05_01.jpg') no-repeat; height: 714px; width: 100%;}
 .exciting .marketImg::after, .exciting .marketImg::before {background-color: #ffdcec;}
 .exciting .marketText a {color: #ea7eaf;}
 
-.youtube {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area07_01.jpg') no-repeat; height: 1080px; width: 100%;}
+.youtube {background: url('../images/area07_01.jpg') no-repeat; height: 1080px; width: 100%;}
 .contentBox {position: relative;}
 .videoArea {position: absolute; top: 30px; left: 30px; width: 94%; height: 65%;}
 .videoArea .video-cont {height: 100%;}
@@ -64,7 +64,7 @@ h3 {font-family: 'SUIT'; margin: 0; padding: 60px 0 20px; text-align: center; fo
 .textArea {font-size: 28px; padding: 20px; text-align: center;}
 .textArea a {color: #1caddf; font-size: 38px;}
 
-.expo {background: url('https://svn.uniess.co.kr/static/etc/VK/busan/enu/images/area06_01.jpg') no-repeat; height: 492px; width: 100%;}
+.expo {background: url('../images/area06_01.jpg') no-repeat; height: 492px; width: 100%;}
 .expoBox {display: flex;}
 .banner {margin-right: 17px;}
 .banner a {display: flex;}
@@ -119,4 +119,5 @@ h3 {font-family: 'SUIT'; margin: 0; padding: 60px 0 20px; text-align: center; fo
     .banner {margin-right: 0px; margin-bottom: 20px;}
     .banner h3 {text-align: center;}
     .helpline {position: inherit;}
+
 }
